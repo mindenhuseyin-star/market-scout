@@ -1,24 +1,24 @@
 """
-🇹🇷 Market Scout — Gerçek Zamanlı, API key gerekmez
-TechCrunch RSS + HN RSS → Claude analizi → GitHub Pages
-Tek gereken: ANTHROPIC_API_KEY
+🇹🇷 Market Scout — Gemini ile Gerçek Zamanlı
+TechCrunch + TheNextWeb + HN RSS → Gemini analizi → GitHub Pages
+Tamamen ücretsiz!
 """
 import os, json, asyncio, httpx, xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from html import unescape
 import re
 
-ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
-TELEGRAM_TOKEN    = os.environ.get("TELEGRAM_TOKEN", "")
-TELEGRAM_CHAT_ID  = os.environ.get("TELEGRAM_CHAT_ID", "")
-GITHUB_REPO       = os.environ.get("GITHUB_REPOSITORY", "user/market-scout")
+GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
+GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "user/market-scout")
 
-# ── 1. RSS ile haber çek (API key gerekmez) ──────────────────────────────────
+# ── RSS Kaynakları ────────────────────────────────────────────────────────────
 RSS_FEEDS = [
-    ("TechCrunch",    "https://techcrunch.com/feed/"),
-    ("TechCrunch Startups", "https://techcrunch.com/category/startups/feed/"),
-    ("The Next Web",  "https://thenextweb.com/feed/"),
-    ("Hacker News",   "https://news.ycombinator.com/rss"),
+    ("TechCrunch",         "https://techcrunch.com/feed/"),
+    ("TechCrunch Startups","https://techcrunch.com/category/startups/feed/"),
+    ("The Next Web",       "https://thenextweb.com/feed/"),
+    ("Hacker News",        "https://news.ycombinator.com/rss"),
 ]
 
 def clean(text):
@@ -31,21 +31,15 @@ async def fetch_rss(client, name, url):
         r = await client.get(url, timeout=15, follow_redirects=True)
         root = ET.fromstring(r.text)
         items = []
-        cutoff = datetime.now(timezone.utc) - timedelta(hours=48)
+        keywords = ["startup","funding","raises","series","launch","million",
+                    "billion","saas","marketplace","fintech","acquired","yc",
+                    "health","edtech","delivery","app","platform"]
         for item in root.iter("item"):
             title = clean(item.findtext("title",""))
             desc  = clean(item.findtext("description",""))
-            link  = item.findtext("link","")
-            pub   = item.findtext("pubDate","")
-            if not title:
-                continue
-            # Startup/funding ile ilgili filtrele
-            keywords = ["startup","funding","raises","series","launch","million",
-                        "billion","saas","marketplace","fintech","acquired","yc",
-                        "health","edtech","delivery","app","platform","raises"]
-            combined = (title + " " + desc).lower()
-            if any(k in combined for k in keywords):
-                items.append({"title": title, "desc": desc, "source": name, "url": link})
+            if not title: continue
+            if any(k in (title+desc).lower() for k in keywords):
+                items.append({"title":title,"desc":desc,"source":name})
         print(f"   ✅ {name}: {len(items)} haber")
         return items
     except Exception as e:
@@ -54,10 +48,9 @@ async def fetch_rss(client, name, url):
 
 async def fetch_all_news():
     print("📡 RSS kaynakları taranıyor...")
-    async with httpx.AsyncClient(headers={"User-Agent": "Mozilla/5.0"}) as client:
-        results = await asyncio.gather(*[fetch_rss(client, n, u) for n, u in RSS_FEEDS])
-    all_items = []
-    seen = set()
+    async with httpx.AsyncClient(headers={"User-Agent":"Mozilla/5.0"}) as client:
+        results = await asyncio.gather(*[fetch_rss(client,n,u) for n,u in RSS_FEEDS])
+    all_items, seen = [], set()
     for items in results:
         for item in items:
             if item["title"] not in seen:
@@ -66,15 +59,11 @@ async def fetch_all_news():
     print(f"   📊 Toplam {len(all_items)} benzersiz haber")
     return all_items[:35]
 
-# ── 2. Claude Analizi ────────────────────────────────────────────────────────
+# ── Gemini Analizi ────────────────────────────────────────────────────────────
 async def analyze(articles):
-    print("🤖 Claude analiz yapıyor...")
+    print("🤖 Gemini analiz yapıyor...")
     today = datetime.now().strftime("%d %B %Y")
-
-    news_text = "\n".join(
-        f"- [{a['source']}] {a['title']} — {a['desc']}"
-        for a in articles
-    )
+    news_text = "\n".join(f"- [{a['source']}] {a['title']} — {a['desc']}" for a in articles)
 
     prompt = f"""Bugün {today}. Aşağıda son 48 saatin GERÇEK tech/startup haberleri var:
 
@@ -83,36 +72,25 @@ async def analyze(articles):
 Bu haberleri analiz et. Her fırsat mutlaka yukarıdaki haberlerden birine dayansın.
 Türkiye'de henüz olmayan veya çok zayıf olan 6 iş fırsatını belirle.
 
-SADECE şu JSON'u döndür, başka hiçbir şey yazma:
+SADECE şu JSON'u döndür, başka hiçbir şey yazma, markdown kullanma:
 
-{{"date":"{today}","opportunities":[
-{{"name":"Konsept","emoji":"🚀","oneLiner":"Ne yapar max 10 kelime","sector":"Fintech","score":82,
-"inspired_by":"Haberdeki gerçek şirket + ne yaptı",
-"real_example":"Şirket — toplanan miktar veya özellik",
-"tr_status":"Türkiye mevcut durum 1 cümle",
-"why_now":"Neden şimdi Türkiye için doğru zaman 2 cümle",
-"market_size":"Tahmini TR pazar büyüklüğü",
-"risks":"Ana risk 1 cümle"}}
-]}}"""
+{{"date":"{today}","opportunities":[{{"name":"Konsept","emoji":"🚀","oneLiner":"Ne yapar max 10 kelime","sector":"Fintech","score":82,"inspired_by":"Haberdeki gerçek şirket + ne yaptı","real_example":"Şirket — toplanan miktar veya özellik","tr_status":"Türkiye mevcut durum 1 cümle","why_now":"Neden şimdi 2 cümle","market_size":"Tahmini TR pazar büyüklüğü","risks":"Ana risk 1 cümle"}}]}}"""
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
 
     async with httpx.AsyncClient(timeout=90) as client:
-        r = await client.post(
-            "https://api.anthropic.com/v1/messages",
-            headers={
-                "x-api-key": ANTHROPIC_API_KEY,
-                "anthropic-version": "2023-06-01",
-                "content-type": "application/json",
-            },
-            json={
-                "model": "claude-haiku-4-5-20251001",
-                "max_tokens": 2500,
-                "messages": [{"role": "user", "content": prompt}],
-            },
-        )
+        r = await client.post(url, json={
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 0.7, "maxOutputTokens": 2500}
+        })
+
     body = r.json()
     if "error" in body:
-        raise ValueError(f"Claude API hatası: {body['error']}")
-    text = "".join(b["text"] for b in body.get("content",[]) if b.get("type")=="text")
+        raise ValueError(f"Gemini hatası: {body['error']}")
+
+    text = body["candidates"][0]["content"]["parts"][0]["text"]
+    # JSON çıkar
+    text = re.sub(r"```json|```","", text).strip()
     s, e = text.find("{"), text.rfind("}")+1
     if s == -1:
         raise ValueError(f"JSON yok:\n{text[:300]}")
@@ -120,20 +98,24 @@ SADECE şu JSON'u döndür, başka hiçbir şey yazma:
     print(f"   ✅ {len(result.get('opportunities',[]))} fırsat bulundu")
     return result
 
-# ── 3. HTML ──────────────────────────────────────────────────────────────────
+# ── HTML ──────────────────────────────────────────────────────────────────────
 COLORS = {"fintech":"#3B82F6","e-ticaret":"#F97316","marketplace":"#F97316",
           "yemek":"#EF4444","delivery":"#EF4444","saas":"#8B5CF6","b2b":"#8B5CF6",
           "sağlık":"#10B981","health":"#10B981","eğitim":"#F59E0B","education":"#F59E0B"}
 
 def clr(s):
-    s = s.lower()
     for k,v in COLORS.items():
-        if k in s: return v
+        if k in s.lower(): return v
     return "#6366F1"
 
-def sbar(score, c, html=False):
+def sbar(score, html=False):
+    c = clr(""); f=round(score/10); b="█"*f+"░"*(10-f)
+    if html: return f'<span style="letter-spacing:2px;font-family:monospace">{b}</span> <strong>{score}%</strong>'
+    return f"{b} {score}%"
+
+def sbar_c(score, c, html=False):
     f=round(score/10); b="█"*f+"░"*(10-f)
-    if html: return f'<span style="color:{c};font-family:monospace;letter-spacing:2px">{b}</span> <strong style="color:{c}">{score}%</strong>'
+    if html: return f'<span style="color:{c};letter-spacing:2px;font-family:monospace">{b}</span> <strong style="color:{c}">{score}%</strong>'
     return f"{b} {score}%"
 
 def build_html(data, history):
@@ -147,7 +129,7 @@ def build_html(data, history):
     <div style="flex:1"><div class="cn">{o.get('name','')}</div><div class="co">{o.get('oneLiner','')}</div></div>
     <span class="badge" style="background:{c}20;color:{c};border:1px solid {c}40">{o.get('sector','')}</span>
   </div>
-  <div class="sr"><span class="sl">TR Uyum Skoru</span>{sbar(o.get('score',0),c,True)}</div>
+  <div class="sr"><span class="sl">TR Uyum Skoru</span>{sbar_c(o.get('score',0),c,True)}</div>
   <div class="ins">🗞️ <em>{o.get('inspired_by','')}</em></div>
   <details><summary>Detayları gör →</summary><div class="dg">
     <div class="db"><div class="dl">📰 Gerçek Örnek</div>{o.get('real_example','')}</div>
@@ -206,7 +188,7 @@ footer{{text-align:center;padding:28px;font-size:10px;color:#1e1e2e;font-family:
 </style></head><body>
 <header><div class="hi">
   <div><h1><span class="dot"></span>🇹🇷 Market Scout</h1>
-  <div class="sub">Gerçek zamanlı · TechCrunch + HackerNews RSS</div></div>
+  <div class="sub">Gerçek zamanlı · TechCrunch + HN RSS · Gemini AI</div></div>
   <div class="dbadge">📅 {today}</div>
 </div></header>
 <main>
@@ -215,7 +197,7 @@ footer{{text-align:center;padding:28px;font-size:10px;color:#1e1e2e;font-family:
     <div class="stat"><div class="sv">{top.get('emoji','')} {top.get('name','').split('/')[0][:14]}</div><div class="sl2">Günün Fırsatı</div></div>
     <div class="stat"><div class="sv">{high}</div><div class="sl2">Yüksek Pot.</div></div>
   </div>
-  <div class="src">📡 Son 48 saatin gerçek haberleri: TechCrunch, TheNextWeb, Hacker News RSS</div>
+  <div class="src">📡 Son 48 saat: TechCrunch, TheNextWeb, Hacker News RSS · Gemini 2.0 Flash analizi</div>
   <div class="stitle">📊 Bugünün Fırsatları</div>
   {cards}
   <div class="hist">
@@ -223,20 +205,20 @@ footer{{text-align:center;padding:28px;font-size:10px;color:#1e1e2e;font-family:
     {hist_html or '<div style="color:#222;font-size:12px">Henüz geçmiş yok.</div>'}
   </div>
 </main>
-<footer>Market Scout · Her sabah 09:00 TR · RSS + Claude · github.io</footer>
+<footer>Market Scout · Her sabah 09:00 TR · RSS + Gemini · Tamamen ücretsiz</footer>
 </body></html>"""
 
-# ── 4. Telegram (opsiyonel) ──────────────────────────────────────────────────
+# ── Telegram (opsiyonel) ──────────────────────────────────────────────────────
 async def send_telegram(data, page_url):
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
         print("ℹ️  Telegram ayarlanmamış, atlandı.")
         return
     opps = sorted(data.get("opportunities",[]), key=lambda x:-x.get("score",0))
-    lines = [f"🇹🇷 *Market Scout — {data.get('date','')}*\n📡 _TechCrunch + HN RSS_\n\n━━━━━━━━━━━━━━━━━━━━━"]
+    lines = [f"🇹🇷 *Market Scout — {data.get('date','')}*\n📡 _TechCrunch + HN · Gemini_\n\n━━━━━━━━━━━━━━━━━━━━━"]
     for i,o in enumerate(opps[:5],1):
         lines += [f"\n{o.get('emoji','🚀')} *{i}. {o.get('name','')}*",
                   f"_{o.get('oneLiner','')}_",
-                  f"`{sbar(o.get('score',0),'')}`",
+                  f"`{sbar(o.get('score',0))}`",
                   f"🗞 _{o.get('inspired_by','')[:80]}_",
                   "━━━━━━━━━━━━━━━━━━━━━"]
     lines.append(f"\n🔗 [Tüm detaylar →]({page_url})")
@@ -247,7 +229,7 @@ async def send_telegram(data, page_url):
         )
     print("✅ Telegram" if r.status_code==200 else f"⚠️ Telegram: {r.text[:80]}")
 
-# ── Ana akış ─────────────────────────────────────────────────────────────────
+# ── Ana akış ──────────────────────────────────────────────────────────────────
 async def main():
     print(f"\n🚀 Market Scout — {datetime.now():%d.%m.%Y %H:%M}\n")
     articles = await fetch_all_news()
@@ -272,3 +254,46 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+name: 🇹🇷 Market Scout
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # 09:00 Türkiye (UTC+3)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install httpx
+      - name: 🚀 Tara
+        env:
+          GEMINI_API_KEY:    ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_TOKEN:    ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID:  ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scout.py
+      - name: 📤 Push
+        run: |
+          git config user.name "Market Scout"
+          git config user.email "bot@scout"
+          git add docs/
+          git diff --staged --quiet || git commit -m "🇹🇷 $(date +'%d.%m.%Y') taraması"
+          git push
+      - name: 🌐 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages
