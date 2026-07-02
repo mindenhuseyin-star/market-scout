@@ -1,4 +1,4 @@
-name: 🇹🇷 Market Scout
+name: Market Scout TR
 
 on:
   schedule:
@@ -20,21 +20,21 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install httpx
-      - name: 🚀 Tara
+      - name: Tara
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          TELEGRAM_TOKEN:    ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID:  ${{ secrets.TELEGRAM_CHAT_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python scout.py
-      - name: 📤 Push
+      - name: Push
         run: |
           git config user.name "Market Scout"
           git config user.email "bot@scout"
           git add docs/
-          git diff --staged --quiet || git commit -m "🇹🇷 $(date +'%d.%m.%Y') taraması"
+          git diff --staged --quiet || git commit -m "Tarama $(date +'%d.%m.%Y')"
           git push
-      - name: 🌐 GitHub Pages
+      - name: GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
