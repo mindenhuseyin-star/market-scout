@@ -154,12 +154,22 @@ async def gemini(prompt_text, max_tokens=4000):
     async with httpx.AsyncClient(timeout=120) as client:
         r = await client.post(url, json={
             "contents": [{"parts": [{"text": prompt_text}]}],
-            "generationConfig": {"temperature": 0.4, "maxOutputTokens": max_tokens}
+            "generationConfig": {"temperature": 1, "maxOutputTokens": max_tokens}
         })
     body = r.json()
     if "error" in body:
         raise ValueError("Gemini error: " + str(body["error"]))
-    return body["candidates"][0]["content"]["parts"][0]["text"]
+    candidates = body.get("candidates", [])
+    if not candidates:
+        raise ValueError("Gemini empty response: " + str(body)[:200])
+    parts = candidates[0].get("content", {}).get("parts", [])
+    text = ""
+    for part in parts:
+        if "text" in part:
+            text += part["text"]
+    if not text:
+        raise ValueError("Gemini no text in response: " + str(candidates[0])[:200])
+    return text
 
 def extract_json_array(text):
     text = re.sub(r"```json|```", "", text).strip()
