@@ -150,7 +150,7 @@ async def fetch_all_news():
     return all_items[:40]
 
 async def gemini(prompt_text, max_tokens=4000):
-    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + GEMINI_API_KEY
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + GEMINI_API_KEY
     async with httpx.AsyncClient(timeout=120) as client:
         r = await client.post(url, json={
             "contents": [{"parts": [{"text": prompt_text}]}],
