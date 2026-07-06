@@ -253,5 +253,90 @@
         "why_now": "Turkey's mobile-first nature and strong manufacturing base create an ideal environment for localized, specialized productivity tools."
       }
     ]
+  },
+  {
+    "date": "06 July 2026",
+    "opportunities": [
+      {
+        "name": "Ar Gezgin (AR Traveler)",
+        "emoji": "👓",
+        "oneLiner": "Affordable AR glasses for industrial and logistics optimization.",
+        "sector": "Augmented Reality / Manufacturing",
+        "score": 90,
+        "inspired_by": "Even Realities",
+        "real_example": "Even Realities - hits $1B valuation with $150M funding led by Meituan, Tencent",
+        "tr_status": "Turkey has a strong manufacturing base and growing logistics sector fueled by e-commerce.",
+        "tr_idea": "Develop rugged, affordable AR smart glasses for hands-free guidance in Turkish factories and warehouses. Integrate with existing ERP/WMS systems for real-time data overlays.",
+        "mvp": "Basic AR glasses with a monocular display for guided assembly or picking tasks, controlled by voice or simple gestures.",
+        "target": "Manufacturing companies, logistics and warehousing operators in Turkey.",
+        "revenue": "Hardware sales, annual SaaS subscription for software/platform, custom integration services.",
+        "risks": "High R&D costs, competition from global players, slow adoption in traditional industries.",
+        "why_now": "Rising labor costs and e-commerce growth demand efficiency, making productivity-enhancing AR compelling."
+      },
+      {
+        "name": "Verimli Ofis (Efficient Office AI)",
+        "emoji": "📊",
+        "oneLiner": "AI-powered, mobile-first office suite for Turkish businesses.",
+        "sector": "AI / Productivity Software",
+        "score": 92,
+        "inspired_by": "Indian tech tycoon building AI alternative to Microsoft Office",
+        "real_example": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+        "tr_status": "Turkish businesses seek cost-saving SaaS solutions amid high inflation, and the population is mobile-first.",
+        "tr_idea": "Create a localized, AI-driven productivity suite (documents, spreadsheets, presentations) accessible primarily via mobile. Focus on automating routine tasks and generating content in Turkish.",
+        "mvp": "Mobile app with AI-assisted document creation and summarization features, integrating with popular local cloud storage.",
+        "target": "SMEs, startups, and remote workers in Turkey looking for affordable and intelligent office tools.",
+        "revenue": "Tiered subscription model (freemium/premium), additional AI credit purchases.",
+        "risks": "Competition from established giants, data privacy concerns, accuracy and localization challenges for AI.",
+        "why_now": "High inflation makes cost-saving SaaS attractive, and mobile-first design is crucial for the Turkish market."
+      },
+      {
+        "name": "Otonom Kargo (Autonomous Cargo)",
+        "emoji": "🚚",
+        "oneLiner": "Autonomous last-mile delivery and warehouse robotics for e-commerce.",
+        "sector": "Robotics / Logistics",
+        "score": 88,
+        "inspired_by": "Humble Robotics",
+        "real_example": "Humble Robotics is bringing autonomous vehicles to freight / CEO says tech caught up to vision",
+        "tr_status": "Turkey's e-commerce is growing at 30% annually, creating immense pressure on logistics and delivery.",
+        "tr_idea": "Develop small, autonomous delivery robots for urban last-mile logistics or AGVs/AMRs for automating warehouse tasks. Focus on navigating Turkish urban environments and industrial facilities.",
+        "mvp": "A proof-of-concept autonomous robot for internal warehouse material transport or small-scale, geofenced last-mile delivery.",
+        "target": "E-commerce retailers, third-party logistics (3PL) providers, large warehouses and distribution centers.",
+        "revenue": "Robot sales/leasing, maintenance contracts, SaaS for fleet management and optimization.",
+        "risks": "Regulatory hurdles for public road use, high development costs, public acceptance, infrastructure limitations.",
+        "why_now": "Rapid e-commerce growth and rising labor costs make autonomous logistics solutions economically viable."
+      },
+      {
+        "name": "Akıllı Klavye (Smart Keyboard AI)",
+        "emoji": "📱",
+        "oneLiner": "AI agent-powered smartphone keyboard for Turkish users.",
+        "sector": "AI / Mobile Software",
+        "score": 93,
+        "inspired_by": "Acti puts AI agents directly into your smartphone keyboard",
+        "real_example": "Acti puts AI agents directly into your smartphone keyboard",
+        "tr_status": "Turkey is a highly mobile-first market with 85 million people, and local language nuance is critical.",
+        "tr_idea": "Build a smartphone keyboard app with integrated AI agents specifically trained on Turkish language, slang, and cultural context. Offer predictive text, smart replies, and task automation tailored for local users.",
+        "mvp": "A keyboard app offering advanced Turkish predictive text, grammar correction, and basic AI agent features like quick translation or calendar scheduling.",
+        "target": "General smartphone users in Turkey seeking enhanced communication and productivity.",
+        "revenue": "Freemium model with premium features (advanced AI agents, themes, custom integrations), potential B2B licenses.",
+        "risks": "Privacy concerns, fierce competition from default keyboards, achieving natural language understanding for Turkish nuances.",
+        "why_now": "Mobile-first population demands intuitive and intelligent mobile interactions, and current AI often lacks Turkish depth."
+      },
+      {
+        "name": "Büyüyen Uygulamalar (Growing Apps Group)",
+        "emoji": "📈",
+        "oneLiner": "Acquiring and optimizing Turkish mobile-first SaaS apps.",
+        "sector": "SaaS / M&A",
+        "score": 89,
+        "inspired_by": "Bending Spoons",
+        "real_example": "Bending Spoons defies SaaS slump, surges 40% on first day of trading / little-known AOL and Vimeo owner",
+        "tr_status": "Turkey's e-commerce is growing, high inflation drives demand for cost-saving SaaS, but many local apps lack scale.",
+        "tr_idea": "Identify promising Turkish mobile-first SaaS apps, especially those offering cost-saving or efficiency tools, acquire them, and apply Bending Spoons' operational excellence to scale. Leverage a shared tech stack and marketing expertise.",
+        "mvp": "Acquire 2-3 small, profitable Turkish mobile SaaS apps with potential for user growth and synergy, then centralize their marketing and product development teams.",
+        "target": "Founders of small to medium-sized mobile-first SaaS applications in Turkey seeking exit or growth capital.",
+        "revenue": "Subscription revenue from acquired apps, increased profitability through operational efficiencies and user growth.",
+        "risks": "Difficulty in identifying suitable acquisition targets, integration challenges, market saturation for some app categories.",
+        "why_now": "Fragmented Turkish SaaS market and founders seeking exits create opportunities for consolidation and optimization."
+      }
+    ]
   }
 ]
