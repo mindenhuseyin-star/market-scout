@@ -361,12 +361,16 @@ def save_content(content, today, history_content):
 
     # LinkedIn
     li = content.get("linkedin", {})
+    def to_str(val):
+        if isinstance(val, list): return " ".join(str(v) for v in val)
+        return str(val) if val else ""
+
     linkedin_text = (
         "=== LINKEDIN POST -- " + today + " ===\n\n"
-        + li.get("hook","") + "\n\n"
-        + li.get("body","") + "\n\n"
-        + li.get("cta","") + "\n\n"
-        + li.get("hashtags","") + "\n"
+        + to_str(li.get("hook","")) + "\n\n"
+        + to_str(li.get("body","")) + "\n\n"
+        + to_str(li.get("cta","")) + "\n\n"
+        + to_str(li.get("hashtags","")) + "\n"
     )
     with open("docs/content/linkedin_" + date_slug + ".txt", "w", encoding="utf-8") as f:
         f.write(linkedin_text)
@@ -375,10 +379,10 @@ def save_content(content, today, history_content):
     tt = content.get("tiktok", {})
     tiktok_text = (
         "=== TIKTOK SCRIPT -- " + today + " ===\n\n"
-        "HOOK (ilk 3 saniye):\n" + tt.get("hook","") + "\n\n"
-        "SCRIPT:\n" + tt.get("script","") + "\n\n"
-        "CAPTIONS: " + tt.get("captions","") + "\n"
-        "HASHTAGS: " + tt.get("hashtags","") + "\n"
+        "HOOK (ilk 3 saniye):\n" + to_str(tt.get("hook","")) + "\n\n"
+        "SCRIPT:\n" + to_str(tt.get("script","")) + "\n\n"
+        "CAPTIONS: " + to_str(tt.get("captions","")) + "\n"
+        "HASHTAGS: " + to_str(tt.get("hashtags","")) + "\n"
     )
     with open("docs/content/tiktok_" + date_slug + ".txt", "w", encoding="utf-8") as f:
         f.write(tiktok_text)
@@ -387,10 +391,10 @@ def save_content(content, today, history_content):
     yt = content.get("youtube_shorts", {})
     youtube_text = (
         "=== YOUTUBE SHORTS SCRIPT -- " + today + " ===\n\n"
-        "BASLIK: " + yt.get("title","") + "\n\n"
-        "HOOK (ilk 5 saniye):\n" + yt.get("hook","") + "\n\n"
-        "SCRIPT:\n" + yt.get("script","") + "\n\n"
-        "ACIKLAMA:\n" + yt.get("description","") + "\n"
+        "BASLIK: " + to_str(yt.get("title","")) + "\n\n"
+        "HOOK (ilk 5 saniye):\n" + to_str(yt.get("hook","")) + "\n\n"
+        "SCRIPT:\n" + to_str(yt.get("script","")) + "\n\n"
+        "ACIKLAMA:\n" + to_str(yt.get("description","")) + "\n"
     )
     with open("docs/content/youtube_" + date_slug + ".txt", "w", encoding="utf-8") as f:
         f.write(youtube_text)
