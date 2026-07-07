@@ -338,5 +338,90 @@
         "why_now": "Fragmented Turkish SaaS market and founders seeking exits create opportunities for consolidation and optimization."
       }
     ]
+  },
+  {
+    "date": "07 July 2026",
+    "opportunities": [
+      {
+        "name": "Akıllı Ofis",
+        "emoji": "🤖",
+        "oneLiner": "AI-first office suite for Turkish businesses, saving costs.",
+        "sector": "SaaS, Enterprise AI",
+        "score": 90,
+        "inspired_by": "Indian tech tycoon",
+        "real_example": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+        "tr_status": "Turkish businesses are highly sensitive to software costs due to inflation, making cost-saving SaaS very attractive.",
+        "tr_idea": "Develop an AI-native, localized office suite (word processor, spreadsheet, presentation) offering superior AI assistance for content creation, data analysis, and translation, sold at a competitive subscription.",
+        "mvp": "Core AI-assisted word processor with Turkish NLP and basic spreadsheet, offered as a web app.",
+        "target": "SMEs and freelancers in Turkey",
+        "revenue": "Subscription-based (monthly/annual tiers)",
+        "risks": "Competing with established giants like Microsoft and Google, data privacy concerns.",
+        "why_now": "High inflation drives demand for cost-effective solutions, and AI maturity allows for truly intelligent productivity tools."
+      },
+      {
+        "name": "Akıncı Lojistik",
+        "emoji": "🚚",
+        "oneLiner": "Autonomous freight solutions for Turkey's growing e-commerce and manufacturing.",
+        "sector": "Logistics, AI, Robotics, Autonomous Vehicles",
+        "score": 88,
+        "inspired_by": "Humble Robotics",
+        "real_example": "Humble Robotics is bringing autonomous vehicles to freight, with its CEO stating the tech finally caught up to the vision.",
+        "tr_status": "E-commerce is growing 30%/yr, coupled with a strong manufacturing base, creating significant demand for efficient, cost-effective logistics.",
+        "tr_idea": "Develop and deploy autonomous last-mile delivery vehicles for urban e-commerce and/or inter-city autonomous trucks for manufacturing supply chains, reducing labor and fuel costs.",
+        "mvp": "Autonomous delivery pods for a specific urban area or campus, focusing on a limited set of routes for a partner e-commerce company.",
+        "target": "E-commerce companies, manufacturers, logistics providers",
+        "revenue": "Per-delivery fee, subscription for fleet management, or outright sale of autonomous vehicles.",
+        "risks": "Regulatory hurdles, high upfront R&D costs, public acceptance, infrastructure readiness.",
+        "why_now": "Maturing AV tech and Turkey's economic pressure on logistics costs make this a timely innovation."
+      },
+      {
+        "name": "Gerçek Görüş",
+        "emoji": "👓",
+        "oneLiner": "AR smart glasses for manufacturing training, maintenance, and quality control.",
+        "sector": "AR/VR, Manufacturing Tech, Industry 4.0",
+        "score": 87,
+        "inspired_by": "Even Realities",
+        "real_example": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent.",
+        "tr_status": "Turkey has a strong manufacturing base eager for efficiency gains and adoption of Industry 4.0 technologies.",
+        "tr_idea": "Develop and localize industrial-grade AR smart glasses software and potentially hardware for Turkish factories, offering real-time assembly instructions, remote assistance, and predictive maintenance data overlay.",
+        "mvp": "AR overlay for step-by-step assembly instructions and remote expert assistance on existing smart glasses hardware for a pilot manufacturing client.",
+        "target": "Large and medium-sized manufacturers in automotive, machinery, textiles.",
+        "revenue": "Hardware sales (if proprietary), software licensing (SaaS), customization, and support services.",
+        "risks": "High hardware R&D costs, adoption resistance from workers, competition from global players.",
+        "why_now": "Significant funding for smart glasses companies indicates market readiness, and Turkey's manufacturing sector needs productivity boosts."
+      },
+      {
+        "name": "Dijital Kitaplık",
+        "emoji": "📚",
+        "oneLiner": "Turkey's integrated platform for e-books, audiobooks, and e-readers.",
+        "sector": "E-commerce, Content, Publishing, Hardware",
+        "score": 85,
+        "inspired_by": "Bookshop.org",
+        "real_example": "Amazon competitor Bookshop.org says Kobo eReader support will happen this year after all.",
+        "tr_status": "Mobile-first population, e-commerce growing 30%/yr, and high inflation makes digital content more accessible than physical.",
+        "tr_idea": "Create a comprehensive digital content platform offering localized e-books and audiobooks, potentially developing an affordable, Turkish-language e-reader device, and fostering local publishing partnerships.",
+        "mvp": "A mobile app offering a curated selection of Turkish e-books and audiobooks with a user-friendly reading/listening experience, partnering with major Turkish publishers.",
+        "target": "General Turkish population, students, book lovers, expatriates.",
+        "revenue": "E-book/audiobook sales, subscription for unlimited access, device sales.",
+        "risks": "Content licensing complexities, strong competition from global players (Amazon, Google), piracy concerns.",
+        "why_now": "High e-commerce growth and mobile adoption in Turkey, combined with the convenience and cost-effectiveness of digital content, create a strong market pull."
+      },
+      {
+        "name": "Yapay Zeka Atölye",
+        "emoji": "🚀",
+        "oneLiner": "Premier AI accelerator and co-working hub for Turkish AI startups.",
+        "sector": "Startup Ecosystem, AI, Venture Capital",
+        "score": 89,
+        "inspired_by": "Station F",
+        "real_example": "Station F ramps up as a launchpad for Europe’s hottest AI startups.",
+        "tr_status": "Turkey has a dynamic startup scene but lacks a dedicated, high-profile accelerator specifically for cutting-edge AI technologies, requiring tailored mentorship and funding.",
+        "tr_idea": "Establish a dedicated physical and virtual hub providing incubation, acceleration programs, mentorship from local and international AI experts, and access to a network of investors for nascent Turkish AI startups.",
+        "mvp": "A 6-month accelerator program for 5-7 early-stage AI startups, focusing on B2B SaaS or industry-specific AI solutions, with a demo day for local VCs.",
+        "target": "Early-stage AI startups in Turkey, local and international investors, corporate partners.",
+        "revenue": "Equity in startups, corporate sponsorships, event hosting, membership fees for co-working.",
+        "risks": "Attracting top-tier talent and mentors, securing consistent funding, competition from general accelerators.",
+        "why_now": "The global AI boom is creating immense startup activity, and Turkey needs to actively cultivate its own AI ecosystem to remain competitive and foster innovation."
+      }
+    ]
   }
 ]
