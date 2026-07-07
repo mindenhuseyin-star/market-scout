@@ -289,3 +289,240 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+# ── İçerik Üretici ────────────────────────────────────────────────────────────
+
+async def generate_content(data):
+    """Market Scout raporundan LinkedIn ve TikTok/YouTube içeriği üretir."""
+    opps = sorted(data.get("opportunities", []), key=lambda x: -x.get("score", 0))
+    today = data.get("date", "")
+    top3 = opps[:3]
+
+    opps_text = "\n".join(
+        str(i+1) + ". " + o.get("name","") + " (" + str(o.get("score","")) + "%) -- " + o.get("oneLiner","") + " -- Neden simdi: " + o.get("why_now","")
+        for i, o in enumerate(top3)
+    )
+
+    prompt = (
+        "Bugun " + today + ". Asagida Turkiye icin tespit edilmis is firsatlari var:\n\n"
+        + opps_text + "\n\n"
+        "Bu verileri kullanarak 3 farkli icerik uret. "
+        "SADECE JSON dondur, baska hicbir sey yazma:\n\n"
+        '{"linkedin":{"hook":"Dikkati ceken ilk cumle (max 2 satir, rakam veya surpriz bir bilgiyle baslayacak)",'
+        '"body":"300-400 kelime, profesyonel ton, her firsat icin 2-3 paragraf, LinkedIn formatinda (bosluklu, okunakli)",'
+        '"cta":"Harekete gecirici son cumle",'
+        '"hashtags":"#GirisimTurkiye #Startup #Teknoloji gibi 5-7 hashtag"},'
+        '"tiktok":{"hook":"Ilk 3 saniye sozlu hook (merak uyandirsin)",'
+        '"script":"60 saniye TikTok scripti, dogal konusma dili, her cumle ayri satirda",'
+        '"captions":"3-5 anahtar kelime caption icin",'
+        '"hashtags":"5-7 TikTok hashtag"},'
+        '"youtube_shorts":{"hook":"Ilk 5 saniye hook",'
+        '"script":"90 saniye YouTube Shorts scripti, biraz daha detayli",'
+        '"title":"Video baslik (merak uyandiran, SEO uyumlu)",'
+        '"description":"Video aciklamasi (2-3 cumle)"}}'
+    )
+
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY
+
+    async with httpx.AsyncClient(timeout=120) as client:
+        r = await client.post(url, json={
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 1, "maxOutputTokens": 8192}
+        })
+
+    body = r.json()
+    if "error" in body:
+        print("Content gen error: " + str(body["error"]))
+        return None
+
+    candidates = body.get("candidates", [])
+    if not candidates:
+        return None
+
+    parts = candidates[0].get("content", {}).get("parts", [])
+    text = "".join(p.get("text","") for p in parts)
+    text = re.sub(r"```json|```", "", text).strip()
+    s, e = text.find("{"), text.rfind("}") + 1
+    if s == -1:
+        return None
+
+    return json.loads(text[s:e])
+
+
+def save_content(content, today, history_content):
+    """İçerikleri dosyaya kaydeder ve içerik sayfası HTML'i oluşturur."""
+    if not content:
+        return
+
+    os.makedirs("docs/content", exist_ok=True)
+
+    date_slug = today.replace(" ", "_")
+
+    # LinkedIn
+    li = content.get("linkedin", {})
+    linkedin_text = (
+        "=== LINKEDIN POST -- " + today + " ===\n\n"
+        + li.get("hook","") + "\n\n"
+        + li.get("body","") + "\n\n"
+        + li.get("cta","") + "\n\n"
+        + li.get("hashtags","") + "\n"
+    )
+    with open("docs/content/linkedin_" + date_slug + ".txt", "w", encoding="utf-8") as f:
+        f.write(linkedin_text)
+
+    # TikTok
+    tt = content.get("tiktok", {})
+    tiktok_text = (
+        "=== TIKTOK SCRIPT -- " + today + " ===\n\n"
+        "HOOK (ilk 3 saniye):\n" + tt.get("hook","") + "\n\n"
+        "SCRIPT:\n" + tt.get("script","") + "\n\n"
+        "CAPTIONS: " + tt.get("captions","") + "\n"
+        "HASHTAGS: " + tt.get("hashtags","") + "\n"
+    )
+    with open("docs/content/tiktok_" + date_slug + ".txt", "w", encoding="utf-8") as f:
+        f.write(tiktok_text)
+
+    # YouTube Shorts
+    yt = content.get("youtube_shorts", {})
+    youtube_text = (
+        "=== YOUTUBE SHORTS SCRIPT -- " + today + " ===\n\n"
+        "BASLIK: " + yt.get("title","") + "\n\n"
+        "HOOK (ilk 5 saniye):\n" + yt.get("hook","") + "\n\n"
+        "SCRIPT:\n" + yt.get("script","") + "\n\n"
+        "ACIKLAMA:\n" + yt.get("description","") + "\n"
+    )
+    with open("docs/content/youtube_" + date_slug + ".txt", "w", encoding="utf-8") as f:
+        f.write(youtube_text)
+
+    # İçerik sayfası HTML
+    all_content = [{"date": today, "content": content}] + history_content
+    build_content_html(all_content)
+    print("Content saved: linkedin, tiktok, youtube for " + today)
+
+
+def build_content_html(all_content):
+    """Tüm içerikleri gösteren HTML sayfası."""
+    cards = ""
+    for entry in all_content[:14]:
+        d = entry.get("date","")
+        c = entry.get("content",{})
+        li = c.get("linkedin",{})
+        tt = c.get("tiktok",{})
+        yt = c.get("youtube_shorts",{})
+        date_slug = d.replace(" ", "_")
+
+        cards += (
+            '<div class="day">'
+            '<div class="day-header">' + d + '</div>'
+            '<div class="platforms">'
+
+            '<div class="platform">'
+            '<div class="plabel linkedin-c">LinkedIn</div>'
+            '<div class="phook">' + li.get("hook","")[:120] + '...</div>'
+            '<a class="dl-btn" href="content/linkedin_' + date_slug + '.txt" download>Indir</a>'
+            '</div>'
+
+            '<div class="platform">'
+            '<div class="plabel tiktok-c">TikTok</div>'
+            '<div class="phook">' + tt.get("hook","")[:120] + '</div>'
+            '<a class="dl-btn" href="content/tiktok_' + date_slug + '.txt" download>Indir</a>'
+            '</div>'
+
+            '<div class="platform">'
+            '<div class="plabel youtube-c">YouTube Shorts</div>'
+            '<div class="phook">' + yt.get("title","")[:120] + '</div>'
+            '<a class="dl-btn" href="content/youtube_' + date_slug + '.txt" download>Indir</a>'
+            '</div>'
+
+            '</div></div>'
+        )
+
+    html = """<!DOCTYPE html><html lang="tr"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Market Scout -- Icerik Merkezi</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0a0a12;color:#e0e0f0;font-family:system-ui,sans-serif;padding-bottom:60px}
+header{background:#0f0f1e;border-bottom:1px solid #1e1e2e;padding:16px 20px;position:sticky;top:0;z-index:10}
+.hi{max-width:900px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+h1{font-family:monospace;font-size:18px;color:#f0f0f8}
+.sub{font-size:11px;color:#444;margin-top:2px}
+.nav{display:flex;gap:12px;margin-bottom:20px;flex-wrap:wrap}
+.nav a{font-size:12px;color:#3B82F6;text-decoration:none;padding:6px 14px;border:1px solid #3B82F620;border-radius:8px;background:#3B82F610}
+main{max-width:900px;margin:0 auto;padding:16px 20px}
+.day{background:#13131f;border:1px solid #1e1e2e;border-radius:12px;padding:16px;margin-bottom:16px}
+.day-header{font-family:monospace;font-size:12px;color:#555;margin-bottom:12px;text-transform:uppercase;letter-spacing:.1em}
+.platforms{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.platform{background:#0d0d1a;border-radius:8px;padding:12px}
+.plabel{font-size:10px;font-weight:700;margin-bottom:6px;text-transform:uppercase;letter-spacing:.08em}
+.linkedin-c{color:#0A66C2}.tiktok-c{color:#ff0050}.youtube-c{color:#FF0000}
+.phook{font-size:11px;color:#888;line-height:1.5;margin-bottom:10px;min-height:40px}
+.dl-btn{display:inline-block;font-size:11px;color:#10B981;border:1px solid #10B98140;border-radius:6px;padding:4px 10px;text-decoration:none;background:#10B98110}
+@media(max-width:600px){.platforms{grid-template-columns:1fr}}
+</style></head><body>
+<header><div class="hi">
+  <div><h1>Market Scout -- Icerik Merkezi</h1>
+  <div class="sub">Gunluk LinkedIn + TikTok + YouTube Shorts icerik uretimi</div></div>
+</div></header>
+<main>
+  <div class="nav">
+    <a href="index.html">Firsat Raporu</a>
+    <a href="content.html">Icerik Merkezi</a>
+  </div>
+  """ + (cards or '<div style="color:#222;font-size:12px">Henuz icerik uretilmedi.</div>') + """
+</main>
+<footer style="text-align:center;padding:28px;font-size:10px;color:#1e1e2e;font-family:monospace">
+Market Scout -- Gunluk Icerik Fabrikasi
+</footer>
+</body></html>"""
+
+    with open("docs/content.html", "w", encoding="utf-8") as f:
+        f.write(html)
+
+
+# ── main() fonksiyonunu override et ──────────────────────────────────────────
+import asyncio as _asyncio
+
+_old_main = main
+
+async def main():
+    print("Market Scout TR -- " + datetime.now().strftime("%d.%m.%Y %H:%M"))
+    articles = await fetch_all_news()
+    data = await analyze(articles)
+    today = data.get("date","")
+
+    os.makedirs("docs", exist_ok=True)
+    hist_path = "docs/history.json"
+    history = json.load(open(hist_path)) if os.path.exists(hist_path) else []
+    history = [h for h in history if h.get("date") != today]
+    history.append(data)
+    history = history[-30:]
+
+    with open("docs/index.html", "w", encoding="utf-8") as f:
+        f.write(build_html(data, history[:-1]))
+    with open(hist_path, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+    print("Saved docs/index.html")
+
+    # İçerik üret
+    print("Generating content...")
+    content = await generate_content(data)
+
+    cont_path = "docs/content_history.json"
+    history_content = json.load(open(cont_path)) if os.path.exists(cont_path) else []
+    history_content = [h for h in history_content if h.get("date") != today]
+    if content:
+        history_content.insert(0, {"date": today, "content": content})
+    history_content = history_content[:30]
+    with open(cont_path, "w", encoding="utf-8") as f:
+        json.dump(history_content, f, ensure_ascii=False, indent=2)
+
+    save_content(content, today, history_content[1:])
+
+    u, repo = GITHUB_REPO.split("/")
+    await send_telegram(data, "https://" + u + ".github.io/" + repo)
+    print("Done!")
+
+if __name__ == "__main__":
+    _asyncio.run(main())
