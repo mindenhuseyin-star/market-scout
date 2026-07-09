@@ -508,5 +508,90 @@
         "why_now": "The strong trend for cost-saving SaaS combined with a clear example of local alternatives gaining traction (India) makes this a compelling opportunity for Turkey's market."
       }
     ]
+  },
+  {
+    "date": "09 July 2026",
+    "opportunities": [
+      {
+        "name": "TürkCaller: AI Spam & Fraud Blocker",
+        "emoji": "🛡️",
+        "oneLiner": "AI-powered mobile app to block spam calls and fraud.",
+        "sector": "Mobile Security & AI",
+        "score": 90,
+        "inspired_by": "Truecaller",
+        "real_example": "Truecaller - clashes with India’s telecom regulator over anti-spam rules",
+        "tr_status": "Turkey has 85M mobile users and faces significant spam call/SMS issues with limited regulatory solutions.",
+        "tr_idea": "Develop an AI-driven mobile app to identify and block spam, telemarketing, and fraud calls/SMS, with a focus on Turkish numbers and languages. Partner with local telecom operators for data and distribution.",
+        "mvp": "Android/iOS app with basic spam ID, blocking, and a community-driven reporting feature.",
+        "target": "Individual mobile users, later B2B for telecom operators.",
+        "revenue": "Freemium model (basic free, premium features), B2B licensing.",
+        "risks": "Data privacy concerns, regulatory hurdles, competition from built-in phone features.",
+        "why_now": "Mobile-first nation with high spam volume and growing fraud, current solutions are inadequate."
+      },
+      {
+        "name": "VerimAI: Turkish Enterprise AI Agents",
+        "emoji": "💼",
+        "oneLiner": "Custom AI agents automating tasks for cost-saving in Turkish enterprises.",
+        "sector": "Enterprise AI & SaaS",
+        "score": 92,
+        "inspired_by": "Prime Intellect",
+        "real_example": "Prime Intellect - raises $130M Series A to help enterprises build their own AI agents",
+        "tr_status": "Turkish enterprises face high operational costs due to inflation, driving demand for efficiency and cost-saving SaaS solutions.",
+        "tr_idea": "Offer customized AI agent development services for Turkish businesses, focusing on automating repetitive tasks in customer service, HR, or supply chain, with strong Turkish language capabilities. Integrate with common ERP/CRM systems.",
+        "mvp": "AI agents for specific tasks like invoice processing or customer inquiry routing, integrated with common ERP/CRM systems.",
+        "target": "SMEs and large manufacturing/service enterprises in Turkey.",
+        "revenue": "Subscription-based SaaS, custom development fees for specialized agents.",
+        "risks": "AI implementation complexity, data privacy concerns, resistance to automation from workforce.",
+        "why_now": "High inflation necessitates significant cost reduction, making AI automation a compelling investment for businesses."
+      },
+      {
+        "name": "Hızlı Kargo Drone",
+        "emoji": "🚁",
+        "oneLiner": "Fast, autonomous drone delivery for urban and remote areas.",
+        "sector": "Logistics & E-commerce",
+        "score": 88,
+        "inspired_by": "Manna",
+        "real_example": "Autonomous drone delivery startup Manna plots major US expansion",
+        "tr_status": "Turkey's e-commerce market is growing 30%/year, leading to increased demand for faster and more efficient last-mile delivery.",
+        "tr_idea": "Establish an autonomous drone delivery service focused on high-density urban areas or difficult-to-reach rural locations for small package e-commerce, food, and pharmacy deliveries. Prioritize regulatory compliance and safety.",
+        "mvp": "Pilot program for food delivery in a specific urban district, focusing on regulatory compliance and safety.",
+        "target": "E-commerce platforms, local restaurants, pharmacies, individual consumers.",
+        "revenue": "Per-delivery fee, subscription for unlimited deliveries, B2B partnerships with retailers.",
+        "risks": "Regulatory approvals, public perception, safety concerns, weather dependency, limited payload capacity.",
+        "why_now": "Exploding e-commerce and logistics demands present an opportunity for disruptive, efficient last-mile solutions."
+      },
+      {
+        "name": "Üretim Zeka: AI for Smart Manufacturing",
+        "emoji": "⚙️",
+        "oneLiner": "AI solutions boosting quality and predicting maintenance for manufacturers.",
+        "sector": "Industrial AI & Manufacturing",
+        "score": 91,
+        "inspired_by": "This startup thinks robotics is about to have its ChatGPT moment",
+        "real_example": "With EU backing, QuantumDiamonds aims to speed up chip manufacturing (represents advanced tech in manufacturing)",
+        "tr_status": "Turkey has a robust manufacturing sector in textiles, automotive, food, and machinery, constantly seeking efficiency and cost savings.",
+        "tr_idea": "Develop and deploy AI-driven computer vision systems for real-time quality control on production lines and predictive maintenance algorithms for machinery. Reduce defects and downtime for Turkish factories across various sectors.",
+        "mvp": "AI visual inspection system for defect detection on a specific product line, or a sensor-based predictive maintenance module for common industrial machinery.",
+        "target": "Small to large-scale manufacturers across various sectors (automotive, textile, food processing, electronics).",
+        "revenue": "SaaS subscription for AI software, hardware integration fees, consultancy for custom AI models.",
+        "risks": "High initial investment, data integration challenges, need for specialized expertise, resistance to new technology.",
+        "why_now": "High inflation makes efficiency and cost reduction paramount for manufacturers, pushing adoption of advanced tech."
+      },
+      {
+        "name": "TürkYarat: E-commerce AI Content Creator",
+        "emoji": "🎨",
+        "oneLiner": "AI platform generating localized product descriptions and marketing visuals.",
+        "sector": "Marketing Tech & AI",
+        "score": 89,
+        "inspired_by": "Google Photos adds a new AI ‘Video Remix’ tool",
+        "real_example": "Google Photos adds a new AI ‘Video Remix’ tool (shows AI for media creation)",
+        "tr_status": "E-commerce businesses in Turkey need high-quality, localized product content and marketing materials to stand out in a competitive, mobile-first market.",
+        "tr_idea": "Create an AI platform that generates compelling product descriptions, marketing copy, and visual content optimized for the Turkish market and language. Integrate with major e-commerce platforms and social media.",
+        "mvp": "Web-based tool generating multiple variations of Turkish product descriptions from basic inputs (product name, features, keywords) and basic image background removal/enhancement.",
+        "target": "Small to medium-sized e-commerce sellers, online retailers, digital marketing agencies.",
+        "revenue": "Subscription tiers based on usage (content generation limits, features), API access for large platforms.",
+        "risks": "Quality and uniqueness of AI-generated content, ethical considerations, integration complexity, competition from global tools.",
+        "why_now": "Rapid e-commerce growth demands scalable and efficient content creation, especially for localized markets."
+      }
+    ]
   }
 ]
