@@ -763,5 +763,90 @@
         "why_now": "High inflation incentivizes cost-saving and efficiency for SMEs, and advancements in AI agents make this technology viable for practical business applications."
       }
     ]
+  },
+  {
+    "date": "12 July 2026",
+    "opportunities": [
+      {
+        "name": "Aile Asistanı",
+        "emoji": "🏠",
+        "oneLiner": "AI for Turkish families' daily life and kids' learning.",
+        "sector": "Consumer AI, EdTech",
+        "score": 90,
+        "inspired_by": "OpenAI",
+        "real_example": "OpenAI bets on families as ChatGPT goes deeper into households",
+        "tr_status": "Turkish families are mobile-first and seeking digital tools for education and home management.",
+        "tr_idea": "Develop a localized AI assistant app offering educational support, household organization, and cultural content tailored for Turkish families. Focus on ease of use and Turkish language fluency.",
+        "mvp": "Mobile app with conversational AI for homework help (K-12 Turkish curriculum), meal planning, and family schedule reminders.",
+        "target": "Middle to upper-income Turkish families with school-aged children.",
+        "revenue": "Freemium model, with premium subscriptions for advanced tutoring and personalized features.",
+        "risks": "Data privacy concerns, AI accuracy, fierce competition from global tech giants.",
+        "why_now": "Increased digital adoption post-pandemic and rising demand for educational and organizational aids."
+      },
+      {
+        "name": "Güvenli Bağlantı",
+        "emoji": "🛡️",
+        "oneLiner": "AI-powered fraud detection for booming Turkish e-commerce affiliates.",
+        "sector": "AdTech, Cybersecurity, E-commerce SaaS",
+        "score": 95,
+        "inspired_by": "Phia",
+        "real_example": "Phia accused of ‘cookie stuffing,’ taking affiliate credit on purchases it didn’t earn",
+        "tr_status": "E-commerce is growing rapidly (30%/yr), leading to increased affiliate marketing and potential fraud.",
+        "tr_idea": "Offer a SaaS platform utilizing AI and machine learning to detect and prevent affiliate fraud, protecting Turkish e-commerce merchants' marketing spend.",
+        "mvp": "Web dashboard for e-commerce platforms to monitor affiliate traffic, identify suspicious patterns, and block fraudulent conversions in real-time.",
+        "target": "Turkish e-commerce businesses, online retailers, and affiliate networks.",
+        "revenue": "Subscription-based SaaS, tiered pricing based on transaction volume or number of affiliate campaigns managed.",
+        "risks": "Constant evolution of fraud tactics, need for robust data integration, trust and adoption by merchants.",
+        "why_now": "Booming e-commerce creates an urgent need for cost-saving anti-fraud solutions amidst high inflation."
+      },
+      {
+        "name": "Endüstriyel Zeka",
+        "emoji": "🏭",
+        "oneLiner": "Open-source AI agents for Turkish manufacturing SMEs.",
+        "sector": "Industrial AI, Enterprise SaaS, Open Source Solutions",
+        "score": 92,
+        "inspired_by": "Hugging Face",
+        "real_example": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents; Hugging Face on open source AI.",
+        "tr_status": "Turkish SMEs have a strong manufacturing base but lack easy access to customized, cost-effective AI solutions.",
+        "tr_idea": "Provide a service platform for Turkish manufacturing SMEs to implement and customize open-source AI agents for specific industrial applications like predictive maintenance, quality control, or supply chain optimization.",
+        "mvp": "Consulting and implementation for open-source AI models applied to predictive maintenance for a few pilot manufacturing facilities.",
+        "target": "Small to medium-sized manufacturing enterprises (SMEs) across various sectors.",
+        "revenue": "Project-based consulting, subscription for platform access and ongoing support, training modules.",
+        "risks": "Skill gap for deployment, integration with legacy systems, proving immediate ROI to conservative businesses.",
+        "why_now": "High inflation drives demand for efficiency and cost reduction, which open-source AI can deliver."
+      },
+      {
+        "name": "Fırsat Akışı",
+        "emoji": "🛍️",
+        "oneLiner": "Personalized, social shopping feed for Turkish mobile users.",
+        "sector": "E-commerce, Social Media, Content Aggregation",
+        "score": 88,
+        "inspired_by": "HyperTexting",
+        "real_example": "HyperTexting turns the open web into a scrollable social media-like feed.",
+        "tr_status": "Turkish consumers are highly mobile-first, avid social media users, and e-commerce adoption is soaring.",
+        "tr_idea": "Create a mobile app that aggregates product deals and trends from Turkish e-commerce sites into a personalized, social media-style feed, allowing users to discover, share, and comment on products.",
+        "mvp": "Mobile app aggregating deals from top Turkish e-commerce platforms (Trendyol, Hepsiburada) with basic user profiles, like/comment, and sharing functions.",
+        "target": "Young, mobile-savvy online shoppers (18-35) seeking deals and social product discovery.",
+        "revenue": "Affiliate commissions from sales, in-app advertising, premium features for exclusive deals or community access.",
+        "risks": "Competition from existing e-commerce apps, content curation challenges, achieving network effects.",
+        "why_now": "Rapid e-commerce growth and high social media engagement create demand for engaging shopping experiences."
+      },
+      {
+        "name": "Serin Nokta",
+        "emoji": "🍧",
+        "oneLiner": "Smart, localized slushie machine network for public spaces.",
+        "sector": "Food Tech, Vending, IoT",
+        "score": 80,
+        "inspired_by": "Slushie machine",
+        "real_example": "This slushie machine was a lifesaver during NYC’s heat wave",
+        "tr_status": "Turkey experiences hot summers, and there's a strong manufacturing base for vending and food equipment.",
+        "tr_idea": "Design and manufacture smart, IoT-connected slushie machines for high-traffic public areas across Turkey, offering diverse, locally flavored options and mobile payment.",
+        "mvp": "Develop a prototype smart slushie machine with a few popular Turkish flavors, integrated mobile payment (QR code), and a basic remote monitoring system for inventory.",
+        "target": "Municipalities, parks, shopping malls, beaches, event organizers.",
+        "revenue": "Sales of slushies, advertising on machine screens, potential franchising.",
+        "risks": "Initial manufacturing costs, maintenance and logistics, seasonality, health regulations.",
+        "why_now": "Climate change brings hotter summers, increasing demand for refreshing options; Turkey's manufacturing base can localize production."
+      }
+    ]
   }
 ]
