@@ -933,5 +933,90 @@
         "why_now": "High mobile penetration and a large population eager for culturally relevant, intelligent digital tools that simplify daily life."
       }
     ]
+  },
+  {
+    "date": "14 July 2026",
+    "opportunities": [
+      {
+        "name": "E-BizAgent",
+        "emoji": "🤖",
+        "oneLiner": "AI agents automating e-commerce operations for SMBs.",
+        "sector": "E-commerce SaaS, AI",
+        "score": 90,
+        "inspired_by": "Prime Intellect",
+        "real_example": "Prime Intellect - raises $130M Series A to help enterprises build their own AI agents",
+        "tr_status": "E-commerce growing 30%/yr, SMBs need efficiency tools; mobile-first engagement.",
+        "tr_idea": "Develop localized, affordable AI agents for Turkish e-commerce businesses to automate customer service, marketing, inventory, and personalized recommendations.",
+        "mvp": "A chatbot agent integrating with popular Turkish e-commerce platforms (e.g., Trendyol) for automated FAQ and order status.",
+        "target": "Small to medium-sized e-commerce businesses in Turkey.",
+        "revenue": "Subscription-based (SaaS) per agent/feature tier.",
+        "risks": "Data privacy concerns, AI hallucination, trust in automation.",
+        "why_now": "Rapid e-commerce growth demands scalable, cost-effective automation due to inflation."
+      },
+      {
+        "name": "VidGen TR",
+        "emoji": "🎬",
+        "oneLiner": "AI-driven video ad generation for Turkish e-commerce.",
+        "sector": "MarTech, AI, Content Creation",
+        "score": 88,
+        "inspired_by": "PixVerse",
+        "real_example": "PixVerse - raises $439M, valuation soars past $2B",
+        "tr_status": "High mobile video consumption, e-commerce needs engaging content, small businesses lack video resources.",
+        "tr_idea": "Offer an AI platform for Turkish e-commerce sellers to quickly create high-quality, localized product videos and ads for social media and marketplaces.",
+        "mvp": "A web-based tool allowing users to upload product images/text and generate short promotional videos with Turkish voiceovers and music.",
+        "target": "E-commerce sellers, digital marketing agencies, SMBs in Turkey.",
+        "revenue": "Freemium model, then subscription tiers based on video length/quantity/features.",
+        "risks": "Quality of AI-generated content, competition from global tools, data privacy.",
+        "why_now": "Mobile-first user base and booming e-commerce require cost-effective, engaging video marketing."
+      },
+      {
+        "name": "Anadolu AI",
+        "emoji": "⚙️",
+        "oneLiner": "Deploying and managing open-source AI for Turkish enterprises.",
+        "sector": "Enterprise AI, Industrial IoT, SaaS",
+        "score": 92,
+        "inspired_by": "Hugging Face",
+        "real_example": "Hugging Face’s CEO on why companies are done renting their AI; Ollama raises $65M.",
+        "tr_status": "Strong manufacturing sector, high inflation makes proprietary AI costly, data residency concerns.",
+        "tr_idea": "Provide a platform and services for Turkish manufacturing and large enterprises to implement, fine-tune, and manage open-source AI models on-premise.",
+        "mvp": "A consultancy service combined with a managed platform for deploying Llama-based models for specific manufacturing tasks like quality control or predictive maintenance.",
+        "target": "Large manufacturing companies, industrial enterprises in Turkey.",
+        "revenue": "Setup fees, recurring platform management fees, custom development.",
+        "risks": "Technical complexity, talent scarcity, security of on-premise deployments.",
+        "why_now": "Turkish industry seeks cost-effective, customizable AI solutions with data control amidst high inflation and growing competition."
+      },
+      {
+        "name": "ÜretimSense",
+        "emoji": "📊",
+        "oneLiner": "AI platform for optimizing Turkish manufacturing and maintenance.",
+        "sector": "Industrial AI, SaaS, IoT",
+        "score": 91,
+        "inspired_by": "Prime Intellect",
+        "real_example": "Prime Intellect - raises $130M Series A to help enterprises build their own AI agents",
+        "tr_status": "Strong manufacturing base, high inflation drives need for cost-saving and efficiency.",
+        "tr_idea": "Develop an AI-driven platform that integrates with existing factory sensors to provide real-time production insights and predictive maintenance alerts for Turkish manufacturers.",
+        "mvp": "A dashboard displaying key production metrics and anomaly detection for a single type of machine, with SMS/email alerts for potential failures.",
+        "target": "Mid-to-large scale manufacturing plants in automotive, textiles, white goods.",
+        "revenue": "Subscription-based per machine/factory module, with added consulting/integration services.",
+        "risks": "Integration with legacy systems, data quality, high initial implementation cost perception.",
+        "why_now": "Turkish manufacturers need to boost efficiency and reduce downtime to stay competitive and mitigate inflation effects."
+      },
+      {
+        "name": "İşBul AI",
+        "emoji": "🤝",
+        "oneLiner": "AI-driven hiring platform for Turkish small and medium businesses.",
+        "sector": "HR Tech, AI, SaaS",
+        "score": 87,
+        "inspired_by": "Mercor",
+        "real_example": "Mercor is in talks for a $20B valuation; An AI agent startup just let its agent run its $100M fundraise.",
+        "tr_status": "SMEs are a large part of the economy, talent acquisition is resource-intensive, high inflation makes efficiency critical.",
+        "tr_idea": "Build an AI-powered platform to automate resume screening, candidate matching, and initial interview scheduling for Turkish SMEs, lowering recruitment costs.",
+        "mvp": "A tool that integrates with job boards, uses AI to rank applicants based on job descriptions, and schedules initial calls.",
+        "target": "Small and medium-sized enterprises (SMEs) across various sectors in Turkey.",
+        "revenue": "Per-hire fee, or tiered subscription based on number of active job postings/hires.",
+        "risks": "Accuracy of AI matching, user adoption, data privacy, competition from existing job portals.",
+        "why_now": "Turkish SMEs need to streamline hiring processes and reduce costs to navigate a competitive and inflationary market."
+      }
+    ]
   }
 ]
