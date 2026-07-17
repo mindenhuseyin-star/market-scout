@@ -1188,5 +1188,90 @@
         "why_now": "Increased post-pandemic focus on health, a mobile-first population, and the appeal of preventative care to manage rising healthcare costs make this opportune."
       }
     ]
+  },
+  {
+    "date": "17 July 2026",
+    "opportunities": [
+      {
+        "name": "FabrikaAI",
+        "emoji": "⚙️",
+        "oneLiner": "AI optimizes Turkish factory production, cuts costs.",
+        "sector": "Industrial AI / Manufacturing Tech",
+        "score": 90,
+        "inspired_by": "Applied Computing",
+        "real_example": "Applied Computing - developing AI for oil/gas plants; AI-powered vehicle inspection service - $10M investment (led by Sheryl Sandberg)",
+        "tr_status": "Turkey has a large manufacturing sector ripe for efficiency gains, but many factories still rely on traditional methods.",
+        "tr_idea": "Develop a SaaS platform providing AI models for predictive maintenance, quality control, and production scheduling specifically for common Turkish manufacturing industries (e.g., textiles, automotive parts). The platform would learn from existing sensor data to identify inefficiencies and potential failures, offering actionable insights to plant managers.",
+        "mvp": "A cloud-based platform for predictive maintenance on common machinery types in textile factories, integrating with existing sensor data to alert managers of potential breakdowns.",
+        "target": "Small to medium-sized manufacturing enterprises (SMEs) in Turkey.",
+        "revenue": "Subscription-based SaaS, tiered based on factory size and features.",
+        "risks": "High initial integration costs, resistance to adopting new technology from traditional management, data privacy concerns with factory data.",
+        "why_now": "High inflation in Turkey makes cost-saving solutions critical, and the robust manufacturing base offers a large addressable market for efficiency improvements."
+      },
+      {
+        "name": "ShopGenie AI",
+        "emoji": "🛍️",
+        "oneLiner": "AI personalizes Turkish e-commerce, boosts live shopping.",
+        "sector": "E-commerce Tech / AI",
+        "score": 92,
+        "inspired_by": "Whatnot acquires Shaped",
+        "real_example": "Whatnot acquiring Shaped to power real-time live shopping recommendations; Roblox's AI-powered game-creation feature",
+        "tr_status": "E-commerce is booming in Turkey, but personalization beyond basic algorithms is often lacking, especially in the nascent live shopping space.",
+        "tr_idea": "Offer an AI API or plugin for existing Turkish e-commerce platforms and content creators to generate hyper-personalized product recommendations for individual users based on browsing history, past purchases, and real-time live stream interactions. This could extend to dynamic AI scripts for live sellers to engage audiences more effectively.",
+        "mvp": "A recommendation engine API that integrates with a few popular Turkish e-commerce platforms, offering 'customers who bought this also bought...' but with deeper AI personalization.",
+        "target": "E-commerce platforms, individual sellers on marketplaces, and live shopping creators in Turkey.",
+        "revenue": "API usage fees, subscription for advanced features/integrations.",
+        "risks": "Data privacy concerns, difficulty integrating with diverse legacy e-commerce systems, competition from existing platform features.",
+        "why_now": "Turkey's 30% e-commerce growth and mobile-first user base demand advanced personalization and engaging shopping experiences, making AI a timely differentiator."
+      },
+      {
+        "name": "Kalkan Siber",
+        "emoji": "🔒",
+        "oneLiner": "Affordable AI cybersecurity protects Turkish SMEs from ransomware.",
+        "sector": "Cybersecurity / SaaS",
+        "score": 88,
+        "inspired_by": "Coca-Cola ransomware attack",
+        "real_example": "Coca-Cola suspending production due to ransomware attack; UK police disrupting a hacking group's operations",
+        "tr_status": "Turkish SMEs are increasingly digitalized but often lack resources for robust cybersecurity, making them vulnerable to attacks like ransomware.",
+        "tr_idea": "Develop an easy-to-deploy, AI-powered cybersecurity SaaS solution specifically tailored for SMEs in Turkey, focusing on ransomware detection and prevention, automated backups, and incident response with a mobile-first management interface. The AI would learn common attack patterns to proactively defend against new threats.",
+        "mvp": "A desktop client and mobile app offering real-time ransomware protection and automated, encrypted cloud backups for critical business data, with anomaly detection.",
+        "target": "Small and medium-sized enterprises (SMEs) across various sectors in Turkey.",
+        "revenue": "Monthly or annual subscription fees, tiered by number of users/devices.",
+        "risks": "Building trust with SMEs, staying ahead of evolving cyber threats, competition from global players, education of users.",
+        "why_now": "With digital transformation accelerating and high inflation, Turkish SMEs need cost-effective and simple cybersecurity solutions to protect their assets from increasing threats."
+      },
+      {
+        "name": "Döngü Tekstil AI",
+        "emoji": "♻️",
+        "oneLiner": "AI drives textile recycling, sustainability for Turkish factories.",
+        "sector": "Sustainable Manufacturing / Cleantech",
+        "score": 87,
+        "inspired_by": "Lululemon backs Syntetica",
+        "real_example": "Lululemon backing Syntetica with $30M Series A for nylon recycling",
+        "tr_status": "Turkey is a major textile manufacturer, generating significant waste, and there's growing pressure for sustainable practices both domestically and from international buyers.",
+        "tr_idea": "Develop an AI-powered platform that helps Turkish textile manufacturers categorize and sort textile waste for recycling, optimize production processes to minimize scrap, and identify opportunities for using recycled materials. This could include AI-driven material identification and quality assessment for recycled inputs.",
+        "mvp": "An AI vision system that automatically sorts pre-consumer textile waste (fabric scraps) by material composition (e.g., cotton, polyester blends) for easier recycling within a factory setting.",
+        "target": "Textile and apparel manufacturers in Turkey, particularly those exporting to EU markets with stricter sustainability regulations.",
+        "revenue": "SaaS platform subscription, consulting services for implementation, potentially revenue share from improved waste management.",
+        "risks": "High capital investment for recycling infrastructure, overcoming inertia in traditional manufacturing, varying quality of recycled input materials.",
+        "why_now": "Turkey's strong manufacturing base can leverage AI to meet increasing global demand for sustainable production and circular economy practices, offering a competitive advantage."
+      },
+      {
+        "name": "Gündelik Sağlık AI",
+        "emoji": "❤️",
+        "oneLiner": "Secure, mobile AI personalizes daily health for Turks.",
+        "sector": "Health Tech / AI",
+        "score": 89,
+        "inspired_by": "Neko Health",
+        "real_example": "Daniel Ek’s Neko Health raising $700M for body scanning; Ultrahuman's former VP raising for devices controlling AI agents; Stardust's privacy concerns highlight the need for secure alternatives",
+        "tr_status": "Turkey has a mobile-first population, and there's a growing awareness of personal health, but trust in health apps, especially regarding data privacy, is critical.",
+        "tr_idea": "Build a secure, mobile-first AI-powered wellness companion app that offers personalized health insights, activity recommendations, and mental well-being exercises based on user input and optionally integrated wearable data, with a strong, transparent focus on data privacy and local health context. It could offer AI chatbots for initial health queries.",
+        "mvp": "A mobile app providing personalized daily workout and nutrition plans based on user profiles and goals, with an AI chatbot for general wellness advice and mood tracking.",
+        "target": "Mobile-savvy individuals in Turkey seeking personalized health and wellness guidance, particularly younger demographics.",
+        "revenue": "Freemium model (basic features free, premium for advanced insights, personalized coaching, or integrated services).",
+        "risks": "Data privacy concerns (critical lesson from Stardust), competition from global apps, need for medical accuracy and legal compliance, user engagement.",
+        "why_now": "Turkey's mobile-first population is ready for advanced, personalized health solutions, and a strong emphasis on data privacy can differentiate a local player from global competitors."
+      }
+    ]
   }
 ]
