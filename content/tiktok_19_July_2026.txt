@@ -1,0 +1,19 @@
+=== TIKTOK SCRIPT -- 19 July 2026 ===
+
+HOOK (ilk 3 saniye):
+Şu an 2026'dayız ve Türkiye'de para basacak 3 iş fikri biliyorum! Duymak ister misin?
+
+SCRIPT:
+Merhaba millet! Bugün size 19 Temmuz 2026 itibarıyla Türkiye'nin en sıcak 3 iş fırsatını anlatacağım.
+Birincisi, Canlı Tavsiye. Canlı yayın alışverişi patlıyor, değil mi?
+AI destekli anlık ürün önerileriyle satışları uçuruyoruz. Müşteri ne isterse anında karşısında!
+İkincisi, KOBİ AI. Türkiye'deki KOBİ'ler için uygun fiyatlı, mobil bir yapay zeka asistanı.
+Enflasyon yüksek, rekabet acımasızken, KOBİ'lere nefes aldıracak bu sistemle işler kolaylaşıyor.
+Ve üçüncüsü, OptiFlow AI. E-ticaret ve üretimde maliyetleri düşürmek için yapay zeka.
+Stoktan lojistiğe, her alanda israfı kesip kârlılığı artırıyor. Yüksek enflasyonda altın değerinde bir çözüm!
+Bu 3 fırsat Türkiye'nin geleceği için çok önemli.
+Hangisi senin favorin?
+Unutma, geleceği yakalayan kazanır!
+
+CAPTIONS: Türkiye İşFırsatları AI KOBİ E-ticaret MaliyetAzaltma
+HASHTAGS: #Girişimcilik #Türkiye #Startup #YapayZeka #ParaKazan #İşFikirleri #Gelecek

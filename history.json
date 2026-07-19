@@ -1273,5 +1273,90 @@
         "why_now": "Turkey's mobile-first population is ready for advanced, personalized health solutions, and a strong emphasis on data privacy can differentiate a local player from global competitors."
       }
     ]
+  },
+  {
+    "date": "19 July 2026",
+    "opportunities": [
+      {
+        "name": "OptiFlow AI",
+        "emoji": "📈",
+        "oneLiner": "AI for cost-saving in e-commerce & manufacturing.",
+        "sector": "Enterprise SaaS, AI, Supply Chain",
+        "score": 90,
+        "inspired_by": "Databricks, Amazon AWS bug",
+        "real_example": "Databricks - $188B valuation, Amazon fixing AWS billing bug",
+        "tr_status": "High inflation drives demand for cost-saving solutions; e-commerce and manufacturing are key sectors.",
+        "tr_idea": "Develop a SaaS platform using AI to analyze operational data for Turkish e-commerce and manufacturing businesses, identifying cost-saving opportunities in logistics, inventory, and energy. Focus on delivering tangible ROI in a high-inflation environment.",
+        "mvp": "A dashboard integrating with existing ERP/e-commerce platforms to provide basic cost analysis and predictive insights for inventory and shipping optimization for 10 pilot e-commerce companies.",
+        "target": "Mid-sized e-commerce businesses and manufacturing SMEs in Turkey.",
+        "revenue": "Subscription-based SaaS, tiered pricing based on features and data volume.",
+        "risks": "Data integration challenges with diverse legacy systems; need for robust AI models.",
+        "why_now": "High inflation in Turkey makes any cost-saving solution extremely attractive, and digital transformation is ongoing."
+      },
+      {
+        "name": "Fabrik AI",
+        "emoji": "🔍",
+        "oneLiner": "AI for automated quality inspection in manufacturing.",
+        "sector": "Industrial AI, Manufacturing, Computer Vision",
+        "score": 88,
+        "inspired_by": "AI-powered vehicle inspection service, Applied Computing",
+        "real_example": "Sheryl Sandberg leads $10M investment in AI-powered vehicle inspection service",
+        "tr_status": "Turkey has a strong manufacturing base that constantly seeks efficiency and quality improvement.",
+        "tr_idea": "Create an AI-driven computer vision system for automated quality control on production lines in Turkish factories, reducing human error and improving efficiency in sectors like automotive parts or textiles. This replaces costly manual inspections.",
+        "mvp": "A vision system integrated with a single camera setup capable of detecting specific defects (e.g., surface imperfections, missing components) on a defined product line for a pilot textile or automotive supplier.",
+        "target": "Automotive, textile, and white goods manufacturers in Turkey.",
+        "revenue": "Hardware sales (camera/edge device) + recurring SaaS fee for AI model updates and analytics.",
+        "risks": "High upfront hardware costs for customers; integration complexity with diverse manufacturing setups.",
+        "why_now": "Turkey's manufacturing sector is competitive and seeking advanced solutions to boost quality and reduce labor costs."
+      },
+      {
+        "name": "Canlı Tavsiye",
+        "emoji": "🛍️",
+        "oneLiner": "Real-time AI product recommendations for live shopping.",
+        "sector": "E-commerce, AI, Retail Tech",
+        "score": 92,
+        "inspired_by": "Whatnot acquires Shaped",
+        "real_example": "Whatnot acquires Shaped to power real-time live shopping recommendations",
+        "tr_status": "E-commerce is booming (30% growth/yr), mobile-first adoption is high, and live shopping is an emerging trend.",
+        "tr_idea": "Develop an AI module offering real-time, personalized product recommendations and engagement tools for Turkish e-commerce platforms hosting live shopping events, increasing conversion rates. Leverage the mobile-first culture.",
+        "mvp": "A plug-in for popular live streaming platforms (or integrated into existing e-commerce live features) that suggests products based on viewer comments, past purchases, and presenter dialogue in real-time to a small group of partner streamers.",
+        "target": "E-commerce platforms, brands, and individual live streamers in Turkey.",
+        "revenue": "Commission on sales generated through recommendations or subscription fee for the AI service.",
+        "risks": "Integration challenges with diverse e-commerce platforms; ensuring AI accuracy for Turkish language/cultural nuances.",
+        "why_now": "Turkey's strong e-commerce growth and mobile usage create fertile ground for innovative retail engagement, making real-time personalization crucial."
+      },
+      {
+        "name": "Sentetik Dönüşüm",
+        "emoji": "♻️",
+        "oneLiner": "AI-driven textile waste sorting for recycling.",
+        "sector": "Circular Economy, Greentech, AI, Manufacturing",
+        "score": 87,
+        "inspired_by": "Lululemon backs nylon-recycling startup Syntetica",
+        "real_example": "Lululemon backs nylon-recycling startup Syntetica in $30M Series A",
+        "tr_status": "Turkey is a major textile producer with significant industrial waste; increasing focus on sustainability and circular economy.",
+        "tr_idea": "Create an AI-powered sorting system that efficiently identifies and separates different textile fibers from industrial and post-consumer waste in Turkey, enabling high-value recycling and upcycling. This addresses both environmental concerns and resource scarcity.",
+        "mvp": "A prototype vision system coupled with a robotic arm capable of identifying and separating common textile types (e.g., cotton, polyester, nylon) from a mixed waste stream at a pilot textile factory's waste collection point.",
+        "target": "Textile manufacturers, waste management companies, and fashion brands in Turkey.",
+        "revenue": "Per-ton processing fee for sorted materials, or sale/lease of the AI sorting equipment.",
+        "risks": "High capital investment for infrastructure; variability in waste stream composition; market demand for recycled fibers.",
+        "why_now": "Global push for sustainability and circular economy, coupled with Turkey's large textile industry, creates a strong imperative for advanced waste processing."
+      },
+      {
+        "name": "KOBİ AI",
+        "emoji": "🤖",
+        "oneLiner": "Affordable mobile AI assistant for Turkish SMEs.",
+        "sector": "Productivity, AI, SaaS",
+        "score": 91,
+        "inspired_by": "Vertu wants executives to pay $6,880 for an AI agent, Kimi",
+        "real_example": "Vertu's $6,880 AI agent, Kimi (implied AI assistant)",
+        "tr_status": "Turkey is mobile-first, has many SMEs (KOBİs), and high inflation makes efficient, affordable tools crucial for survival.",
+        "tr_idea": "Develop an affordable, mobile-first AI agent specifically for Turkish small and medium-sized enterprises (KOBİs), offering localized administrative support, customer service automation, and basic market insights. Focus on ease of use and cost-efficiency.",
+        "mvp": "A mobile app providing a chatbot that can answer common customer FAQs, schedule appointments, and generate simple marketing content (social media posts) in Turkish for 5 pilot local businesses.",
+        "target": "Small and medium-sized businesses (KOBİs) across various sectors in Turkey.",
+        "revenue": "Tiered monthly subscription for the mobile AI agent service.",
+        "risks": "Competing with general-purpose AI; ensuring accuracy and relevance for diverse SME needs; user adoption.",
+        "why_now": "Turkish SMEs need efficient, cost-effective tools to navigate high inflation and fierce competition, making an affordable, localized AI assistant highly valuable."
+      }
+    ]
   }
 ]
