@@ -1358,5 +1358,90 @@
         "why_now": "Turkish SMEs need efficient, cost-effective tools to navigate high inflation and fierce competition, making an affordable, localized AI assistant highly valuable."
       }
     ]
+  },
+  {
+    "date": "20 July 2026",
+    "opportunities": [
+      {
+        "name": "AI LiveShop Boost",
+        "emoji": "🛍️",
+        "oneLiner": "AI for real-time live shopping recommendations.",
+        "sector": "E-commerce, Retail AI",
+        "score": 92,
+        "inspired_by": "Whatnot acquires Shaped",
+        "real_example": "Whatnot acquires Shaped to power real-time live shopping recommendations",
+        "tr_status": "Turkey's e-commerce is booming (30%/yr growth), mobile-first culture, but live shopping is nascent.",
+        "tr_idea": "Develop an AI platform that integrates with existing e-commerce live stream platforms to provide personalized product suggestions and engagement prompts. It could optimize inventory for sellers.",
+        "mvp": "A plug-in that analyzes live chat and product views to suggest complementary items to viewers and real-time prompts to the streamer.",
+        "target": "Small to medium e-commerce businesses and influencers hosting live shopping events.",
+        "revenue": "SaaS subscription for e-commerce platforms/sellers, tiered based on features or sales uplift.",
+        "risks": "Integration challenges with diverse live streaming platforms; user adoption by hosts.",
+        "why_now": "Exploding e-commerce in Turkey, mobile-first behavior, and the need for differentiation and sales optimization in a competitive market."
+      },
+      {
+        "name": "FactoryGuard AI",
+        "emoji": "⚙️",
+        "oneLiner": "AI predicts factory equipment failures, optimizes maintenance.",
+        "sector": "Industrial AI, Manufacturing",
+        "score": 90,
+        "inspired_by": "Applied Computing",
+        "real_example": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
+        "tr_status": "Turkey has a robust manufacturing base, constantly seeking efficiency and cost savings amidst inflation.",
+        "tr_idea": "Offer a SaaS platform integrating with existing factory sensors to predict machinery breakdowns and suggest preventative maintenance schedules, reducing downtime and operational costs.",
+        "mvp": "A dashboard showing anomaly detection for a specific type of machine (e.g., CNC machines) based on sensor data.",
+        "target": "Mid-sized manufacturing companies in Turkey with significant machinery investments.",
+        "revenue": "Subscription-based SaaS, possibly with a per-machine or per-plant fee.",
+        "risks": "Data integration complexity, initial skepticism from traditional manufacturers, high upfront sales effort.",
+        "why_now": "High inflation makes cost-saving SaaS highly attractive for Turkish manufacturers looking to optimize operations and reduce unpredictable expenses."
+      },
+      {
+        "name": "AutoScan AI",
+        "emoji": "🚗",
+        "oneLiner": "Fast, accurate AI assessment of vehicle damage.",
+        "sector": "Automotive, Insurtech, AI",
+        "score": 88,
+        "inspired_by": "AI-powered vehicle inspection service",
+        "real_example": "Sheryl Sandberg leads $10 million investment in AI-powered vehicle inspection service",
+        "tr_status": "Turkey has a significant automotive sector, high car ownership, and a developing insurance market, ripe for efficiency improvements.",
+        "tr_idea": "Develop a mobile application that uses computer vision and AI to allow users (dealerships, insurance adjusters, individuals) to quickly scan a vehicle for damage, providing an instant report.",
+        "mvp": "A mobile app that identifies major body damage (dents, scratches) from uploaded photos and categorizes severity.",
+        "target": "Used car dealerships, insurance companies, rental car agencies, independent mechanics.",
+        "revenue": "Per-scan fee for individuals, subscription packages for businesses, API access for partners.",
+        "risks": "Accuracy in diverse lighting/environments, data privacy concerns, competition from existing manual processes.",
+        "why_now": "Turkey's automotive market demands quicker and more transparent inspection processes, and AI can provide significant cost and time savings for businesses."
+      },
+      {
+        "name": "Lokal Yolcu",
+        "emoji": "🇹🇷",
+        "oneLiner": "AI for hyper-personalized, budget-friendly Turkey travel.",
+        "sector": "Travel Tech, Tourism AI",
+        "score": 91,
+        "inspired_by": "AI-powered travel agency Fora",
+        "real_example": "AI-powered travel agency Fora hits unicorn status, raises $60M",
+        "tr_status": "Turkey is a major tourism destination; domestic travel is popular, but high inflation makes cost-saving crucial.",
+        "tr_idea": "Create a mobile-first AI travel planner that curates personalized itineraries, finds budget-friendly options, and offers real-time deals for domestic Turkish travelers and inbound tourists.",
+        "mvp": "A chatbot interface where users input preferences and budget, receiving a basic 3-day itinerary with accommodation and activity suggestions.",
+        "target": "Domestic Turkish tourists and international visitors seeking authentic, personalized, and budget-conscious travel experiences.",
+        "revenue": "Commission on bookings (flights, hotels, activities), premium subscription for advanced features/concierge, affiliate marketing.",
+        "risks": "Data accuracy for prices/availability, user trust in AI recommendations, competition from traditional agents and global platforms.",
+        "why_now": "With high inflation, Turks are more price-sensitive for travel, and tourists value personalized experiences, making an AI-driven cost-effective planner highly relevant."
+      },
+      {
+        "name": "Stüdyo AI",
+        "emoji": "🎬",
+        "oneLiner": "AI tools for localizing and optimizing Turkish media.",
+        "sector": "Media Tech, Creative AI",
+        "score": 87,
+        "inspired_by": "Ben Affleck’s AI filmmaking startup",
+        "real_example": "Netflix paid $587M for Ben Affleck’s AI filmmaking startup",
+        "tr_status": "Turkey has a booming TV and film production industry with significant international reach, but localization costs can be high.",
+        "tr_idea": "Develop an AI platform offering services like script localization/dubbing optimization, character voice generation, and cultural nuance checks for Turkish media content expanding globally or vice-versa.",
+        "mvp": "A tool that takes a Turkish script and suggests culturally appropriate English (or other language) translations and dubbing timings.",
+        "target": "Turkish film and TV production houses, animation studios, content creators, and international distributors targeting the Turkish market.",
+        "revenue": "SaaS subscription based on usage (e.g., per minute of content processed, per script), project-based fees for advanced features.",
+        "risks": "Quality concerns with AI-generated creative output, ethical considerations (e.g., AI voice clones), market adoption by traditionalists.",
+        "why_now": "The global demand for Turkish content is high, and AI can significantly reduce the cost and time of localization, making it more accessible and competitive."
+      }
+    ]
   }
 ]
