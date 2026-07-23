@@ -1528,5 +1528,90 @@
         "why_now": "The ongoing push for industrial automation in Turkey demands better human-AI interaction tools to maximize efficiency and adoption of AI agents."
       }
     ]
+  },
+  {
+    "date": "23 July 2026",
+    "opportunities": [
+      {
+        "name": "Proje Akıl",
+        "emoji": "🏗️",
+        "oneLiner": "AI-powered SaaS for construction & manufacturing project efficiency.",
+        "sector": "Construction Tech / Manufacturing SaaS",
+        "score": 90,
+        "inspired_by": "Cascade",
+        "real_example": "Cascade - raises $3.5M to help construction firms find and win projects.",
+        "tr_status": "Turkey has a robust construction and manufacturing sector, often struggling with project inefficiencies exacerbated by high inflation.",
+        "tr_idea": "Develop an AI-driven platform optimizing resource allocation, identifying delays, and suggesting cost-saving measures for Turkish construction or manufacturing projects. The platform would integrate with existing ERP systems and provide predictive analytics for project managers.",
+        "mvp": "A web and mobile application for construction project managers to input data, with an AI module providing risk assessments and optimization suggestions.",
+        "target": "Mid-to-large construction companies and manufacturing enterprises in Turkey.",
+        "revenue": "Subscription-based SaaS, tiered by project size/number of users.",
+        "risks": "Data integration challenges with legacy systems; user adoption resistance; need for accurate, localized cost data.",
+        "why_now": "High inflation makes cost efficiency and predictive budgeting critical for Turkish firms, while AI offers unprecedented optimization capabilities."
+      },
+      {
+        "name": "Güvenli Nokta",
+        "emoji": "📱",
+        "oneLiner": "AI endpoint security protecting Turkish mobile-first SMEs.",
+        "sector": "Cybersecurity",
+        "score": 88,
+        "inspired_by": "Glow",
+        "real_example": "Glow - emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era.",
+        "tr_status": "Turkey is highly mobile-first, with many SMEs relying on mobile devices for business but often with inadequate cybersecurity defenses.",
+        "tr_idea": "Build an AI-powered endpoint security solution specifically for Android and iOS devices used by Turkish SMEs, focusing on proactive threat detection, anti-ransomware, and phishing protection. Offer an easy-to-manage console tailored to local cyber threats.",
+        "mvp": "A mobile app (Android/iOS) with basic AI-powered malware detection and phishing link scanning, managed through a simple web dashboard for small business owners.",
+        "target": "Small and medium-sized enterprises (SMEs) in Turkey across various sectors.",
+        "revenue": "Monthly or annual subscription per user/device, tiered packages for different levels of protection.",
+        "risks": "Fierce competition from global players; constant need to update threat intelligence; user education.",
+        "why_now": "The increasing sophistication of AI-powered cyber attacks and the mobile-first nature of Turkish businesses demand advanced, accessible endpoint protection."
+      },
+      {
+        "name": "Akıllı Ödeme",
+        "emoji": "💳",
+        "oneLiner": "AI-powered payments & fraud detection for Turkish e-commerce.",
+        "sector": "Fintech / E-commerce",
+        "score": 92,
+        "inspired_by": "Natural",
+        "real_example": "Natural - raises $30M to reinvent payments for AI agents — and take on Stripe.",
+        "tr_status": "Turkey's e-commerce is growing at 30% annually, but payment processing costs and fraud remain significant challenges for merchants, especially with high inflation.",
+        "tr_idea": "Develop an AI-enhanced payment gateway or plug-in for popular e-commerce platforms in Turkey that processes efficiently and uses AI for real-time fraud detection and dynamic fee optimization. This would help merchants save costs and reduce losses.",
+        "mvp": "A payment gateway integration for common e-commerce platforms in Turkey, offering basic transaction processing with an AI module for detecting high-risk transactions.",
+        "target": "E-commerce businesses of all sizes in Turkey.",
+        "revenue": "Transaction-based fees, with a premium tier for advanced AI analytics and fraud protection services.",
+        "risks": "Regulatory compliance for financial services; building trust with merchants; competition from existing payment providers.",
+        "why_now": "The explosive growth of Turkish e-commerce combined with high inflation creates a strong demand for innovative, cost-saving payment solutions with advanced fraud protection."
+      },
+      {
+        "name": "Mahalle Sohbet",
+        "emoji": "🏘️",
+        "oneLiner": "Private, ad-free social network for Turkish local communities.",
+        "sector": "Social Media / Community Platforms",
+        "score": 80,
+        "inspired_by": "Yope",
+        "real_example": "Yope - raises $12.3M to build a private social network without algorithms or ads.",
+        "tr_status": "Turkey is mobile-first with high social media usage, but growing concerns about data privacy, algorithms, and ad saturation suggest a market for private, purpose-driven alternatives.",
+        "tr_idea": "Create a private, ad-free, algorithm-free social network focused on connecting specific local communities or hobby groups in Turkey, emphasizing real-world interaction and data privacy. This platform would offer a curated, trustworthy environment.",
+        "mvp": "A mobile app allowing users to create private groups based on location or interest, share updates, organize events, and direct message, with strong privacy controls and no algorithmic feed.",
+        "target": "Individuals looking for authentic, private connections within their specific local community or hobby group in Turkey.",
+        "revenue": "Freemium model (basic features free, premium for enhanced storage, advanced group management).",
+        "risks": "User acquisition and retention; network effect challenges; managing moderation in private groups.",
+        "why_now": "Increased awareness of data privacy and fatigue from mainstream social media algorithms create an opening for niche, trust-based community platforms in a mobile-first society."
+      },
+      {
+        "name": "Usta AI",
+        "emoji": "🛠️",
+        "oneLiner": "AI virtual coach for manufacturing workforce skill development.",
+        "sector": "EdTech / Industrial SaaS",
+        "score": 87,
+        "inspired_by": "Synthesia",
+        "real_example": "Synthesia’s AI training platform is moving beyond videos into live coaching.",
+        "tr_status": "Turkey has a strong manufacturing base that requires continuous upskilling and reskilling of its workforce to adopt new technologies and improve productivity.",
+        "tr_idea": "Develop an AI-powered interactive training platform tailored for manufacturing workers in Turkey, offering personalized modules on topics like machinery operation, safety protocols, and basic robotics. A virtual AI coach would provide feedback and track progress.",
+        "mvp": "A mobile-friendly web platform with interactive lessons and quizzes on basic manufacturing safety and machine operation, featuring an AI chatbot answering common questions and providing immediate feedback.",
+        "target": "Manufacturing companies (SMEs and large enterprises) in Turkey seeking to train and upskill their blue-collar workforce.",
+        "revenue": "Subscription-based for companies, tiered by number of users or specific training modules accessed.",
+        "risks": "Content localization and quality; convincing companies of ROI; digital literacy among some workers.",
+        "why_now": "Turkey's manufacturing sector needs to remain competitive, and AI offers a scalable, personalized, and cost-effective solution for continuous workforce development amidst rapid technological changes."
+      }
+    ]
   }
 ]
