@@ -1,0 +1,22 @@
+=== TIKTOK SCRIPT -- 24 July 2026 ===
+
+HOOK (ilk 3 saniye):
+Türkiye'de geleceğin işleri burada! Hadi 2026'nın en sıcak 3 iş fikrine bakalım!
+
+SCRIPT:
+Selam millet!
+Bugün 24 Temmuz 2026 ve Türkiye'nin geleceğini şekillendirecek 3 süper iş fırsatını konuşuyoruz.
+Birincisi, GüvenSigorta! Gig çalışan mısın?
+Enflasyon varken esnek, enflasyona endeksli sigorta harika değil mi?
+%92 başarı potansiyeliyle, mobil ekonomi için biçilmiş kaftan!
+İkincisi, KalkanAI! KOBİ'lerin siber güvenliği dert mi oldu?
+KalkanAI, uygun fiyatlı, yapay zeka destekli koruma sunuyor.
+Siber saldırılar artarken KOBİ'ler için can simidi! %90 potansiyel!
+Üçüncüsü, FabrikaAI! Türk fabrikaları Endüstri 4.0'a geçiyor.
+FabrikaAI'nın Edge AI modülleri sayesinde üretim daha akıllı, daha verimli.
+Maliyet düşürüp rekabeti artırıyor! %89 potansiyel!
+Bu 3 fırsat, Türkiye'nin geleceği için altın değerinde!
+Sen ne düşünüyorsun? Yorumlara yaz!
+
+CAPTIONS: Türkiye,İşFırsatları,Gelecek,Startup,YapayZeka,Sigorta,KOBİ,Endüstri40
+HASHTAGS: #Turkiye #Girisimcilik #StartupTR #YapayZeka #GigEkonomisi #SiberGuvenlik #FabrikaOtomasyonu #GelecekBurada #Kesfet #ParaKazan
