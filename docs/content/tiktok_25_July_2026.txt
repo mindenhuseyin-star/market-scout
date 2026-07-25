@@ -1,0 +1,22 @@
+=== TIKTOK SCRIPT -- 25 July 2026 ===
+
+HOOK (ilk 3 saniye):
+Türkiye'nin geleceği bu 3 fırsatta saklı! Duydunuz mu?
+
+SCRIPT:
+Merhaba millet! Bugün size 2026 Türkiye'sinin en bomba 3 iş fırsatını anlatacağım!
+İlk olarak, KOBİ'ler için siber güvenlik devi: Guardia AI!
+Pandemi sonrası dijitalleşme patladı, e-ticaret uçtu, siber saldırılar arttı.
+Guardia AI, yapay zeka gücüyle KOBİ'lerimizi uygun fiyata koruyor. Tam bir cankurtaran!
+Sıra geldi gençlere: VibeKod Akademi!
+Türkiye'nin genç nüfusu dijital beceriye aç. Geleceğin kodlama kahramanları burada yetişiyor.
+Oyunlaştırılmış, yapay zeka destekli eğitimle, mobilden kodlama öğrenmek artık çok eğlenceli!
+Yerel inovasyonu patlatacak, iş gücünü güçlendirecek.
+Ve son olarak, cebine dost: CepKoru!
+Yüksek enflasyon var, değil mi? İşte CepKoru, yapay zekayla kişiye özel, uygun fiyatlı mikro sigorta sunuyor.
+Gündelik hayatın risklerine karşı tam koruma, hem de mobilinle, kolayca!
+Hangi fırsat sana daha çok hitap etti? Yorumlarda bekliyorum!
+Unutma, Türkiye'nin geleceği bu projelerde!
+
+CAPTIONS: YapayZeka, SiberGüvenlik, Kodlama, MikroSigorta, TürkiyeFırsatları
+HASHTAGS: #Girisim #Turkiye #YapayZeka #Gelecek #Firsat #KOBI #Genclik
