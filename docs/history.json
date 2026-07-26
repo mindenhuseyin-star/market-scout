@@ -1783,5 +1783,90 @@
         "why_now": "Growing global and local concern over child online safety and digital well-being, combined with a mobile-first parenting demographic seeking smart solutions."
       }
     ]
+  },
+  {
+    "date": "26 July 2026",
+    "opportunities": [
+      {
+        "name": "KalkanAI",
+        "emoji": "🛡️",
+        "oneLiner": "AI-driven, affordable cybersecurity for Turkish SMEs.",
+        "sector": "Cybersecurity, SaaS, AI",
+        "score": 90,
+        "inspired_by": "AegisAI",
+        "real_example": "AegisAI - lands $36M to stop AI-driven spear phishing",
+        "tr_status": "Turkish SMEs are digitizing rapidly, increasing vulnerability to cyber threats without adequate protection.",
+        "tr_idea": "Develop a mobile-first, easy-to-use AI security suite providing real-time threat detection for common cyberattacks like phishing and malware, tailored for Turkish businesses. Offer it as a tiered SaaS product to be highly affordable for small businesses.",
+        "mvp": "Mobile app with AI-powered email scanning for phishing, secure browser extension, and basic device protection.",
+        "target": "Small to medium-sized enterprises (SMEs) in Turkey.",
+        "revenue": "Subscription-based SaaS (monthly/yearly tiers).",
+        "risks": "Rapidly evolving threat landscape requires constant AI model updates; user adoption by non-tech-savvy SMEs.",
+        "why_now": "Growing e-commerce and digital transformation among Turkish SMEs create urgent need for accessible cybersecurity solutions."
+      },
+      {
+        "name": "VerimliAI",
+        "emoji": "⚙️",
+        "oneLiner": "AI tools for Turkish businesses to boost efficiency.",
+        "sector": "Productivity Software, AI, SaaS",
+        "score": 88,
+        "inspired_by": "OpenAI’s new AI keypad",
+        "real_example": "OpenAI’s new AI keypad - fun for some coders",
+        "tr_status": "High inflation drives demand for cost-saving efficiency tools, and Turkish businesses need localized AI solutions.",
+        "tr_idea": "Create an AI assistant integrated with common Turkish business platforms, offering smart suggestions for Turkish language emails, data analysis, and task automation. Include a custom AI keypad for sector-specific phrases and coding patterns relevant to Turkish industries.",
+        "mvp": "Web and mobile app offering AI-powered email drafting, meeting summarization in Turkish, and custom quick-reply suggestions.",
+        "target": "Turkish small and medium businesses across various sectors.",
+        "revenue": "Freemium model with tiered subscription plans for advanced features.",
+        "risks": "AI accuracy in Turkish language nuances; competition from global players; data privacy concerns.",
+        "why_now": "High inflation and mobile-first workforce make efficiency-boosting, localized AI SaaS highly attractive for Turkish businesses."
+      },
+      {
+        "name": "GüvenceCEP",
+        "emoji": "📱",
+        "oneLiner": "Flexible, digital micro-insurance for mobile-first Turkey.",
+        "sector": "Insurtech, Fintech, Mobile",
+        "score": 92,
+        "inspired_by": "Corgi",
+        "real_example": "Insurance startup Corgi - raised more money at $4B",
+        "tr_status": "Turkey's mobile-first population and booming e-commerce lack tailored, easily accessible digital micro-insurance options.",
+        "tr_idea": "Develop a mobile app offering on-demand micro-insurance products for common digital risks like e-commerce purchase protection, mobile phone damage, and online transaction fraud. Leverage AI for instant quotes and streamlined claims.",
+        "mvp": "Mobile app for purchasing single-item e-commerce insurance and basic phone screen damage insurance with a fully digital claims process.",
+        "target": "Young, digitally native Turkish consumers and frequent e-commerce shoppers.",
+        "revenue": "Premium payments for micro-insurance policies.",
+        "risks": "Regulatory hurdles in insurance, building trust with a new digital model, effectively underwriting diverse micro-risks.",
+        "why_now": "Rapid e-commerce growth and high mobile penetration create a massive demand for convenient, digital-first insurance solutions."
+      },
+      {
+        "name": "GelecekKod",
+        "emoji": "🎓",
+        "oneLiner": "Teaching future-ready AI and 'vibe coding' skills.",
+        "sector": "Edtech, AI, Workforce Development",
+        "score": 87,
+        "inspired_by": "Edtech platform raises $4.5M to help teach students how to vibe code",
+        "real_example": "Edtech platform - raises $4.5M to help teach students how to vibe code",
+        "tr_status": "Turkey has a large youth population needing modern, practical tech skills to compete in an AI-driven job market.",
+        "tr_idea": "Launch a mobile-first, project-based learning platform teaching practical AI application, data ethics, and 'vibe coding' (intuitive, design-focused programming) relevant to Turkey's industrial and digital sectors. Partner with universities and companies for certifications.",
+        "mvp": "Online courses with interactive projects on introductory AI/ML concepts and practical applications, focusing on tools accessible to students.",
+        "target": "University students, recent graduates, and professionals in Turkey looking to reskill or upskill in AI and modern coding.",
+        "revenue": "Subscription for course access, premium certifications, corporate training programs.",
+        "risks": "Keeping curriculum updated with fast-changing tech, ensuring job market relevance, competition from free resources.",
+        "why_now": "The global shift towards AI-driven economies demands new skills, and Turkey's young population is eager for accessible, relevant education."
+      },
+      {
+        "name": "AkıllıTedarik",
+        "emoji": "🏭",
+        "oneLiner": "AI for smart supply chain and demand forecasting.",
+        "sector": "Industrial Tech, SaaS, AI, Supply Chain",
+        "score": 89,
+        "inspired_by": "ServiceNow bets $40 million on Indian banking software specialist",
+        "real_example": "ServiceNow bets $40 million on Indian banking software specialist",
+        "tr_status": "Turkey's strong manufacturing base and growing e-commerce face challenges from inflation and supply chain volatility, needing smart optimization.",
+        "tr_idea": "Develop an AI SaaS platform that integrates with existing ERP systems for Turkish manufacturers and large e-commerce players, providing predictive analytics for demand, inventory optimization, and supply chain risk assessment.",
+        "mvp": "Dashboard showing real-time inventory levels, basic demand forecasts based on historical data, and alerts for potential supply disruptions.",
+        "target": "Medium to large manufacturing companies and e-commerce logistics providers in Turkey.",
+        "revenue": "Enterprise SaaS subscriptions, custom implementation fees.",
+        "risks": "Data integration complexity with diverse legacy systems, accuracy of predictions, requiring significant investment in sales and support.",
+        "why_now": "High inflation and growing e-commerce necessitate data-driven efficiency in supply chains to maintain competitiveness in Turkey's manufacturing sector."
+      }
+    ]
   }
 ]
