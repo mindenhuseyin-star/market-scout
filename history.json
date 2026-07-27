@@ -1868,5 +1868,90 @@
         "why_now": "High inflation and growing e-commerce necessitate data-driven efficiency in supply chains to maintain competitiveness in Turkey's manufacturing sector."
       }
     ]
+  },
+  {
+    "date": "27 July 2026",
+    "opportunities": [
+      {
+        "name": "Kalkan Cyber",
+        "emoji": "🛡️",
+        "oneLiner": "AI-powered cyber defense for Turkey's digital businesses.",
+        "sector": "Cybersecurity",
+        "score": 90,
+        "inspired_by": "AegisAI",
+        "real_example": "AegisAI - landed $36M to stop AI-driven spear phishing",
+        "tr_status": "Turkey's e-commerce boom and mobile-first economy expose SMBs to increasing and sophisticated AI-driven cyber threats.",
+        "tr_idea": "Develop an affordable, easy-to-deploy AI cybersecurity platform specifically for Turkish SMBs, focusing on advanced phishing, deepfake and fraud detection for e-commerce and banking.",
+        "mvp": "Web-based platform offering real-time AI analysis of incoming emails and website traffic for phishing and fraud indicators.",
+        "target": "Small to medium-sized e-commerce businesses and professional services firms in Turkey.",
+        "revenue": "SaaS subscription model (tiered based on number of users/employees or data volume).",
+        "risks": "Rapid evolution of AI threats requires constant R&D investment and staying ahead of attackers.",
+        "why_now": "The increasing sophistication of AI-driven attacks combined with Turkey's digital growth makes robust, accessible defense essential."
+      },
+      {
+        "name": "OtomasyonPro",
+        "emoji": "⚙️",
+        "oneLiner": "AI automation to cut costs for Turkish SMEs.",
+        "sector": "Enterprise Software / SaaS",
+        "score": 88,
+        "inspired_by": "Monday.com / AI for layoffs trend",
+        "real_example": "Monday.com - blamed AI for layoffs, highlighting AI efficiency",
+        "tr_status": "High inflation in Turkey drives a strong need for cost-saving solutions, especially within its large manufacturing and e-commerce SME base.",
+        "tr_idea": "Offer an AI-powered process automation suite tailored for specific Turkish SME needs, such as intelligent customer support, inventory management, or simplified supply chain logistics.",
+        "mvp": "AI chatbot for customer service FAQs and order tracking, integrated with common e-commerce platforms.",
+        "target": "Manufacturing SMEs, e-commerce businesses, and service providers in Turkey.",
+        "revenue": "Subscription-based SaaS, with add-on modules for advanced features or higher usage.",
+        "risks": "Resistance to change from traditional businesses; data privacy concerns for sensitive operational data.",
+        "why_now": "The imperative for cost efficiency due to inflation and the availability of powerful AI tools create a perfect storm for adoption."
+      },
+      {
+        "name": "Veri Gücü",
+        "emoji": "⚡",
+        "oneLiner": "Sustainable AI infrastructure for Turkey's growing AI needs.",
+        "sector": "AI Hardware / Data Centers",
+        "score": 87,
+        "inspired_by": "Etched / AI data center problem",
+        "real_example": "Etched - AI chip startup hits $10.3B valuation; AI data center power issues.",
+        "tr_status": "Turkey's nascent AI sector requires robust, localized, and energy-efficient data infrastructure, which is currently lacking, leading to reliance on foreign providers.",
+        "tr_idea": "Develop and deploy energy-efficient mini-data centers or specialized AI inference compute clusters using a hybrid model that can leverage Turkey's manufacturing base for components.",
+        "mvp": "Cloud-based GPU and AI inference hosting services tailored for local startups and research institutions, emphasizing energy efficiency.",
+        "target": "AI startups, research institutions, and large enterprises in Turkey with growing AI workloads.",
+        "revenue": "Pay-as-you-go cloud compute services, dedicated server leases, or managed AI infrastructure contracts.",
+        "risks": "High capital expenditure for hardware; competition from global cloud providers; securing stable, green energy sources.",
+        "why_now": "The global bottleneck in AI infrastructure and power constraints, coupled with Turkey's desire for digital sovereignty, makes local solutions critical."
+      },
+      {
+        "name": "Kolay Sigorta",
+        "emoji": "👛",
+        "oneLiner": "Flexible, mobile-first micro-insurance for digital Turks.",
+        "sector": "Insurtech",
+        "score": 92,
+        "inspired_by": "Corgi",
+        "real_example": "Corgi - insurance startup raised $4B in 8 weeks",
+        "tr_status": "Turkey's mobile-first, e-commerce-driven population is underserved by traditional, complex insurance offerings and seeks instant, personalized solutions.",
+        "tr_idea": "Launch a mobile application offering on-demand, flexible micro-insurance products for everyday digital risks like e-commerce purchase protection, phone screen damage, or short-term travel.",
+        "mvp": "Mobile app allowing purchase of single-event or monthly micro-insurance for mobile devices with instant claim submission via photo/video.",
+        "target": "Young, digitally native individuals and frequent e-commerce users in Turkey.",
+        "revenue": "Premium sales (subscription or single-purchase), commission from underwriting partners.",
+        "risks": "Regulatory hurdles in the insurance sector; building trust in a new digital insurance brand; strong competition from established players if they adapt.",
+        "why_now": "High e-commerce growth, mobile penetration, and a demand for flexible financial products make digital micro-insurance highly relevant."
+      },
+      {
+        "name": "Akıllı Kodcu",
+        "emoji": "🧠",
+        "oneLiner": "Teach Turkey's youth AI and creative coding skills.",
+        "sector": "EdTech",
+        "score": 89,
+        "inspired_by": "Edtech platform for 'vibe code'",
+        "real_example": "Edtech platform - raises $4.5M to help teach students how to vibe code",
+        "tr_status": "Turkey has a young, mobile-first population with a clear need for future-ready skills in AI, data science, and creative technology, currently taught by traditional methods.",
+        "tr_idea": "Create an engaging, gamified mobile EdTech platform focused on teaching practical AI application, prompt engineering, and creative coding ('vibe coding') to K-12 and university students.",
+        "mvp": "Interactive mobile app with gamified modules on Python basics, AI model interaction, and creating simple AI art/music projects.",
+        "target": "Turkish students aged 10-22, parents, and schools looking for supplementary tech education.",
+        "revenue": "Freemium model with paid subscriptions for advanced courses, project mentorship, and certification.",
+        "risks": "Maintaining engagement; rapidly updating curriculum to keep pace with AI advancements; competition from global online learning platforms.",
+        "why_now": "The rapid advancement of AI makes these skills indispensable, and Turkey's young, mobile-savvy population is eager for accessible, relevant education."
+      }
+    ]
   }
 ]
