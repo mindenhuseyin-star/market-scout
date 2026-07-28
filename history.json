@@ -1953,5 +1953,90 @@
         "why_now": "The rapid advancement of AI makes these skills indispensable, and Turkey's young, mobile-savvy population is eager for accessible, relevant education."
       }
     ]
+  },
+  {
+    "date": "28 July 2026",
+    "opportunities": [
+      {
+        "name": "KalkanAI",
+        "emoji": "🛡️",
+        "oneLiner": "AI-driven cyber defense for Turkish SMEs",
+        "sector": "Cybersecurity, SaaS",
+        "score": 90,
+        "inspired_by": "AegisAI",
+        "real_example": "AegisAI - lands $36M to stop AI-driven spear phishing",
+        "tr_status": "Turkish SMEs are increasingly digital but often lack advanced, affordable cybersecurity solutions.",
+        "tr_idea": "Develop an AI agentic cybersecurity platform tailored for Turkish SMEs, offering affordable and automated protection against prevalent threats like phishing and data breaches.",
+        "mvp": "Cloud-based agent monitoring email and network traffic for anomalies, integrating with common SME tools.",
+        "target": "Small to medium-sized e-commerce businesses, local manufacturing firms, and service providers in Turkey.",
+        "revenue": "Subscription-based SaaS, tiered pricing based on number of employees or endpoints.",
+        "risks": "Building trust in AI-driven security, potential competition from global players if they localize significantly.",
+        "why_now": "Rapid e-commerce growth and digital transformation in Turkey make SMEs prime targets; high inflation drives demand for cost-efficient solutions."
+      },
+      {
+        "name": "AkıllıSatış",
+        "emoji": "📈",
+        "oneLiner": "Boost Turkish e-commerce with AI optimization",
+        "sector": "E-commerce, SaaS, AI",
+        "score": 95,
+        "inspired_by": "Google's AI search, Runway",
+        "real_example": "Google’s AI search is rapidly becoming the default; Runway launches AI model router as generative media gets crowded",
+        "tr_status": "Turkish e-commerce is growing 30% annually, but many businesses lack sophisticated AI-driven optimization tools.",
+        "tr_idea": "Provide an AI suite that analyzes market trends, optimizes product descriptions and pricing, and personalizes customer experience for Turkish e-commerce sites.",
+        "mvp": "AI-powered product description generator in Turkish and English, dynamic pricing suggestions based on competitor analysis.",
+        "target": "E-commerce businesses of all sizes selling to the Turkish market or internationally from Turkey.",
+        "revenue": "Subscription tiers based on Gross Merchandise Volume (GMV) or feature usage.",
+        "risks": "Navigating data privacy regulations, ensuring accuracy of AI recommendations, and overcoming resistance to new technologies.",
+        "why_now": "Exploding e-commerce in Turkey, combined with mobile-first users, demands sophisticated, AI-driven personalization and efficiency to stay competitive."
+      },
+      {
+        "name": "ÜretimRobotik",
+        "emoji": "🤖",
+        "oneLiner": "Simplified robot control for Turkish factories",
+        "sector": "Industrial Automation, Manufacturing, SaaS/Hardware",
+        "score": 88,
+        "inspired_by": "Enigma",
+        "real_example": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
+        "tr_status": "Turkey has a strong manufacturing base, but SME automation adoption can be low due to perceived complexity and cost.",
+        "tr_idea": "Develop intuitive, low-code/no-code software and integrated hardware to simplify programming and operation of industrial robots for Turkish SMEs.",
+        "mvp": "Universal robot control interface compatible with common industrial robot brands, offering a basic task programming GUI.",
+        "target": "Small to medium-sized manufacturing companies in automotive, textiles, and other sectors needing process automation.",
+        "revenue": "Software licensing, integration services, optional hardware sales/leasing.",
+        "risks": "High upfront R&D costs, competition from established automation giants, and the need for skilled technicians for installation and support.",
+        "why_now": "High inflation in Turkey drives urgency for manufacturers to increase efficiency and reduce labor costs through accessible automation solutions."
+      },
+      {
+        "name": "VeriRota",
+        "emoji": "🧠",
+        "oneLiner": "Secure AI infrastructure for Turkish developers",
+        "sector": "AI Infrastructure, Cloud Services, SaaS",
+        "score": 87,
+        "inspired_by": "Runway, Smart Systems Stage",
+        "real_example": "Runway launches AI model router as generative media gets crowded; Smart Systems Stage agenda at TechCrunch Disrupt 2026",
+        "tr_status": "Turkey has growing AI talent and startups, but often relies on foreign cloud providers which may present data sovereignty or latency issues.",
+        "tr_idea": "Offer a secure, local cloud-based platform for AI model deployment, routing, and management, ensuring data sovereignty and low latency for Turkish businesses.",
+        "mvp": "Core AI model routing service, API access, basic monitoring dashboard, and support for common ML frameworks.",
+        "target": "Turkish AI startups, enterprise AI teams, and academic research institutions.",
+        "revenue": "Usage-based pricing (compute, storage, traffic), tiered subscription for advanced features.",
+        "risks": "Intense competition from global cloud providers, high infrastructure costs, and the need for robust security and compliance.",
+        "why_now": "Increasing focus on data sovereignty, demand for low-latency AI, and a burgeoning local AI ecosystem create a need for specialized local infrastructure."
+      },
+      {
+        "name": "KoruBütçe",
+        "emoji": "💰",
+        "oneLiner": "Fight inflation with smart mobile finance",
+        "sector": "Fintech, Insurtech, Mobile Apps",
+        "score": 93,
+        "inspired_by": "Corgi, Smart Money Stage",
+        "real_example": "Insurance startup Corgi reportedly raised more money at $4B — its third round in 8 weeks; TechCrunch Disrupt 2026’s new Smart Money Stage explores fintech, payments, AI",
+        "tr_status": "High inflation significantly impacts daily financial well-being in Turkey, and a mobile-first population needs accessible solutions.",
+        "tr_idea": "A mobile-first fintech app providing inflation-indexed savings, micro-investment options, personalized budget management, and embedded micro-insurance for everyday financial risks.",
+        "mvp": "User-friendly budgeting tool, inflation tracking dashboard, and basic savings product linked to inflation-adjusted assets.",
+        "target": "Turkish individuals and families, especially those on fixed incomes, looking to protect and grow their savings.",
+        "revenue": "Small transaction fees on investments, premium features subscription, and commission from partner insurance products.",
+        "risks": "Navigating complex regulatory hurdles, building user trust in a volatile economic environment, and competing with traditional banks.",
+        "why_now": "Persistent high inflation makes financial planning and inflation-protected savings a critical need for millions of mobile-first Turkish citizens."
+      }
+    ]
   }
 ]

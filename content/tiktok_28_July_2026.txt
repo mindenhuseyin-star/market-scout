@@ -1,0 +1,29 @@
+=== TIKTOK SCRIPT -- 28 July 2026 ===
+
+HOOK (ilk 3 saniye):
+2026 Türkiye'de iş kurmak mı istiyorsun? Bu 3 fikirle köşeyi dönebilirsin! Hemen dinle!
+
+SCRIPT:
+Selam millet! Bugün 28 Temmuz 2026.
+Türkiye'de patlama yapacak 3 iş fırsatını açıklıyorum!
+Birincisi: AkıllıSatış. E-ticaret mi? Evet!
+Türkiye'de e-ticaret acayip hızlı büyüyor.
+Ama kişiselleştirme ve verimlilik eksik.
+AkıllıSatış, AI ile e-ticareti optimize ediyor.
+Müşteriye özel ürünler, daha az atık, daha çok kazanç!
+İkincisi: KoruBütçe. Enflasyon mu? Maalesef evet!
+KoruBütçe, mobil finans uygulaması.
+Cebini koru, enflasyona dur de!
+Akıllı bütçeleme, enflasyona karşı korumalı birikimler.
+Herkesin ihtiyacı var!
+Üçüncüsü: KalkanAI. KOBİ'ler dikkat!
+Siber saldırılar korkutucu, değil mi?
+Özellikle küçük işletmeler hedefte.
+KalkanAI, yapay zeka ile KOBİ'leri koruyor.
+Hem uygun fiyatlı hem de çok etkili bir siber güvenlik çözümü.
+Dijitalleşen Türkiye'nin kalkanı!
+Bu 3 iş fikriyle Türkiye'de geleceği şekillendir!
+Hadi, sen ne düşünüyorsun?
+
+CAPTIONS: AkıllıSatış, KoruBütçe, KalkanAI, Türkiye, 2026
+HASHTAGS: #isFirsatlari #Girisimci #Turkiye #Startup #YapayZeka #Egirisim #MobilFinans #SiberGuvenlik #KOBILER
