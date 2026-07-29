@@ -1,0 +1,35 @@
+=== TIKTOK SCRIPT -- 29 July 2026 ===
+
+HOOK (ilk 3 saniye):
+Duyduk duymadık demeyin! Türkiye'de 2026'nın en parlayan 3 iş fikri geliyor! Hazır olun, çünkü bunlar geleceğimizi şekillendirecek!
+
+SCRIPT:
+Hop! Dur bir saniye! Türkiye'de önümüzdeki dönemde hangi işler patlama yapacak biliyor musun?
+İşte sana 2026'nın en sıcak 3 fırsatı!
+Birincisi: TürkSes AI!
+Kendi sesinle içerik üretmek ister misin?
+Podcast'ler, YouTube videoları, reklamlar...
+Türkçe yapay zeka ses modelleriyle yaratıcılığını konuştur!
+Artık herkes kendi sesini klonlayıp markasına özel içerikler üretebilecek.
+Yerelleşme ve AI birleşince ortaya çıkan bu güç, içerik dünyasını değiştirecek!
+İkincisi: AgentKalkan!
+Yapay zeka hayatımızda her yerde, peki ya güvenliği?
+Şirketler, AI ajanlarınız ve verileriniz ne kadar güvende?
+AgentKalkan, Türk işletmeleri için özel olarak tasarlandı.
+Veri gizliliği, siber güvenlik, KVKK uyumluluğu...
+AI ajanı kullanan her şirketin olmazsa olmazı olacak!
+Verileriniz emin ellerde!
+Üçüncüsü: CihazKolay!
+Enflasyon cebimizi mi yakıyor?
+Yeni bir telefon almak hayal mi oluyor?
+CihazKolay tam da bu yüzden var!
+Uygun fiyatlarla mobil cihaz kiralama imkanı!
+Telefonlar, tabletler, hepsi abonelikle kapında!
+Hem bireyler hem de KOBİ'ler için büyük kolaylık!
+Teknolojiye erişim artık lüks değil, herkesin hakkı!
+Bu üç fırsat, Türkiye'nin geleceğini inşa ediyor!
+Sen hangisini daha çok beğendin?
+Yorumlarda bize katıl!
+
+CAPTIONS: 2026 Türkiye, İş Fırsatları, Yapay Zeka, Enflasyon Çözümü, Teknoloji Kiralama
+HASHTAGS: #Türkiye #GeleceginIsleri #YapayZeka #AgentKalkan #CihazKolay #TürkSesAI #Enflasyon #Teknoloji #Girisimcilik #StartupTR
