@@ -2038,5 +2038,90 @@
         "why_now": "Persistent high inflation makes financial planning and inflation-protected savings a critical need for millions of mobile-first Turkish citizens."
       }
     ]
+  },
+  {
+    "date": "29 July 2026",
+    "opportunities": [
+      {
+        "name": "TürkSes AI",
+        "emoji": "🎤",
+        "oneLiner": "Local AI voice models for Turkish creators and businesses.",
+        "sector": "AI, Media & Entertainment",
+        "score": 85,
+        "inspired_by": "Fish Audio",
+        "real_example": "Fish Audio raises $52M seed to build AI voice models",
+        "tr_status": "Turkey has a vibrant content creator scene and enterprises need localized AI solutions.",
+        "tr_idea": "Develop high-quality, natural-sounding Turkish AI voice models for dubbing, audiobooks, and customer service. Offer a platform for creators and businesses to generate localized audio content effortlessly.",
+        "mvp": "Web platform for text-to-speech in Turkish, offering various voice profiles and emotion adjustments.",
+        "target": "Content creators, podcasters, e-learning platforms, small-to-medium enterprises (SMEs).",
+        "revenue": "Subscription tiers based on usage (characters, voice profiles, advanced features).",
+        "risks": "Quality of AI voice, competition from global players if they localize effectively, ethical concerns of deepfake audio.",
+        "why_now": "Growing demand for localized content and AI tools, combined with increasing mobile-first consumption."
+      },
+      {
+        "name": "AgentKalkan",
+        "emoji": "🛡️",
+        "oneLiner": "Secure AI agents and data privacy for Turkish enterprises.",
+        "sector": "Cybersecurity, AI Governance",
+        "score": 85,
+        "inspired_by": "Cyera acquires Oasis Security",
+        "real_example": "Cyera acquires Oasis Security for $1B to safeguard proliferating AI agents",
+        "tr_status": "Turkish businesses are increasingly adopting AI, creating new data security and privacy challenges.",
+        "tr_idea": "Provide a SaaS platform offering threat detection, access control, and data leakage prevention specifically for AI agents and the data they process. Focus on compliance with local data protection regulations.",
+        "mvp": "Cloud-based dashboard for monitoring AI agent interactions, identifying sensitive data usage, and flagging anomalous behavior.",
+        "target": "Mid-market and large enterprises using AI agents, especially those handling sensitive customer data or intellectual property.",
+        "revenue": "Subscription-based model (per AI agent, per user, or per data volume monitored).",
+        "risks": "Rapid evolution of AI security threats, difficulty in integrating with diverse enterprise AI stacks, talent acquisition for specialized cybersecurity and AI roles.",
+        "why_now": "Proliferation of AI agents in enterprise and the increasing regulatory scrutiny on data privacy demands proactive security solutions."
+      },
+      {
+        "name": "CihazKolay",
+        "emoji": "📱",
+        "oneLiner": "Affordable mobile device leasing for consumers and SMEs.",
+        "sector": "Fintech, E-commerce",
+        "score": 85,
+        "inspired_by": "Apple launches ‘Upgrade’ device leasing program with Klarna",
+        "real_example": "Apple launches ‘Upgrade’ device leasing program in partnership with Klarna",
+        "tr_status": "High inflation makes purchasing new smartphones and devices very expensive for the mobile-first population.",
+        "tr_idea": "Offer a subscription-based device leasing program for latest smartphones and tablets, allowing users to upgrade regularly without large upfront costs. Include insurance and maintenance options.",
+        "mvp": "Online platform for selecting devices, credit assessment, and managing subscriptions, starting with popular mid-range smartphones.",
+        "target": "Price-sensitive consumers, young professionals, small businesses and freelancers.",
+        "revenue": "Monthly subscription fees for device leasing, optional add-ons (insurance, repairs).",
+        "risks": "Credit risk assessment in an inflationary environment, logistics of device recovery and re-leasing, competition from telco-subsidized plans.",
+        "why_now": "High inflation significantly impacts purchasing power, making subscription-based access to essential tech highly attractive."
+      },
+      {
+        "name": "ÜretimRobot",
+        "emoji": "🤖",
+        "oneLiner": "Simplified, no-code control software for industrial robots.",
+        "sector": "Industrial Automation, SaaS",
+        "score": 85,
+        "inspired_by": "Enigma",
+        "real_example": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
+        "tr_status": "Turkey has a strong manufacturing base, but SMEs often lack the expertise or budget for complex robot programming.",
+        "tr_idea": "Develop a user-friendly, visual programming interface (no-code/low-code) for common industrial robots, specifically tailored for Turkish manufacturers. Integrate with existing production lines easily.",
+        "mvp": "Software platform with drag-and-drop interface for controlling a specific brand/type of collaborative robot for basic pick-and-place tasks.",
+        "target": "Small and medium-sized manufacturers in automotive, textiles, and food processing industries.",
+        "revenue": "Software licensing fees (subscription-based or one-time) and optional training/integration services.",
+        "risks": "Integration complexity with diverse robot hardware, training and support requirements, slow adoption by traditional manufacturers.",
+        "why_now": "Increased pressure on manufacturing efficiency and cost reduction, alongside a growing need to democratize automation for SMEs."
+      },
+      {
+        "name": "E-TicaretKalkan",
+        "emoji": "🛍️",
+        "oneLiner": "Combat e-commerce bots and fraud for Turkish online stores.",
+        "sector": "Cybersecurity, E-commerce SaaS",
+        "score": 85,
+        "inspired_by": "Spur",
+        "real_example": "Bot-detection startup Spur nabs $200M from Insight",
+        "tr_status": "Turkey's e-commerce market is rapidly growing (30%/yr), leading to increased bot activity and fraud attempts.",
+        "tr_idea": "Offer an AI-powered SaaS solution that detects and mitigates various bot activities like scraping, credential stuffing, and fake accounts, along with real-time fraud prevention for online transactions.",
+        "mvp": "API-based integration for popular e-commerce platforms (e.g., Shopify, WooCommerce, local platforms) to detect and block malicious bots during checkout and login.",
+        "target": "E-commerce businesses, online marketplaces, and digital service providers in Turkey.",
+        "revenue": "Tiered subscription model based on traffic volume, number of protected transactions, or features.",
+        "risks": "Evolving bot tactics requiring constant updates, potential for false positives affecting legitimate users, competition from global solutions.",
+        "why_now": "Exploding e-commerce growth makes fraud and bot protection critical for maintaining trust, operational efficiency, and profitability."
+      }
+    ]
   }
 ]
