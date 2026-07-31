@@ -2208,5 +2208,90 @@
         "why_now": "Increasing global awareness of screen addiction and mental health impacts creates a growing market for purposeful 'anti-smartphone' devices."
       }
     ]
+  },
+  {
+    "date": "31 July 2026",
+    "opportunities": [
+      {
+        "name": "AI Securitas",
+        "emoji": "🛡️",
+        "oneLiner": "AI-driven cyber defense for Turkish SMEs, cost-effective.",
+        "sector": "Cybersecurity, SaaS",
+        "score": 90,
+        "inspired_by": "Inforcer",
+        "real_example": "Inforcer - raises $50M",
+        "tr_status": "Turkish SMEs are rapidly digitizing but often lack dedicated cybersecurity expertise and budget.",
+        "tr_idea": "A subscription-based AI platform providing proactive threat detection, vulnerability management, and automated incident response tailored for local business needs and regulations. Focus on ease of use and affordability.",
+        "mvp": "Basic SaaS platform offering automated daily vulnerability scans, real-time threat alerts for common attack vectors, and simple compliance reporting templates.",
+        "target": "E-commerce SMBs, small manufacturing firms, professional service providers.",
+        "revenue": "Tiered subscription model (freemium/basic/premium).",
+        "risks": "High competition from global players, difficulty in building trust without a track record.",
+        "why_now": "Rapid e-commerce growth and increasing digitization expose SMEs to more risks, making cost-effective security solutions crucial."
+      },
+      {
+        "name": "Simülatör",
+        "emoji": "🤖",
+        "oneLiner": "Synthetic user data for robust e-commerce and app testing.",
+        "sector": "Software Testing, AI",
+        "score": 88,
+        "inspired_by": "Simile",
+        "real_example": "Simile - raises $200M at $2B valuation",
+        "tr_status": "Turkey's mobile-first and e-commerce boom necessitates rigorous testing for app and website quality, often a manual and expensive process.",
+        "tr_idea": "Develop an AI platform generating realistic synthetic user behaviors and profiles for stress testing, A/B testing, and UI/UX validation of Turkish e-commerce sites and mobile applications. It should understand local user patterns.",
+        "mvp": "A web platform allowing developers to define user personas and scenarios, then generate synthetic user traffic and interactions for a given URL or mobile app API, with basic performance reports.",
+        "target": "E-commerce companies, mobile app developers, digital agencies in Turkey.",
+        "revenue": "Usage-based pricing (e.g., per synthetic user hour or scenario run) and tiered subscriptions for advanced features.",
+        "risks": "Accuracy of synthetic data, trust in AI-generated insights, need for substantial computing power.",
+        "why_now": "Surging e-commerce and mobile app development requires faster, more reliable, and scalable testing methods that AI can provide."
+      },
+      {
+        "name": "Üretim Zeka",
+        "emoji": "⚙️",
+        "oneLiner": "AI-powered predictive maintenance for Turkish manufacturers.",
+        "sector": "Industrial AI, SaaS",
+        "score": 92,
+        "inspired_by": "Tesla",
+        "real_example": "Tesla - made its 10 millionth EV",
+        "tr_status": "Turkey has a robust manufacturing base, but many factories still rely on reactive maintenance, leading to costly downtime in a high-inflation environment.",
+        "tr_idea": "A cloud-based AI platform that integrates with existing factory sensors to analyze machine data, predict equipment failures before they occur, and optimize maintenance schedules. This will significantly reduce operational costs and downtime.",
+        "mvp": "Sensor integration kit and a dashboard displaying real-time machine health, anomaly detection alerts, and basic remaining useful life (RUL) predictions for critical machinery types.",
+        "target": "Mid-sized to large manufacturing plants in automotive, textiles, and white goods sectors.",
+        "revenue": "Hardware installation cost (sensors) + monthly/annual SaaS subscription based on number of machines/data points.",
+        "risks": "Integration complexity with legacy systems, data privacy concerns, initial capital expenditure for sensors.",
+        "why_now": "High inflation makes cost-saving and efficiency paramount; AI-driven predictive maintenance offers significant ROI by reducing unexpected breakdowns and optimizing resource use."
+      },
+      {
+        "name": "Dijital Kalkan",
+        "emoji": "🛡️",
+        "oneLiner": "AI for Turkish content moderation, combating 'slop'.",
+        "sector": "AI, Content Moderation, SaaS",
+        "score": 87,
+        "inspired_by": "LinkedIn",
+        "real_example": "LinkedIn - adds a button to report AI-generated 'slop'",
+        "tr_status": "Turkey's mobile-first population drives high engagement on local social platforms and e-commerce sites, creating a need for effective content quality control against spam and AI-generated misinformation.",
+        "tr_idea": "An AI-powered content moderation API or SaaS platform specifically trained on Turkish language nuances, slang, and cultural context to detect AI-generated spam, fake reviews, misinformation, and harmful content across various online platforms.",
+        "mvp": "API service that takes Turkish text/image inputs and returns a confidence score for 'slop,' hate speech, or spam, with adjustable sensitivity and real-time reporting dashboard.",
+        "target": "Turkish social media platforms, e-commerce sites with user reviews, local forums, online news portals.",
+        "revenue": "Transaction-based pricing (per API call) or tiered subscription based on volume of content processed.",
+        "risks": "Ethical considerations, potential for bias in AI, continuous need for model retraining due to evolving content trends.",
+        "why_now": "The proliferation of AI-generated content ('slop') and growing online activity in Turkey creates an urgent demand for specialized, localized moderation tools to maintain platform integrity."
+      },
+      {
+        "name": "Denge",
+        "emoji": "🧘‍♀️",
+        "oneLiner": "AI wearable for digital balance, reducing screen time.",
+        "sector": "Consumer Electronics, AI, Health Tech",
+        "score": 80,
+        "inspired_by": "Friend",
+        "real_example": "Friend - the lonely AI wearable, returns with a new voice and a much bigger price tag",
+        "tr_status": "While mobile-first, there's growing awareness in Turkey about the negative impacts of excessive screen time, creating a niche for digital well-being solutions.",
+        "tr_idea": "Develop an aesthetically pleasing, minimalistic AI wearable (e.g., smart ring or bracelet) that helps users monitor screen time, provides gentle reminders for breaks, suggests offline activities, and offers basic stress insights, all in a culturally relevant context.",
+        "mvp": "A smart bracelet connected to a mobile app. The bracelet vibrates for screen time thresholds, and the app tracks usage and offers simple 'mindful break' suggestions.",
+        "target": "Tech-savvy individuals, parents concerned about screen time, corporate wellness programs, young professionals.",
+        "revenue": "Device sales + optional premium subscription for advanced AI coaching, personalized insights, or integrated wellness programs.",
+        "risks": "High manufacturing costs, competition from global smartwatches, user adoption challenges for a 'less tech' device.",
+        "why_now": "Increasing concerns over screen addiction (highlighted by Light founders) and the emergence of specialized AI wearables (Friend) create a market for locally adapted digital well-being tools."
+      }
+    ]
   }
 ]
