@@ -2293,5 +2293,90 @@
         "why_now": "Increasing concerns over screen addiction (highlighted by Light founders) and the emergence of specialized AI wearables (Friend) create a market for locally adapted digital well-being tools."
       }
     ]
+  },
+  {
+    "date": "01 August 2026",
+    "opportunities": [
+      {
+        "name": "KOBİGuard AI",
+        "emoji": "🛡️",
+        "oneLiner": "AI for SME cybersecurity, compliance, and fraud detection.",
+        "sector": "B2B SaaS, Cybersecurity, AI",
+        "score": 90,
+        "inspired_by": "Inforcer",
+        "real_example": "Inforcer - raises $50M to help prepare smaller businesses for a new world of AI and security risks.",
+        "tr_status": "Turkish SMEs are a significant economic driver but often lack dedicated cybersecurity budgets and expertise, making them vulnerable.",
+        "tr_idea": "Develop an accessible, subscription-based AI platform tailored for Turkish SMEs to identify and mitigate cyber threats, automate compliance checks, and detect internal financial irregularities. Focus on cost-effectiveness given high inflation.",
+        "mvp": "Web platform with basic AI-driven anomaly detection for network logs and financial transactions, compliance checklist automation, and simple threat alerts.",
+        "target": "Small to medium-sized manufacturing companies, e-commerce businesses, and service providers in Turkey.",
+        "revenue": "Tiered subscription model (SaaS) based on number of users/employees or features.",
+        "risks": "Low initial adoption due to lack of awareness or perceived cost, data privacy concerns, evolving cyber threats.",
+        "why_now": "High inflation makes cost-saving AI attractive, and growing digital adoption increases SME vulnerability to cyber risks."
+      },
+      {
+        "name": "Konuşkan AI",
+        "emoji": "🗣️",
+        "oneLiner": "Human-like, ultra-fast Turkish voice AI for customer service.",
+        "sector": "AI, Customer Service, B2B SaaS",
+        "score": 88,
+        "inspired_by": "Smallest.ai",
+        "real_example": "Smallest.ai - raises $13M to build ultra-fast voice AI that sounds genuinely human.",
+        "tr_status": "Call centers and e-commerce businesses in Turkey face challenges with customer service efficiency and need advanced, natural-sounding voice solutions for Turkish.",
+        "tr_idea": "Create a high-fidelity, ultra-fast voice AI engine specifically trained on Turkish language nuances and dialects, offering premium features like emotional intelligence and complex query resolution for a paywall. Integrate with existing CRM and call center software.",
+        "mvp": "API for text-to-speech and speech-to-text in Turkish with human-like intonation, basic virtual agent capable of handling FAQs for a specific industry (e.g., banking or e-commerce).",
+        "target": "Large e-commerce platforms, telecommunication companies, banks, and customer service centers in Turkey.",
+        "revenue": "Per-minute usage fees, tiered subscription based on advanced features or call volume, setup and integration services.",
+        "risks": "High R&D costs for language model training, competition from global players, convincing businesses of ROI for premium features.",
+        "why_now": "Mobile-first economy drives demand for efficient digital interactions; high inflation pushes businesses to automate and optimize customer service costs."
+      },
+      {
+        "name": "Jet Bisiklet",
+        "emoji": "🚴",
+        "oneLiner": "Affordable, durable e-bikes for Turkey's last-mile delivery.",
+        "sector": "Manufacturing, Logistics, Micromobility",
+        "score": 92,
+        "inspired_by": "Rivian spinoff Also",
+        "real_example": "Rivian spinoff Also - to start delivering e-bikes after months of delays.",
+        "tr_status": "Turkey has a robust manufacturing base and rapidly growing e-commerce, creating high demand for efficient and cost-effective last-mile delivery solutions.",
+        "tr_idea": "Establish a local manufacturing facility for electric cargo bikes and personal e-bikes, designed for durability and cost-efficiency in urban Turkish conditions, coupled with an integrated fleet management and delivery app for businesses. Focus on local production to mitigate import costs.",
+        "mvp": "A prototype durable electric cargo bike for testing with local delivery companies, accompanied by a basic mobile app for tracking and route optimization.",
+        "target": "Food delivery services, courier companies, e-commerce retailers, and individual urban commuters in Turkey.",
+        "revenue": "Direct sales of e-bikes, leasing options for businesses, subscription for fleet management software, maintenance services.",
+        "risks": "Competition from traditional motorcycles/scooters, infrastructure challenges for charging, initial capital expenditure for manufacturing.",
+        "why_now": "E-commerce boom demands faster, cheaper delivery; rising fuel costs and inflation make electric alternatives highly attractive; Turkey's manufacturing prowess provides a competitive edge."
+      },
+      {
+        "name": "Tedarik Zeka",
+        "emoji": "📦",
+        "oneLiner": "AI for predicting supply chain disruptions and optimizing inventory.",
+        "sector": "B2B SaaS, Logistics, AI",
+        "score": 89,
+        "inspired_by": "Samsung's memory shortage",
+        "real_example": "Samsung expects memory shortage to worsen through 2027 and last until 2028. Apple stockpiles inventory as it braces for ‘significant supply constraints’.",
+        "tr_status": "Turkish manufacturers and e-commerce businesses are exposed to global supply chain volatility and inflationary pressures, making efficient inventory and logistics critical.",
+        "tr_idea": "Develop an AI-powered SaaS platform that leverages local and global data to forecast supply chain disruptions, optimize inventory levels for Turkish businesses, and suggest alternative sourcing strategies to reduce costs and increase resilience. Customize for local market dynamics.",
+        "mvp": "Dashboard with predictive analytics for key raw materials or products, automated reorder point suggestions, and basic scenario planning for small-scale manufacturers or e-commerce sellers.",
+        "target": "Mid-to-large scale manufacturers, e-commerce warehouses, and logistics companies operating in Turkey.",
+        "revenue": "Subscription-based model (SaaS) with tiers based on data volume, number of users, or advanced features like multi-modal logistics optimization.",
+        "risks": "Data integration challenges with legacy systems, accuracy of predictions, competition from global ERP/SCM solutions.",
+        "why_now": "Global supply chain instability and high inflation mandate cost-saving and risk-mitigation strategies; Turkey's manufacturing base requires robust solutions."
+      },
+      {
+        "name": "Doğruluk AI",
+        "emoji": "✅",
+        "oneLiner": "AI to detect misinformation and AI-generated content in Turkish.",
+        "sector": "AI, Media Tech, Content Moderation",
+        "score": 87,
+        "inspired_by": "Google nixes Earth AI feature",
+        "real_example": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation.",
+        "tr_status": "Turkey's mobile-first population and active social media use create a fertile ground for misinformation, requiring advanced tools to verify content and ensure trust in AI-generated media.",
+        "tr_idea": "Create an AI-driven platform specifically trained for Turkish language and cultural nuances to identify deepfakes, AI-generated text/images, and detect patterns of misinformation, offering verification services to media, government, and businesses. Promote ethical AI use within the Turkish digital space.",
+        "mvp": "Browser plugin/API for detecting AI-generated text and images in Turkish, basic fact-checking tool against a curated database of verified sources for Turkish news.",
+        "target": "News agencies, social media platforms, government bodies, content creators, and marketing agencies in Turkey.",
+        "revenue": "Subscription model for API access, tiered services for content verification, custom solutions for enterprise clients.",
+        "risks": "Rapid evolution of AI generation tools, difficulty in maintaining neutrality/objectivity, potential for misuse or censorship accusations.",
+        "why_now": "Growing concerns over AI safety and misinformation globally, coupled with Turkey's high digital engagement, create an urgent need for content verification tools."
+      }
+    ]
   }
 ]
