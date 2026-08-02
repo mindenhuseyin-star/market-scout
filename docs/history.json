@@ -2378,5 +2378,90 @@
         "why_now": "Growing concerns over AI safety and misinformation globally, coupled with Turkey's high digital engagement, create an urgent need for content verification tools."
       }
     ]
+  },
+  {
+    "date": "02 August 2026",
+    "opportunities": [
+      {
+        "name": "Fokus Türkiye",
+        "emoji": "🧘‍♀️",
+        "oneLiner": "Gamified app to combat digital burnout, enhancing real-life engagement.",
+        "sector": "Digital Wellness, HealthTech",
+        "score": 88,
+        "inspired_by": "Digital Wellness Trend (apps, devices, hacker houses)",
+        "real_example": "Apps that help you break free from doomscrolling and get active",
+        "tr_status": "Turkish users are highly mobile-first with significant screen time, leading to potential digital fatigue and burnout.",
+        "tr_idea": "Develop a mobile app with gamified challenges to reduce screen time and encourage offline activities, integrating local Turkish cultural elements. Partner with local wellness providers.",
+        "mvp": "A mobile app with screen time tracking, app blockers (timed), focus mode, and basic challenges for digital detox.",
+        "target": "Young professionals, students, parents, and anyone struggling with digital addiction or burnout.",
+        "revenue": "Freemium model (basic features free, premium features like advanced analytics, personalized coaching via subscription).",
+        "risks": "User adherence, competition from global apps, data privacy concerns.",
+        "why_now": "Increasing awareness of digital well-being post-pandemic in a mobile-first society makes such tools highly relevant and scalable."
+      },
+      {
+        "name": "Güvenli Ticaret",
+        "emoji": "🔒",
+        "oneLiner": "AI platform for real-time e-commerce fraud detection in Turkey.",
+        "sector": "AI, FinTech, E-commerce Security",
+        "score": 92,
+        "inspired_by": "Okta's acquisition of Permiso, Synthetic-user startup Simile",
+        "real_example": "Okta buys AI security startup Permiso — source says for about $200M",
+        "tr_status": "Turkey's e-commerce is growing at 30% annually, leading to increased transaction volumes and potential for online fraud.",
+        "tr_idea": "Build an AI-driven platform tailored for Turkish e-commerce businesses to detect and prevent fraudulent transactions, leveraging local data patterns. Utilize synthetic data for robust model training.",
+        "mvp": "A SaaS platform offering real-time transaction monitoring and anomaly detection for common e-commerce fraud types, integrating with popular Turkish payment gateways.",
+        "target": "Small to medium-sized e-commerce businesses, online marketplaces, and payment processors in Turkey.",
+        "revenue": "Subscription-based SaaS model, tiered based on transaction volume or features.",
+        "risks": "Data privacy regulations, accuracy of AI models, competition from established global players if they localize.",
+        "why_now": "Rapid e-commerce growth demands robust security solutions, and cost-saving AI becomes very attractive amidst high inflation."
+      },
+      {
+        "name": "Tedarik Zeka",
+        "emoji": "🚚",
+        "oneLiner": "AI solution to optimize manufacturing supply chains, reducing costs.",
+        "sector": "Industrial AI, SaaS, Manufacturing Tech",
+        "score": 90,
+        "inspired_by": "Smallest.ai (ultra-fast voice AI), Ryan Williams' AI startup for private credit",
+        "real_example": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+        "tr_status": "Turkey has a strong manufacturing base, which is highly sensitive to operational inefficiencies and rising costs due to inflation.",
+        "tr_idea": "Develop an AI-powered SaaS platform that analyzes supply chain data, predicts demand, optimizes inventory, and streamlines logistics for Turkish manufacturers. Potentially integrate natural language processing for insights.",
+        "mvp": "A cloud-based platform for inventory optimization and demand forecasting, integrating with existing ERP systems of small to mid-sized manufacturers.",
+        "target": "Small to medium-sized manufacturing companies across various sectors in Turkey.",
+        "revenue": "Tiered subscription model based on usage, number of integrated systems, or value generated.",
+        "risks": "Data integration challenges with legacy systems, need for deep industry expertise, initial resistance to adopting new tech.",
+        "why_now": "High inflation in Turkey makes efficiency and cost-saving through AI extremely attractive for the strong manufacturing sector."
+      },
+      {
+        "name": "BinBin Abonelik",
+        "emoji": "🚲",
+        "oneLiner": "Affordable e-bike subscription service for urban Turkish commuters.",
+        "sector": "Micromobility, Subscription Economy, Urban Tech",
+        "score": 87,
+        "inspired_by": "Rivian spinoff Also to start delivering e-bikes, Smartphone subscription trend",
+        "real_example": "Rivian spinoff Also to start delivering e-bikes after months of delays",
+        "tr_status": "Turkish cities face traffic congestion and rising fuel costs, while mobile-first users are open to flexible transport solutions.",
+        "tr_idea": "Launch a subscription-based e-bike service in major Turkish cities, offering affordable monthly access for commuting and short trips. Position as a cost-effective alternative to public transport.",
+        "mvp": "A pilot program in a specific district with a fleet of e-bikes, a mobile app for booking/unlocking, and basic maintenance support.",
+        "target": "Urban commuters, university students, and delivery riders seeking flexible, eco-friendly, and cost-efficient transportation.",
+        "revenue": "Monthly subscription fees, potential for pay-per-use add-ons, corporate partnerships for employee benefits.",
+        "risks": "City regulations, vandalism/theft, maintenance costs, intense competition in urban mobility.",
+        "why_now": "High inflation makes vehicle ownership expensive, while the subscription model offers flexibility and affordability, aligning with Turkey's mobile-first, urban population needs."
+      },
+      {
+        "name": "Ahlaki Yapay Zeka",
+        "emoji": "⚖️",
+        "oneLiner": "Consultancy and toolkit for ethical, compliant AI development in Turkey.",
+        "sector": "AI Governance, Professional Services, LegalTech",
+        "score": 85,
+        "inspired_by": "AI Safety & Ethics Trend (xAI, Google, OpenAI, Sam Altman)",
+        "real_example": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+        "tr_status": "As AI adoption increases in Turkey, the need for ethical guidelines and compliance with local and international regulations will grow.",
+        "tr_idea": "Establish a consultancy and develop a localized toolkit to help Turkish companies implement responsible AI practices, ensuring compliance with data privacy laws and preventing bias or misinformation.",
+        "mvp": "A set of workshops and initial consulting packages for businesses to assess their AI risks and develop internal ethical guidelines, focused on data privacy (KVKK) and bias.",
+        "target": "Turkish enterprises, government agencies, and AI-developing startups that want to ensure ethical and compliant AI deployments.",
+        "revenue": "Consulting fees, licensing for proprietary AI ethics tools/frameworks, training programs.",
+        "risks": "Low initial awareness/demand, difficulty in quantifying ROI, staying updated with rapidly evolving AI regulations.",
+        "why_now": "Global push for AI safety and regulation means Turkish companies will soon need to adapt, creating a first-mover advantage for local expertise in this critical area."
+      }
+    ]
   }
 ]
