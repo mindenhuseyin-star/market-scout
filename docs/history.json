@@ -2463,5 +2463,90 @@
         "why_now": "Global push for AI safety and regulation means Turkish companies will soon need to adapt, creating a first-mover advantage for local expertise in this critical area."
       }
     ]
+  },
+  {
+    "date": "04 August 2026",
+    "opportunities": [
+      {
+        "name": "Ev Gücü",
+        "emoji": "☀️",
+        "oneLiner": "Democratize home energy with smart backyard batteries.",
+        "sector": "Green Energy Tech",
+        "score": 90,
+        "inspired_by": "Base Power",
+        "real_example": "Base Power - $1B funding for grid-saving backyard batteries",
+        "tr_status": "Turkey faces rising energy costs and has a strong manufacturing base for electrical components.",
+        "tr_idea": "Develop smart battery storage systems (assembled locally) for residential use, integrated with solar panels, managed via a mobile app for optimal energy use and grid independence.",
+        "mvp": "A pilot program offering smart battery installations and a mobile monitoring app to 100 early adopter households in a high-demand city like Istanbul.",
+        "target": "Middle to high-income homeowners, small businesses seeking energy cost reduction and reliability.",
+        "revenue": "Hardware sales (battery systems), installation fees, monthly SaaS fee for smart energy management and optimization features.",
+        "risks": "High upfront hardware costs, regulatory hurdles for grid interaction, intense competition from existing energy providers.",
+        "why_now": "High inflation and increasing energy prices make cost-saving and energy independence extremely attractive for Turkish consumers."
+      },
+      {
+        "name": "Meclis AI",
+        "emoji": "🎙️",
+        "oneLiner": "AI notetaker for Turkish meetings, saving time and costs.",
+        "sector": "Productivity SaaS, AI",
+        "score": 88,
+        "inspired_by": "Wispr Flow, Smallest.ai",
+        "real_example": "Wispr Flow - meeting notetaker; Smallest.ai - $13M for ultra-fast voice AI.",
+        "tr_status": "Turkish businesses, especially SMBs, seek efficiency and cost-saving tools, and mobile usage is dominant.",
+        "tr_idea": "Develop an AI-powered meeting transcription and summarization tool tailored specifically for the Turkish language, handling accents and specific business jargon, accessible via mobile and web.",
+        "mvp": "A browser extension and mobile app for transcribing and summarizing online meetings (e.g., Zoom, Teams) in Turkish, offering speaker identification.",
+        "target": "SMEs, freelancers, remote teams, and professionals in Turkey.",
+        "revenue": "Freemium model with tiered subscriptions for advanced features like custom jargon recognition, longer meeting limits, and integrations.",
+        "risks": "Accurate Turkish language processing (NLP) development, data privacy concerns, competition from global generic solutions.",
+        "why_now": "High inflation drives demand for cost-saving SaaS, and localized AI solutions gain traction over generic English-first tools."
+      },
+      {
+        "name": "Keşfet.ai",
+        "emoji": "🗺️",
+        "oneLiner": "AI curates real-world adventures from your digital life.",
+        "sector": "Travel & Leisure, AI, E-commerce",
+        "score": 87,
+        "inspired_by": "Outernet",
+        "real_example": "Outernet - turns saved posts into real-world adventures.",
+        "tr_status": "Turkey has a mobile-first population, growing e-commerce, and a rich cultural heritage ideal for personalized local exploration.",
+        "tr_idea": "A mobile-first platform that uses AI to analyze user interests (from social media, past activity) to suggest hyper-personalized local experiences, combining e-commerce bookings for restaurants, events, and tours.",
+        "mvp": "A mobile app allowing users to connect social media accounts to generate personalized lists of local attractions, restaurants, and events, with basic booking links to partner vendors.",
+        "target": "Young, tech-savvy locals and tourists seeking authentic, personalized experiences in Turkish cities.",
+        "revenue": "Commission on bookings, premium subscriptions for exclusive content/offers, advertising for local businesses.",
+        "risks": "User data privacy concerns, intense competition from existing travel apps, establishing and maintaining partnerships with local vendors.",
+        "why_now": "Mobile-first user behavior and the desire for unique local experiences, coupled with e-commerce growth, create a fertile ground for this service."
+      },
+      {
+        "name": "Kalkan Siber",
+        "emoji": "🔒",
+        "oneLiner": "AI-driven cyber shield for Turkish SMBs' connected devices.",
+        "sector": "Cybersecurity, AI, SaaS",
+        "score": 89,
+        "inspired_by": "Horizon3, Samsung",
+        "real_example": "Horizon3 - $2B valuation for AI cybersecurity; Samsung's action highlights IoT security gaps.",
+        "tr_status": "Growing e-commerce increases cyber threats for Turkish SMBs, which often lack robust security solutions, and cost-saving SaaS is desired.",
+        "tr_idea": "An affordable, AI-powered cybersecurity platform specifically designed for Turkish SMBs to monitor and protect their IoT devices, networks, and data against escalating AI threats and vulnerabilities.",
+        "mvp": "A cloud-based dashboard and agent software providing real-time threat detection, vulnerability scanning for connected devices, and basic incident response recommendations for SMBs.",
+        "target": "Small and medium-sized enterprises (SMBs) in Turkey, particularly those with digital operations or IoT deployments.",
+        "revenue": "Subscription-based SaaS model with tiered pricing based on number of devices/endpoints or features.",
+        "risks": "Building trust with security-averse SMBs, staying ahead of evolving cyber threats, regulatory compliance.",
+        "why_now": "Escalating AI-driven cyber threats combined with Turkey's rapidly growing e-commerce necessitate accessible and affordable cybersecurity for SMBs."
+      },
+      {
+        "name": "Tadım AI",
+        "emoji": "🎨",
+        "oneLiner": "AI crafts hyper-local marketing content for Turkish businesses.",
+        "sector": "Marketing Tech, AI, Creator Economy",
+        "score": 86,
+        "inspired_by": "Design Arena, OpenAI",
+        "real_example": "Design Arena - $7.9M for AI models with 'taste'; influencers are key to marketing.",
+        "tr_status": "E-commerce growth and a vibrant creator economy in Turkey demand cost-effective, culturally nuanced marketing solutions.",
+        "tr_idea": "An AI platform helping Turkish e-commerce brands and local businesses generate culturally resonant, visually appealing marketing content (ads, social posts) tailored to regional tastes and consumer trends, informed by local influencer data.",
+        "mvp": "A web platform where users input product details and target audience; AI then generates several localized social media ad creatives (images + text) specifically for Turkish audiences, with basic customization options.",
+        "target": "Turkish e-commerce brands, local businesses, marketing agencies serving the Turkish market.",
+        "revenue": "Subscription plans based on content generation volume, premium features (e.g., A/B testing, deeper analytics), and potential integrations with local influencer networks.",
+        "risks": "AI model accuracy in capturing nuanced cultural 'taste,' potential for generic outputs, competition from broader AI content tools.",
+        "why_now": "The explosive growth of e-commerce and social media marketing in Turkey, coupled with high inflation, makes efficient, effective, and localized content generation critical."
+      }
+    ]
   }
 ]
