@@ -1,90 +1,5 @@
 [
   {
-    "date": "04 July 2026",
-    "opportunities": [
-      {
-        "name": "AI-Powered BizSuite",
-        "emoji": "🚀",
-        "oneLiner": "Cost-saving AI productivity suite for Turkish SMEs.",
-        "sector": "SaaS, Productivity",
-        "score": 90,
-        "inspired_by": "Indian tech tycoon",
-        "real_example": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
-        "tr_status": "Turkish SMEs need affordable, efficient tools to combat high inflation and improve productivity in a mobile-first environment.",
-        "tr_idea": "Develop an AI-first productivity suite (documents, spreadsheets, presentations) with Turkish language support, localized templates, and AI features focused on cost-saving via automation. Offer it on a freemium or affordable subscription model.",
-        "mvp": "Basic AI-assisted document creation and collaboration tool with Turkish language processing.",
-        "target": "Small and Medium Enterprises (SMEs) in Turkey.",
-        "revenue": "Subscription (monthly/annual), tiered pricing.",
-        "risks": "Competition from global giants, AI integration complexity, data privacy concerns.",
-        "why_now": "High inflation drives demand for cost-saving SaaS, and AI offers significant efficiency gains for SMEs."
-      },
-      {
-        "name": "ClearPath Journeys",
-        "emoji": "✈️",
-        "oneLiner": "Transparent travel booking, no hidden fees.",
-        "sector": "Travel Tech, E-commerce",
-        "score": 88,
-        "inspired_by": "Hopper",
-        "real_example": "Travel app Hopper to pay $35M in FTC settlement over ‘unfairly’ charging hidden fees",
-        "tr_status": "E-commerce and travel are booming, but consumer trust is paramount, especially with inflation concerns impacting discretionary spending.",
-        "tr_idea": "Create a mobile-first travel booking platform (flights, hotels, buses) that guarantees no hidden fees, offers price lock features, and potentially inflation-hedged pricing options for Turkish consumers. Build trust through clear communication.",
-        "mvp": "A mobile app for comparing and booking domestic flights and hotels with a 'no hidden fees' guarantee.",
-        "target": "Turkish consumers planning domestic and international travel.",
-        "revenue": "Commission from bookings, premium subscription for advanced features (e.g., dynamic price lock).",
-        "risks": "Intense competition, maintaining trust, regulatory compliance, supplier relationships.",
-        "why_now": "Rapid e-commerce growth and a mobile-first population demand trustworthy and transparent platforms."
-      },
-      {
-        "name": "Anatolian AI Chips",
-        "emoji": "⚙️",
-        "oneLiner": "Specialized AI chips for Turkish manufacturing and logistics.",
-        "sector": "Hardware, Deep Tech, Manufacturing",
-        "score": 92,
-        "inspired_by": "Etched",
-        "real_example": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
-        "tr_status": "Turkey has a strong manufacturing base and a growing need for industrial automation and efficiency gains due to high operational costs.",
-        "tr_idea": "Design and potentially manufacture specialized AI accelerators (or IP blocks) optimized for industrial applications like quality control, predictive maintenance, and robotic automation on factory floors in Turkey. Leverage existing manufacturing capabilities.",
-        "mvp": "A prototype AI accelerator chip/module demonstrated for visual inspection in a specific manufacturing line.",
-        "target": "Turkish industrial manufacturers, logistics companies, automation integrators.",
-        "revenue": "B2B sales of AI chips/modules, licensing IP, integration services.",
-        "risks": "High R&D costs, semiconductor expertise, market adoption, global supply chain dependencies.",
-        "why_now": "Global demand for specialized AI hardware is surging, and Turkey's manufacturing base can benefit immensely from local innovation."
-      },
-      {
-        "name": "PromptKey Pro",
-        "emoji": "📱",
-        "oneLiner": "Physical macro keypad for mobile professionals.",
-        "sector": "Consumer Electronics, Productivity",
-        "score": 80,
-        "inspired_by": "Dune keypad",
-        "real_example": "The Dune keypad device can be your meeting controller and more",
-        "tr_status": "Turkey's mobile-first population embraces new tech, and professionals seek ergonomic and efficient mobile productivity solutions.",
-        "tr_idea": "Develop a compact, Bluetooth-connected physical macro keypad specifically designed for mobile professionals (e.g., journalists, coders, creative professionals) to execute complex commands or AI prompts directly from their smartphone. Offer deep customization through a companion app.",
-        "mvp": "A small 4-6 button customizable Bluetooth keypad that maps to common mobile app shortcuts and AI prompt triggers.",
-        "target": "Mobile professionals, content creators, productivity enthusiasts.",
-        "revenue": "Direct sales of the device, subscription for advanced software features/cloud sync.",
-        "risks": "Niche market, manufacturing complexity, marketing to a specific user group, competition from software solutions.",
-        "why_now": "Mobile-first users are seeking ergonomic hardware to enhance productivity, especially with the rise of AI agents and prompts."
-      },
-      {
-        "name": "FlowPath AI",
-        "emoji": "🚚",
-        "oneLiner": "AI software for optimizing Turkish freight and logistics.",
-        "sector": "Logistics Tech, SaaS, AI",
-        "score": 89,
-        "inspired_by": "Humble Robotics",
-        "real_example": "Humble Robotics is bringing it to freight",
-        "tr_status": "With booming e-commerce and a strong manufacturing sector, Turkey's logistics network faces increasing pressure and costs, making efficiency crucial.",
-        "tr_idea": "Develop an AI-driven SaaS platform that provides real-time route optimization, predictive maintenance scheduling for truck fleets, and intelligent warehouse management specifically for Turkish road conditions and regulatory environments. Focus on cost savings.",
-        "mvp": "A web and mobile platform for small-to-medium sized logistics companies offering basic route optimization and real-time fleet tracking.",
-        "target": "Logistics companies, e-commerce businesses, manufacturers with their own fleets.",
-        "revenue": "Subscription-based SaaS, tiered pricing based on fleet size/features.",
-        "risks": "Data integration challenges, resistance to change, complex algorithms for Turkish specific conditions, intense competition.",
-        "why_now": "E-commerce growth and high operational costs due to inflation create an urgent need for logistics efficiency, and AI is ready to deliver."
-      }
-    ]
-  },
-  {
     "date": "05 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Hardware sales, optional subscription for advanced AI features (e.g., predictive optimization), installation services.",
         "risks": "High initial hardware investment for customers, regulatory complexities for grid interaction, competition from appliance manufacturers.",
         "why_now": "Soaring energy prices in Turkey make cost savings crucial, combined with growing environmental awareness and government pushes for renewable energy."
+      }
+    ]
+  },
+  {
+    "date": "06 August 2026",
+    "opportunities": [
+      {
+        "name": "AI E-commerce Assistant for SMBs",
+        "emoji": "🛍️",
+        "oneLiner": "AI for Turkish e-commerce: sales, traffic, cost savings.",
+        "sector": "E-commerce SaaS",
+        "score": 90,
+        "inspired_by": "Shopify",
+        "real_example": "Shopify - AI search driving sales",
+        "tr_status": "Turkey's e-commerce is booming (30%/yr growth) with many SMBs needing digital transformation.",
+        "tr_idea": "Develop an affordable, mobile-first AI platform for Turkish SMBs, offering smart product descriptions, localized SEO, and personalized recommendations. Focus on cost-saving features to combat inflation and boost online presence.",
+        "mvp": "AI-generated product descriptions and localized keyword suggestions for popular Turkish e-commerce marketplaces.",
+        "target": "Small and medium e-commerce businesses in Turkey.",
+        "revenue": "Tiered SaaS subscription.",
+        "risks": "Competition from global solutions, user adoption challenges among less tech-savvy SMBs.",
+        "why_now": "Rapid e-commerce growth and high inflation create urgent demand for cost-efficient sales tools."
+      },
+      {
+        "name": "FactoryFlow AI",
+        "emoji": "⚙️",
+        "oneLiner": "AI for predictive maintenance and quality in factories.",
+        "sector": "Industrial AI / Manufacturing Tech",
+        "score": 92,
+        "inspired_by": "TechCrunch Disrupt 2026's Real World AI Stage",
+        "real_example": "TechCrunch Disrupt - Automated factories",
+        "tr_status": "Turkey has a strong manufacturing base heavily impacted by inflation, driving demand for efficiency.",
+        "tr_idea": "Provide AI solutions for Turkish manufacturers, focusing on predictive maintenance for machinery and AI-driven quality control. This directly addresses operational cost reduction and increased productivity.",
+        "mvp": "A computer vision system for automated defect detection on a specific high-volume production line.",
+        "target": "Mid-to-large manufacturing companies (automotive, textile, white goods).",
+        "revenue": "Project-based implementation, then recurring SaaS for monitoring and analytics.",
+        "risks": "High initial investment for integration, resistance to new technology, need for deep industry expertise.",
+        "why_now": "Strong manufacturing base and high inflation necessitate efficiency gains through smart automation."
+      },
+      {
+        "name": "Kimlik AI",
+        "emoji": "🇹🇷",
+        "oneLiner": "Culturally-aware AI moderation for Turkish mobile apps.",
+        "sector": "AI / Community Management",
+        "score": 88,
+        "inspired_by": "Reddit",
+        "real_example": "Reddit - AI moderation tools",
+        "tr_status": "Mobile-first nation with a growing app ecosystem needs effective, culturally-sensitive content moderation.",
+        "tr_idea": "Develop an AI-powered moderation API specifically trained on Turkish language and cultural nuances to ensure safe and positive online interactions. Offer tools for fostering local community engagement.",
+        "mvp": "Turkish NLP API for detecting hate speech, spam, and culturally inappropriate content for social mobile apps.",
+        "target": "Turkish mobile app developers, social platforms, and e-commerce platforms.",
+        "revenue": "SaaS subscription based on usage volume, premium analytics features.",
+        "risks": "AI bias, difficulty in capturing rapidly evolving slang, competition from global generalist tools.",
+        "why_now": "Increasing mobile app usage and online community growth demands robust and localized moderation solutions."
+      },
+      {
+        "name": "FırsatFon",
+        "emoji": "📈",
+        "oneLiner": "Micro-investing in Turkish startups for everyone.",
+        "sector": "Fintech / Crowdfunding",
+        "score": 87,
+        "inspired_by": "Robinhood",
+        "real_example": "Robinhood - fund to back Y Combinator startups",
+        "tr_status": "High inflation drives citizens to seek alternative investments, while startups need accessible funding.",
+        "tr_idea": "A mobile-first platform enabling Turkish individuals to invest small amounts into vetted local startups and SMEs. This democratizes access and provides crucial alternative funding for businesses.",
+        "mvp": "Equity crowdfunding platform featuring 3-5 pre-vetted Turkish startups with clear investment minimums.",
+        "target": "Retail investors in Turkey (especially Gen Z), early-stage Turkish startups and SMEs.",
+        "revenue": "Commission on successfully funded campaigns, potential premium investor features.",
+        "risks": "Regulatory complexities for investment platforms, risk of startup failures, investor education.",
+        "why_now": "High inflation and mobile-first population seeking accessible alternative investment opportunities."
+      },
+      {
+        "name": "Otonom Lojistik",
+        "emoji": "🚚",
+        "oneLiner": "Smart fleet management for commercial EV logistics.",
+        "sector": "Logistics Tech / Automotive",
+        "score": 89,
+        "inspired_by": "Moove",
+        "real_example": "Moove - $250M for robotaxi industry backbone",
+        "tr_status": "Strong manufacturing base, growing EV adoption, and demand for logistics efficiency in cities.",
+        "tr_idea": "Develop a comprehensive SaaS platform for managing electric vehicle fleets in logistics and urban delivery. Focus on route optimization, charging infrastructure planning, and predictive maintenance for EVs.",
+        "mvp": "Route optimization and real-time tracking software for existing last-mile electric delivery fleets.",
+        "target": "Logistics companies, large retailers with internal delivery fleets, smart city initiatives.",
+        "revenue": "Tiered SaaS subscription based on fleet size and feature set.",
+        "risks": "High competition from global logistics software, slower EV fleet adoption in some sectors, infrastructure dependency.",
+        "why_now": "Growing EV market and continuous demand for efficiency in Turkey's busy logistics sector."
       }
     ]
   }
