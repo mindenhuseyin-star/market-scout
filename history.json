@@ -1,90 +1,5 @@
 [
   {
-    "date": "06 July 2026",
-    "opportunities": [
-      {
-        "name": "Ar Gezgin (AR Traveler)",
-        "emoji": "👓",
-        "oneLiner": "Affordable AR glasses for industrial and logistics optimization.",
-        "sector": "Augmented Reality / Manufacturing",
-        "score": 90,
-        "inspired_by": "Even Realities",
-        "real_example": "Even Realities - hits $1B valuation with $150M funding led by Meituan, Tencent",
-        "tr_status": "Turkey has a strong manufacturing base and growing logistics sector fueled by e-commerce.",
-        "tr_idea": "Develop rugged, affordable AR smart glasses for hands-free guidance in Turkish factories and warehouses. Integrate with existing ERP/WMS systems for real-time data overlays.",
-        "mvp": "Basic AR glasses with a monocular display for guided assembly or picking tasks, controlled by voice or simple gestures.",
-        "target": "Manufacturing companies, logistics and warehousing operators in Turkey.",
-        "revenue": "Hardware sales, annual SaaS subscription for software/platform, custom integration services.",
-        "risks": "High R&D costs, competition from global players, slow adoption in traditional industries.",
-        "why_now": "Rising labor costs and e-commerce growth demand efficiency, making productivity-enhancing AR compelling."
-      },
-      {
-        "name": "Verimli Ofis (Efficient Office AI)",
-        "emoji": "📊",
-        "oneLiner": "AI-powered, mobile-first office suite for Turkish businesses.",
-        "sector": "AI / Productivity Software",
-        "score": 92,
-        "inspired_by": "Indian tech tycoon building AI alternative to Microsoft Office",
-        "real_example": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
-        "tr_status": "Turkish businesses seek cost-saving SaaS solutions amid high inflation, and the population is mobile-first.",
-        "tr_idea": "Create a localized, AI-driven productivity suite (documents, spreadsheets, presentations) accessible primarily via mobile. Focus on automating routine tasks and generating content in Turkish.",
-        "mvp": "Mobile app with AI-assisted document creation and summarization features, integrating with popular local cloud storage.",
-        "target": "SMEs, startups, and remote workers in Turkey looking for affordable and intelligent office tools.",
-        "revenue": "Tiered subscription model (freemium/premium), additional AI credit purchases.",
-        "risks": "Competition from established giants, data privacy concerns, accuracy and localization challenges for AI.",
-        "why_now": "High inflation makes cost-saving SaaS attractive, and mobile-first design is crucial for the Turkish market."
-      },
-      {
-        "name": "Otonom Kargo (Autonomous Cargo)",
-        "emoji": "🚚",
-        "oneLiner": "Autonomous last-mile delivery and warehouse robotics for e-commerce.",
-        "sector": "Robotics / Logistics",
-        "score": 88,
-        "inspired_by": "Humble Robotics",
-        "real_example": "Humble Robotics is bringing autonomous vehicles to freight / CEO says tech caught up to vision",
-        "tr_status": "Turkey's e-commerce is growing at 30% annually, creating immense pressure on logistics and delivery.",
-        "tr_idea": "Develop small, autonomous delivery robots for urban last-mile logistics or AGVs/AMRs for automating warehouse tasks. Focus on navigating Turkish urban environments and industrial facilities.",
-        "mvp": "A proof-of-concept autonomous robot for internal warehouse material transport or small-scale, geofenced last-mile delivery.",
-        "target": "E-commerce retailers, third-party logistics (3PL) providers, large warehouses and distribution centers.",
-        "revenue": "Robot sales/leasing, maintenance contracts, SaaS for fleet management and optimization.",
-        "risks": "Regulatory hurdles for public road use, high development costs, public acceptance, infrastructure limitations.",
-        "why_now": "Rapid e-commerce growth and rising labor costs make autonomous logistics solutions economically viable."
-      },
-      {
-        "name": "Akıllı Klavye (Smart Keyboard AI)",
-        "emoji": "📱",
-        "oneLiner": "AI agent-powered smartphone keyboard for Turkish users.",
-        "sector": "AI / Mobile Software",
-        "score": 93,
-        "inspired_by": "Acti puts AI agents directly into your smartphone keyboard",
-        "real_example": "Acti puts AI agents directly into your smartphone keyboard",
-        "tr_status": "Turkey is a highly mobile-first market with 85 million people, and local language nuance is critical.",
-        "tr_idea": "Build a smartphone keyboard app with integrated AI agents specifically trained on Turkish language, slang, and cultural context. Offer predictive text, smart replies, and task automation tailored for local users.",
-        "mvp": "A keyboard app offering advanced Turkish predictive text, grammar correction, and basic AI agent features like quick translation or calendar scheduling.",
-        "target": "General smartphone users in Turkey seeking enhanced communication and productivity.",
-        "revenue": "Freemium model with premium features (advanced AI agents, themes, custom integrations), potential B2B licenses.",
-        "risks": "Privacy concerns, fierce competition from default keyboards, achieving natural language understanding for Turkish nuances.",
-        "why_now": "Mobile-first population demands intuitive and intelligent mobile interactions, and current AI often lacks Turkish depth."
-      },
-      {
-        "name": "Büyüyen Uygulamalar (Growing Apps Group)",
-        "emoji": "📈",
-        "oneLiner": "Acquiring and optimizing Turkish mobile-first SaaS apps.",
-        "sector": "SaaS / M&A",
-        "score": 89,
-        "inspired_by": "Bending Spoons",
-        "real_example": "Bending Spoons defies SaaS slump, surges 40% on first day of trading / little-known AOL and Vimeo owner",
-        "tr_status": "Turkey's e-commerce is growing, high inflation drives demand for cost-saving SaaS, but many local apps lack scale.",
-        "tr_idea": "Identify promising Turkish mobile-first SaaS apps, especially those offering cost-saving or efficiency tools, acquire them, and apply Bending Spoons' operational excellence to scale. Leverage a shared tech stack and marketing expertise.",
-        "mvp": "Acquire 2-3 small, profitable Turkish mobile SaaS apps with potential for user growth and synergy, then centralize their marketing and product development teams.",
-        "target": "Founders of small to medium-sized mobile-first SaaS applications in Turkey seeking exit or growth capital.",
-        "revenue": "Subscription revenue from acquired apps, increased profitability through operational efficiencies and user growth.",
-        "risks": "Difficulty in identifying suitable acquisition targets, integration challenges, market saturation for some app categories.",
-        "why_now": "Fragmented Turkish SaaS market and founders seeking exits create opportunities for consolidation and optimization."
-      }
-    ]
-  },
-  {
     "date": "07 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Premium subscription for advanced features (e.g., investment modules, detailed analytics), partnerships with educational content providers.",
         "risks": "Navigating financial regulations and building trust with both parents and children are significant hurdles.",
         "why_now": "The mobile-first culture and increasing parental awareness of financial education needs in an inflationary environment make this timely."
+      }
+    ]
+  },
+  {
+    "date": "08 August 2026",
+    "opportunities": [
+      {
+        "name": "AI-Powered Employee ROI & Automation Platform",
+        "emoji": "📊",
+        "oneLiner": "Optimize workforce ROI and automate grunt work with AI.",
+        "sector": "Enterprise SaaS, AI",
+        "score": 92,
+        "inspired_by": "Rippling",
+        "real_example": "Rippling - built employee ROI tool; Naïve - raised $28.5M to automate grunt work",
+        "tr_status": "Turkish businesses face high operational costs and need efficiency tools, with mobile-first adoption driving SaaS growth.",
+        "tr_idea": "Develop a localized SaaS platform for Turkish SMEs and enterprises to track employee productivity and identify automation opportunities using AI. This helps reduce costs and optimize workforce allocation in an inflationary environment.",
+        "mvp": "Web and mobile dashboard for employee task tracking, basic AI-driven ROI insights, and a library of automated workflows for common administrative tasks.",
+        "target": "Mid-sized Turkish enterprises and rapidly growing e-commerce companies.",
+        "revenue": "Subscription-based SaaS model (tiered based on employee count or feature usage).",
+        "risks": "Data privacy concerns, resistance to new monitoring tools, and competition from existing HR/ERP solutions.",
+        "why_now": "High inflation makes cost-saving SaaS attractive, and digital transformation initiatives are gaining momentum in Turkey."
+      },
+      {
+        "name": "Critical Infrastructure Cybersecurity Shield",
+        "emoji": "🔒",
+        "oneLiner": "Secure Turkey's critical infrastructure against cyber threats.",
+        "sector": "Cybersecurity, Defense Tech",
+        "score": 90,
+        "inspired_by": "TechCrunch report on Polish web vulnerabilities",
+        "real_example": "TechCrunch - researchers found courts, hospitals, airports at risk; Framework - notifies customers of data breach",
+        "tr_status": "Turkey's critical infrastructure (energy, transport, healthcare) is modernizing, increasing digital exposure and vulnerability to cyberattacks.",
+        "tr_idea": "Provide specialized cybersecurity services and solutions (monitoring, penetration testing, incident response) tailored for public sector entities and critical infrastructure operators in Turkey. Focus on protecting essential services and data from state-sponsored and criminal threats.",
+        "mvp": "A security assessment and threat intelligence service for a pilot public hospital or regional utility, offering vulnerability scanning and a basic incident response plan.",
+        "target": "Government agencies, hospitals, airports, energy companies, and local municipalities.",
+        "revenue": "Service contracts (consulting, managed security services), software licenses for proprietary security tools.",
+        "risks": "High barrier to entry due to trust requirements, long sales cycles with public sector, and need for deep specialized expertise.",
+        "why_now": "Increasing global cyber threats, coupled with Turkey's digital transformation, makes robust critical infrastructure protection urgent."
+      },
+      {
+        "name": "AI Customer Experience for E-commerce",
+        "emoji": "🗣️",
+        "oneLiner": "AI-driven customer support for Turkey's booming e-commerce.",
+        "sector": "AI, Customer Service SaaS",
+        "score": 91,
+        "inspired_by": "Omilia",
+        "real_example": "Omilia - raised $67M to scale its customer support platform; Airbnb - AI shipping features faster",
+        "tr_status": "Turkey's e-commerce is growing 30% annually, creating a massive need for scalable, cost-effective customer support solutions.",
+        "tr_idea": "Develop an AI-powered customer engagement platform offering intelligent chatbots, sentiment analysis, and multi-channel support for Turkish e-commerce and retail businesses. Integrate seamlessly with popular local e-commerce platforms and payment systems.",
+        "mvp": "A Turkish-language AI chatbot for FAQs and basic order inquiries, integrated with a leading Turkish e-commerce platform, offering basic analytics on customer interactions.",
+        "target": "E-commerce retailers, online marketplaces, and digital-first brands in Turkey.",
+        "revenue": "Tiered subscription model based on usage volume (e.g., number of conversations, agents) and advanced features.",
+        "risks": "AI accuracy issues with Turkish language nuances, fierce competition in the CX market, and integration complexities.",
+        "why_now": "Rapid e-commerce growth and the imperative to reduce operational costs due to inflation make AI-driven CX a critical investment."
+      },
+      {
+        "name": "Advanced Manufacturing Optimization with AI",
+        "emoji": "⚙️",
+        "oneLiner": "AI-enhanced precision manufacturing for high-tech industries.",
+        "sector": "Manufacturing, AI, Defense Tech",
+        "score": 89,
+        "inspired_by": "Hadrian",
+        "real_example": "Hadrian - raised $1.37B at $8B valuation (defense tech); SpaceX’s Terafab - relying on natural gas for manufacturing",
+        "tr_status": "Turkey has a strong manufacturing base, an emerging defense industry, and a strategic focus on localizing high-tech production.",
+        "tr_idea": "Leverage AI and advanced robotics to optimize manufacturing processes for complex components, starting with prototypes and small-batch production for the Turkish defense and aerospace sectors. Expand into automotive and medical device manufacturing as the technology matures.",
+        "mvp": "A smart factory solution providing AI-driven predictive maintenance for existing CNC machines and real-time quality control for a defense subcontractor.",
+        "target": "Defense contractors, aerospace manufacturers, and high-precision industrial clients in Turkey.",
+        "revenue": "Project-based implementation fees, ongoing software licensing for AI optimization modules, and potentially production-as-a-service.",
+        "risks": "High capital expenditure, specialized talent acquisition challenges, and long sales cycles in industrial sectors.",
+        "why_now": "The push for domestic production in high-tech sectors and the need for efficiency in manufacturing make AI integration crucial."
+      },
+      {
+        "name": "Local Startup Investment Crowdfunding",
+        "emoji": "💸",
+        "oneLiner": "Democratize access to early-stage Turkish startup investments.",
+        "sector": "Fintech, Investment",
+        "score": 88,
+        "inspired_by": "Robinhood",
+        "real_example": "Robinhood - to list a fund letting anyone back Y Combinator startups",
+        "tr_status": "Turkey has a vibrant but often underfunded startup ecosystem, and retail investors seek alternative avenues amidst high inflation.",
+        "tr_idea": "Create a mobile-first crowdfunding platform allowing Turkish retail investors to invest small amounts into a curated portfolio of pre-vetted, early-stage Turkish startups. This provides essential seed funding for local innovation.",
+        "mvp": "A minimum viable platform listing 3-5 pre-seed Turkish startups, allowing registered users to invest via bank transfer, with clear risk disclaimers and investor education resources.",
+        "target": "Retail investors in Turkey seeking high-growth potential, and early-stage Turkish startups seeking capital.",
+        "revenue": "Transaction fees on investments, carried interest on successful exits, and premium features for investors (e.g., deeper analytics).",
+        "risks": "Regulatory hurdles for investment platforms, high risk for retail investors, and maintaining a high quality deal flow.",
+        "why_now": "Mobile-first financial adoption and a desire for higher returns in an inflationary environment make democratized startup investment appealing."
       }
     ]
   }
