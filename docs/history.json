@@ -1,90 +1,5 @@
 [
   {
-    "date": "07 July 2026",
-    "opportunities": [
-      {
-        "name": "Akıl Ofis",
-        "emoji": "💡",
-        "oneLiner": "AI-powered SaaS for cost-saving efficiency in Turkish SMEs.",
-        "sector": "AI SaaS, Productivity",
-        "score": 85,
-        "inspired_by": "AI alternative to Microsoft Office",
-        "real_example": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
-        "tr_status": "Turkey's high inflation makes cost-saving solutions crucial for its numerous SMEs and strong manufacturing base.",
-        "tr_idea": "Develop an AI-driven productivity suite tailored for Turkish SMEs, focusing on automation for operational cost reduction. This could include smart inventory, procurement, and customer support solutions to boost efficiency.",
-        "mvp": "An AI-powered invoice processing and expense management tool with Turkish language support, integrating with common accounting software.",
-        "target": "Small to medium-sized enterprises (SMEs) in manufacturing, retail, and service sectors.",
-        "revenue": "Subscription (SaaS) model, tiered based on features and number of users.",
-        "risks": "Data privacy concerns and challenges in integrating with diverse legacy systems are main risks.",
-        "why_now": "High inflation and growing digital adoption create strong demand for AI-driven cost-saving solutions."
-      },
-      {
-        "name": "Otonom Yük",
-        "emoji": "🚚",
-        "oneLiner": "Autonomous logistics and freight solutions for Turkish industry.",
-        "sector": "Robotics, Logistics Tech",
-        "score": 85,
-        "inspired_by": "Humble Robotics for freight",
-        "real_example": "Humble Robotics is bringing it to freight",
-        "tr_status": "Turkey has a strong manufacturing base and rapidly growing e-commerce, creating high demand for efficient logistics.",
-        "tr_idea": "Pioneer autonomous solutions for internal factory logistics with AGVs or last-mile delivery in urban centers. Capitalize on Turkey's manufacturing prowess to produce cost-effective, specialized autonomous vehicles.",
-        "mvp": "Automated Guided Vehicles (AGVs) designed for specific material transport within large manufacturing plants, starting with a pilot in the automotive sector.",
-        "target": "Large factories, warehouses, and e-commerce fulfillment centers across Turkey.",
-        "revenue": "Hardware sales combined with recurring maintenance contracts or a Robotics-as-a-Service (RaaS) model.",
-        "risks": "Regulatory hurdles for public road use and significant upfront R&D costs are key risks.",
-        "why_now": "E-commerce expansion and manufacturing's push for efficiency make advanced logistics tech highly desirable."
-      },
-      {
-        "name": "Yerel Zeka",
-        "emoji": "✍️",
-        "oneLiner": "AI-powered localized content and moderation platform for Turkey.",
-        "sector": "AI, Content Tech",
-        "score": 85,
-        "inspired_by": "Reddit using LLMs",
-        "real_example": "Reddit is using LLMs to solve a problem LLMs largely created",
-        "tr_status": "Turkey's mobile-first population generates vast online content, requiring sophisticated localization and moderation solutions.",
-        "tr_idea": "Develop an AI platform providing tools for high-quality, culturally relevant Turkish content generation and effective moderation. Leverage LLMs to understand and produce nuanced Turkish language for various digital uses.",
-        "mvp": "An LLM-based content generation service specifically fine-tuned for Turkish e-commerce product descriptions and social media marketing copy.",
-        "target": "E-commerce businesses, local media companies, marketing agencies, and social platforms in Turkey.",
-        "revenue": "Subscription (SaaS) model, with tiers based on usage volume and access to advanced features.",
-        "risks": "Ensuring accuracy and cultural sensitivity of AI outputs, alongside data privacy concerns, poses major risks.",
-        "why_now": "Growing demand for localized online content and the increasing need for efficient content moderation in a mobile-first market."
-      },
-      {
-        "name": "Benim Asistanım",
-        "emoji": "🛍️",
-        "oneLiner": "Personalized AI shopping assistant for Turkish mobile-first e-commerce.",
-        "sector": "E-commerce Tech, AI",
-        "score": 85,
-        "inspired_by": "Siri's customization and Bookshop.org's market",
-        "real_example": "You can now customize Siri’s pace and expressivity",
-        "tr_status": "Turkey is a mobile-first market with e-commerce growing at 30% annually, indicating strong potential for personalized shopping experiences.",
-        "tr_idea": "Create an AI-powered shopping assistant, integrated into Turkish e-commerce platforms or as a standalone app. It will offer highly personalized recommendations, price drop alerts, and comparison shopping tailored to individual user behavior.",
-        "mvp": "A mobile application that learns user preferences from browsing history and offers personalized product recommendations and price drop notifications across major Turkish e-commerce sites.",
-        "target": "Mobile-first Turkish online shoppers seeking personalized and efficient shopping experiences.",
-        "revenue": "Affiliate commissions from sales, premium subscription for advanced features like exclusive deals, and anonymized data insights for retailers.",
-        "risks": "User data privacy concerns and achieving high accuracy in personalized recommendations are primary risks.",
-        "why_now": "Rapid e-commerce growth and a mobile-first user base demand more sophisticated and personalized online shopping experiences."
-      },
-      {
-        "name": "Endüstriyel Gözlük",
-        "emoji": "👓",
-        "oneLiner": "Smart glasses for industrial workforce in Turkish manufacturing.",
-        "sector": "AR/VR, Manufacturing Tech",
-        "score": 85,
-        "inspired_by": "Smart glasses maker Even Realities",
-        "real_example": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
-        "tr_status": "Turkey possesses a robust manufacturing sector, making it an ideal market for AR-enabled efficiency improvements, especially with high inflation driving cost-saving needs.",
-        "tr_idea": "Develop or adapt smart glasses technology specifically for industrial use cases in Turkish factories, providing hands-free access to manuals and remote assistance. This enhances efficiency and reduces errors on assembly lines and in maintenance.",
-        "mvp": "AR smart glasses providing step-by-step assembly instructions and remote expert support for workers in a pilot manufacturing plant in Turkey, focusing on quality control.",
-        "target": "Manufacturing companies in sectors such as automotive, machinery, and electronics.",
-        "revenue": "Hardware sales, software licensing for custom applications, and ongoing training and support services.",
-        "risks": "High upfront investment, potential worker resistance to adoption, and ensuring data security are main risks.",
-        "why_now": "Turkey's strong manufacturing base is ripe for digital transformation, and AR smart glasses offer significant productivity and error reduction gains."
-      }
-    ]
-  },
-  {
     "date": "08 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Transaction fees on investments, carried interest on successful exits, and premium features for investors (e.g., deeper analytics).",
         "risks": "Regulatory hurdles for investment platforms, high risk for retail investors, and maintaining a high quality deal flow.",
         "why_now": "Mobile-first financial adoption and a desire for higher returns in an inflationary environment make democratized startup investment appealing."
+      }
+    ]
+  },
+  {
+    "date": "09 August 2026",
+    "opportunities": [
+      {
+        "name": "AI-powered SME Efficiency Platform",
+        "emoji": "📊",
+        "oneLiner": "Automate admin tasks, boost efficiency for Turkish SMEs.",
+        "sector": "Business Automation SaaS",
+        "score": 85,
+        "inspired_by": "Rippling, Naïve",
+        "real_example": "Rippling - built employee ROI tool; Naïve - raised $28.5M for grunt work automation",
+        "tr_status": "Turkey's high inflation makes cost-saving SaaS solutions highly attractive for 85M population.",
+        "tr_idea": "Develop a localized AI platform automating administrative, HR, and financial tasks for Turkish SMEs. Focus on seamless integration with local tools and regulatory compliance to deliver tangible cost savings.",
+        "mvp": "An AI assistant for expense management and automated invoice processing tailored for Turkish regulations.",
+        "target": "Small to medium-sized enterprises (SMEs) in e-commerce and manufacturing sectors.",
+        "revenue": "Tiered subscription model based on features and number of users.",
+        "risks": "Data privacy concerns, resistance to change from traditional businesses, and complex local integrations.",
+        "why_now": "High inflation and rapid e-commerce growth demand significant operational efficiency gains for businesses."
+      },
+      {
+        "name": "Localized AI Customer Support",
+        "emoji": "🇹🇷",
+        "oneLiner": "Scalable, AI-driven customer support for Turkish businesses.",
+        "sector": "Customer Experience AI",
+        "score": 85,
+        "inspired_by": "Omilia, Airbnb",
+        "real_example": "Omilia - raised $67M for customer support platform; Airbnb - uses AI to ship features faster.",
+        "tr_status": "Mobile-first population and booming e-commerce lead to high volumes of customer inquiries needing local language solutions.",
+        "tr_idea": "Create an AI-native customer support platform with advanced Turkish NLP capabilities for chatbots and agent assistance. Focus on understanding local idioms and providing culturally appropriate responses.",
+        "mvp": "A Turkish-speaking AI chatbot for common FAQs and basic request routing for an e-commerce website.",
+        "target": "E-commerce companies, banks, and telecommunication providers in Turkey.",
+        "revenue": "Usage-based or tiered SaaS subscription, premium features for advanced analytics.",
+        "risks": "Achieving high accuracy in Turkish NLP and overcoming the initial preference for human interaction for complex issues.",
+        "why_now": "Rapid e-commerce growth and mobile-first adoption are overwhelming traditional customer service channels."
+      },
+      {
+        "name": "AI Cybersecurity for E-commerce",
+        "emoji": "🔒",
+        "oneLiner": "Secure Turkish e-commerce with AI-powered fraud detection.",
+        "sector": "Cybersecurity",
+        "score": 85,
+        "inspired_by": "OpenAI (security concerns), Polish web at risk, Framework",
+        "real_example": "OpenAI - slowed Astra development over security concerns; Security researchers - found Polish web at risk.",
+        "tr_status": "Turkey's e-commerce is growing 30% yearly, creating more attack surfaces and a critical need for robust security.",
+        "tr_idea": "Offer an AI-powered cybersecurity platform specializing in fraud detection, data breach prevention, and vulnerability assessment for Turkish e-commerce. Tailor solutions to local payment methods and user behaviors.",
+        "mvp": "A real-time AI fraud detection module for online payment transactions on e-commerce platforms.",
+        "target": "E-commerce platforms, online retailers, and payment gateways operating in Turkey.",
+        "revenue": "Subscription-based with variable pricing depending on transaction volume or data processed.",
+        "risks": "Constantly evolving cyber threats and the necessity for continuous model updates and vigilance.",
+        "why_now": "The accelerating growth of e-commerce in Turkey heightens the risk and impact of cyber threats."
+      },
+      {
+        "name": "AI Agent Productivity Browser",
+        "emoji": "🤖",
+        "oneLiner": "Automate web tasks for Turkish professionals with AI browser.",
+        "sector": "Productivity Software",
+        "score": 85,
+        "inspired_by": "Cloudflare Kitesurf, Hark",
+        "real_example": "Cloudflare - launched Kitesurf, a browser built for AI agents; Hark - previews its browser use agent.",
+        "tr_status": "A mobile-first, digitally active population constantly seeks efficiency tools to navigate the digital landscape.",
+        "tr_idea": "Develop a browser-based AI agent that automates repetitive online tasks, research, and data entry in Turkish. Focus on common business workflows like market analysis or content curation.",
+        "mvp": "An AI agent that can automatically track competitor prices and aggregate customer reviews from Turkish e-commerce sites.",
+        "target": "E-commerce managers, marketing professionals, and small business owners.",
+        "revenue": "Freemium model with premium features available via subscription.",
+        "risks": "User trust in AI automation, data privacy concerns with browser-level access, and ensuring agent accuracy.",
+        "why_now": "Growing demand for personal and business automation as AI capabilities become more accessible and powerful."
+      },
+      {
+        "name": "Secure Smart Manufacturing IoT",
+        "emoji": "🏭",
+        "oneLiner": "IoT platform for secure, efficient Turkish manufacturing.",
+        "sector": "Industrial IoT",
+        "score": 85,
+        "inspired_by": "Hadrian, Framework",
+        "real_example": "Hadrian - raised $1.37B for defense tech; Framework - notifies customers of data breach (security focus).",
+        "tr_status": "Turkey has a strong manufacturing base that can benefit from digital transformation and increased efficiency, especially with inflation pressure.",
+        "tr_idea": "Introduce a secure, modular Industrial IoT platform for Turkish manufacturers, enhancing production line monitoring, predictive maintenance, and supply chain optimization. Emphasize data security and local compliance.",
+        "mvp": "A secure IoT module for predictive maintenance on common machinery types in Turkish factories, providing real-time alerts.",
+        "target": "Mid-sized to large manufacturers in automotive, textiles, and white goods sectors.",
+        "revenue": "Hardware sales combined with recurring SaaS fees for software, analytics, and security services.",
+        "risks": "High initial investment, integration challenges with legacy systems, and robust cybersecurity for operational technology.",
+        "why_now": "Global supply chain disruptions and inflation necessitate greater efficiency and resilience in local manufacturing."
       }
     ]
   }
