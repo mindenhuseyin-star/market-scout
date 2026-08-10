@@ -1,90 +1,5 @@
 [
   {
-    "date": "08 July 2026",
-    "opportunities": [
-      {
-        "name": "AI Ops Optimizer for Turkish Businesses",
-        "emoji": "📈",
-        "oneLiner": "Cut AI infrastructure costs for Turkish enterprises.",
-        "sector": "AI/SaaS",
-        "score": 90,
-        "inspired_by": "ZML, Microsoft",
-        "real_example": "ZML - releases free product to speed inference; Microsoft - joins AI cost-cutting trend.",
-        "tr_status": "Turkish businesses are increasingly adopting AI but face significant operational costs and need to optimize their spending in a high-inflation environment.",
-        "tr_idea": "Develop a SaaS platform tailored for Turkish businesses that analyzes their AI workloads, suggests optimizations for model inference, data storage, and compute usage, and helps them switch to more cost-efficient open-source or local alternatives where appropriate. This helps them reduce cloud expenditures and improve efficiency.",
-        "mvp": "A dashboard that connects to existing cloud AI services (Azure, AWS, Google Cloud) used by Turkish enterprises, identifies high-cost AI operations, and provides actionable recommendations for cost reduction and performance improvement.",
-        "target": "Mid-to-large Turkish enterprises with significant AI/ML investments, especially those struggling with cloud expenses.",
-        "revenue": "Subscription-based SaaS, tiered pricing based on usage or cost savings generated.",
-        "risks": "Difficulty integrating with diverse existing AI infrastructures and proving tangible ROI quickly.",
-        "why_now": "High inflation and the global AI cost-cutting trend make this an opportune time for Turkish companies to embrace efficiency solutions."
-      },
-      {
-        "name": "Turkish Law AI Assistant",
-        "emoji": "⚖️",
-        "oneLiner": "AI for Turkish legal research and document automation.",
-        "sector": "LegalTech/AI/SaaS",
-        "score": 88,
-        "inspired_by": "Norm",
-        "real_example": "Norm - AI law startup raises $120M, hits unicorn valuation.",
-        "tr_status": "The Turkish legal sector is traditionally slow to adopt new tech but is ripe for efficiency gains, especially given the complex regulatory environment and high demand for legal services.",
-        "tr_idea": "Build an AI platform specifically trained on Turkish legal texts (laws, court decisions, doctrines) to assist lawyers with legal research, document drafting (contracts, petitions), and case analysis, ensuring compliance with local regulations and language nuances. It could reduce the time spent on repetitive tasks.",
-        "mvp": "An AI-powered search engine for Turkish legislation and case law, providing summaries and relevant citations, alongside a basic contract template generator for common Turkish legal documents.",
-        "target": "Law firms (small to large), corporate legal departments, individual lawyers in Turkey.",
-        "revenue": "Tiered subscription service, potentially with pay-per-document generation for specific features.",
-        "risks": "Accuracy concerns of AI in legal context, data privacy for sensitive legal documents, and resistance from traditional legal professionals.",
-        "why_now": "The success of global LegalTech unicorns like Norm demonstrates market demand, and cost-saving SaaS solutions are attractive in Turkey's economic climate."
-      },
-      {
-        "name": "OtoTeklif (AutoBid in Turkish)",
-        "emoji": "🚗",
-        "oneLiner": "Get the best price for your used car from dealers.",
-        "sector": "Automotive/E-commerce/Marketplace",
-        "score": 92,
-        "inspired_by": "This startup pits dealerships against each other to bid on your used car",
-        "real_example": "Used car bidding startup - pits dealerships against each other to bid on your used car.",
-        "tr_status": "Turkey has a large and active used car market, but sellers often struggle to get fair prices and trust is a significant issue; e-commerce is growing rapidly.",
-        "tr_idea": "Create a mobile-first online platform where individual car owners can list their used vehicles, and registered Turkish dealerships can compete in a transparent bidding process to purchase the car, ensuring sellers get the best market value and a hassle-free experience.",
-        "mvp": "A mobile app where users can upload car details and photos, schedule an inspection, and then receive real-time bids from a network of pre-vetted dealerships within a set timeframe.",
-        "target": "Individual car sellers and licensed used car dealerships across Turkey.",
-        "revenue": "Commission on successful sales (from the dealer), premium features for dealers (e.g., lead generation, analytics).",
-        "risks": "Building trust with both sellers and dealers, managing logistics of inspections and transfers, and intense competition from existing classifieds.",
-        "why_now": "Turkey's 30%/yr e-commerce growth and mobile-first population make a digital, transparent solution highly attractive for a high-value transaction like used cars."
-      },
-      {
-        "name": "Dolandırıcılık Kalkanı (Scam Shield)",
-        "emoji": "🛡️",
-        "oneLiner": "Protect Turkish users from realistic AI-powered scams.",
-        "sector": "Cybersecurity/Mobile App/AI",
-        "score": 87,
-        "inspired_by": "Savi",
-        "real_example": "Savi's app - aims to protect consumers from realistic AI scams like kidnappers demanding ransom.",
-        "tr_status": "Turkey is a mobile-first country with a large internet user base, making its citizens vulnerable to increasingly sophisticated AI-generated scams (voice cloning, deepfakes, phishing).",
-        "tr_idea": "Develop a mobile application specifically for the Turkish market that uses AI to detect and warn users about realistic AI-powered scams, such as voice cloning for ransom demands, deepfake video calls, or sophisticated phishing attempts, with culturally specific warnings and guidance.",
-        "mvp": "A mobile app that integrates with phone calls and messaging, analyzing incoming communications for suspicious AI-generated elements and providing real-time alerts and educational content on common scam types in Turkey.",
-        "target": "General mobile users in Turkey, particularly vulnerable groups like the elderly or those less digitally literate.",
-        "revenue": "Freemium model with basic protection free, premium features (e.g., family protection, advanced threat intelligence, direct support) on subscription.",
-        "risks": "High false-positive rate, maintaining accuracy against evolving scam techniques, user adoption and integration with phone systems.",
-        "why_now": "The increasing sophistication of AI scams globally, combined with Turkey's mobile-first population and varied digital literacy, creates an urgent need for such a protective solution."
-      },
-      {
-        "name": "Yerel AI Ofis Süiti",
-        "emoji": "✍️",
-        "oneLiner": "Affordable, AI-powered productivity suite for Turkish businesses.",
-        "sector": "SaaS/Productivity/AI",
-        "score": 89,
-        "inspired_by": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
-        "real_example": "Indian tech tycoon - bets $30M to build AI alternative to Microsoft Office.",
-        "tr_status": "Turkish SMBs and enterprises rely heavily on global productivity suites, but high inflation makes cost-effective, locally tailored alternatives with AI capabilities highly attractive.",
-        "tr_idea": "Create an AI-integrated, cloud-based productivity suite specifically designed for the Turkish market, offering word processing, spreadsheets, presentations, and communication tools with strong Turkish language support, local compliance features, and AI assistance for content generation, translation, and data analysis.",
-        "mvp": "A web-based word processor and spreadsheet application with basic AI-powered content suggestions in Turkish and integration with local e-government document standards.",
-        "target": "Small and medium-sized businesses (SMBs), local government agencies, educational institutions, and enterprises in Turkey.",
-        "revenue": "Subscription-based SaaS, per-user monthly/annual fees, with different tiers for features and storage.",
-        "risks": "High competition from established global players, significant development resources required for a comprehensive suite, ensuring robust performance and security.",
-        "why_now": "The strong trend for cost-saving SaaS combined with a clear example of local alternatives gaining traction (India) makes this a compelling opportunity for Turkey's market."
-      }
-    ]
-  },
-  {
     "date": "09 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Hardware sales combined with recurring SaaS fees for software, analytics, and security services.",
         "risks": "High initial investment, integration challenges with legacy systems, and robust cybersecurity for operational technology.",
         "why_now": "Global supply chain disruptions and inflation necessitate greater efficiency and resilience in local manufacturing."
+      }
+    ]
+  },
+  {
+    "date": "10 August 2026",
+    "opportunities": [
+      {
+        "name": "SimpliStart TR",
+        "emoji": "🚀",
+        "oneLiner": "Automate company setup and admin for Turkish businesses.",
+        "sector": "Business Automation SaaS",
+        "score": 90,
+        "inspired_by": "Naïve",
+        "real_example": "Naïve raises $28.5M",
+        "tr_status": "Bureaucracy and administrative tasks are complex and time-consuming for new businesses in Turkey.",
+        "tr_idea": "Develop a mobile-first platform simplifying company registration, tax filings, and compliance, integrating with local e-devlet systems. Focus on a user-friendly interface to guide entrepreneurs through every step, reducing the need for costly consultants.",
+        "mvp": "A mobile app for sole proprietorship and limited liability company registration, including tax number application and basic e-billing integration.",
+        "target": "First-time entrepreneurs, small businesses, e-commerce startups.",
+        "revenue": "Subscription tiers (basic, premium with more features/support), transaction fees for certain government filings.",
+        "risks": "Navigating complex and changing Turkish regulations is challenging.",
+        "why_now": "High inflation drives demand for cost-saving solutions, and e-commerce growth fuels new business formation."
+      },
+      {
+        "name": "Destek AI",
+        "emoji": "💬",
+        "oneLiner": "AI-powered customer support for Turkish e-commerce and enterprises.",
+        "sector": "AI, Customer Service",
+        "score": 88,
+        "inspired_by": "Omilia",
+        "real_example": "Omilia raises $67M to scale its customer support platform",
+        "tr_status": "Turkish businesses, especially e-commerce, struggle with scaling multilingual customer support efficiently.",
+        "tr_idea": "Build an AI-driven customer support platform specializing in Turkish language processing, integrating with popular e-commerce platforms and CRMs. Offer automated chat, FAQ management, and ticket routing to reduce operational costs.",
+        "mvp": "A Turkish-language chatbot builder with pre-trained models for common e-commerce queries, integrating with a popular e-commerce platform like Trendyol or Hepsiburada.",
+        "target": "E-commerce businesses, SMEs, call centers.",
+        "revenue": "SaaS subscription based on usage (number of agents, volume of interactions, features).",
+        "risks": "High quality Turkish NLP is crucial and requires significant investment.",
+        "why_now": "E-commerce is booming, creating a strong need for scalable, cost-effective customer support solutions amidst high operational costs."
+      },
+      {
+        "name": "Asistan Tarayıcı",
+        "emoji": "🌐",
+        "oneLiner": "AI-powered browser for task automation in Turkish digital workflows.",
+        "sector": "AI, Productivity Software",
+        "score": 85,
+        "inspired_by": "Cloudflare Kitesurf / Hark",
+        "real_example": "Cloudflare launches Kitesurf, a browser built for AI agents",
+        "tr_status": "Businesses and individuals spend significant time on repetitive web-based tasks, from data entry to price comparisons, across many Turkish-specific websites.",
+        "tr_idea": "Develop a specialized browser that incorporates AI agents capable of automating repetitive tasks like online form filling, data scraping from local sites, and comparative shopping in Turkish e-commerce.",
+        "mvp": "A browser extension or standalone lightweight browser capable of automating common tasks like submitting e-devlet forms or comparing prices across 3-4 major Turkish e-commerce sites.",
+        "target": "SMEs, freelancers, e-commerce operators, procurement departments.",
+        "revenue": "Freemium model with advanced features/higher usage limits requiring subscription; enterprise licenses.",
+        "risks": "Maintaining compatibility with frequently changing website structures and local regulations.",
+        "why_now": "The need for efficiency and cost reduction due to inflation, combined with a mobile-first, digitally active population, makes productivity tools valuable."
+      },
+      {
+        "name": "Anatolian Angels",
+        "emoji": "💸",
+        "oneLiner": "Democratizing access to early-stage Turkish startup investments.",
+        "sector": "Fintech, Investment",
+        "score": 80,
+        "inspired_by": "Robinhood",
+        "real_example": "Robinhood to list a fund that lets anyone back Y Combinator startups",
+        "tr_status": "Access to early-stage startup investments is limited to accredited investors or VCs, while a significant retail investor base seeks alternative assets.",
+        "tr_idea": "Create a regulated crowdfunding platform or a specialized investment fund that allows retail investors in Turkey to invest small amounts into a diversified portfolio of promising Turkish startups. Focus on transparency and investor education.",
+        "mvp": "A web platform for a single, curated fund investing in 5-10 seed-stage Turkish tech startups, with clear risk disclosures and investor education resources.",
+        "target": "Retail investors, high-net-worth individuals, angel investors.",
+        "revenue": "Management fees on the fund, success fees on exits, platform fees for specific crowdfunding campaigns.",
+        "risks": "Regulatory compliance, high risk of startup failure, investor protection.",
+        "why_now": "High inflation makes traditional savings less appealing, pushing investors towards higher-yield, albeit riskier, alternative assets, combined with a burgeoning Turkish startup ecosystem."
+      },
+      {
+        "name": "Üretim OS",
+        "emoji": "⚙️",
+        "oneLiner": "AI-driven OS for smart factory automation and efficiency.",
+        "sector": "Industrial AI, Manufacturing",
+        "score": 87,
+        "inspired_by": "Hadrian",
+        "real_example": "Hadrian raises $1.37B at $8B valuation",
+        "tr_status": "Turkey has a strong manufacturing base, but many factories operate with legacy systems, lacking integrated AI for predictive maintenance, quality control, and resource optimization.",
+        "tr_idea": "Develop a modular, AI-powered operating system for manufacturing plants that integrates with existing machinery, providing real-time analytics, predictive maintenance, quality anomaly detection, and production optimization. Leverage Turkey's manufacturing expertise.",
+        "mvp": "A software suite focusing on predictive maintenance for common machinery types in Turkish factories (e.g., textiles, automotive parts), using sensor data and machine learning to forecast failures.",
+        "target": "Medium to large manufacturing enterprises in automotive, textile, white goods, and defense sectors.",
+        "revenue": "SaaS subscription based on plant size, number of machines connected, and modules utilized; consulting for integration.",
+        "risks": "High upfront investment in R&D and integration, resistance to change from traditional manufacturers.",
+        "why_now": "The need for cost efficiency and global competitiveness in manufacturing, combined with Turkey's strong industrial base and government push for digitalization, creates a ripe market."
       }
     ]
   }
