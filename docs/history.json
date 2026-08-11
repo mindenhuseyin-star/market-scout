@@ -1,90 +1,5 @@
 [
   {
-    "date": "09 July 2026",
-    "opportunities": [
-      {
-        "name": "TürkCaller: AI Spam & Fraud Blocker",
-        "emoji": "🛡️",
-        "oneLiner": "AI-powered mobile app to block spam calls and fraud.",
-        "sector": "Mobile Security & AI",
-        "score": 90,
-        "inspired_by": "Truecaller",
-        "real_example": "Truecaller - clashes with India’s telecom regulator over anti-spam rules",
-        "tr_status": "Turkey has 85M mobile users and faces significant spam call/SMS issues with limited regulatory solutions.",
-        "tr_idea": "Develop an AI-driven mobile app to identify and block spam, telemarketing, and fraud calls/SMS, with a focus on Turkish numbers and languages. Partner with local telecom operators for data and distribution.",
-        "mvp": "Android/iOS app with basic spam ID, blocking, and a community-driven reporting feature.",
-        "target": "Individual mobile users, later B2B for telecom operators.",
-        "revenue": "Freemium model (basic free, premium features), B2B licensing.",
-        "risks": "Data privacy concerns, regulatory hurdles, competition from built-in phone features.",
-        "why_now": "Mobile-first nation with high spam volume and growing fraud, current solutions are inadequate."
-      },
-      {
-        "name": "VerimAI: Turkish Enterprise AI Agents",
-        "emoji": "💼",
-        "oneLiner": "Custom AI agents automating tasks for cost-saving in Turkish enterprises.",
-        "sector": "Enterprise AI & SaaS",
-        "score": 92,
-        "inspired_by": "Prime Intellect",
-        "real_example": "Prime Intellect - raises $130M Series A to help enterprises build their own AI agents",
-        "tr_status": "Turkish enterprises face high operational costs due to inflation, driving demand for efficiency and cost-saving SaaS solutions.",
-        "tr_idea": "Offer customized AI agent development services for Turkish businesses, focusing on automating repetitive tasks in customer service, HR, or supply chain, with strong Turkish language capabilities. Integrate with common ERP/CRM systems.",
-        "mvp": "AI agents for specific tasks like invoice processing or customer inquiry routing, integrated with common ERP/CRM systems.",
-        "target": "SMEs and large manufacturing/service enterprises in Turkey.",
-        "revenue": "Subscription-based SaaS, custom development fees for specialized agents.",
-        "risks": "AI implementation complexity, data privacy concerns, resistance to automation from workforce.",
-        "why_now": "High inflation necessitates significant cost reduction, making AI automation a compelling investment for businesses."
-      },
-      {
-        "name": "Hızlı Kargo Drone",
-        "emoji": "🚁",
-        "oneLiner": "Fast, autonomous drone delivery for urban and remote areas.",
-        "sector": "Logistics & E-commerce",
-        "score": 88,
-        "inspired_by": "Manna",
-        "real_example": "Autonomous drone delivery startup Manna plots major US expansion",
-        "tr_status": "Turkey's e-commerce market is growing 30%/year, leading to increased demand for faster and more efficient last-mile delivery.",
-        "tr_idea": "Establish an autonomous drone delivery service focused on high-density urban areas or difficult-to-reach rural locations for small package e-commerce, food, and pharmacy deliveries. Prioritize regulatory compliance and safety.",
-        "mvp": "Pilot program for food delivery in a specific urban district, focusing on regulatory compliance and safety.",
-        "target": "E-commerce platforms, local restaurants, pharmacies, individual consumers.",
-        "revenue": "Per-delivery fee, subscription for unlimited deliveries, B2B partnerships with retailers.",
-        "risks": "Regulatory approvals, public perception, safety concerns, weather dependency, limited payload capacity.",
-        "why_now": "Exploding e-commerce and logistics demands present an opportunity for disruptive, efficient last-mile solutions."
-      },
-      {
-        "name": "Üretim Zeka: AI for Smart Manufacturing",
-        "emoji": "⚙️",
-        "oneLiner": "AI solutions boosting quality and predicting maintenance for manufacturers.",
-        "sector": "Industrial AI & Manufacturing",
-        "score": 91,
-        "inspired_by": "This startup thinks robotics is about to have its ChatGPT moment",
-        "real_example": "With EU backing, QuantumDiamonds aims to speed up chip manufacturing (represents advanced tech in manufacturing)",
-        "tr_status": "Turkey has a robust manufacturing sector in textiles, automotive, food, and machinery, constantly seeking efficiency and cost savings.",
-        "tr_idea": "Develop and deploy AI-driven computer vision systems for real-time quality control on production lines and predictive maintenance algorithms for machinery. Reduce defects and downtime for Turkish factories across various sectors.",
-        "mvp": "AI visual inspection system for defect detection on a specific product line, or a sensor-based predictive maintenance module for common industrial machinery.",
-        "target": "Small to large-scale manufacturers across various sectors (automotive, textile, food processing, electronics).",
-        "revenue": "SaaS subscription for AI software, hardware integration fees, consultancy for custom AI models.",
-        "risks": "High initial investment, data integration challenges, need for specialized expertise, resistance to new technology.",
-        "why_now": "High inflation makes efficiency and cost reduction paramount for manufacturers, pushing adoption of advanced tech."
-      },
-      {
-        "name": "TürkYarat: E-commerce AI Content Creator",
-        "emoji": "🎨",
-        "oneLiner": "AI platform generating localized product descriptions and marketing visuals.",
-        "sector": "Marketing Tech & AI",
-        "score": 89,
-        "inspired_by": "Google Photos adds a new AI ‘Video Remix’ tool",
-        "real_example": "Google Photos adds a new AI ‘Video Remix’ tool (shows AI for media creation)",
-        "tr_status": "E-commerce businesses in Turkey need high-quality, localized product content and marketing materials to stand out in a competitive, mobile-first market.",
-        "tr_idea": "Create an AI platform that generates compelling product descriptions, marketing copy, and visual content optimized for the Turkish market and language. Integrate with major e-commerce platforms and social media.",
-        "mvp": "Web-based tool generating multiple variations of Turkish product descriptions from basic inputs (product name, features, keywords) and basic image background removal/enhancement.",
-        "target": "Small to medium-sized e-commerce sellers, online retailers, digital marketing agencies.",
-        "revenue": "Subscription tiers based on usage (content generation limits, features), API access for large platforms.",
-        "risks": "Quality and uniqueness of AI-generated content, ethical considerations, integration complexity, competition from global tools.",
-        "why_now": "Rapid e-commerce growth demands scalable and efficient content creation, especially for localized markets."
-      }
-    ]
-  },
-  {
     "date": "10 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "SaaS subscription based on plant size, number of machines connected, and modules utilized; consulting for integration.",
         "risks": "High upfront investment in R&D and integration, resistance to change from traditional manufacturers.",
         "why_now": "The need for cost efficiency and global competitiveness in manufacturing, combined with Turkey's strong industrial base and government push for digitalization, creates a ripe market."
+      }
+    ]
+  },
+  {
+    "date": "11 August 2026",
+    "opportunities": [
+      {
+        "name": "Otomasyon Ajanı",
+        "emoji": "🤖",
+        "oneLiner": "Automating administrative grunt work for Turkish SMEs with AI.",
+        "sector": "Business Productivity SaaS",
+        "score": 92,
+        "inspired_by": "Naïve",
+        "real_example": "Naïve raises $28.5M to automate the grunt work of setting up and running a company.",
+        "tr_status": "Turkish SMEs face significant administrative burdens and high operational costs due to inflation.",
+        "tr_idea": "Offer an AI platform to automate routine tasks like invoicing, HR onboarding, and compliance specific to Turkish regulations. This reduces overhead and increases efficiency for businesses struggling with rising costs.",
+        "mvp": "Web platform for automated invoice generation, expense tracking, and basic HR document management compliant with Turkish law.",
+        "target": "Small and Medium-sized Enterprises (SMEs) in Turkey across various sectors.",
+        "revenue": "Subscription-based SaaS, tiered pricing based on features and user count.",
+        "risks": "Data security concerns, integration complexity with existing systems, fierce competition in SaaS market.",
+        "why_now": "High inflation makes cost-saving SaaS solutions extremely attractive for Turkish businesses seeking efficiency."
+      },
+      {
+        "name": "Kalkan Siber",
+        "emoji": "🛡️",
+        "oneLiner": "AI-powered cybersecurity for Turkey's manufacturing and logistics sectors.",
+        "sector": "Cybersecurity, AI",
+        "score": 90,
+        "inspired_by": "OpenAI, Ceva Logistics",
+        "real_example": "OpenAI launches a new cyber model; Ceva Logistics data breach.",
+        "tr_status": "Turkey's robust manufacturing base and growing e-commerce rely heavily on secure supply chains and operational technologies.",
+        "tr_idea": "Develop an AI-driven security platform specifically for operational technology (OT) environments in Turkish factories and logistics hubs. This would predict and prevent cyber threats targeting industrial control systems.",
+        "mvp": "An AI-powered anomaly detection system for industrial networks, providing real-time alerts and vulnerability assessments.",
+        "target": "Medium to large manufacturing companies and logistics providers in Turkey.",
+        "revenue": "Annual licensing fees for software, with additional services for implementation and custom threat intelligence.",
+        "risks": "High initial investment in R&D, need for specialized expertise, integration challenges with legacy systems.",
+        "why_now": "Increasing AI-led attacks and supply chain vulnerabilities highlight an urgent need for advanced, specialized defense."
+      },
+      {
+        "name": "Yardımcı Asistan",
+        "emoji": "💬",
+        "oneLiner": "Intelligent AI customer support for Turkey's booming e-commerce.",
+        "sector": "Customer Service AI, E-commerce Tech",
+        "score": 93,
+        "inspired_by": "Omilia",
+        "real_example": "Omilia raises $67M to scale its customer support platform.",
+        "tr_status": "E-commerce in Turkey is growing 30% annually, creating immense pressure on customer support services.",
+        "tr_idea": "Build an AI-powered customer support platform tailored for the Turkish language, cultural nuances, and common e-commerce queries. This would integrate seamlessly with popular Turkish e-commerce platforms and social media.",
+        "mvp": "A multi-channel chatbot (web, WhatsApp, Instagram) capable of handling FAQs, order tracking, and basic return requests in Turkish.",
+        "target": "E-commerce businesses, online retailers, and mobile-first brands in Turkey.",
+        "revenue": "Usage-based pricing (per query/interaction) or tiered subscription plans based on volume and features.",
+        "risks": "Ensuring high accuracy in Turkish NLP, customer preference for human interaction, integration with diverse e-commerce backends.",
+        "why_now": "Rapid e-commerce growth and a mobile-first population demand scalable, efficient, and localized customer service solutions."
+      },
+      {
+        "name": "Türkiye Uygulama Pazarı",
+        "emoji": "📱",
+        "oneLiner": "Turkey's mobile-first app store with integrated local payments.",
+        "sector": "Mobile App Distribution, Fintech",
+        "score": 88,
+        "inspired_by": "Aptoide, Google Play adding Venmo",
+        "real_example": "Aptoide becomes the first rival app store to return to Google Play in the US; Google Play adds Venmo.",
+        "tr_status": "Turkey is highly mobile-first, and e-commerce thrives with local payment methods preferred over international options.",
+        "tr_idea": "Create an alternative Android app marketplace focusing on Turkish developers and users, featuring simplified local payment integrations (e.g., local banks, popular digital wallets, mobile carrier billing). Provide better revenue share for local developers.",
+        "mvp": "An Android app store client with a curated selection of popular Turkish apps and games, integrated with a leading Turkish payment gateway.",
+        "target": "Turkish Android users, local app developers, and SMEs looking for app distribution.",
+        "revenue": "Transaction fees on in-app purchases and paid apps, potentially premium placement fees for developers.",
+        "risks": "Competition with Google Play, user adoption challenges, developer onboarding, security and trust issues.",
+        "why_now": "Antitrust pressures creating opportunities for alternative app stores, combined with Turkey's mobile-first nature and demand for localized payment options."
+      },
+      {
+        "name": "Anadolu Enerji Çözümleri",
+        "emoji": "🔋",
+        "oneLiner": "Manufacturing advanced batteries for defense and industrial applications in Turkey.",
+        "sector": "Advanced Manufacturing, Defense Tech, Energy",
+        "score": 89,
+        "inspired_by": "Sila, Hadrian",
+        "real_example": "Sila lands $1.4B Pentagon loan; Hadrian raises $1.37B at $8B valuation.",
+        "tr_status": "Turkey has a strong manufacturing base and growing defense industry, with increasing demand for reliable domestic energy solutions.",
+        "tr_idea": "Establish a manufacturing facility in Turkey for advanced, high-performance batteries, initially targeting defense sector (e.g., UAVs, military vehicles) and then expanding to industrial applications. Focus on durability and energy density.",
+        "mvp": "Develop and produce a prototype series of specialized lithium-ion or solid-state batteries for a specific defense application, e.g., a long-endurance drone.",
+        "target": "Turkish Ministry of Defense, defense contractors, industrial equipment manufacturers.",
+        "revenue": "Direct sales contracts with defense and industrial clients, R&D partnerships.",
+        "risks": "High capital expenditure, complex regulatory environment, intense global competition, intellectual property acquisition/development challenges.",
+        "why_now": "Global demand for advanced batteries is surging, particularly in defense, aligning with Turkey's manufacturing capabilities and strategic independence goals."
       }
     ]
   }
