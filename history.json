@@ -1,90 +1,5 @@
 [
   {
-    "date": "10 July 2026",
-    "opportunities": [
-      {
-        "name": "AI Automation Agents",
-        "emoji": "🤖",
-        "oneLiner": "AI agents automating key business functions for efficiency.",
-        "sector": "Enterprise SaaS, AI",
-        "score": 92,
-        "inspired_by": "Prime Intellect",
-        "real_example": "Prime Intellect - $130M Series A to help enterprises build their own AI agents",
-        "tr_status": "Turkish businesses, especially SMBs, face high operational costs and seek efficiency gains through digital transformation.",
-        "tr_idea": "Develop specialized AI agents for common Turkish business needs like customer support, inventory management, or compliance for industries like e-commerce and manufacturing.",
-        "mvp": "An AI agent providing 24/7 customer support for common FAQs and order tracking for an e-commerce platform, integrating with existing systems.",
-        "target": "E-commerce businesses, manufacturing SMEs, service providers.",
-        "revenue": "Subscription-based SaaS model (per agent, per usage tier), premium features for customization.",
-        "risks": "Data privacy concerns, initial integration complexity, lack of trust in AI for critical functions.",
-        "why_now": "High inflation drives urgent need for cost-saving automation, and mobile-first businesses are ready for advanced digital tools."
-      },
-      {
-        "name": "TurcoVoice AI",
-        "emoji": "🗣️",
-        "oneLiner": "Advanced AI voice and language models for Turkish.",
-        "sector": "AI, Linguistics, SaaS",
-        "score": 90,
-        "inspired_by": "Gradium",
-        "real_example": "Gradium - raises $100M seed for AI voice, backed by Nvidia",
-        "tr_status": "Existing AI language models often struggle with the nuances of Turkish, creating a gap for localized, high-quality solutions.",
-        "tr_idea": "Build a comprehensive platform for Turkish text-to-speech, speech-to-text, and natural language understanding, tailored for call centers, content creation, and accessibility.",
-        "mvp": "A high-fidelity Turkish text-to-speech API service with various voice options, initially targeting media companies and e-commerce customer service bots.",
-        "target": "E-commerce customer support, media & entertainment, education technology, government services.",
-        "revenue": "API usage fees, subscription tiers for advanced features, custom model training.",
-        "risks": "Data acquisition for training, competition from global players with Turkish offerings, accuracy challenges with diverse accents.",
-        "why_now": "Mobile-first population expects seamless voice interaction, and growing e-commerce demands efficient customer engagement in their native language."
-      },
-      {
-        "name": "TalentBridge AI",
-        "emoji": "🤝",
-        "oneLiner": "AI-powered platform connecting Turkish talent to global opportunities.",
-        "sector": "HR Tech, AI, Workforce",
-        "score": 88,
-        "inspired_by": "Mercor",
-        "real_example": "Mercor - in talks for a $20B valuation (AI-powered talent platform)",
-        "tr_status": "Turkey has a young, skilled tech workforce with increasing interest in remote and international roles, but matching is often inefficient.",
-        "tr_idea": "Develop an AI platform that not only matches skills but also cultural fit and remote work compatibility for Turkish professionals with local and international companies.",
-        "mvp": "A matching platform for software developers, using AI to analyze resumes/profiles and job descriptions, providing top candidate recommendations.",
-        "target": "Turkish tech professionals, local startups & enterprises, international companies seeking remote talent.",
-        "revenue": "Success-based placement fees from employers, premium subscription for advanced employer features (e.g., skill assessments, interview scheduling).",
-        "risks": "Trust in AI matching, competition from global platforms, economic volatility affecting hiring.",
-        "why_now": "High inflation pushes talent to seek higher-paying international roles, while companies need efficient hiring solutions to navigate market changes."
-      },
-      {
-        "name": "Anatolia Smart Manufacturing",
-        "emoji": "🏭",
-        "oneLiner": "AI solutions boosting efficiency in Turkish manufacturing plants.",
-        "sector": "Industrial AI, Manufacturing Tech",
-        "score": 93,
-        "inspired_by": "QuantumDiamonds",
-        "real_example": "QuantumDiamonds - aims to speed up chip manufacturing with EU backing",
-        "tr_status": "Turkey boasts a robust manufacturing sector, but many factories still rely on traditional methods, leading to inefficiencies and higher costs.",
-        "tr_idea": "Offer AI-driven solutions for predictive maintenance, quality control via computer vision, energy optimization, and supply chain forecasting specific to Turkish industrial needs.",
-        "mvp": "A predictive maintenance system leveraging sensor data and AI to anticipate machinery failures, reducing downtime for textile or automotive component manufacturers.",
-        "target": "Automotive, textile, machinery, electronics manufacturers in Turkey.",
-        "revenue": "Project-based implementation fees, subscription for SaaS platform and ongoing AI model maintenance/updates, consulting services.",
-        "risks": "High initial investment for factories, data integration challenges with legacy systems, need for specialized industrial AI talent.",
-        "why_now": "Strong manufacturing base seeking competitive edge, high inflation makes operational cost reduction critical, and government incentives for digitalization."
-      },
-      {
-        "name": "Camiş",
-        "emoji": "🛍️",
-        "oneLiner": "Social commerce platform leveraging AI for hyper-personalized shopping.",
-        "sector": "E-commerce, Social Media, AI",
-        "score": 91,
-        "inspired_by": "Lovable",
-        "real_example": "Lovable - reportedly in talks to double its valuation to $13.2B (social commerce platform)",
-        "tr_status": "E-commerce is rapidly growing (30%/yr), and Turkish consumers are highly engaged on social media, but integration of social and shopping is fragmented.",
-        "tr_idea": "Create a mobile-first social commerce platform where users discover products through AI-curated feeds, live streams, and influencer content, all personalized for local tastes.",
-        "mvp": "A mobile app allowing users to follow micro-influencers and brands, view shoppable video content, and receive AI-driven product recommendations based on their social activity and preferences.",
-        "target": "Young, mobile-first Turkish consumers, local brands, micro-influencers, e-commerce SMEs.",
-        "revenue": "Commission on sales, premium features for sellers (e.g., enhanced analytics, advertising tools), influencer marketing partnerships.",
-        "risks": "Competition from existing e-commerce giants and social media platforms, content moderation challenges, user acquisition costs.",
-        "why_now": "Rapid e-commerce growth, mobile-first population, and high social media penetration create fertile ground for an integrated, AI-driven shopping experience."
-      }
-    ]
-  },
-  {
     "date": "11 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Direct sales contracts with defense and industrial clients, R&D partnerships.",
         "risks": "High capital expenditure, complex regulatory environment, intense global competition, intellectual property acquisition/development challenges.",
         "why_now": "Global demand for advanced batteries is surging, particularly in defense, aligning with Turkey's manufacturing capabilities and strategic independence goals."
+      }
+    ]
+  },
+  {
+    "date": "13 August 2026",
+    "opportunities": [
+      {
+        "name": "E-Optimize AI",
+        "emoji": "📈",
+        "oneLiner": "AI for Turkish e-commerce growth & cost-saving.",
+        "sector": "E-commerce SaaS",
+        "score": 90,
+        "inspired_by": "Thrive Holdings",
+        "real_example": "Thrive Holdings - raises $2B to bring AI to the enterprise",
+        "tr_status": "E-commerce in Turkey is growing 30%/yr, but many SMEs lack advanced optimization tools.",
+        "tr_idea": "Develop an AI platform offering localized content generation, SEO optimization, and predictive analytics for Turkish e-commerce sellers, reducing operational costs and boosting sales.",
+        "mvp": "A web platform with AI tools for product description generation, ad copy suggestions, and basic inventory forecasting, with full Turkish language support.",
+        "target": "Small to medium-sized e-commerce businesses in Turkey.",
+        "revenue": "Subscription-based SaaS, tiered pricing based on features and usage.",
+        "risks": "Data privacy concerns, AI model accuracy for local nuances, strong competition from global players.",
+        "why_now": "High inflation drives demand for cost-saving tools, and rapid e-commerce growth creates a large, underserved market."
+      },
+      {
+        "name": "Anadolu AutoAgent",
+        "emoji": "🤖",
+        "oneLiner": "Automating Turkish business tasks with smart AI agents.",
+        "sector": "Enterprise AI / SaaS",
+        "score": 88,
+        "inspired_by": "River AI",
+        "real_example": "River AI - General Catalyst leads $1.1B round into 2-month-old River AI",
+        "tr_status": "Turkish businesses face increasing operational costs and a growing demand for efficiency gains.",
+        "tr_idea": "Build industry-specific AI agents (e.g., for hospitality, manufacturing) to automate repetitive administrative tasks, customer service, or supply chain inquiries in Turkish.",
+        "mvp": "An AI agent capable of managing appointment bookings and answering FAQs for local restaurants and small hotels, accessible via popular messaging apps.",
+        "target": "SMEs and larger enterprises seeking to reduce labor costs and improve operational efficiency.",
+        "revenue": "Monthly subscription per agent/task automated, custom solutions for larger clients.",
+        "risks": "User trust in automation, integration complexities with existing systems, quality of localized language processing.",
+        "why_now": "High inflation makes cost-saving automation highly attractive, and a mobile-first approach supports messaging-based agents."
+      },
+      {
+        "name": "EnerjiDepo Türkiye",
+        "emoji": "🔋",
+        "oneLiner": "Building Turkey's long-duration energy storage batteries.",
+        "sector": "Green Tech / Manufacturing",
+        "score": 85,
+        "inspired_by": "Form Energy",
+        "real_example": "Form Energy - raises $750M to build more 100-hour batteries for the grid",
+        "tr_status": "Turkey has a strong manufacturing base and growing renewable energy integration with a need for grid stability.",
+        "tr_idea": "Establish R&D and manufacturing facilities in Turkey for innovative, long-duration grid-scale battery technologies, supporting energy independence and renewable integration.",
+        "mvp": "A pilot project demonstrating a locally manufactured 1MW/100-hour battery system for a regional grid operator or large industrial facility.",
+        "target": "National grid operators, industrial parks, and renewable energy developers in Turkey.",
+        "revenue": "Direct sales of battery systems, long-term maintenance contracts, potential for export.",
+        "risks": "High initial capital investment, intense R&D required, competition from established global players.",
+        "why_now": "Global push for clean energy, Turkey's strategic location, and a critical national need for grid stability with increased renewables."
+      },
+      {
+        "name": "Konuşkan Yüzük",
+        "emoji": "🗣️",
+        "oneLiner": "Voice-powered AI wearables for hands-free productivity in Turkey.",
+        "sector": "Consumer Electronics / AI Hardware",
+        "score": 80,
+        "inspired_by": "Sandbar",
+        "real_example": "Sandbar - ring-maker says the future of AI wearables is voice",
+        "tr_status": "Turkey has a mobile-first population with increasing tech adoption and interest in smart devices and health tech.",
+        "tr_idea": "Design and produce an affordable, voice-enabled smart ring or discrete earbud for Turkish users, focusing on local language support for hands-free tasks and health monitoring.",
+        "mvp": "A smart ring offering instant voice-to-text notes, translation to/from Turkish, and integration with popular Turkish apps for reminders.",
+        "target": "Tech-savvy professionals, students, and active individuals in urban areas of Turkey.",
+        "revenue": "Device sales, premium subscription for advanced AI features or cloud storage.",
+        "risks": "High cost of hardware R&D and manufacturing, intense competition, user adoption of new form factors.",
+        "why_now": "Growing global trend in AI wearables, Turkey's mobile-first demographic, and potential for leveraging local manufacturing expertise."
+      },
+      {
+        "name": "SiberGüven AI",
+        "emoji": "🔒",
+        "oneLiner": "Protecting Turkish enterprises with AI-driven cybersecurity.",
+        "sector": "Cybersecurity SaaS",
+        "score": 87,
+        "inspired_by": "Microsoft zero-day",
+        "real_example": "Microsoft threatened legal action, a security researcher publishes a new Windows zero-day bug",
+        "tr_status": "Rapid digital transformation in Turkey leads to increased cyber vulnerability for businesses and critical infrastructure.",
+        "tr_idea": "Offer AI-powered solutions for threat detection, vulnerability management, and ensuring ethical and compliant AI usage within Turkish companies and government agencies.",
+        "mvp": "A SaaS platform providing real-time AI-driven anomaly detection for network traffic and an AI model governance tool to track and audit enterprise AI usage.",
+        "target": "Mid-to-large enterprises, financial institutions, and government agencies in Turkey.",
+        "revenue": "Subscription-based SaaS, consulting services for AI security audits and policy development.",
+        "risks": "Evolving threat landscape, need for highly specialized talent, building trust with sensitive data.",
+        "why_now": "Increasing digital transformation and AI adoption in Turkish enterprises expose new attack vectors, creating urgent demand for advanced security."
       }
     ]
   }
