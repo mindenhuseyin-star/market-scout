@@ -1,90 +1,5 @@
 [
   {
-    "date": "11 July 2026",
-    "opportunities": [
-      {
-        "name": "Yapay Zeka Yerel",
-        "emoji": "🇹🇷",
-        "oneLiner": "Deploy open-source AI models for Turkish businesses.",
-        "sector": "AI / Developer Tools / SaaS",
-        "score": 92,
-        "inspired_by": "Ollama",
-        "real_example": "Ollama - raises $65M, grows to nearly 9M users",
-        "tr_status": "Turkey has a growing developer community and increasing demand for localized AI solutions, but cost is a major factor due to inflation.",
-        "tr_idea": "Provide an easy-to-use platform for Turkish businesses to deploy, fine-tune, and manage open-source AI models on-prem or in local clouds, reducing dependency on expensive foreign providers. Focus on Turkish language support and local data compliance.",
-        "mvp": "A web-based platform allowing one-click deployment of popular open-source LLMs (e.g., Llama variants) and other models with basic fine-tuning capabilities, hosted on local Turkish cloud providers.",
-        "target": "Turkish SMEs and enterprises looking for cost-effective, private, and localized AI solutions.",
-        "revenue": "Subscription tiers based on usage, model size, and features (e.g., custom fine-tuning support, premium models).",
-        "risks": "Competition from global players, ensuring sufficient local talent for support and development, data privacy regulations.",
-        "why_now": "High inflation drives demand for cost-saving tech, the 'done renting AI' trend aligns with open-source adoption, and a strong manufacturing base could leverage AI for efficiency."
-      },
-      {
-        "name": "ReklamDoğru",
-        "emoji": "🛡️",
-        "oneLiner": "AI fraud detection for e-commerce affiliate marketing in Turkey.",
-        "sector": "E-commerce / AdTech / SaaS",
-        "score": 90,
-        "inspired_by": "Phia",
-        "real_example": "Phia accused of ‘cookie stuffing,’ taking affiliate credit",
-        "tr_status": "Turkey's e-commerce is booming (30% annual growth), but fraud and misattribution can erode trust and profitability for merchants.",
-        "tr_idea": "Develop an AI-driven platform that monitors affiliate campaigns for suspicious activity like cookie stuffing, click fraud, and false attribution, protecting ad spend for Turkish e-commerce businesses. Offer real-time analytics and dispute resolution tools.",
-        "mvp": "A dashboard for e-commerce merchants to integrate their affiliate programs, track conversions, and receive alerts for detected fraudulent patterns with evidence. Focus on common fraud types in Turkey.",
-        "target": "E-commerce businesses, online retailers, and affiliate networks operating in Turkey.",
-        "revenue": "Percentage of detected fraudulent transactions recovered/saved, or a subscription fee based on affiliate spend volume.",
-        "risks": "Constant evolution of fraud tactics, need for strong AI models to minimize false positives, integration challenges with diverse e-commerce platforms.",
-        "why_now": "Rapid e-commerce growth makes it a prime target for fraud, and cost-saving solutions (by preventing lost ad spend) are highly attractive during high inflation."
-      },
-      {
-        "name": "MahallePazar",
-        "emoji": "🛍️",
-        "oneLiner": "Community-driven social commerce for Turkish shoppers.",
-        "sector": "E-commerce / Social Media / Retail",
-        "score": 93,
-        "inspired_by": "Lovable",
-        "real_example": "Lovable reportedly in talks to double its valuation to $13.2B",
-        "tr_status": "Turkey is mobile-first with high social media penetration, and e-commerce is growing rapidly. Community ties are strong, lending themselves to group buying.",
-        "tr_idea": "Create a mobile-first platform where users can discover products through curated social feeds, form buying groups to unlock discounts, and share purchase experiences. Integrate local merchants and influencers to drive community-led commerce.",
-        "mvp": "A mobile app allowing users to browse products, create 'shopping circles' for group discounts, and invite friends. Focus on a specific product category first (e.g., fashion, electronics) with a few key local merchants.",
-        "target": "Gen Z and millennial consumers, local small to medium-sized businesses (SMEs) wanting to reach a wider, engaged audience.",
-        "revenue": "Commission on sales, premium features for merchants (e.g., analytics, boosted listings), potentially ad revenue later.",
-        "risks": "User acquisition and retention, building a critical mass of both buyers and sellers, managing logistics for group orders, competition from existing e-commerce giants.",
-        "why_now": "E-commerce is booming, mobile-first population, social media influence is paramount, and inflation makes discount-driven group buying highly appealing."
-      },
-      {
-        "name": "Cebimize",
-        "emoji": "📺",
-        "oneLiner": "Free, ad-supported streaming of local Turkish content.",
-        "sector": "Media / Entertainment / AdTech",
-        "score": 88,
-        "inspired_by": "Disney+",
-        "real_example": "Disney+ is considering a free streaming tier",
-        "tr_status": "High inflation limits disposable income for premium subscriptions, but digital content consumption is very high, especially on mobile. Local content is highly valued.",
-        "tr_idea": "Launch a free, ad-supported streaming service offering a mix of popular Turkish series, movies, documentaries, and curated international content with Turkish subtitles/dubbing. Integrate 'always-on' channels for a lean-back experience.",
-        "mvp": "A mobile and web app offering a limited library of popular local content and a few curated international titles, supported by pre-roll and mid-roll advertisements. Start with a 'live channel' for trending Turkish series.",
-        "target": "Turkish consumers across all demographics looking for free entertainment, advertisers seeking to reach a broad mobile-first audience.",
-        "revenue": "Advertising revenue (CPM, CPCV models).",
-        "risks": "Content licensing costs, strong competition from global and local paid platforms, ad inventory monetization, user experience with ads.",
-        "why_now": "High inflation makes free services highly attractive, Turkey's mobile-first population consumes a lot of digital content, and there's a strong local content production industry."
-      },
-      {
-        "name": "Akıllı Asistan",
-        "emoji": "🤖",
-        "oneLiner": "AI agents automating administrative tasks for Turkish SMEs.",
-        "sector": "AI / SaaS / Business Automation",
-        "score": 91,
-        "inspired_by": "Prime Intellect",
-        "real_example": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
-        "tr_status": "Turkish SMEs form the backbone of the economy, but often lack resources for advanced automation, while high inflation makes cost-saving efficiency tools crucial.",
-        "tr_idea": "Develop a suite of AI agents specifically trained on Turkish business processes, regulations, and language to automate common administrative tasks like customer support (in Turkish), appointment scheduling, invoice processing, and basic HR queries, tailored for SMEs.",
-        "mvp": "An AI chatbot integrated with common SME tools (e.g., accounting software, CRM) that can handle Turkish language customer service inquiries, answer FAQs, and escalate complex issues. Focus on a specific industry like retail or hospitality.",
-        "target": "Small and Medium-sized Enterprises (SMEs) in Turkey.",
-        "revenue": "Subscription tiers based on agent complexity, usage volume, and integrated features.",
-        "risks": "AI accuracy in Turkish nuances, integration complexity with diverse legacy systems, data privacy concerns for sensitive business information, trust in AI for critical tasks.",
-        "why_now": "High inflation incentivizes cost-saving and efficiency for SMEs, and advancements in AI agents make this technology viable for practical business applications."
-      }
-    ]
-  },
-  {
     "date": "12 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Subscription-based SaaS, consulting services for AI security audits and policy development.",
         "risks": "Evolving threat landscape, need for highly specialized talent, building trust with sensitive data.",
         "why_now": "Increasing digital transformation and AI adoption in Turkish enterprises expose new attack vectors, creating urgent demand for advanced security."
+      }
+    ]
+  },
+  {
+    "date": "16 August 2026",
+    "opportunities": [
+      {
+        "name": "Localized AI Dev Co-Pilot",
+        "emoji": "💻",
+        "oneLiner": "AI coding assistant for Turkish mobile & web developers.",
+        "sector": "Developer Tools, SaaS",
+        "score": 85,
+        "inspired_by": "Cognition",
+        "real_example": "Cognition - reportedly already in talks to raise at $40B valuation",
+        "tr_status": "Turkey has a growing developer community, strong mobile-first focus, and high inflation drives demand for efficiency-boosting SaaS.",
+        "tr_idea": "Develop an AI co-pilot for coding specifically trained on popular local frameworks and common Turkish development practices. This will help reduce development costs and accelerate time-to-market for Turkish startups and enterprises.",
+        "mvp": "Browser-based AI coding assistant for basic frontend/backend tasks, integrated with popular IDEs via plugin (e.g., VS Code).",
+        "target": "Small to medium-sized Turkish software development teams and freelance developers.",
+        "revenue": "Subscription-based (tiered pricing), freemium model.",
+        "risks": "Competition from global giants, data privacy concerns, and AI model accuracy challenges.",
+        "why_now": "High inflation pressures businesses to optimize development costs and increase productivity."
+      },
+      {
+        "name": "AuthentiGen AI",
+        "emoji": "🛡️",
+        "oneLiner": "Verify and watermark AI-generated content securely.",
+        "sector": "AI Trust & Safety, Cybersecurity",
+        "score": 85,
+        "inspired_by": "Anthropic (Claude), Google AI, Grok",
+        "real_example": "Anthropic - shares details about Claude’s new watermarks / Grok - used for explicit imagery",
+        "tr_status": "Rapid adoption of AI tools by Turkish content creators and businesses increases risks of misinformation and misuse, demanding trust mechanisms.",
+        "tr_idea": "Build a SaaS platform offering robust digital watermarking for AI-generated images/text and a verification service to check content provenance. This would protect creators' IP and combat deepfakes, essential for digital trust in a mobile-first society.",
+        "mvp": "Web platform for uploading content to apply/check watermarks, focusing initially on images and short-form text generated by popular LLMs.",
+        "target": "Content creators, marketing agencies, news outlets, e-commerce platforms in Turkey.",
+        "revenue": "Tiered subscription for watermarking and verification API calls.",
+        "risks": "Technical challenges in developing robust, unremovable watermarks, and user adoption issues.",
+        "why_now": "Increasing incidents of AI misuse and desire for content authenticity in a digital-first economy."
+      },
+      {
+        "name": "E-Logistics AI",
+        "emoji": "📦",
+        "oneLiner": "AI-powered optimization for Turkish e-commerce logistics.",
+        "sector": "Logistics Tech, E-commerce, SaaS",
+        "score": 85,
+        "inspired_by": "Self-driving trucks, Uber/Pony.ai",
+        "real_example": "Self-driving trucks - officially testing on California highways / Uber and Pony.ai - plan to bring 2,000 robotaxis to Europe",
+        "tr_status": "Turkey's e-commerce is booming (30%/yr growth), creating immense pressure on logistics, while high fuel costs demand efficiency.",
+        "tr_idea": "Develop an AI platform offering intelligent route optimization, warehouse management, and predictive maintenance for delivery fleets. This will significantly reduce operational costs and improve delivery speeds for Turkish e-commerce businesses.",
+        "mvp": "SaaS platform for route optimization and fleet tracking, integrating with existing e-commerce platforms and delivery partners.",
+        "target": "E-commerce companies, last-mile delivery services, and logistics providers in Turkey.",
+        "revenue": "Subscription-based, volume-based pricing, or per-delivery optimization fee.",
+        "risks": "Integration complexity with diverse logistics systems, initial data acquisition challenges, and intense competition.",
+        "why_now": "Soaring e-commerce growth and high operational costs necessitate advanced optimization solutions."
+      },
+      {
+        "name": "Anatolian WearTech",
+        "emoji": "⌚",
+        "oneLiner": "Affordable AI wearables for Turkish health and productivity.",
+        "sector": "Wearable Tech, Health Tech, Consumer Electronics",
+        "score": 85,
+        "inspired_by": "Sandbar, Unforgetful",
+        "real_example": "Sandbar - says the future of AI wearables is voice / Unforgetful - new reminders app",
+        "tr_status": "Mobile-first population eager for convenience, combined with a strong manufacturing base for electronics.",
+        "tr_idea": "Design and locally manufacture affordable, smart rings or wristbands offering AI-powered reminders, sleep tracking, and quick voice commands. These devices would integrate with popular Turkish productivity apps, enhancing daily life without relying solely on smartphones.",
+        "mvp": "Smart ring/band prototype with basic sleep tracking, silent alarms, and integration with a custom reminders app for basic scheduling.",
+        "target": "Tech-savvy individuals, busy professionals, and students in urban areas of Turkey.",
+        "revenue": "Device sales, optional premium subscription for advanced AI features or personalized insights.",
+        "risks": "High R&D costs, competition from global brands, and gaining user trust for data privacy.",
+        "why_now": "Growing demand for smart, discreet personal tech and Turkey's manufacturing capabilities."
+      },
+      {
+        "name": "TurkPay Solutions",
+        "emoji": "💳",
+        "oneLiner": "Cost-effective payment gateway for Turkish e-commerce.",
+        "sector": "FinTech, E-commerce Services",
+        "score": 85,
+        "inspired_by": "Apple's App Store cut, PayPal/Stripe talks",
+        "real_example": "Apple - proposes to take a 15% cut of purchases made outside the App Store / PayPal to Stripe and Advent are heating up",
+        "tr_status": "Rapid e-commerce growth, mobile-first population, and high inflation necessitate lower transaction costs for businesses.",
+        "tr_idea": "Create a Turkish-focused payment gateway that aggregates local payment methods (e.g., bank transfers, specific debit/credit cards, mobile wallets) and offers competitive transaction fees compared to global players. This platform would enable Turkish SMEs to manage all online sales efficiently, maximizing profit margins.",
+        "mvp": "Secure online payment gateway supporting major Turkish credit/debit cards and local bank transfers, with easy integration for popular e-commerce platforms.",
+        "target": "Small to medium-sized e-commerce businesses and online service providers in Turkey.",
+        "revenue": "Transaction fees (percentage of sales), fixed monthly service fees for advanced features.",
+        "risks": "Regulatory compliance, cybersecurity threats, intense competition from existing payment providers.",
+        "why_now": "E-commerce explosion in Turkey drives demand for efficient, cost-effective, and locally adapted payment solutions."
       }
     ]
   }
