@@ -1,90 +1,5 @@
 [
   {
-    "date": "12 July 2026",
-    "opportunities": [
-      {
-        "name": "Aile Asistanı",
-        "emoji": "🏠",
-        "oneLiner": "AI for Turkish families' daily life and kids' learning.",
-        "sector": "Consumer AI, EdTech",
-        "score": 90,
-        "inspired_by": "OpenAI",
-        "real_example": "OpenAI bets on families as ChatGPT goes deeper into households",
-        "tr_status": "Turkish families are mobile-first and seeking digital tools for education and home management.",
-        "tr_idea": "Develop a localized AI assistant app offering educational support, household organization, and cultural content tailored for Turkish families. Focus on ease of use and Turkish language fluency.",
-        "mvp": "Mobile app with conversational AI for homework help (K-12 Turkish curriculum), meal planning, and family schedule reminders.",
-        "target": "Middle to upper-income Turkish families with school-aged children.",
-        "revenue": "Freemium model, with premium subscriptions for advanced tutoring and personalized features.",
-        "risks": "Data privacy concerns, AI accuracy, fierce competition from global tech giants.",
-        "why_now": "Increased digital adoption post-pandemic and rising demand for educational and organizational aids."
-      },
-      {
-        "name": "Güvenli Bağlantı",
-        "emoji": "🛡️",
-        "oneLiner": "AI-powered fraud detection for booming Turkish e-commerce affiliates.",
-        "sector": "AdTech, Cybersecurity, E-commerce SaaS",
-        "score": 95,
-        "inspired_by": "Phia",
-        "real_example": "Phia accused of ‘cookie stuffing,’ taking affiliate credit on purchases it didn’t earn",
-        "tr_status": "E-commerce is growing rapidly (30%/yr), leading to increased affiliate marketing and potential fraud.",
-        "tr_idea": "Offer a SaaS platform utilizing AI and machine learning to detect and prevent affiliate fraud, protecting Turkish e-commerce merchants' marketing spend.",
-        "mvp": "Web dashboard for e-commerce platforms to monitor affiliate traffic, identify suspicious patterns, and block fraudulent conversions in real-time.",
-        "target": "Turkish e-commerce businesses, online retailers, and affiliate networks.",
-        "revenue": "Subscription-based SaaS, tiered pricing based on transaction volume or number of affiliate campaigns managed.",
-        "risks": "Constant evolution of fraud tactics, need for robust data integration, trust and adoption by merchants.",
-        "why_now": "Booming e-commerce creates an urgent need for cost-saving anti-fraud solutions amidst high inflation."
-      },
-      {
-        "name": "Endüstriyel Zeka",
-        "emoji": "🏭",
-        "oneLiner": "Open-source AI agents for Turkish manufacturing SMEs.",
-        "sector": "Industrial AI, Enterprise SaaS, Open Source Solutions",
-        "score": 92,
-        "inspired_by": "Hugging Face",
-        "real_example": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents; Hugging Face on open source AI.",
-        "tr_status": "Turkish SMEs have a strong manufacturing base but lack easy access to customized, cost-effective AI solutions.",
-        "tr_idea": "Provide a service platform for Turkish manufacturing SMEs to implement and customize open-source AI agents for specific industrial applications like predictive maintenance, quality control, or supply chain optimization.",
-        "mvp": "Consulting and implementation for open-source AI models applied to predictive maintenance for a few pilot manufacturing facilities.",
-        "target": "Small to medium-sized manufacturing enterprises (SMEs) across various sectors.",
-        "revenue": "Project-based consulting, subscription for platform access and ongoing support, training modules.",
-        "risks": "Skill gap for deployment, integration with legacy systems, proving immediate ROI to conservative businesses.",
-        "why_now": "High inflation drives demand for efficiency and cost reduction, which open-source AI can deliver."
-      },
-      {
-        "name": "Fırsat Akışı",
-        "emoji": "🛍️",
-        "oneLiner": "Personalized, social shopping feed for Turkish mobile users.",
-        "sector": "E-commerce, Social Media, Content Aggregation",
-        "score": 88,
-        "inspired_by": "HyperTexting",
-        "real_example": "HyperTexting turns the open web into a scrollable social media-like feed.",
-        "tr_status": "Turkish consumers are highly mobile-first, avid social media users, and e-commerce adoption is soaring.",
-        "tr_idea": "Create a mobile app that aggregates product deals and trends from Turkish e-commerce sites into a personalized, social media-style feed, allowing users to discover, share, and comment on products.",
-        "mvp": "Mobile app aggregating deals from top Turkish e-commerce platforms (Trendyol, Hepsiburada) with basic user profiles, like/comment, and sharing functions.",
-        "target": "Young, mobile-savvy online shoppers (18-35) seeking deals and social product discovery.",
-        "revenue": "Affiliate commissions from sales, in-app advertising, premium features for exclusive deals or community access.",
-        "risks": "Competition from existing e-commerce apps, content curation challenges, achieving network effects.",
-        "why_now": "Rapid e-commerce growth and high social media engagement create demand for engaging shopping experiences."
-      },
-      {
-        "name": "Serin Nokta",
-        "emoji": "🍧",
-        "oneLiner": "Smart, localized slushie machine network for public spaces.",
-        "sector": "Food Tech, Vending, IoT",
-        "score": 80,
-        "inspired_by": "Slushie machine",
-        "real_example": "This slushie machine was a lifesaver during NYC’s heat wave",
-        "tr_status": "Turkey experiences hot summers, and there's a strong manufacturing base for vending and food equipment.",
-        "tr_idea": "Design and manufacture smart, IoT-connected slushie machines for high-traffic public areas across Turkey, offering diverse, locally flavored options and mobile payment.",
-        "mvp": "Develop a prototype smart slushie machine with a few popular Turkish flavors, integrated mobile payment (QR code), and a basic remote monitoring system for inventory.",
-        "target": "Municipalities, parks, shopping malls, beaches, event organizers.",
-        "revenue": "Sales of slushies, advertising on machine screens, potential franchising.",
-        "risks": "Initial manufacturing costs, maintenance and logistics, seasonality, health regulations.",
-        "why_now": "Climate change brings hotter summers, increasing demand for refreshing options; Turkey's manufacturing base can localize production."
-      }
-    ]
-  },
-  {
     "date": "13 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Transaction fees (percentage of sales), fixed monthly service fees for advanced features.",
         "risks": "Regulatory compliance, cybersecurity threats, intense competition from existing payment providers.",
         "why_now": "E-commerce explosion in Turkey drives demand for efficient, cost-effective, and locally adapted payment solutions."
+      }
+    ]
+  },
+  {
+    "date": "17 August 2026",
+    "opportunities": [
+      {
+        "name": "LocalAI Gateway for Businesses",
+        "emoji": "🇹🇷",
+        "oneLiner": "Optimized, localized AI API gateway for Turkish businesses.",
+        "sector": "AI Infrastructure",
+        "score": 90,
+        "inspired_by": "OpenRouter",
+        "real_example": "Stripe acquiring OpenRouter for $7B+; Kog optimizing GPU inference.",
+        "tr_status": "Turkish businesses, especially SMEs, struggle with complex AI integrations and high operational costs.",
+        "tr_idea": "Develop an AI gateway that simplifies access to various global AI models and offers cost optimization features tailored for Turkish Lira. Focus on ease of integration for e-commerce platforms.",
+        "mvp": "Basic API gateway connecting to 2-3 major LLMs with a usage-based billing system in TRY and simple cost analytics dashboard.",
+        "target": "E-commerce SMEs, digital marketing agencies, SaaS startups in Turkey.",
+        "revenue": "Usage-based fees (per token, per request), premium features subscriptions, optimization consulting.",
+        "risks": "Rapid evolution of AI models requires constant adaptation; competition from direct API access or global players.",
+        "why_now": "High inflation makes cost-saving appealing, and growing e-commerce needs accessible AI for competitive edge."
+      },
+      {
+        "name": "GüvenliAI (Trusted AI) Platform",
+        "emoji": "🛡️",
+        "oneLiner": "AI-powered trust, safety, and content moderation for digital platforms.",
+        "sector": "AI Safety & Security",
+        "score": 88,
+        "inspired_by": "Anthropic (Claude watermarks)",
+        "real_example": "Anthropic shares details about Claude’s new watermarks; Woman claims Grok used to transform photo.",
+        "tr_status": "As a mobile-first nation with high social media use, Turkey faces increasing risks of AI misuse and misinformation.",
+        "tr_idea": "Offer an AI-driven platform for content moderation, deepfake detection, and AI-generated content watermarking for Turkish digital platforms. Focus on local language nuances and cultural context.",
+        "mvp": "API for detecting AI-generated text/images and explicit content in Turkish, integrated with common social media/e-commerce platforms.",
+        "target": "Social media platforms, e-commerce sites, news agencies, government bodies in Turkey.",
+        "revenue": "Subscription fees based on usage volume (content scanned, APIs called).",
+        "risks": "Difficulty keeping up with evolving AI misuse tactics; ethical concerns and potential for false positives.",
+        "why_now": "Growing public distrust in AI and reported misuse incidents highlight an urgent need for robust safety solutions."
+      },
+      {
+        "name": "SesliYardımcı (Voice Assistant)",
+        "emoji": "🗣️",
+        "oneLiner": "Intuitive voice-first AI assistant for personal and business productivity.",
+        "sector": "Productivity AI",
+        "score": 87,
+        "inspired_by": "Unforgetful (reminders app)",
+        "real_example": "Unforgetful is a new reminders app; Sandbar says future of AI wearables is voice.",
+        "tr_status": "Turkey is mobile-first, and while general assistants exist, a deeply integrated, voice-first, Turkish-native productivity tool is missing.",
+        "tr_idea": "Develop a voice-activated AI assistant for task management, reminders, note-taking, and scheduling, specifically designed for Turkish language and cultural context. Integrate with local services.",
+        "mvp": "Mobile app offering voice-to-text task creation, smart reminders (e.g., 'Remind me to call the bank tomorrow morning'), and basic calendar integration in Turkish.",
+        "target": "Mobile users, busy professionals, small business owners in Turkey.",
+        "revenue": "Freemium model (basic free, premium features subscription), partnerships with local services.",
+        "risks": "High competition from global tech giants; accuracy of Turkish voice recognition and natural language understanding.",
+        "why_now": "Mobile-first population values convenience, and AI-driven personalization can boost efficiency in a high-inflation environment."
+      },
+      {
+        "name": "Üretim Optimize AI (Production Optimize AI)",
+        "emoji": "🏭",
+        "oneLiner": "AI-driven optimization for Turkish manufacturing and supply chains.",
+        "sector": "Industrial AI",
+        "score": 89,
+        "inspired_by": "Self-driving trucks",
+        "real_example": "Self-driving trucks are officially testing on California highways; Databricks $190B valuation.",
+        "tr_status": "Turkey has a strong manufacturing base and growing e-commerce logistics, but faces cost pressures from high inflation.",
+        "tr_idea": "Provide AI-powered SaaS solutions for predictive maintenance, inventory optimization, production scheduling, and logistics routing for Turkish factories and supply chains. ",
+        "mvp": "A platform module for predictive maintenance based on sensor data, offering anomaly detection and maintenance scheduling recommendations for factory equipment.",
+        "target": "Manufacturing companies, logistics and shipping firms, e-commerce fulfillment centers in Turkey.",
+        "revenue": "Subscription-based SaaS, tiered based on features and scale; consulting services for integration.",
+        "risks": "High initial investment for data integration; skepticism from traditional industries; need for specialized industrial expertise.",
+        "why_now": "High inflation drives an urgent need for cost efficiency and waste reduction, which AI can significantly enable in the strong manufacturing sector."
+      },
+      {
+        "name": "Akıllı Ödeme Çözümleri (Smart Payment Solutions)",
+        "emoji": "💳",
+        "oneLiner": "AI-powered payment and financial management for Turkish SMEs.",
+        "sector": "Fintech",
+        "score": 92,
+        "inspired_by": "Stripe",
+        "real_example": "Stripe reportedly acquires OpenRouter; Talks to sell PayPal to Stripe are heating up.",
+        "tr_status": "E-commerce is booming, but many Turkish SMEs struggle with efficient, affordable, and integrated payment processing and financial analytics.",
+        "tr_idea": "Develop an integrated payment gateway combined with AI-driven analytics for cash flow forecasting, fraud detection, and expense optimization tailored for Turkish SMEs. This provides comprehensive financial control.",
+        "mvp": "Online payment gateway accepting local payment methods, offering basic transaction categorization and a simple dashboard for revenue tracking.",
+        "target": "E-commerce businesses, local shops, service providers, and all SMEs in Turkey.",
+        "revenue": "Transaction fees, premium subscription for advanced analytics and features, loan/credit facilitation fees.",
+        "risks": "Intense competition in fintech; regulatory compliance complexities; cybersecurity threats.",
+        "why_now": "E-commerce growth and high inflation push SMEs to seek smarter, more cost-effective, and integrated financial tools."
       }
     ]
   }
