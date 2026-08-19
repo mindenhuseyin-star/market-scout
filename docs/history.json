@@ -1,90 +1,5 @@
 [
   {
-    "date": "14 July 2026",
-    "opportunities": [
-      {
-        "name": "E-BizAgent",
-        "emoji": "🤖",
-        "oneLiner": "AI agents automating e-commerce operations for SMBs.",
-        "sector": "E-commerce SaaS, AI",
-        "score": 90,
-        "inspired_by": "Prime Intellect",
-        "real_example": "Prime Intellect - raises $130M Series A to help enterprises build their own AI agents",
-        "tr_status": "E-commerce growing 30%/yr, SMBs need efficiency tools; mobile-first engagement.",
-        "tr_idea": "Develop localized, affordable AI agents for Turkish e-commerce businesses to automate customer service, marketing, inventory, and personalized recommendations.",
-        "mvp": "A chatbot agent integrating with popular Turkish e-commerce platforms (e.g., Trendyol) for automated FAQ and order status.",
-        "target": "Small to medium-sized e-commerce businesses in Turkey.",
-        "revenue": "Subscription-based (SaaS) per agent/feature tier.",
-        "risks": "Data privacy concerns, AI hallucination, trust in automation.",
-        "why_now": "Rapid e-commerce growth demands scalable, cost-effective automation due to inflation."
-      },
-      {
-        "name": "VidGen TR",
-        "emoji": "🎬",
-        "oneLiner": "AI-driven video ad generation for Turkish e-commerce.",
-        "sector": "MarTech, AI, Content Creation",
-        "score": 88,
-        "inspired_by": "PixVerse",
-        "real_example": "PixVerse - raises $439M, valuation soars past $2B",
-        "tr_status": "High mobile video consumption, e-commerce needs engaging content, small businesses lack video resources.",
-        "tr_idea": "Offer an AI platform for Turkish e-commerce sellers to quickly create high-quality, localized product videos and ads for social media and marketplaces.",
-        "mvp": "A web-based tool allowing users to upload product images/text and generate short promotional videos with Turkish voiceovers and music.",
-        "target": "E-commerce sellers, digital marketing agencies, SMBs in Turkey.",
-        "revenue": "Freemium model, then subscription tiers based on video length/quantity/features.",
-        "risks": "Quality of AI-generated content, competition from global tools, data privacy.",
-        "why_now": "Mobile-first user base and booming e-commerce require cost-effective, engaging video marketing."
-      },
-      {
-        "name": "Anadolu AI",
-        "emoji": "⚙️",
-        "oneLiner": "Deploying and managing open-source AI for Turkish enterprises.",
-        "sector": "Enterprise AI, Industrial IoT, SaaS",
-        "score": 92,
-        "inspired_by": "Hugging Face",
-        "real_example": "Hugging Face’s CEO on why companies are done renting their AI; Ollama raises $65M.",
-        "tr_status": "Strong manufacturing sector, high inflation makes proprietary AI costly, data residency concerns.",
-        "tr_idea": "Provide a platform and services for Turkish manufacturing and large enterprises to implement, fine-tune, and manage open-source AI models on-premise.",
-        "mvp": "A consultancy service combined with a managed platform for deploying Llama-based models for specific manufacturing tasks like quality control or predictive maintenance.",
-        "target": "Large manufacturing companies, industrial enterprises in Turkey.",
-        "revenue": "Setup fees, recurring platform management fees, custom development.",
-        "risks": "Technical complexity, talent scarcity, security of on-premise deployments.",
-        "why_now": "Turkish industry seeks cost-effective, customizable AI solutions with data control amidst high inflation and growing competition."
-      },
-      {
-        "name": "ÜretimSense",
-        "emoji": "📊",
-        "oneLiner": "AI platform for optimizing Turkish manufacturing and maintenance.",
-        "sector": "Industrial AI, SaaS, IoT",
-        "score": 91,
-        "inspired_by": "Prime Intellect",
-        "real_example": "Prime Intellect - raises $130M Series A to help enterprises build their own AI agents",
-        "tr_status": "Strong manufacturing base, high inflation drives need for cost-saving and efficiency.",
-        "tr_idea": "Develop an AI-driven platform that integrates with existing factory sensors to provide real-time production insights and predictive maintenance alerts for Turkish manufacturers.",
-        "mvp": "A dashboard displaying key production metrics and anomaly detection for a single type of machine, with SMS/email alerts for potential failures.",
-        "target": "Mid-to-large scale manufacturing plants in automotive, textiles, white goods.",
-        "revenue": "Subscription-based per machine/factory module, with added consulting/integration services.",
-        "risks": "Integration with legacy systems, data quality, high initial implementation cost perception.",
-        "why_now": "Turkish manufacturers need to boost efficiency and reduce downtime to stay competitive and mitigate inflation effects."
-      },
-      {
-        "name": "İşBul AI",
-        "emoji": "🤝",
-        "oneLiner": "AI-driven hiring platform for Turkish small and medium businesses.",
-        "sector": "HR Tech, AI, SaaS",
-        "score": 87,
-        "inspired_by": "Mercor",
-        "real_example": "Mercor is in talks for a $20B valuation; An AI agent startup just let its agent run its $100M fundraise.",
-        "tr_status": "SMEs are a large part of the economy, talent acquisition is resource-intensive, high inflation makes efficiency critical.",
-        "tr_idea": "Build an AI-powered platform to automate resume screening, candidate matching, and initial interview scheduling for Turkish SMEs, lowering recruitment costs.",
-        "mvp": "A tool that integrates with job boards, uses AI to rank applicants based on job descriptions, and schedules initial calls.",
-        "target": "Small and medium-sized enterprises (SMEs) across various sectors in Turkey.",
-        "revenue": "Per-hire fee, or tiered subscription based on number of active job postings/hires.",
-        "risks": "Accuracy of AI matching, user adoption, data privacy, competition from existing job portals.",
-        "why_now": "Turkish SMEs need to streamline hiring processes and reduce costs to navigate a competitive and inflationary market."
-      }
-    ]
-  },
-  {
     "date": "15 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Usage-based pricing (per inference request, compute time), subscription for dedicated capacity.",
         "risks": "High capital expenditure for hardware, competition from global cloud providers, talent acquisition for specialized infrastructure.",
         "why_now": "Increasing enterprise AI adoption in Turkey, combined with data sovereignty regulations and latency requirements, creates a need for local specialized AI compute."
+      }
+    ]
+  },
+  {
+    "date": "19 August 2026",
+    "opportunities": [
+      {
+        "name": "AI DevOps Hub",
+        "emoji": "⚙️",
+        "oneLiner": "Cost-saving AI dev platform for Turkish businesses.",
+        "sector": "Software Development, AI/MLOps",
+        "score": 90,
+        "inspired_by": "Warp, OpenRouter",
+        "real_example": "Warp's 'out-of-the-box software factory', OpenRouter acquired by Stripe for $7B+.",
+        "tr_status": "Turkish tech ecosystem is growing, but high inflation makes efficient, cost-effective development tools crucial.",
+        "tr_idea": "Develop a localized, open-source friendly AI development platform focusing on MLOps and resource optimization to reduce operational costs for Turkish startups and enterprises. Offer tiered pricing with a strong free tier.",
+        "mvp": "Basic MLOps dashboard for model deployment, monitoring, and cost tracking with integrations for popular cloud providers.",
+        "target": "SMBs, AI startups, and R&D departments in larger Turkish companies.",
+        "revenue": "SaaS subscription (tiered), premium features, consulting for enterprise clients.",
+        "risks": "Competition from global giants, need for strong local talent, security concerns for sensitive data.",
+        "why_now": "High inflation and increasing demand for AI solutions necessitate cost-efficient development tools in Turkey."
+      },
+      {
+        "name": "Tamirci Tech (Repairman Tech)",
+        "emoji": "♻️",
+        "oneLiner": "Sustainable, repairable consumer electronics for Turkey.",
+        "sector": "Consumer Electronics, Circular Economy",
+        "score": 85,
+        "inspired_by": "Fairphone",
+        "real_example": "Fairphone launching its latest repairable phone in the US.",
+        "tr_status": "Turkey has a strong manufacturing base, but consumer electronics are largely imported or assembled with imported parts.",
+        "tr_idea": "Design and produce modular, easily repairable consumer electronics (e.g., smartphones, smart home devices) using local supply chains where possible. Build a community-driven repair network and offer accessible spare parts.",
+        "mvp": "A single, repairable smart home device (e.g., smart plug or air quality monitor) with readily available parts and repair guides.",
+        "target": "Environmentally conscious consumers, students, small businesses.",
+        "revenue": "Product sales, spare parts sales, subscription for extended warranty/repair services.",
+        "risks": "Supply chain complexity, convincing consumers to pay a premium for sustainability, competition from established brands.",
+        "why_now": "Growing environmental awareness and desire for cost-saving (longevity) amidst inflation make repairable products appealing."
+      },
+      {
+        "name": "Sağlık Scan (Health Scan)",
+        "emoji": "❤️",
+        "oneLiner": "Affordable AI-driven preventative health screenings.",
+        "sector": "HealthTech, AI Diagnostics",
+        "score": 90,
+        "inspired_by": "Neko Health",
+        "real_example": "Daniel Ek’s body-scanning startup Neko Health opening first US office.",
+        "tr_status": "Public healthcare system is under strain, and preventative care often requires expensive private services.",
+        "tr_idea": "Establish a network of accessible, AI-powered clinics offering quick, comprehensive, and affordable health screenings focused on early detection of common conditions. Partner with existing pharmacies or clinics for space.",
+        "mvp": "A pilot clinic offering non-invasive body composition analysis, basic blood pressure/glucose checks, and AI-powered risk assessments with personalized lifestyle recommendations.",
+        "target": "Middle-income individuals, corporate wellness programs, busy professionals.",
+        "revenue": "Pay-per-screening, membership models, corporate wellness packages.",
+        "risks": "Regulatory hurdles, data privacy concerns, public trust in AI diagnostics, need for medical professional oversight.",
+        "why_now": "Increasing health awareness and mobile-first population, coupled with AI advancements, create an opportunity for accessible preventative care."
+      },
+      {
+        "name": "Komşu Pazar (Neighbor Market)",
+        "emoji": "🛍️",
+        "oneLiner": "Social commerce with integrated P2P payments for local goods.",
+        "sector": "E-commerce, FinTech, Social Media",
+        "score": 95,
+        "inspired_by": "TikTok P2P payments, Perplexity's freemium in India",
+        "real_example": "TikTok exploring peer-to-peer payments via DMs.",
+        "tr_status": "Turkey is mobile-first with rapidly growing e-commerce and a strong social media presence; local markets are popular.",
+        "tr_idea": "Create a mobile-first platform where users can discover and purchase goods directly from local producers, artisans, and small businesses through interactive social feeds. Integrate secure in-app P2P payment and local delivery options.",
+        "mvp": "A local marketplace app for a specific city/district, allowing vendors to post products and users to chat/pay securely for pickup/delivery.",
+        "target": "Small local businesses, artisans, farmers, and consumers seeking unique local products.",
+        "revenue": "Transaction fees, premium vendor features, localized advertising.",
+        "risks": "Building trust in P2P payments, managing quality control for diverse products, competition from established e-commerce giants.",
+        "why_now": "Exploding e-commerce, mobile penetration, and the desire for authentic local products combine with P2P payment convenience."
+      },
+      {
+        "name": "Şehir Kargosu (City Cargo)",
+        "emoji": "🚚",
+        "oneLiner": "Custom electric vans and SaaS for urban delivery.",
+        "sector": "Logistics, EV, Manufacturing",
+        "score": 88,
+        "inspired_by": "Grounded, Einride",
+        "real_example": "Detroit startup Grounded raising $5M to customize vans.",
+        "tr_status": "Turkey's e-commerce boom drives high demand for last-mile delivery, and local manufacturing exists for vehicle components.",
+        "tr_idea": "Offer bespoke electric van conversions or locally assembled electric vans tailored for various last-mile delivery needs (e.g., temperature control for food, shelving for parcels). Develop a complementary fleet management SaaS for route optimization and battery monitoring.",
+        "mvp": "Partner with an existing van manufacturer for electric conversion of a popular local model, and build a basic route planning/telematics app.",
+        "target": "E-commerce logistics companies, food delivery services, small package delivery couriers.",
+        "revenue": "Van sales/leasing, SaaS subscriptions for fleet management, maintenance services.",
+        "risks": "High initial capital investment, complex manufacturing and supply chain, EV charging infrastructure limitations.",
+        "why_now": "Rapid e-commerce growth, rising fuel costs, and increasing environmental regulations push demand for efficient electric logistics solutions."
       }
     ]
   }
