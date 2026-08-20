@@ -1,90 +1,5 @@
 [
   {
-    "date": "15 July 2026",
-    "opportunities": [
-      {
-        "name": "E-commerce AI Cost Optimizer",
-        "emoji": "💰",
-        "oneLiner": "AI platform for e-commerce to cut costs, boost ROI.",
-        "sector": "E-commerce SaaS",
-        "score": 92,
-        "inspired_by": "Meta",
-        "real_example": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer",
-        "tr_status": "Turkey's e-commerce is growing 30% annually, and high inflation demands cost-saving solutions for businesses.",
-        "tr_idea": "Develop an AI-driven platform tailored for Turkish e-commerce businesses to optimize ad spend, inventory, and logistics. This helps them navigate inflation by maximizing efficiency and reducing waste.",
-        "mvp": "An AI tool that integrates with Google Ads and Meta Ads, analyzing performance and automatically suggesting budget reallocations for higher ROI campaigns.",
-        "target": "Small to medium-sized e-commerce businesses in Turkey.",
-        "revenue": "Subscription-based SaaS (monthly/annual) with tiered pricing based on ad spend managed or features used.",
-        "risks": "Data privacy concerns, integration complexity with diverse e-commerce platforms, and competition from global players.",
-        "why_now": "The urgent need for cost efficiency due to inflation, coupled with rapid e-commerce growth, creates strong demand."
-      },
-      {
-        "name": "Open-Source AI Solutions Integrator",
-        "emoji": "⚙️",
-        "oneLiner": "Customize open-source AI for Turkish businesses, saving costs.",
-        "sector": "AI Consulting & Integration",
-        "score": 88,
-        "inspired_by": "Hugging Face",
-        "real_example": "Hugging Face’s CEO on why companies are done renting their AI",
-        "tr_status": "Turkish businesses seek cost-effective solutions amid inflation, and open-source AI offers an attractive alternative to proprietary models.",
-        "tr_idea": "Establish a specialized service provider to help Turkish enterprises adopt, customize, and maintain open-source AI models. Focus on solutions like LLMs for customer service or AI for manufacturing optimization.",
-        "mvp": "Offer a service for fine-tuning open-source LLMs (e.g., Llama, Falcon) specifically for Turkish language and industry-specific use cases like customer support chatbots.",
-        "target": "Mid-sized to large Turkish companies in manufacturing, retail, and finance.",
-        "revenue": "Project-based consulting fees, recurring maintenance contracts, and training services.",
-        "risks": "Perception of open-source reliability, talent acquisition for specialized AI engineers, and rapid evolution of open-source models.",
-        "why_now": "The global shift towards open-source AI combined with Turkey's cost-sensitive market makes this a timely opportunity."
-      },
-      {
-        "name": "Smart Elderly Care AI Hub",
-        "emoji": "👵",
-        "oneLiner": "Screenless, voice-controlled AI device for elderly care.",
-        "sector": "Smart Home & Healthcare Tech",
-        "score": 85,
-        "inspired_by": "OpenAI",
-        "real_example": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
-        "tr_status": "Turkey has a significant and growing elderly population, with families seeking reliable and unobtrusive support solutions.",
-        "tr_idea": "Design and manufacture practical, screenless, voice-activated AI hubs specifically for elderly care in Turkish homes. These devices would provide reminders, health check-ins, and easy communication with family.",
-        "mvp": "A voice-enabled smart device allowing elderly users to make calls to pre-approved contacts, set medication reminders, and receive simple health queries, all managed via a family's mobile app.",
-        "target": "Families with elderly members, assisted living facilities.",
-        "revenue": "Device sales, optional premium subscription for advanced features or 24/7 monitoring services.",
-        "risks": "Data privacy concerns, elderly user adoption challenges, medical device regulations, and hardware manufacturing costs.",
-        "why_now": "Demand for assistive tech for an aging population combined with Turkey's manufacturing capabilities makes this viable."
-      },
-      {
-        "name": "AI Visual Content Curator for E-commerce",
-        "emoji": "🖼️",
-        "oneLiner": "AI-powered tool for e-commerce to generate compelling product visuals.",
-        "sector": "E-commerce Marketing Tech",
-        "score": 89,
-        "inspired_by": "Google",
-        "real_example": "Google Images gets a Pinterest-like redesign focused on discovery",
-        "tr_status": "Turkish e-commerce thrives on visual appeal, but businesses struggle to produce high-quality, diverse content cost-effectively.",
-        "tr_idea": "Develop an AI platform that helps Turkish e-commerce businesses curate, optimize, and ethically generate engaging visual content for product listings and marketing campaigns. Focus on local aesthetics.",
-        "mvp": "A web platform that takes existing product images, analyzes their quality, and uses ethically sourced generative AI to create alternative backgrounds, lifestyle shots, or scale variations.",
-        "target": "Small to medium-sized e-commerce sellers, online boutiques, and social commerce brands.",
-        "revenue": "Subscription plans based on number of images generated/optimized, with premium features for advanced customization.",
-        "risks": "Quality and consistency of AI-generated content, copyright issues with AI models, and user adoption requiring design skills.",
-        "why_now": "The visual-first nature of Turkish e-commerce and social media, coupled with AI advancements, creates a significant market need."
-      },
-      {
-        "name": "Industrial AI for Manufacturing Efficiency",
-        "emoji": "🏭",
-        "oneLiner": "AI solutions to optimize production and predictive maintenance for manufacturers.",
-        "sector": "Industrial AI / Industry 4.0",
-        "score": 90,
-        "inspired_by": "Reflection",
-        "real_example": "Reflection inks $1B compute deal with Nebius",
-        "tr_status": "Turkey has a strong manufacturing base, and high inflation makes efficiency and cost reduction critical for competitiveness.",
-        "tr_idea": "Provide specialized AI solutions for Turkish manufacturers to enhance operational efficiency, implement predictive maintenance, and optimize supply chains. Leverage Turkey's local talent and manufacturing base.",
-        "mvp": "An AI-powered predictive maintenance system for common machinery (e.g., CNC machines, textile looms) in Turkish factories, reducing downtime and maintenance costs through real-time data analysis.",
-        "target": "Mid-sized to large manufacturing companies in automotive, textiles, and machinery sectors.",
-        "revenue": "Project-based implementation fees, recurring SaaS for monitoring and analytics, and potentially hardware integration costs.",
-        "risks": "High upfront implementation costs, data integration challenges with legacy systems, cybersecurity concerns, and resistance to new technology.",
-        "why_now": "Turkey's strong manufacturing sector's need for global competitiveness and cost savings makes industrial AI adoption essential."
-      }
-    ]
-  },
-  {
     "date": "16 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Van sales/leasing, SaaS subscriptions for fleet management, maintenance services.",
         "risks": "High initial capital investment, complex manufacturing and supply chain, EV charging infrastructure limitations.",
         "why_now": "Rapid e-commerce growth, rising fuel costs, and increasing environmental regulations push demand for efficient electric logistics solutions."
+      }
+    ]
+  },
+  {
+    "date": "20 August 2026",
+    "opportunities": [
+      {
+        "name": "Kârlı YZ",
+        "emoji": "📈",
+        "oneLiner": "AI for SME cost optimization and efficiency.",
+        "sector": "B2B SaaS, AI, SME Tools",
+        "score": 90,
+        "inspired_by": "Perplexity",
+        "real_example": "Perplexity - millions of users in India from free AI offer",
+        "tr_status": "Turkish SMEs face high inflation and need efficiency; digital adoption is growing but advanced AI tools are scarce.",
+        "tr_idea": "Develop a mobile-first AI assistant that integrates with existing accounting/ERP systems to identify cost-saving opportunities in procurement, inventory, and energy. Offer an initial free tier to drive adoption, similar to Perplexity.",
+        "mvp": "Basic mobile app for expenditure tracking, AI-powered anomaly detection, and actionable cost-saving recommendations for small businesses.",
+        "target": "Small to medium-sized enterprises (SMEs) in e-commerce, retail, and light manufacturing.",
+        "revenue": "Freemium model (basic features free, advanced analytics, custom reports, and dedicated support for subscription).",
+        "risks": "Data privacy concerns among SMEs, need for robust integrations with diverse Turkish business software.",
+        "why_now": "High inflation and growing e-commerce necessitate immediate cost optimization for Turkish businesses."
+      },
+      {
+        "name": "Yeşil Kargo",
+        "emoji": "🚚",
+        "oneLiner": "Customized electric vans for efficient last-mile delivery.",
+        "sector": "Logistics, EV, Manufacturing, Rental",
+        "score": 92,
+        "inspired_by": "Grounded",
+        "real_example": "Grounded - $5M for custom EV/gas vans",
+        "tr_status": "E-commerce growing 30%/year drives demand for last-mile logistics; Turkey has a strong automotive manufacturing base.",
+        "tr_idea": "Establish a service converting and customizing existing combustion vans to electric/hybrid, and also offering a fleet of purpose-built electric vans for rent to e-commerce companies. Leverage local manufacturing expertise for conversions.",
+        "mvp": "Partnership with a local van manufacturer/converter, offering 2-3 standard customizable electric van models for short-term rental in Istanbul.",
+        "target": "E-commerce logistics providers, local delivery companies, and large retailers with in-house delivery fleets.",
+        "revenue": "Monthly/yearly rental subscriptions, customization fees for specific fleet needs.",
+        "risks": "High initial capital investment, charging infrastructure challenges, competition from traditional logistics.",
+        "why_now": "Exploding e-commerce in Turkey requires more sustainable and cost-effective last-mile delivery solutions."
+      },
+      {
+        "name": "Yetkin YZ",
+        "emoji": "🎓",
+        "oneLiner": "AI personalized learning for vocational skills.",
+        "sector": "EdTech, AI, Workforce Development",
+        "score": 88,
+        "inspired_by": "Google/Gemini",
+        "real_example": "Google/Gemini - New AI study tools integrated into search",
+        "tr_status": "Large young population needs continuous upskilling; mobile-first adoption is high but quality, personalized vocational training is lacking.",
+        "tr_idea": "A mobile-first platform using AI to assess user skills, recommend personalized learning paths, and offer interactive modules for vocational and technical skills in high-demand sectors. Focus on practical, job-ready skills.",
+        "mvp": "An Android/iOS app offering personalized modules for 3 key skills (e.g., e-commerce operations, digital marketing, basic manufacturing automation), with AI-driven progress tracking and feedback.",
+        "target": "Young professionals, vocational students, and individuals looking to reskill/upskill for the digital economy.",
+        "revenue": "Subscription model for access to advanced courses and certifications, partnerships with employers for corporate training.",
+        "risks": "Content quality assurance, user engagement, competition from existing online courses (Udemy, Coursera).",
+        "why_now": "The rapidly evolving job market and mobile-first population create a demand for accessible and relevant skill development."
+      },
+      {
+        "name": "Enerji Yüksel",
+        "emoji": "🔋",
+        "oneLiner": "Manufacturing solid-state battery components for EVs.",
+        "sector": "Advanced Manufacturing, Energy Storage, EV components",
+        "score": 87,
+        "inspired_by": "Anthro Energy",
+        "real_example": "Anthro Energy - Breaks ground on solid-state battery factory",
+        "tr_status": "Turkey has a strong manufacturing base, especially in automotive, but relies on imports for advanced battery tech; global EV adoption is increasing.",
+        "tr_idea": "Focus on manufacturing key components for solid-state batteries (e.g., solid electrolytes, anode/cathode materials) rather than full cells initially, leveraging existing industrial infrastructure and aiming for export. Establish R&D and pilot production facilities to partner with global battery manufacturers.",
+        "mvp": "Establish an R&D and pilot production facility for a specific solid electrolyte material or anode component, targeting partnerships with global battery manufacturers.",
+        "target": "Global EV battery manufacturers, consumer electronics companies, and renewable energy storage solution providers.",
+        "revenue": "B2B sales of manufactured battery components, licensing of proprietary material formulations.",
+        "risks": "High R&D costs, intense global competition, intellectual property challenges, long development cycles.",
+        "why_now": "Global shift towards EVs and sustainable energy creates a massive market for advanced battery tech, where Turkey can become a strategic supplier."
+      },
+      {
+        "name": "Akıllı Üretim",
+        "emoji": "⚙️",
+        "oneLiner": "AI for manufacturing predictive maintenance and optimization.",
+        "sector": "Industrial AI, B2B SaaS, Manufacturing",
+        "score": 91,
+        "inspired_by": "Rillet",
+        "real_example": "Rillet - $100M Series C at $1B valuation, two years after stealth",
+        "tr_status": "Turkey has a robust manufacturing sector seeking to improve competitiveness; high inflation makes efficiency and cost reduction critical.",
+        "tr_idea": "Develop a SaaS platform that uses AI to analyze sensor data from factory machinery to predict maintenance needs, optimize production schedules, and reduce energy consumption. Offer modular deployment for different factory types.",
+        "mvp": "A cloud-based platform for predictive maintenance focused on a single type of widely used machinery (e.g., CNC machines) in a specific manufacturing sub-sector.",
+        "target": "Mid-to-large scale manufacturing companies in automotive, textiles, and white goods sectors.",
+        "revenue": "Subscription-based SaaS, tiered pricing based on number of machines/data points monitored and features.",
+        "risks": "Data integration complexity with legacy systems, need for deep domain expertise, cybersecurity concerns.",
+        "why_now": "Turkish manufacturers urgently need to cut costs and increase output efficiency in a high-inflation environment to remain competitive."
       }
     ]
   }
