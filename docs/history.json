@@ -1,90 +1,5 @@
 [
   {
-    "date": "19 July 2026",
-    "opportunities": [
-      {
-        "name": "OptiFlow AI",
-        "emoji": "📈",
-        "oneLiner": "AI for cost-saving in e-commerce & manufacturing.",
-        "sector": "Enterprise SaaS, AI, Supply Chain",
-        "score": 90,
-        "inspired_by": "Databricks, Amazon AWS bug",
-        "real_example": "Databricks - $188B valuation, Amazon fixing AWS billing bug",
-        "tr_status": "High inflation drives demand for cost-saving solutions; e-commerce and manufacturing are key sectors.",
-        "tr_idea": "Develop a SaaS platform using AI to analyze operational data for Turkish e-commerce and manufacturing businesses, identifying cost-saving opportunities in logistics, inventory, and energy. Focus on delivering tangible ROI in a high-inflation environment.",
-        "mvp": "A dashboard integrating with existing ERP/e-commerce platforms to provide basic cost analysis and predictive insights for inventory and shipping optimization for 10 pilot e-commerce companies.",
-        "target": "Mid-sized e-commerce businesses and manufacturing SMEs in Turkey.",
-        "revenue": "Subscription-based SaaS, tiered pricing based on features and data volume.",
-        "risks": "Data integration challenges with diverse legacy systems; need for robust AI models.",
-        "why_now": "High inflation in Turkey makes any cost-saving solution extremely attractive, and digital transformation is ongoing."
-      },
-      {
-        "name": "Fabrik AI",
-        "emoji": "🔍",
-        "oneLiner": "AI for automated quality inspection in manufacturing.",
-        "sector": "Industrial AI, Manufacturing, Computer Vision",
-        "score": 88,
-        "inspired_by": "AI-powered vehicle inspection service, Applied Computing",
-        "real_example": "Sheryl Sandberg leads $10M investment in AI-powered vehicle inspection service",
-        "tr_status": "Turkey has a strong manufacturing base that constantly seeks efficiency and quality improvement.",
-        "tr_idea": "Create an AI-driven computer vision system for automated quality control on production lines in Turkish factories, reducing human error and improving efficiency in sectors like automotive parts or textiles. This replaces costly manual inspections.",
-        "mvp": "A vision system integrated with a single camera setup capable of detecting specific defects (e.g., surface imperfections, missing components) on a defined product line for a pilot textile or automotive supplier.",
-        "target": "Automotive, textile, and white goods manufacturers in Turkey.",
-        "revenue": "Hardware sales (camera/edge device) + recurring SaaS fee for AI model updates and analytics.",
-        "risks": "High upfront hardware costs for customers; integration complexity with diverse manufacturing setups.",
-        "why_now": "Turkey's manufacturing sector is competitive and seeking advanced solutions to boost quality and reduce labor costs."
-      },
-      {
-        "name": "Canlı Tavsiye",
-        "emoji": "🛍️",
-        "oneLiner": "Real-time AI product recommendations for live shopping.",
-        "sector": "E-commerce, AI, Retail Tech",
-        "score": 92,
-        "inspired_by": "Whatnot acquires Shaped",
-        "real_example": "Whatnot acquires Shaped to power real-time live shopping recommendations",
-        "tr_status": "E-commerce is booming (30% growth/yr), mobile-first adoption is high, and live shopping is an emerging trend.",
-        "tr_idea": "Develop an AI module offering real-time, personalized product recommendations and engagement tools for Turkish e-commerce platforms hosting live shopping events, increasing conversion rates. Leverage the mobile-first culture.",
-        "mvp": "A plug-in for popular live streaming platforms (or integrated into existing e-commerce live features) that suggests products based on viewer comments, past purchases, and presenter dialogue in real-time to a small group of partner streamers.",
-        "target": "E-commerce platforms, brands, and individual live streamers in Turkey.",
-        "revenue": "Commission on sales generated through recommendations or subscription fee for the AI service.",
-        "risks": "Integration challenges with diverse e-commerce platforms; ensuring AI accuracy for Turkish language/cultural nuances.",
-        "why_now": "Turkey's strong e-commerce growth and mobile usage create fertile ground for innovative retail engagement, making real-time personalization crucial."
-      },
-      {
-        "name": "Sentetik Dönüşüm",
-        "emoji": "♻️",
-        "oneLiner": "AI-driven textile waste sorting for recycling.",
-        "sector": "Circular Economy, Greentech, AI, Manufacturing",
-        "score": 87,
-        "inspired_by": "Lululemon backs nylon-recycling startup Syntetica",
-        "real_example": "Lululemon backs nylon-recycling startup Syntetica in $30M Series A",
-        "tr_status": "Turkey is a major textile producer with significant industrial waste; increasing focus on sustainability and circular economy.",
-        "tr_idea": "Create an AI-powered sorting system that efficiently identifies and separates different textile fibers from industrial and post-consumer waste in Turkey, enabling high-value recycling and upcycling. This addresses both environmental concerns and resource scarcity.",
-        "mvp": "A prototype vision system coupled with a robotic arm capable of identifying and separating common textile types (e.g., cotton, polyester, nylon) from a mixed waste stream at a pilot textile factory's waste collection point.",
-        "target": "Textile manufacturers, waste management companies, and fashion brands in Turkey.",
-        "revenue": "Per-ton processing fee for sorted materials, or sale/lease of the AI sorting equipment.",
-        "risks": "High capital investment for infrastructure; variability in waste stream composition; market demand for recycled fibers.",
-        "why_now": "Global push for sustainability and circular economy, coupled with Turkey's large textile industry, creates a strong imperative for advanced waste processing."
-      },
-      {
-        "name": "KOBİ AI",
-        "emoji": "🤖",
-        "oneLiner": "Affordable mobile AI assistant for Turkish SMEs.",
-        "sector": "Productivity, AI, SaaS",
-        "score": 91,
-        "inspired_by": "Vertu wants executives to pay $6,880 for an AI agent, Kimi",
-        "real_example": "Vertu's $6,880 AI agent, Kimi (implied AI assistant)",
-        "tr_status": "Turkey is mobile-first, has many SMEs (KOBİs), and high inflation makes efficient, affordable tools crucial for survival.",
-        "tr_idea": "Develop an affordable, mobile-first AI agent specifically for Turkish small and medium-sized enterprises (KOBİs), offering localized administrative support, customer service automation, and basic market insights. Focus on ease of use and cost-efficiency.",
-        "mvp": "A mobile app providing a chatbot that can answer common customer FAQs, schedule appointments, and generate simple marketing content (social media posts) in Turkish for 5 pilot local businesses.",
-        "target": "Small and medium-sized businesses (KOBİs) across various sectors in Turkey.",
-        "revenue": "Tiered monthly subscription for the mobile AI agent service.",
-        "risks": "Competing with general-purpose AI; ensuring accuracy and relevance for diverse SME needs; user adoption.",
-        "why_now": "Turkish SMEs need efficient, cost-effective tools to navigate high inflation and fierce competition, making an affordable, localized AI assistant highly valuable."
-      }
-    ]
-  },
-  {
     "date": "20 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Software licensing (SaaS), integration services, custom model development.",
         "risks": "High upfront investment in hardware/integration, need for deep industry expertise, resistance to new technology adoption.",
         "why_now": "Turkish manufacturers are seeking competitive edges through efficiency and quality improvements, making AI-driven industrial automation highly attractive."
+      }
+    ]
+  },
+  {
+    "date": "23 August 2026",
+    "opportunities": [
+      {
+        "name": "Akıllı Maliyet (Smart Cost)",
+        "emoji": "💸",
+        "oneLiner": "AI for Turkish SMEs to cut costs efficiently.",
+        "sector": "FinTech / Enterprise SaaS",
+        "score": 90,
+        "inspired_by": "Rillet",
+        "real_example": "Rillet - raised $100M at $1B valuation in 48 hours.",
+        "tr_status": "High inflation makes every cost visible; Turkish SMEs desperately need efficiency.",
+        "tr_idea": "Develop an AI SaaS platform that analyzes spend, identifies waste, and forecasts optimal budgeting for Turkish SMEs. Integrate with local accounting software.",
+        "mvp": "Web platform for expense categorization, anomaly detection, and basic budget recommendations based on uploaded transaction data.",
+        "target": "Small to medium-sized enterprises (SMEs) across various sectors in Turkey.",
+        "revenue": "Subscription-based SaaS, tiered by features or number of users/transactions.",
+        "risks": "Data privacy concerns, integration complexity with diverse legacy systems.",
+        "why_now": "Unprecedented inflation drives urgent demand for sophisticated cost management tools among Turkish businesses."
+      },
+      {
+        "name": "HızlıDepo (Fast Warehouse)",
+        "emoji": "🚀",
+        "oneLiner": "Tech platform for efficient quick-commerce dark store operations.",
+        "sector": "Logistics Tech / E-commerce Infrastructure",
+        "score": 88,
+        "inspired_by": "Flipkart",
+        "real_example": "Walmart’s Flipkart - closing in on India’s quick-commerce leaders.",
+        "tr_status": "E-commerce is growing 30%/yr, mobile-first population, dense urban areas perfect for quick-commerce.",
+        "tr_idea": "Build a full-stack tech solution for managing quick-commerce dark stores, from inventory optimization to pick-pack and last-mile dispatch. Sell to existing and new quick-commerce players.",
+        "mvp": "Inventory management system optimized for rapid picking, order aggregation, and basic courier dispatch for a single dark store model.",
+        "target": "Existing quick-commerce operators, grocery chains, or new entrants wanting to launch quick-commerce services.",
+        "revenue": "Per-transaction fee, monthly SaaS subscription, or a combination.",
+        "risks": "Intense competition from existing players, high operational complexity, thin margins in quick-commerce.",
+        "why_now": "Rapid e-commerce growth and consumer demand for speed creates a critical need for specialized operational technology."
+      },
+      {
+        "name": "Usta AI (Master AI)",
+        "emoji": "🎓",
+        "oneLiner": "Affordable AI-driven vocational training for in-demand skills.",
+        "sector": "EdTech / AI",
+        "score": 89,
+        "inspired_by": "Harvard’s $699 startup bootcamp",
+        "real_example": "Harvard's bootcamp - offers AI avatars of its instructors.",
+        "tr_status": "Large young population, mobile-first, critical need for upskilling in tech, cost-effective education in high demand.",
+        "tr_idea": "Create a mobile-first platform offering vocational training using AI instructors/avatars for personalized learning paths in coding, AI, data science, and digital marketing.",
+        "mvp": "Basic courses in a specific high-demand skill (e.g., Python for data analytics) with interactive AI tutors and personalized feedback.",
+        "target": "University students, recent graduates, or career changers seeking practical tech skills.",
+        "revenue": "Monthly or per-course subscription, certification fees.",
+        "risks": "Quality of AI instruction, content relevance, competition from free resources, accreditation challenges.",
+        "why_now": "The digital transformation and AI boom create a massive skills gap that traditional education struggles to fill affordably for Turkey's workforce."
+      },
+      {
+        "name": "Enerjix (Energy X)",
+        "emoji": "🔋",
+        "oneLiner": "Advanced battery solutions for robotics, drones, and niche industrial needs.",
+        "sector": "Advanced Manufacturing / Cleantech",
+        "score": 86,
+        "inspired_by": "US battery startups",
+        "real_example": "US battery startups - found a lifeline in defense.",
+        "tr_status": "Strong manufacturing base, growing local defense/robotics sector, increasing focus on energy independence.",
+        "tr_idea": "Focus on R&D and manufacturing of high-performance, custom battery packs (e.g., lighter, faster charging, specific form factors) for Turkish robotics, drone, and specialized industrial applications.",
+        "mvp": "Develop a prototype high-energy-density battery pack for a specific industrial drone model with local partners for initial testing and validation.",
+        "target": "Robotics companies, drone manufacturers, defense contractors, specialized industrial equipment makers in Turkey.",
+        "revenue": "Direct sales of custom battery packs, R&D contracts with industrial partners.",
+        "risks": "High R&D costs, intense global competition, regulatory hurdles, supply chain dependency for raw materials.",
+        "why_now": "Increasing adoption of robotics and drones in Turkey creates demand for specialized, reliable, and locally sourced power solutions."
+      },
+      {
+        "name": "Veri İşçi (Data Worker)",
+        "emoji": "✍️",
+        "oneLiner": "High-quality, scalable data annotation for global AI companies.",
+        "sector": "AI Services / Gig Economy",
+        "score": 87,
+        "inspired_by": "Micro1",
+        "real_example": "Micro1 - reaches $500M gross run rate amid AI training boom.",
+        "tr_status": "Large population, potential for skilled labor pool, mobile-first access to work, cost-effective compared to Western markets.",
+        "tr_idea": "Create a managed platform connecting Turkish workers with global AI companies needing high-quality data annotation (images, video, text) and validation, emphasizing quality and domain expertise.",
+        "mvp": "A platform for image annotation (object detection, segmentation) for specific industries, with integrated quality control and worker management tools.",
+        "target": "AI/ML startups and research labs globally, large tech companies needing specialized datasets for model training.",
+        "revenue": "Per-task fee (markup on worker pay), project-based fees, managed service fees.",
+        "risks": "Quality control at scale, workforce management, data security and privacy, competition from low-cost regions.",
+        "why_now": "The explosive growth of AI requires massive, high-quality labeled datasets, and companies seek efficient, reliable annotation partners globally."
       }
     ]
   }
