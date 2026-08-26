@@ -1,90 +1,5 @@
 [
   {
-    "date": "21 July 2026",
-    "opportunities": [
-      {
-        "name": "SME Shield AI",
-        "emoji": "🔒",
-        "oneLiner": "AI-driven cybersecurity for Turkish small and medium businesses.",
-        "sector": "Cybersecurity",
-        "score": 90,
-        "inspired_by": "Hackers exploiting recently patched WordPress bugs",
-        "real_example": "Hackers are exploiting recently patched WordPress bugs, putting millions of websites at risk",
-        "tr_status": "Turkish SMEs, especially in e-commerce, often lack sophisticated cybersecurity resources, making them vulnerable.",
-        "tr_idea": "Offer an affordable, subscription-based AI platform to detect and mitigate common web vulnerabilities and phishing attempts. Focus on ease of use for non-technical business owners.",
-        "mvp": "WordPress plugin or basic web app scanning tool using AI to identify vulnerabilities and suggest fixes.",
-        "target": "Small to medium-sized e-commerce businesses and local service providers in Turkey.",
-        "revenue": "SaaS subscription model (tiered pricing based on features/scale).",
-        "risks": "Rapidly evolving threat landscape requires constant AI model updates and expertise.",
-        "why_now": "Rapid e-commerce growth in Turkey creates an urgent need for accessible and cost-effective digital protection."
-      },
-      {
-        "name": "LojistikSense AI",
-        "emoji": "🚚",
-        "oneLiner": "Optimize logistics and payments for Turkish e-commerce with AI.",
-        "sector": "Logistics & Fintech (B2B SaaS)",
-        "score": 92,
-        "inspired_by": "Natural raises $30M to reinvent payments for AI agents",
-        "real_example": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
-        "tr_status": "E-commerce growth in Turkey strains existing logistics and payment infrastructures, driving up operational costs.",
-        "tr_idea": "Develop an AI platform that optimizes delivery routes, warehouse operations, and identifies the most cost-efficient payment processing methods for e-commerce. It can also minimize currency conversion fees for international transactions.",
-        "mvp": "Route optimization and payment gateway comparison tool for local e-commerce deliveries in Istanbul.",
-        "target": "E-commerce businesses, logistics companies, and manufacturers involved in distribution.",
-        "revenue": "Percentage of savings achieved, or tiered SaaS subscription.",
-        "risks": "Integration complexities with existing legacy logistics and payment systems.",
-        "why_now": "Surging e-commerce volume and high inflation make efficiency and cost reduction paramount for Turkish businesses."
-      },
-      {
-        "name": "MakineGöz AI",
-        "emoji": "🏭",
-        "oneLiner": "AI computer vision for precise manufacturing quality inspection.",
-        "sector": "Industrial Automation, Manufacturing",
-        "score": 95,
-        "inspired_by": "Sheryl Sandberg leads $10 million investment in AI-powered vehicle inspection service",
-        "real_example": "Sheryl Sandberg leads $10 million investment in AI-powered vehicle inspection service",
-        "tr_status": "Turkey has a strong manufacturing base, but manual quality control can be slow and prone to human error, increasing production costs.",
-        "tr_idea": "Provide AI-driven computer vision systems to detect defects on production lines for various manufactured goods, improving consistency and reducing waste. This automates a critical and costly step.",
-        "mvp": "A camera-based AI system for defect detection on a specific product type (e.g., textile, automotive part) in a single factory.",
-        "target": "Medium to large manufacturing companies in Turkey (e.g., automotive, textiles, electronics).",
-        "revenue": "Hardware sales (cameras, edge devices) + SaaS for AI model and analytics, or per-inspection fee.",
-        "risks": "High initial investment for hardware, requires deep domain expertise for specific manufacturing processes.",
-        "why_now": "High inflation necessitates greater production efficiency and reduced waste to maintain competitiveness in Turkey's manufacturing sector."
-      },
-      {
-        "name": "Yaratıcı Asistan AI",
-        "emoji": "🤳",
-        "oneLiner": "AI-powered mobile app for enhanced photos and short videos.",
-        "sector": "Consumer AI, Media & Entertainment",
-        "score": 88,
-        "inspired_by": "Adobe camera app’s new feature will critique your photos using AI",
-        "real_example": "Adobe camera app’s new feature will critique your photos using AI; Netflix paid $587M for Ben Affleck’s AI filmmaking startup",
-        "tr_status": "Turkey is mobile-first with a high engagement in social media, driving demand for creative content tools.",
-        "tr_idea": "Develop a mobile application that uses AI to provide instant photo/video critiques, suggest edits, and automate tasks like background removal or style transfers. It should offer culturally relevant templates and filters.",
-        "mvp": "An iOS/Android app that can apply AI-driven filters and perform basic object removal/enhancement on user photos.",
-        "target": "Social media influencers, small content creators, and everyday mobile users in Turkey.",
-        "revenue": "Freemium model with premium features via subscription, in-app purchases for advanced templates/AI effects.",
-        "risks": "Intense competition from global players like Adobe, Google, and existing editing apps.",
-        "why_now": "Turkey's mobile-first population and vibrant online content creation scene present a fertile ground for localized AI creative tools."
-      },
-      {
-        "name": "KontrolCihaz AI",
-        "emoji": "⚙️",
-        "oneLiner": "Intuitive hardware for controlling industrial AI agents in factories.",
-        "sector": "Industrial Hardware, AI Automation",
-        "score": 93,
-        "inspired_by": "Ultrahuman’s former hardware VP raises $5.5M for devices that control AI agents",
-        "real_example": "Ultrahuman’s former hardware VP raises $5.5M for devices that control AI agents, not just record you",
-        "tr_status": "Turkish manufacturing increasingly adopts automation and AI, but human-machine interfaces for complex AI agents are often clunky.",
-        "tr_idea": "Design and manufacture simple, robust, and ergonomically designed control devices specifically for interacting with AI-driven industrial machinery and robotics. This would leverage Turkey's strong manufacturing base.",
-        "mvp": "A prototype control panel with haptic feedback and custom buttons to manage basic functions of a factory robot, tested with a partner manufacturer.",
-        "target": "Industrial automation integrators, smart factory operators, and large manufacturing firms in Turkey.",
-        "revenue": "Hardware unit sales, potentially bundled with software integration services.",
-        "risks": "Requires significant R&D for hardware design and robust manufacturing capabilities.",
-        "why_now": "The ongoing push for industrial automation in Turkey demands better human-AI interaction tools to maximize efficiency and adoption of AI agents."
-      }
-    ]
-  },
-  {
     "date": "23 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Annual subscription fees based on number of machines monitored or data volume processed, implementation services.",
         "risks": "Integration with legacy systems, data privacy and security in industrial settings, proving ROI quickly.",
         "why_now": "Strong manufacturing base needs digital transformation to remain competitive and cost-efficient amidst economic pressures."
+      }
+    ]
+  },
+  {
+    "date": "26 August 2026",
+    "opportunities": [
+      {
+        "name": "AI E-commerce Content Studio",
+        "emoji": "✍️",
+        "oneLiner": "AI for automated e-commerce product content & visuals.",
+        "sector": "E-commerce SaaS, AI",
+        "score": 90,
+        "inspired_by": "Lica",
+        "real_example": "Lica - acquired by Gamma (design startup)",
+        "tr_status": "Turkey's e-commerce is booming (30% YoY growth), creating massive demand for product content and digital marketing assets.",
+        "tr_idea": "Develop an AI platform generating SEO-optimized product descriptions, social media captions, and visual creatives for Turkish e-commerce brands, integrating local language nuances. This reduces operational costs for online retailers and improves time-to-market for new products.",
+        "mvp": "Web platform allowing users to upload product images/basic info, then AI generates text descriptions and provides templates for social media visuals.",
+        "target": "Small to medium-sized e-commerce businesses, online marketplaces, digital marketing agencies in Turkey.",
+        "revenue": "Subscription tiers based on usage (e.g., number of generated items, AI credits).",
+        "risks": "AI output quality and adherence to brand voice, data privacy concerns for product information.",
+        "why_now": "Exploding e-commerce growth and high labor costs in Turkey make AI-powered content generation a critical cost-saving and efficiency tool."
+      },
+      {
+        "name": "Local Business Voice AI",
+        "emoji": "🗣️",
+        "oneLiner": "Voice AI for local Turkish businesses' customer interactions.",
+        "sector": "AI, SaaS, Local Services",
+        "score": 88,
+        "inspired_by": "Ringg",
+        "real_example": "Ringg - gets backing from Peak XV (pushes voice AI past phone call)",
+        "tr_status": "Many local businesses in Turkey rely on phone calls for inquiries and bookings, leading to high operational costs and missed opportunities.",
+        "tr_idea": "Create a voice AI assistant specifically trained on Turkish language and local business contexts to handle common customer queries, book appointments, and provide information for small businesses. This would free up staff and ensure 24/7 availability.",
+        "mvp": "Basic AI chatbot integrated with phone systems, capable of answering FAQs and taking simple bookings in Turkish for a specific vertical (e.g., restaurants).",
+        "target": "Small to medium local businesses across various sectors (hospitality, healthcare, services).",
+        "revenue": "Monthly subscription fee based on usage (call volume, features).",
+        "risks": "Accuracy of voice recognition and natural language processing in Turkish dialects, user adoption among traditional businesses.",
+        "why_now": "High inflation makes labor expensive, and mobile-first Turkey expects instant service, making AI-driven cost savings and 24/7 availability crucial for local businesses."
+      },
+      {
+        "name": "Türkiye Güven Link",
+        "emoji": "🩹",
+        "oneLiner": "LTE-enabled health & safety wearable for vulnerable groups.",
+        "sector": "Health Tech, Wearables",
+        "score": 87,
+        "inspired_by": "Luffu Link",
+        "real_example": "Luffu Link - Fitbit founders launch LTE health and safety band",
+        "tr_status": "Turkey has a large elderly population and busy families, with growing awareness of personal safety and remote monitoring.",
+        "tr_idea": "Develop an affordable, LTE-connected wearable for the Turkish market, focusing on real-time health monitoring, GPS tracking, and emergency alerts for children, the elderly, or lone workers. This provides peace of mind for families.",
+        "mvp": "A wristband with GPS tracking, an SOS button, and basic fall detection, connected via LTE to a companion mobile app for family members.",
+        "target": "Families with elderly relatives, parents of young children, employers with lone workers, individuals with specific health conditions.",
+        "revenue": "Device sale + monthly subscription for LTE connectivity and premium monitoring features.",
+        "risks": "Data privacy concerns, competition from existing smartwatches (though this is more specialized), regulatory hurdles for medical-grade features.",
+        "why_now": "Increasing mobile connectivity, aging population, and rising concerns for safety create a strong market for reliable, accessible monitoring solutions."
+      },
+      {
+        "name": "Akıllı Rota",
+        "emoji": "🚚",
+        "oneLiner": "AI-optimized dispatch & routing for last-mile delivery.",
+        "sector": "Logistics Tech, SaaS, AI",
+        "score": 92,
+        "inspired_by": "Gatik",
+        "real_example": "Gatik - raises $200M following PepsiCo deal (self-driving trucks for middle-mile logistics)",
+        "tr_status": "E-commerce growth (30% YoY) in Turkey puts immense pressure on logistics, leading to inefficiencies and high operational costs.",
+        "tr_idea": "Build an AI-driven SaaS platform that optimizes delivery routes, dispatches drivers, and manages last-mile logistics for Turkish e-commerce players and manufacturers. This platform would consider real-time traffic, delivery windows, and vehicle capacity to minimize fuel costs and delivery times.",
+        "mvp": "Web and mobile app for route planning, driver tracking, and basic dispatching, integrating with mapping services and user-defined constraints.",
+        "target": "E-commerce companies, logistics providers, manufacturing companies with their own delivery fleets, quick-commerce players.",
+        "revenue": "Subscription model based on fleet size, number of deliveries, or features used.",
+        "risks": "Integration with existing logistics systems, accuracy of real-time data (traffic, weather), driver adoption and training.",
+        "why_now": "High fuel prices due to inflation, coupled with explosive e-commerce growth, make cost-saving and efficiency-boosting logistics software indispensable for Turkish businesses."
+      },
+      {
+        "name": "Kobi Zeki Asistan",
+        "emoji": "🤝",
+        "oneLiner": "AI 'teammate' for Turkish SMEs to boost productivity.",
+        "sector": "AI, Productivity SaaS",
+        "score": 89,
+        "inspired_by": "Inherent",
+        "real_example": "Inherent - AI 'teammate' just outperformed Anthropic and OpenAI (DeepMind alumni)",
+        "tr_status": "Turkish SMEs often operate with limited resources and face challenges in talent acquisition and retention due to inflation.",
+        "tr_idea": "Develop an AI co-pilot that acts as a virtual assistant for Turkish SMEs, helping with market research summaries, content generation, data analysis, and customer support script generation, tailored to the Turkish business context. This enhances efficiency and reduces operational costs.",
+        "mvp": "A chat-based AI assistant capable of summarizing documents, generating basic business correspondence, and answering factual questions based on uploaded company data.",
+        "target": "Small and medium-sized enterprises (SMEs) in various industries looking to improve efficiency and reduce operational costs.",
+        "revenue": "Tiered subscription model based on features, usage limits, and number of users.",
+        "risks": "Data security and privacy, trust in AI-generated output, need for strong Turkish language models for specific business contexts.",
+        "why_now": "High inflation and the competitive labor market make AI tools attractive for SMEs seeking to enhance productivity and reduce dependency on expensive human resources."
       }
     ]
   }
