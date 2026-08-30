@@ -1,90 +1,5 @@
 [
   {
-    "date": "24 July 2026",
-    "opportunities": [
-      {
-        "name": "KalkanAI",
-        "emoji": "🛡️",
-        "oneLiner": "AI-driven, affordable cybersecurity for Turkish SMEs.",
-        "sector": "Cybersecurity, SaaS",
-        "score": 90,
-        "inspired_by": "AegisAI",
-        "real_example": "AegisAI - lands $36M to stop AI-driven spear phishing",
-        "tr_status": "Turkish SMEs often lack robust cybersecurity, facing increasing threats and budget constraints.",
-        "tr_idea": "Develop a mobile-first AI platform offering proactive threat detection and easy-to-manage endpoint protection for SMEs. Focus on simplified onboarding and cost-effectiveness.",
-        "mvp": "A mobile app for SMEs providing AI-powered phishing detection and basic endpoint threat alerts.",
-        "target": "Small to medium-sized enterprises (SMEs) in Turkey.",
-        "revenue": "Subscription-based SaaS model (tiered pricing).",
-        "risks": "High competition from global players, building trust in AI security, complex regulatory landscape.",
-        "why_now": "Rising cyber threats and high inflation make cost-saving, AI-driven security attractive for Turkish businesses."
-      },
-      {
-        "name": "İnşaatConnect",
-        "emoji": "🏗️",
-        "oneLiner": "Connects construction firms to projects, streamlines management.",
-        "sector": "Contech, SaaS",
-        "score": 88,
-        "inspired_by": "Cascade",
-        "real_example": "Cascade - raises $3.5M to help construction firms find and win projects",
-        "tr_status": "Turkey has a robust construction sector but project sourcing and management often remain fragmented and inefficient.",
-        "tr_idea": "Create a mobile-first platform for Turkish construction firms to discover, bid on, and manage projects more efficiently. Integrate tender tracking and basic project management tools.",
-        "mvp": "A platform where firms can find public and private construction tenders, submit proposals, and track basic project milestones.",
-        "target": "Small to mid-sized construction companies, contractors, and subcontractors in Turkey.",
-        "revenue": "Subscription fees for advanced features, commission on successfully sourced projects.",
-        "risks": "Network effect challenge, resistance to digital adoption, strong existing traditional networks.",
-        "why_now": "High inflation drives demand for efficiency and cost-saving tools in Turkey’s active construction industry."
-      },
-      {
-        "name": "GelişimAI",
-        "emoji": "🧠",
-        "oneLiner": "AI-driven personalized learning and coaching for workforce development.",
-        "sector": "Edtech, HR Tech, SaaS",
-        "score": 87,
-        "inspired_by": "Synthesia",
-        "real_example": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-        "tr_status": "Turkish companies need efficient ways to upskill their large workforce amidst changing market demands and high inflation.",
-        "tr_idea": "Develop an AI platform offering personalized learning paths and 'live coaching' for Turkish employees, accessible via mobile. Focus on technical skills and soft skills tailored to local industry needs.",
-        "mvp": "A mobile app providing AI-generated personalized learning modules and interactive exercises for specific in-demand skills (e.g., digital marketing, basic data analysis).",
-        "target": "HR departments and corporate learning teams in Turkish enterprises.",
-        "revenue": "B2B subscription model per user or per department.",
-        "risks": "AI model accuracy in coaching, data privacy concerns, user engagement and adoption within companies.",
-        "why_now": "High inflation makes cost-effective, scalable, and personalized employee training solutions highly attractive for Turkish businesses."
-      },
-      {
-        "name": "FabrikaAI",
-        "emoji": "⚙️",
-        "oneLiner": "Edge AI modules for smarter Turkish factory automation.",
-        "sector": "Industrial AI, Hardware, Manufacturing Tech",
-        "score": 89,
-        "inspired_by": "Etched AI chip startup",
-        "real_example": "Etched AI chip startup - hits $10.3B valuation from big-name investors",
-        "tr_status": "Turkey possesses a strong manufacturing base that increasingly seeks automation and efficiency to remain competitive.",
-        "tr_idea": "Design and produce specialized, cost-effective AI edge computing modules optimized for specific industrial applications like quality control and predictive maintenance in Turkish factories. Focus on easy integration with existing machinery.",
-        "mvp": "A plug-and-play AI vision module for a common manufacturing defect detection task (e.g., surface inspection) integrated with a mobile monitoring app.",
-        "target": "Manufacturing companies in various sectors (automotive, textiles, food processing) in Turkey.",
-        "revenue": "Hardware sales with recurring software/maintenance fees.",
-        "risks": "High R&D costs, hardware manufacturing complexities, integration challenges with legacy systems, need for specialized talent.",
-        "why_now": "Turkish manufacturers are keen to embrace Industry 4.0 for cost savings and increased competitiveness, making localized AI solutions appealing."
-      },
-      {
-        "name": "GüvenSigorta",
-        "emoji": "💰",
-        "oneLiner": "Flexible, inflation-adjusted micro-insurance for gig workers.",
-        "sector": "Insurtech, Fintech",
-        "score": 92,
-        "inspired_by": "Corgi insurance startup",
-        "real_example": "Corgi - reportedly raised more money at $4B — its third round in 8 weeks",
-        "tr_status": "High inflation erodes traditional insurance value, while Turkey's gig economy and e-commerce are rapidly growing, needing dynamic solutions.",
-        "tr_idea": "Launch a mobile-first insurtech platform offering flexible, inflation-adjusted micro-insurance products specifically for gig workers and e-commerce sellers in Turkey. Focus on transparent pricing and instant claims.",
-        "mvp": "A mobile app allowing gig workers to purchase on-demand, daily/weekly insurance for lost income, equipment damage, or personal liability, with automatic inflation indexation.",
-        "target": "Gig economy workers, freelancers, small e-commerce sellers in Turkey.",
-        "revenue": "Premium collection, potentially commission on partner products.",
-        "risks": "Regulatory hurdles, actuarial modeling in high inflation, building trust, strong competition from established insurers.",
-        "why_now": "High inflation necessitates adaptive financial products, and Turkey's mobile-first gig economy creates a large, underserved market for flexible insurance."
-      }
-    ]
-  },
-  {
     "date": "25 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Optional premium features (e.g., extended storage, exclusive filters, enhanced privacy controls) or a small, ad-free subscription model.",
         "risks": "Achieving network effects in a competitive market, ensuring robust security, and overcoming user inertia from established platforms.",
         "why_now": "Increasing public awareness of data privacy, a desire for authentic social interactions, and the market validation shown by apps like Retro."
+      }
+    ]
+  },
+  {
+    "date": "30 August 2026",
+    "opportunities": [
+      {
+        "name": "Akıllı Üretim Optimizasyonu",
+        "emoji": "🏭",
+        "oneLiner": "AI for smarter, cheaper production and logistics.",
+        "sector": "Industrial AI, E-commerce Tech",
+        "score": 90,
+        "inspired_by": "a16z ‘Machine Age’ fund",
+        "real_example": "a16z creates a $1.1B ‘Machine Age’ fund to ‘accelerate the physical buildout of AI’",
+        "tr_status": "Turkish manufacturing sector is robust but often seeks efficiency improvements, while e-commerce logistics are complex and growing.",
+        "tr_idea": "Develop AI/ML solutions for Turkish manufacturers to optimize production lines, predict maintenance, and improve supply chain efficiency. This also applies to e-commerce fulfillment centers to streamline operations and reduce costs.",
+        "mvp": "SaaS platform offering predictive maintenance and waste reduction analytics for a specific manufacturing vertical.",
+        "target": "Mid-to-large scale Turkish manufacturers and e-commerce fulfillment centers.",
+        "revenue": "Subscription-based SaaS model (tiered pricing based on features/usage).",
+        "risks": "High initial data collection and integration costs for clients, along with the need for specialized AI talent.",
+        "why_now": "High inflation drives urgent demand for cost savings and efficiency in core Turkish industries."
+      },
+      {
+        "name": "Yerel AI Modelleri Stüdyosu",
+        "emoji": "🇹🇷",
+        "oneLiner": "Customized open-weight AI for Turkish businesses.",
+        "sector": "Artificial Intelligence, SaaS",
+        "score": 88,
+        "inspired_by": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+        "real_example": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+        "tr_status": "While global LLMs exist, specialized, cost-effective Turkish-language models are currently scarce for businesses.",
+        "tr_idea": "Offer fine-tuning and deployment of open-weight AI models specifically for Turkish enterprises, focusing on industry-specific use cases. This provides localized, culturally relevant AI solutions at a more accessible price point than proprietary models.",
+        "mvp": "A platform offering custom chatbot and content generation services tailored for Turkish e-commerce customer support.",
+        "target": "Turkish businesses, particularly e-commerce, legal, and media, seeking localized AI solutions.",
+        "revenue": "Project-based customization fees and subscription for managed model deployment.",
+        "risks": "Competition from large global players and challenges in data availability and quality for fine-tuning.",
+        "why_now": "Demand for cost-effective, locally relevant AI solutions is growing amidst high inflation and a mobile-first population."
+      },
+      {
+        "name": "Kısa Hikaye Sahnesi",
+        "emoji": "🎬",
+        "oneLiner": "Mobile micro-drama platform for Turkish creators.",
+        "sector": "Media & Entertainment, Social Tech",
+        "score": 87,
+        "inspired_by": "Hollywood celebs are getting into microdrama apps",
+        "real_example": "Hollywood celebs are getting into microdrama apps",
+        "tr_status": "Turkey has a strong tradition of serialized drama and high mobile video consumption, making it ripe for new formats.",
+        "tr_idea": "Create a mobile-first platform hosting user-generated and professionally curated short-form, serialized dramas and interactive stories. This leverages local Turkish talent and cultural narratives to create engaging, snackable content.",
+        "mvp": "App with 5-minute episode format, featuring a few popular Turkish micro-influencers/actors and user-upload functionality.",
+        "target": "Gen Z and young millennials in Turkey, content creators, and indie filmmakers.",
+        "revenue": "In-app purchases, premium subscriptions for ad-free/exclusive content, and creator monetization tools.",
+        "risks": "Content moderation challenges, fierce competition for user attention, and creator retention.",
+        "why_now": "Turkey's mobile-first population and surging creator economy provide a fertile ground for new entertainment formats."
+      },
+      {
+        "name": "PetBakım Akıllı Besleyici",
+        "emoji": "🐾",
+        "oneLiner": "AI-powered smart pet care for healthier pets.",
+        "sector": "Pet Tech, Consumer IoT",
+        "score": 89,
+        "inspired_by": "Hoomanely’s building a smart feeding bowl and an AI platform to help owners spot when their pup is sick",
+        "real_example": "Hoomanely’s building a smart feeding bowl and an AI platform to help owners spot when their pup is sick",
+        "tr_status": "Pet ownership is increasing in Turkey, and owners are seeking better care solutions; the strong manufacturing base supports hardware development.",
+        "tr_idea": "Develop smart pet feeding bowls and wearables integrated with an AI app to monitor pet health and provide nutritional/behavioral insights. This offers preventative care, potentially reducing costly veterinary visits for Turkish pet owners.",
+        "mvp": "Smart feeding bowl tracking food intake and weight, with an app providing basic health alerts and feeding recommendations.",
+        "target": "Middle to high-income pet owners in urban Turkish centers.",
+        "revenue": "Hardware sales, premium subscription for advanced AI insights and vet consultation integration.",
+        "risks": "Hardware manufacturing complexities, data privacy for pet owners, and market education.",
+        "why_now": "A growing pet market combined with high inflation makes preventative tech attractive for reducing future vet bills."
+      },
+      {
+        "name": "Akıllı Rota Teslimat",
+        "emoji": "🛵",
+        "oneLiner": "AI-driven route optimization for urban last-mile delivery.",
+        "sector": "Logistics Tech, AI",
+        "score": 91,
+        "inspired_by": "Any bets on cargo space for electric two-wheelers",
+        "real_example": "Any bets on cargo space for electric two-wheelers gain a foothold, Belgian startup Any bets on cargo space",
+        "tr_status": "E-commerce growth fuels demand for efficient last-mile delivery in Turkey's congested cities, particularly with a mobile-first population.",
+        "tr_idea": "An AI platform optimizing delivery routes and cargo space utilization for Turkish urban logistics, especially for electric two-wheelers. This will significantly reduce fuel costs, delivery times, and environmental impact for businesses.",
+        "mvp": "SaaS for real-time route optimization and dynamic rerouting based on traffic, for a fleet of 50 delivery vehicles.",
+        "target": "E-commerce companies, food delivery services, and courier businesses operating in Turkish cities.",
+        "revenue": "Subscription-based SaaS per vehicle or per delivery volume.",
+        "risks": "Integration with existing logistics systems, real-time data accuracy, and competition from global players.",
+        "why_now": "The e-commerce boom and high fuel costs make efficiency crucial for Turkish delivery companies."
       }
     ]
   }
