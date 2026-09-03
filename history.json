@@ -1,90 +1,5 @@
 [
   {
-    "date": "26 July 2026",
-    "opportunities": [
-      {
-        "name": "KalkanAI",
-        "emoji": "🛡️",
-        "oneLiner": "AI-driven, affordable cybersecurity for Turkish SMEs.",
-        "sector": "Cybersecurity, SaaS, AI",
-        "score": 90,
-        "inspired_by": "AegisAI",
-        "real_example": "AegisAI - lands $36M to stop AI-driven spear phishing",
-        "tr_status": "Turkish SMEs are digitizing rapidly, increasing vulnerability to cyber threats without adequate protection.",
-        "tr_idea": "Develop a mobile-first, easy-to-use AI security suite providing real-time threat detection for common cyberattacks like phishing and malware, tailored for Turkish businesses. Offer it as a tiered SaaS product to be highly affordable for small businesses.",
-        "mvp": "Mobile app with AI-powered email scanning for phishing, secure browser extension, and basic device protection.",
-        "target": "Small to medium-sized enterprises (SMEs) in Turkey.",
-        "revenue": "Subscription-based SaaS (monthly/yearly tiers).",
-        "risks": "Rapidly evolving threat landscape requires constant AI model updates; user adoption by non-tech-savvy SMEs.",
-        "why_now": "Growing e-commerce and digital transformation among Turkish SMEs create urgent need for accessible cybersecurity solutions."
-      },
-      {
-        "name": "VerimliAI",
-        "emoji": "⚙️",
-        "oneLiner": "AI tools for Turkish businesses to boost efficiency.",
-        "sector": "Productivity Software, AI, SaaS",
-        "score": 88,
-        "inspired_by": "OpenAI’s new AI keypad",
-        "real_example": "OpenAI’s new AI keypad - fun for some coders",
-        "tr_status": "High inflation drives demand for cost-saving efficiency tools, and Turkish businesses need localized AI solutions.",
-        "tr_idea": "Create an AI assistant integrated with common Turkish business platforms, offering smart suggestions for Turkish language emails, data analysis, and task automation. Include a custom AI keypad for sector-specific phrases and coding patterns relevant to Turkish industries.",
-        "mvp": "Web and mobile app offering AI-powered email drafting, meeting summarization in Turkish, and custom quick-reply suggestions.",
-        "target": "Turkish small and medium businesses across various sectors.",
-        "revenue": "Freemium model with tiered subscription plans for advanced features.",
-        "risks": "AI accuracy in Turkish language nuances; competition from global players; data privacy concerns.",
-        "why_now": "High inflation and mobile-first workforce make efficiency-boosting, localized AI SaaS highly attractive for Turkish businesses."
-      },
-      {
-        "name": "GüvenceCEP",
-        "emoji": "📱",
-        "oneLiner": "Flexible, digital micro-insurance for mobile-first Turkey.",
-        "sector": "Insurtech, Fintech, Mobile",
-        "score": 92,
-        "inspired_by": "Corgi",
-        "real_example": "Insurance startup Corgi - raised more money at $4B",
-        "tr_status": "Turkey's mobile-first population and booming e-commerce lack tailored, easily accessible digital micro-insurance options.",
-        "tr_idea": "Develop a mobile app offering on-demand micro-insurance products for common digital risks like e-commerce purchase protection, mobile phone damage, and online transaction fraud. Leverage AI for instant quotes and streamlined claims.",
-        "mvp": "Mobile app for purchasing single-item e-commerce insurance and basic phone screen damage insurance with a fully digital claims process.",
-        "target": "Young, digitally native Turkish consumers and frequent e-commerce shoppers.",
-        "revenue": "Premium payments for micro-insurance policies.",
-        "risks": "Regulatory hurdles in insurance, building trust with a new digital model, effectively underwriting diverse micro-risks.",
-        "why_now": "Rapid e-commerce growth and high mobile penetration create a massive demand for convenient, digital-first insurance solutions."
-      },
-      {
-        "name": "GelecekKod",
-        "emoji": "🎓",
-        "oneLiner": "Teaching future-ready AI and 'vibe coding' skills.",
-        "sector": "Edtech, AI, Workforce Development",
-        "score": 87,
-        "inspired_by": "Edtech platform raises $4.5M to help teach students how to vibe code",
-        "real_example": "Edtech platform - raises $4.5M to help teach students how to vibe code",
-        "tr_status": "Turkey has a large youth population needing modern, practical tech skills to compete in an AI-driven job market.",
-        "tr_idea": "Launch a mobile-first, project-based learning platform teaching practical AI application, data ethics, and 'vibe coding' (intuitive, design-focused programming) relevant to Turkey's industrial and digital sectors. Partner with universities and companies for certifications.",
-        "mvp": "Online courses with interactive projects on introductory AI/ML concepts and practical applications, focusing on tools accessible to students.",
-        "target": "University students, recent graduates, and professionals in Turkey looking to reskill or upskill in AI and modern coding.",
-        "revenue": "Subscription for course access, premium certifications, corporate training programs.",
-        "risks": "Keeping curriculum updated with fast-changing tech, ensuring job market relevance, competition from free resources.",
-        "why_now": "The global shift towards AI-driven economies demands new skills, and Turkey's young population is eager for accessible, relevant education."
-      },
-      {
-        "name": "AkıllıTedarik",
-        "emoji": "🏭",
-        "oneLiner": "AI for smart supply chain and demand forecasting.",
-        "sector": "Industrial Tech, SaaS, AI, Supply Chain",
-        "score": 89,
-        "inspired_by": "ServiceNow bets $40 million on Indian banking software specialist",
-        "real_example": "ServiceNow bets $40 million on Indian banking software specialist",
-        "tr_status": "Turkey's strong manufacturing base and growing e-commerce face challenges from inflation and supply chain volatility, needing smart optimization.",
-        "tr_idea": "Develop an AI SaaS platform that integrates with existing ERP systems for Turkish manufacturers and large e-commerce players, providing predictive analytics for demand, inventory optimization, and supply chain risk assessment.",
-        "mvp": "Dashboard showing real-time inventory levels, basic demand forecasts based on historical data, and alerts for potential supply disruptions.",
-        "target": "Medium to large manufacturing companies and e-commerce logistics providers in Turkey.",
-        "revenue": "Enterprise SaaS subscriptions, custom implementation fees.",
-        "risks": "Data integration complexity with diverse legacy systems, accuracy of predictions, requiring significant investment in sales and support.",
-        "why_now": "High inflation and growing e-commerce necessitate data-driven efficiency in supply chains to maintain competitiveness in Turkey's manufacturing sector."
-      }
-    ]
-  },
-  {
     "date": "27 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Monthly or annual subscription fees based on number of users/devices and feature sets.",
         "risks": "Building trust with security-conscious businesses, constant evolution of cyber threats, proving ROI for prevention, potential for false positives.",
         "why_now": "Escalating cyber threats coupled with high inflation makes affordable and simplified cybersecurity a critical need for vulnerable Turkish SMEs."
+      }
+    ]
+  },
+  {
+    "date": "03 September 2026",
+    "opportunities": [
+      {
+        "name": "Akıllı Üretim Optimizasyonu",
+        "emoji": "⚙️",
+        "oneLiner": "AI predicts manufacturing outages, boosting efficiency and savings.",
+        "sector": "Industrial AI / Manufacturing SaaS",
+        "score": 90,
+        "inspired_by": "Empirik",
+        "real_example": "Empirik - $21M seed funding for predictive outage analysis.",
+        "tr_status": "Turkey has a robust manufacturing sector keen on digital transformation and cost efficiencies.",
+        "tr_idea": "Develop an AI platform to predict machinery failures and optimize production schedules for Turkish factories. Focus on reducing downtime and maintenance costs, critical with high inflation.",
+        "mvp": "SaaS platform integrating with common industrial sensors to monitor critical machinery, offering basic predictive failure alerts.",
+        "target": "Mid-sized to large manufacturing companies in automotive, textile, or machinery sectors.",
+        "revenue": "Subscription-based SaaS (tiered by number of machines/data points) + premium consulting for implementation.",
+        "risks": "High initial integration costs, data privacy concerns for factory data, resistance to new technology.",
+        "why_now": "High inflation and increasing competition drive Turkish manufacturers to seek efficiency and cost savings via AI adoption."
+      },
+      {
+        "name": "Güvenli Yapay Zeka",
+        "emoji": "🛡️",
+        "oneLiner": "Secure AI deployments protecting models from attacks and misuse.",
+        "sector": "AI Security / Cybersecurity SaaS",
+        "score": 88,
+        "inspired_by": "HiddenLayer",
+        "real_example": "HiddenLayer - $100M raised to secure AI deployments from adversarial attacks.",
+        "tr_status": "Turkish enterprises are rapidly adopting AI, but security and governance concerns are nascent yet critical.",
+        "tr_idea": "Offer a platform protecting AI models from adversarial attacks, ensuring data privacy, and vetting AI agents. Essential for building trust in AI within regulated industries.",
+        "mvp": "A monitoring tool detecting anomalies and potential adversarial attacks on deployed AI models, integrated via APIs.",
+        "target": "Financial institutions, e-commerce platforms, government agencies, and tech companies using AI.",
+        "revenue": "Tiered subscription SaaS based on number of models, data volume, and features.",
+        "risks": "Requires deep AI/security expertise, slow enterprise adoption due to perceived complexity, competitive global market.",
+        "why_now": "Rapid AI adoption in Turkey necessitates robust security solutions to prevent breaches and maintain data integrity."
+      },
+      {
+        "name": "E-Ticaret Koruyucu",
+        "emoji": "🛍️",
+        "oneLiner": "AI platform for Turkish e-commerce to detect and prevent scams.",
+        "sector": "E-commerce / AI Fraud Detection",
+        "score": 92,
+        "inspired_by": "Amazon’s shopping AI",
+        "real_example": "Amazon’s shopping AI - tells users if messages are scams, improving trust.",
+        "tr_status": "Turkey's e-commerce is booming (+30%/yr), but online scams and fraud are significant issues eroding consumer trust.",
+        "tr_idea": "Develop an AI-powered platform for e-commerce sites to proactively identify and flag suspicious listings, reviews, and communication patterns. Integrate with identity verification services.",
+        "mvp": "API-based service for e-commerce platforms to analyze product listings and customer messages for known scam indicators, providing risk scores.",
+        "target": "Small to large e-commerce platforms, online marketplaces, and payment processors in Turkey.",
+        "revenue": "Transaction-based fees, tiered subscription for higher volume platforms, or feature-based pricing.",
+        "risks": "False positives harming legitimate businesses, constant evolution of scam tactics requiring continuous AI model updates.",
+        "why_now": "Skyrocketing e-commerce growth demands robust fraud protection to maintain consumer confidence and transaction security."
+      },
+      {
+        "name": "İçerik Kazanç Platformu",
+        "emoji": "💰",
+        "oneLiner": "Localized payment and management for Turkish social media creators.",
+        "sector": "Creator Economy / Fintech",
+        "score": 87,
+        "inspired_by": "X",
+        "real_example": "X Money - X's in-house payment solution for creators, indicating a need for specialized creator payments.",
+        "tr_status": "Turkey has a vibrant and growing creator economy, but localized payment solutions and financial management tools are scarce.",
+        "tr_idea": "Create a platform enabling Turkish content creators to easily receive payments, manage finances, and access micro-loans or early payouts. Integrate with local banks and payment gateways.",
+        "mvp": "Web/mobile platform for creators to link social media, receive payments in TRY from various sources, and view basic income analytics.",
+        "target": "Influencers, YouTubers, Twitch streamers, artists, and independent content producers in Turkey.",
+        "revenue": "Small percentage of transaction fees, premium features for financial analytics, or early payment access fees.",
+        "risks": "Regulatory complexities with financial services, competition from global platforms, user trust in a new payment service.",
+        "why_now": "The booming Turkish creator economy needs tailored financial tools that address local payment complexities and inflation challenges."
+      },
+      {
+        "name": "Jeotermal Enerji Optimizasyonu",
+        "emoji": "🔥",
+        "oneLiner": "AI-driven SaaS to optimize efficiency of geothermal energy plants.",
+        "sector": "Clean Energy / Industrial IoT / SaaS",
+        "score": 89,
+        "inspired_by": "Fervo",
+        "real_example": "Google buying 400 MW from Fervo highlights demand for optimized, reliable geothermal energy.",
+        "tr_status": "Turkey has significant untapped geothermal potential and a strategic focus on reducing energy imports, but current plants lack advanced optimization.",
+        "tr_idea": "Develop an AI/IoT platform to monitor and optimize geothermal power plant performance, predicting maintenance needs and maximizing energy output. Cost savings are highly attractive.",
+        "mvp": "Sensory data collection and analytics platform providing real-time performance dashboards and anomaly detection for geothermal well operators.",
+        "target": "Existing geothermal power plant operators, industrial parks utilizing geothermal energy, and future developers in Turkey.",
+        "revenue": "Subscription-based SaaS model, potentially with performance-based incentives for energy savings/efficiency gains.",
+        "risks": "High initial investment for hardware integration, long sales cycles with energy companies, need for deep domain expertise.",
+        "why_now": "Turkey's drive for energy independence, combined with high energy costs, makes efficiency in renewables like geothermal crucial and economically attractive."
       }
     ]
   }
