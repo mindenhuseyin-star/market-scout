@@ -1,90 +1,5 @@
 [
   {
-    "date": "29 July 2026",
-    "opportunities": [
-      {
-        "name": "TürkSes AI",
-        "emoji": "🎤",
-        "oneLiner": "Local AI voice models for Turkish creators and businesses.",
-        "sector": "AI, Media & Entertainment",
-        "score": 85,
-        "inspired_by": "Fish Audio",
-        "real_example": "Fish Audio raises $52M seed to build AI voice models",
-        "tr_status": "Turkey has a vibrant content creator scene and enterprises need localized AI solutions.",
-        "tr_idea": "Develop high-quality, natural-sounding Turkish AI voice models for dubbing, audiobooks, and customer service. Offer a platform for creators and businesses to generate localized audio content effortlessly.",
-        "mvp": "Web platform for text-to-speech in Turkish, offering various voice profiles and emotion adjustments.",
-        "target": "Content creators, podcasters, e-learning platforms, small-to-medium enterprises (SMEs).",
-        "revenue": "Subscription tiers based on usage (characters, voice profiles, advanced features).",
-        "risks": "Quality of AI voice, competition from global players if they localize effectively, ethical concerns of deepfake audio.",
-        "why_now": "Growing demand for localized content and AI tools, combined with increasing mobile-first consumption."
-      },
-      {
-        "name": "AgentKalkan",
-        "emoji": "🛡️",
-        "oneLiner": "Secure AI agents and data privacy for Turkish enterprises.",
-        "sector": "Cybersecurity, AI Governance",
-        "score": 85,
-        "inspired_by": "Cyera acquires Oasis Security",
-        "real_example": "Cyera acquires Oasis Security for $1B to safeguard proliferating AI agents",
-        "tr_status": "Turkish businesses are increasingly adopting AI, creating new data security and privacy challenges.",
-        "tr_idea": "Provide a SaaS platform offering threat detection, access control, and data leakage prevention specifically for AI agents and the data they process. Focus on compliance with local data protection regulations.",
-        "mvp": "Cloud-based dashboard for monitoring AI agent interactions, identifying sensitive data usage, and flagging anomalous behavior.",
-        "target": "Mid-market and large enterprises using AI agents, especially those handling sensitive customer data or intellectual property.",
-        "revenue": "Subscription-based model (per AI agent, per user, or per data volume monitored).",
-        "risks": "Rapid evolution of AI security threats, difficulty in integrating with diverse enterprise AI stacks, talent acquisition for specialized cybersecurity and AI roles.",
-        "why_now": "Proliferation of AI agents in enterprise and the increasing regulatory scrutiny on data privacy demands proactive security solutions."
-      },
-      {
-        "name": "CihazKolay",
-        "emoji": "📱",
-        "oneLiner": "Affordable mobile device leasing for consumers and SMEs.",
-        "sector": "Fintech, E-commerce",
-        "score": 85,
-        "inspired_by": "Apple launches ‘Upgrade’ device leasing program with Klarna",
-        "real_example": "Apple launches ‘Upgrade’ device leasing program in partnership with Klarna",
-        "tr_status": "High inflation makes purchasing new smartphones and devices very expensive for the mobile-first population.",
-        "tr_idea": "Offer a subscription-based device leasing program for latest smartphones and tablets, allowing users to upgrade regularly without large upfront costs. Include insurance and maintenance options.",
-        "mvp": "Online platform for selecting devices, credit assessment, and managing subscriptions, starting with popular mid-range smartphones.",
-        "target": "Price-sensitive consumers, young professionals, small businesses and freelancers.",
-        "revenue": "Monthly subscription fees for device leasing, optional add-ons (insurance, repairs).",
-        "risks": "Credit risk assessment in an inflationary environment, logistics of device recovery and re-leasing, competition from telco-subsidized plans.",
-        "why_now": "High inflation significantly impacts purchasing power, making subscription-based access to essential tech highly attractive."
-      },
-      {
-        "name": "ÜretimRobot",
-        "emoji": "🤖",
-        "oneLiner": "Simplified, no-code control software for industrial robots.",
-        "sector": "Industrial Automation, SaaS",
-        "score": 85,
-        "inspired_by": "Enigma",
-        "real_example": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
-        "tr_status": "Turkey has a strong manufacturing base, but SMEs often lack the expertise or budget for complex robot programming.",
-        "tr_idea": "Develop a user-friendly, visual programming interface (no-code/low-code) for common industrial robots, specifically tailored for Turkish manufacturers. Integrate with existing production lines easily.",
-        "mvp": "Software platform with drag-and-drop interface for controlling a specific brand/type of collaborative robot for basic pick-and-place tasks.",
-        "target": "Small and medium-sized manufacturers in automotive, textiles, and food processing industries.",
-        "revenue": "Software licensing fees (subscription-based or one-time) and optional training/integration services.",
-        "risks": "Integration complexity with diverse robot hardware, training and support requirements, slow adoption by traditional manufacturers.",
-        "why_now": "Increased pressure on manufacturing efficiency and cost reduction, alongside a growing need to democratize automation for SMEs."
-      },
-      {
-        "name": "E-TicaretKalkan",
-        "emoji": "🛍️",
-        "oneLiner": "Combat e-commerce bots and fraud for Turkish online stores.",
-        "sector": "Cybersecurity, E-commerce SaaS",
-        "score": 85,
-        "inspired_by": "Spur",
-        "real_example": "Bot-detection startup Spur nabs $200M from Insight",
-        "tr_status": "Turkey's e-commerce market is rapidly growing (30%/yr), leading to increased bot activity and fraud attempts.",
-        "tr_idea": "Offer an AI-powered SaaS solution that detects and mitigates various bot activities like scraping, credential stuffing, and fake accounts, along with real-time fraud prevention for online transactions.",
-        "mvp": "API-based integration for popular e-commerce platforms (e.g., Shopify, WooCommerce, local platforms) to detect and block malicious bots during checkout and login.",
-        "target": "E-commerce businesses, online marketplaces, and digital service providers in Turkey.",
-        "revenue": "Tiered subscription model based on traffic volume, number of protected transactions, or features.",
-        "risks": "Evolving bot tactics requiring constant updates, potential for false positives affecting legitimate users, competition from global solutions.",
-        "why_now": "Exploding e-commerce growth makes fraud and bot protection critical for maintaining trust, operational efficiency, and profitability."
-      }
-    ]
-  },
-  {
     "date": "30 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Per-delivery fee, subscription for robot fleet management, or direct sales of robots to large retailers.",
         "risks": "Regulatory hurdles, infrastructure limitations, public acceptance, and security against theft/vandalism.",
         "why_now": "Exploding e-commerce in Turkey, coupled with urban congestion, makes automated last-mile delivery an attractive solution to improve efficiency and reduce costs."
+      }
+    ]
+  },
+  {
+    "date": "09 September 2026",
+    "opportunities": [
+      {
+        "name": "MakineOptimum AI",
+        "emoji": "⚙️",
+        "oneLiner": "AI automation for Turkish manufacturing SMEs.",
+        "sector": "Industrial AI / Manufacturing Tech",
+        "score": 90,
+        "inspired_by": "CloudNC",
+        "real_example": "CloudNC - raises $20M to automate manufacturing’s most pressing bottlenecks",
+        "tr_status": "Turkey has a strong manufacturing base with many SMEs seeking efficiency and cost reduction due to inflation.",
+        "tr_idea": "Develop an affordable, easy-to-deploy AI SaaS solution to optimize production lines and predictive maintenance for Turkish factories. Focus on common bottleneck scenarios.",
+        "mvp": "Cloud-based platform for anomaly detection in machine data and basic production scheduling optimization.",
+        "target": "Small to medium-sized manufacturing enterprises (SMEs) in automotive, textiles, and white goods sectors.",
+        "revenue": "Subscription-based SaaS, tiered by number of machines/users or features.",
+        "risks": "Resistance to new tech, integration complexity with legacy systems, data privacy concerns for manufacturers.",
+        "why_now": "High inflation and rising labor costs make efficiency gains critical for Turkish manufacturers."
+      },
+      {
+        "name": "Anadolu AI",
+        "emoji": "🇹🇷",
+        "oneLiner": "Secure, localized AI for Turkish critical sectors.",
+        "sector": "Sovereign AI / Enterprise AI",
+        "score": 88,
+        "inspired_by": "Mistral",
+        "real_example": "Mistral - raises €3B as sovereign AI becomes big business",
+        "tr_status": "Turkey has increasing national focus on data sovereignty and secure digital infrastructure, especially for government and critical industries.",
+        "tr_idea": "Build an on-premise or Turkey-hosted AI platform offering custom large language models and secure data processing capabilities. Target government, defense, and finance sectors.",
+        "mvp": "Private cloud instance offering a custom-trained Turkish LLM for secure document analysis and internal knowledge management.",
+        "target": "Turkish government agencies, defense contractors, financial institutions, and large corporations with sensitive data.",
+        "revenue": "Enterprise licensing, custom model development, and managed service fees.",
+        "risks": "High initial investment, intense competition from global players, talent acquisition challenges for advanced AI.",
+        "why_now": "Growing global emphasis on data sovereignty and national AI strategies makes this a strategic imperative for Turkey."
+      },
+      {
+        "name": "PazarAkıl AI",
+        "emoji": "🛍️",
+        "oneLiner": "AI to boost e-commerce profits amidst inflation.",
+        "sector": "E-commerce SaaS / Retail AI",
+        "score": 92,
+        "inspired_by": "Startup ARR is less secure than ever",
+        "real_example": "Startup ARR is less secure than ever, new research shows",
+        "tr_status": "Turkey's e-commerce is booming (30%/yr growth) but high inflation severely impacts profitability and inventory management.",
+        "tr_idea": "Develop an AI SaaS platform offering dynamic pricing, smart inventory forecasting, and personalized marketing tools. Help e-commerce businesses optimize margins and adapt to rapid market changes.",
+        "mvp": "Integration with major Turkish e-commerce platforms for dynamic pricing recommendations and basic inventory level alerts.",
+        "target": "Small to large e-commerce businesses operating in Turkey.",
+        "revenue": "Tiered SaaS subscription based on GMV processed or features used, plus premium analytics.",
+        "risks": "Data integration challenges, algorithmic bias in pricing, customer trust in automated pricing.",
+        "why_now": "E-commerce growth coupled with high inflation creates an urgent need for intelligent tools to maintain profitability."
+      },
+      {
+        "name": "YüzükPay",
+        "emoji": "💍",
+        "oneLiner": "Smart ring for Turkish payments and wellness.",
+        "sector": "Wearable Tech / Fintech",
+        "score": 87,
+        "inspired_by": "Ultrahuman",
+        "real_example": "Qualcomm backs Ultrahuman in $70M round on bet to turn smart rings into computers",
+        "tr_status": "Mobile-first population with high adoption of digital payments; growing interest in health and wellness tech.",
+        "tr_idea": "Design and launch a sleek smart ring with integrated NFC for contactless payments (partnering with local banks) and a wellness tracker. Focus on data relevant to Turkish lifestyle and diet.",
+        "mvp": "A smart ring prototype with NFC payment functionality integrated with a major Turkish bank's app and basic step/sleep tracking.",
+        "target": "Tech-savvy urban young adults and professionals seeking convenience and discreet health monitoring.",
+        "revenue": "Device sales, subscription for premium wellness features or enhanced analytics.",
+        "risks": "Hardware manufacturing complexities, competition from smartwatches, consumer adoption rate for new form factor, security concerns for payments.",
+        "why_now": "High mobile payment usage and increasing demand for discreet wearable tech make this a ripe time for a localized solution."
+      },
+      {
+        "name": "İnşaatZeka",
+        "emoji": "🏗️",
+        "oneLiner": "AI optimizing construction labor and resources.",
+        "sector": "Construction Tech / SaaS",
+        "score": 89,
+        "inspired_by": "Eric Wu’s newest company",
+        "real_example": "Eric Wu’s newest company, out of stealth since May, is going after construction’s labor crunch",
+        "tr_status": "Turkey has a large and active construction sector facing labor shortages and pressure for cost efficiency due to inflation.",
+        "tr_idea": "Develop an AI-driven SaaS platform for construction project managers to optimize labor scheduling, material logistics, and equipment utilization. Aim to reduce waste and delays.",
+        "mvp": "Web platform offering AI-assisted labor scheduling based on project timelines and worker availability, with basic material tracking features.",
+        "target": "Mid-sized to large construction companies and developers in Turkey.",
+        "revenue": "Project-based or subscription-based SaaS model, depending on project value/duration.",
+        "risks": "Resistance to digital transformation in a traditional industry, complex on-site data collection, accuracy of AI predictions in unpredictable environments.",
+        "why_now": "The dual pressures of labor crunch and inflation make efficiency gains from AI solutions highly attractive for the Turkish construction sector."
       }
     ]
   }
