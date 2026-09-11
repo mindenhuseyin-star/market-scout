@@ -1,90 +1,5 @@
 [
   {
-    "date": "30 July 2026",
-    "opportunities": [
-      {
-        "name": "E-Comm AI Support Buddy",
-        "emoji": "🤖",
-        "oneLiner": "AI agents for Turkish e-commerce customer support.",
-        "sector": "Enterprise AI SaaS",
-        "score": 92,
-        "inspired_by": "Encore AI",
-        "real_example": "Encore AI - raises $30M to build AI agents that learn from customer calls",
-        "tr_status": "Turkey's e-commerce is booming at 30%/yr, creating a huge demand for scalable and cost-effective customer support solutions.",
-        "tr_idea": "Develop a Turkish-language AI customer service agent platform specifically for SMBs in the booming e-commerce sector, offering personalized support 24/7. It will integrate with local logistics and payment systems.",
-        "mvp": "A chatbot for common e-commerce FAQs (order status, returns, product info) in Turkish, integrated with Shopify/WooCommerce for small businesses.",
-        "target": "Small to medium-sized e-commerce businesses in Turkey.",
-        "revenue": "Subscription-based SaaS (tiered by usage/features).",
-        "risks": "High competition from global players; AI accuracy and localization challenges for nuanced Turkish customer inquiries.",
-        "why_now": "High inflation makes cost-saving SaaS solutions essential for businesses, and rapidly growing e-commerce demands scalable support."
-      },
-      {
-        "name": "Güvenli İçerik AI",
-        "emoji": "🛡️",
-        "oneLiner": "Detects AI-generated content and bots in Turkish.",
-        "sector": "AI Security & Trust",
-        "score": 90,
-        "inspired_by": "Pangram",
-        "real_example": "Pangram - raises $9M to detect AI content; Spur - nabs $200M for bot-detection",
-        "tr_status": "With a mobile-first population, online platforms in Turkey are increasingly vulnerable to AI content floods and bot activity, eroding trust.",
-        "tr_idea": "Create a SaaS platform offering AI-powered detection of synthetic media and bot networks, specifically trained on Turkish language patterns and online behaviors. Target news sites, e-commerce, and social media platforms.",
-        "mvp": "A web-based tool for uploading text/images for AI detection, with an API for platform integration, focusing on Turkish-language text.",
-        "target": "Turkish news media, e-commerce sites, social media platforms, government agencies.",
-        "revenue": "Subscription fees based on volume of content analyzed or API calls.",
-        "risks": "Constant arms race with AI content generators; high false positive/negative rates can damage reputation.",
-        "why_now": "The rapid proliferation of AI content globally necessitates immediate solutions to maintain trust and combat misinformation in local online ecosystems."
-      },
-      {
-        "name": "Ev Yardımcısı AI",
-        "emoji": "🏠",
-        "oneLiner": "Personal AI assistant for Turkish homeowners.",
-        "sector": "Consumer AI",
-        "score": 88,
-        "inspired_by": "Hint AI",
-        "real_example": "Hint AI - new AI startup co-founded by Martha Stewart, offers an AI assistant for homeowners",
-        "tr_status": "Mobile-first Turkey has a growing middle class interested in smart home solutions, but lacks localized, integrated AI assistants.",
-        "tr_idea": "Develop a mobile-first AI assistant app, 'Ev Yardımcısı AI,' tailored for Turkish households. It will connect users to local service providers, manage utilities, offer personalized cost-saving tips, and learn from family habits, all in Turkish.",
-        "mvp": "An AI assistant app for basic task management (reminders, lists), local weather/traffic, and curated directory of local service providers, integrated with common smart home devices.",
-        "target": "Urban middle-class homeowners in Turkey, early adopters of smart home tech.",
-        "revenue": "Freemium model with premium features; commission from local service provider bookings.",
-        "risks": "Data privacy concerns; difficulty in integrating with diverse local service ecosystems; user adoption challenges.",
-        "why_now": "Zuckerberg's prediction of billions of personal AI agents highlights the massive market shift towards personalized AI, ripe for local adaptation."
-      },
-      {
-        "name": "MetaCycle AI",
-        "emoji": "♻️",
-        "oneLiner": "AI-driven critical mineral extraction from industrial waste.",
-        "sector": "CleanTech, Industrial AI",
-        "score": 85,
-        "inspired_by": "Fast Metals",
-        "real_example": "Fast Metals - treating waste with more waste to extract critical minerals",
-        "tr_status": "Turkey possesses a strong manufacturing base, generating significant industrial waste, and faces increasing pressure for sustainable practices and resource independence.",
-        "tr_idea": "Utilize AI and advanced chemical processes to identify and extract critical minerals from specific industrial waste streams (e.g., automotive, electronics) from Turkish manufacturers. Focus on a specific niche initially.",
-        "mvp": "A pilot facility demonstrating AI-optimized extraction of one critical mineral (e.g., cobalt from battery waste) from a specific industrial partner's waste stream.",
-        "target": "Large-scale Turkish manufacturers with significant industrial waste containing reclaimable critical minerals.",
-        "revenue": "Sale of extracted critical minerals; fee-for-service waste treatment for manufacturers.",
-        "risks": "High capital expenditure for facilities; regulatory hurdles; fluctuating commodity prices for extracted minerals.",
-        "why_now": "Global demand for critical minerals is soaring, combined with environmental mandates and the cost-saving potential of AI-optimized recycling."
-      },
-      {
-        "name": "Odak Cihaz",
-        "emoji": "🧘",
-        "oneLiner": "Minimalist device for digital wellness and focus.",
-        "sector": "Consumer Electronics, HealthTech",
-        "score": 80,
-        "inspired_by": "Light",
-        "real_example": "Light's co-founders on building for the anti-smartphone generation; 'If this isn’t addiction, I don’t know what is'",
-        "tr_status": "Turkey is a mobile-first nation with high screen time, leading to growing public awareness and concern about digital addiction.",
-        "tr_idea": "Design and manufacture a minimalist 'focus device' in Turkey, offering essential communication and specific productivity apps, but no social media or endless feeds. Integrate a Turkish-localized app for tracking digital habits and promoting mindful usage.",
-        "mvp": "A basic mobile phone device with calling, texting, and a simple calendar/notes app, manufactured using local partners, marketed as a 'digital detox' tool.",
-        "target": "Professionals, students, and parents in Turkey seeking to reduce screen time and improve focus; 'anti-smartphone' generation.",
-        "revenue": "Device sales; optional subscription for premium digital wellness features/coaching.",
-        "risks": "Niche market adoption challenges; manufacturing complexities and supply chain; competing with established smartphone brands.",
-        "why_now": "Increasing global awareness of screen addiction and mental health impacts creates a growing market for purposeful 'anti-smartphone' devices."
-      }
-    ]
-  },
-  {
     "date": "31 July 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Project-based or subscription-based SaaS model, depending on project value/duration.",
         "risks": "Resistance to digital transformation in a traditional industry, complex on-site data collection, accuracy of AI predictions in unpredictable environments.",
         "why_now": "The dual pressures of labor crunch and inflation make efficiency gains from AI solutions highly attractive for the Turkish construction sector."
+      }
+    ]
+  },
+  {
+    "date": "11 September 2026",
+    "opportunities": [
+      {
+        "name": "Ses AI Yayınları",
+        "emoji": "🎙️",
+        "oneLiner": "AI-powered localized audio content for mobile-first Turkey.",
+        "sector": "Media & Entertainment, AI, Content Creation",
+        "score": 90,
+        "inspired_by": "Pocket FM",
+        "real_example": "Pocket FM - doubles revenue run rate to $500M as AI powers 93% of audio content",
+        "tr_status": "Turkey has a mobile-first, young population with high demand for localized digital content, especially audio.",
+        "tr_idea": "Develop an AI platform to generate culturally relevant, localized audio content (stories, podcasts, educational material) in Turkish dialects. This makes content creation faster and cheaper for local creators and businesses.",
+        "mvp": "A mobile app offering personalized, AI-generated short audio stories/news briefs based on user preferences and popular local themes.",
+        "target": "Content creators, media companies, advertisers, individual consumers seeking local audio content.",
+        "revenue": "Subscription models for premium content, ad-supported free tiers, B2B licensing for AI content generation services.",
+        "risks": "Ensuring high-quality AI-generated content and strong competition from global audio platforms are key risks.",
+        "why_now": "Mobile-first consumption, rising audio content demand, and AI advancements make cost-effective localization possible today."
+      },
+      {
+        "name": "ÜretimOptima",
+        "emoji": "⚙️",
+        "oneLiner": "AI SaaS to automate manufacturing bottlenecks, cut costs.",
+        "sector": "Manufacturing, SaaS, Industrial AI",
+        "score": 92,
+        "inspired_by": "CloudNC",
+        "real_example": "CloudNC - raises $20M to automate manufacturing’s most pressing bottlenecks",
+        "tr_status": "Turkey possesses a robust manufacturing sector facing pressure from high inflation, making cost-saving solutions highly attractive.",
+        "tr_idea": "Build a SaaS platform leveraging AI to optimize manufacturing processes, identify bottlenecks, and reduce material waste for Turkish factories. Focus on easy integration with existing machinery.",
+        "mvp": "A software module integrating with common CNC machines to optimize tool paths for specific Turkish industrial processes, demonstrating tangible material and time savings.",
+        "target": "Small to medium-sized manufacturing enterprises (SMEs) in sectors like automotive parts, textiles, and machinery.",
+        "revenue": "SaaS subscription based on the number of machines integrated or a percentage of cost savings achieved for clients.",
+        "risks": "High upfront implementation costs for some solutions and complexity of integrating with diverse legacy systems are main challenges.",
+        "why_now": "High inflation drives urgent demand for operational efficiency and cost reduction in Turkey's strong manufacturing base."
+      },
+      {
+        "name": "Agent Kalkan",
+        "emoji": "🛡️",
+        "oneLiner": "Secure enterprise AI agents against new cyber threats.",
+        "sector": "Cybersecurity, Enterprise AI",
+        "score": 88,
+        "inspired_by": "Cymphony",
+        "real_example": "Cymphony - Sequoia doubles down as AI agents create new enterprise security risks",
+        "tr_status": "Turkish enterprises are increasingly adopting AI agents, creating new cybersecurity vulnerabilities as highlighted by recent data breaches.",
+        "tr_idea": "Develop an enterprise-grade cybersecurity platform specifically designed to monitor, secure, and govern autonomous AI agents. This prevents unauthorized data access and malicious AI agent behavior.",
+        "mvp": "A monitoring and anomaly detection system for AI agent interactions within an organization's network, flagging suspicious activities or data access attempts.",
+        "target": "Medium to large Turkish enterprises that are deploying or planning to deploy AI agents in their operations.",
+        "revenue": "SaaS subscription model based on the number of AI agents monitored or the volume of data protected.",
+        "risks": "The rapid evolution of AI agent technology requires constant adaptation, and educating non-technical decision-makers on these new risks can be challenging.",
+        "why_now": "The proliferation of AI agents introduces novel security risks, making existing solutions inadequate and creating an urgent market need."
+      },
+      {
+        "name": "Kamu AI Asistan",
+        "emoji": "🏛️",
+        "oneLiner": "Localized AI agent for efficient public service interactions.",
+        "sector": "GovTech, AI, Public Services",
+        "score": 85,
+        "inspired_by": "Meta’s AI agent Muse",
+        "real_example": "Meta’s AI agent Muse - now the No. 2 app in the US",
+        "tr_status": "Turkey's 85M mobile-first population expects efficient digital services, and public services can greatly benefit from AI-driven automation.",
+        "tr_idea": "Create a localized AI agent platform, accessible via mobile, to streamline citizen interactions with public services for municipalities and government bodies. This helps citizens with queries, applications, and appointments.",
+        "mvp": "A Turkish-speaking chatbot accessible via popular messaging apps or a dedicated portal that answers frequently asked questions for a specific municipal service (e.g., permits, waste management).",
+        "target": "Turkish municipalities, government ministries, and public service providers seeking to enhance citizen engagement and operational efficiency.",
+        "revenue": "B2B licensing fees from government entities based on the scope of services provided and population served.",
+        "risks": "Navigating government bureaucracy, ensuring data privacy and security, and integrating with legacy IT systems are significant risks.",
+        "why_now": "High demand for mobile-first digital solutions, mature AI agent technology, and the potential for significant cost savings in public services."
+      },
+      {
+        "name": "Yeşil Çiftlik Karbon",
+        "emoji": "🐄",
+        "oneLiner": "Reduce agricultural methane, generate carbon credits.",
+        "sector": "Agri-tech, Climate Tech, Carbon Credits",
+        "score": 87,
+        "inspired_by": "Mitti Labs",
+        "real_example": "Mitti Labs - Google signs its biggest rice-methane carbon credit deal with Indian startup",
+        "tr_status": "Turkey has a significant agricultural sector with untapped potential for sustainable practices and carbon credit generation.",
+        "tr_idea": "Provide Turkish farmers with solutions to reduce methane emissions from livestock and agricultural waste, enabling them to generate and sell carbon credits. Offer consulting for implementation and verification.",
+        "mvp": "A pilot program with 5-10 cattle farms to implement methane-reducing feed additives and measure the reduction in emissions, leading to the first verifiable carbon credits.",
+        "target": "Large-scale farmers, agricultural cooperatives, food processing companies, and government agricultural initiatives.",
+        "revenue": "Sale of methane reduction products/services (e.g., feed additives, biodigester tech) and carbon credit brokerage services.",
+        "risks": "Farmer adoption rates, accurate and verifiable measurement of emissions reduction, and changes in carbon credit market policies are key risks.",
+        "why_now": "Growing global emphasis on climate action, demand for sustainable agriculture, and potential for new revenue streams for Turkish farmers."
       }
     ]
   }
