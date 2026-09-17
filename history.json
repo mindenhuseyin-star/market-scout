@@ -1,90 +1,5 @@
 [
   {
-    "date": "06 August 2026",
-    "opportunities": [
-      {
-        "name": "AI E-commerce Assistant for SMBs",
-        "emoji": "🛍️",
-        "oneLiner": "AI for Turkish e-commerce: sales, traffic, cost savings.",
-        "sector": "E-commerce SaaS",
-        "score": 90,
-        "inspired_by": "Shopify",
-        "real_example": "Shopify - AI search driving sales",
-        "tr_status": "Turkey's e-commerce is booming (30%/yr growth) with many SMBs needing digital transformation.",
-        "tr_idea": "Develop an affordable, mobile-first AI platform for Turkish SMBs, offering smart product descriptions, localized SEO, and personalized recommendations. Focus on cost-saving features to combat inflation and boost online presence.",
-        "mvp": "AI-generated product descriptions and localized keyword suggestions for popular Turkish e-commerce marketplaces.",
-        "target": "Small and medium e-commerce businesses in Turkey.",
-        "revenue": "Tiered SaaS subscription.",
-        "risks": "Competition from global solutions, user adoption challenges among less tech-savvy SMBs.",
-        "why_now": "Rapid e-commerce growth and high inflation create urgent demand for cost-efficient sales tools."
-      },
-      {
-        "name": "FactoryFlow AI",
-        "emoji": "⚙️",
-        "oneLiner": "AI for predictive maintenance and quality in factories.",
-        "sector": "Industrial AI / Manufacturing Tech",
-        "score": 92,
-        "inspired_by": "TechCrunch Disrupt 2026's Real World AI Stage",
-        "real_example": "TechCrunch Disrupt - Automated factories",
-        "tr_status": "Turkey has a strong manufacturing base heavily impacted by inflation, driving demand for efficiency.",
-        "tr_idea": "Provide AI solutions for Turkish manufacturers, focusing on predictive maintenance for machinery and AI-driven quality control. This directly addresses operational cost reduction and increased productivity.",
-        "mvp": "A computer vision system for automated defect detection on a specific high-volume production line.",
-        "target": "Mid-to-large manufacturing companies (automotive, textile, white goods).",
-        "revenue": "Project-based implementation, then recurring SaaS for monitoring and analytics.",
-        "risks": "High initial investment for integration, resistance to new technology, need for deep industry expertise.",
-        "why_now": "Strong manufacturing base and high inflation necessitate efficiency gains through smart automation."
-      },
-      {
-        "name": "Kimlik AI",
-        "emoji": "🇹🇷",
-        "oneLiner": "Culturally-aware AI moderation for Turkish mobile apps.",
-        "sector": "AI / Community Management",
-        "score": 88,
-        "inspired_by": "Reddit",
-        "real_example": "Reddit - AI moderation tools",
-        "tr_status": "Mobile-first nation with a growing app ecosystem needs effective, culturally-sensitive content moderation.",
-        "tr_idea": "Develop an AI-powered moderation API specifically trained on Turkish language and cultural nuances to ensure safe and positive online interactions. Offer tools for fostering local community engagement.",
-        "mvp": "Turkish NLP API for detecting hate speech, spam, and culturally inappropriate content for social mobile apps.",
-        "target": "Turkish mobile app developers, social platforms, and e-commerce platforms.",
-        "revenue": "SaaS subscription based on usage volume, premium analytics features.",
-        "risks": "AI bias, difficulty in capturing rapidly evolving slang, competition from global generalist tools.",
-        "why_now": "Increasing mobile app usage and online community growth demands robust and localized moderation solutions."
-      },
-      {
-        "name": "FırsatFon",
-        "emoji": "📈",
-        "oneLiner": "Micro-investing in Turkish startups for everyone.",
-        "sector": "Fintech / Crowdfunding",
-        "score": 87,
-        "inspired_by": "Robinhood",
-        "real_example": "Robinhood - fund to back Y Combinator startups",
-        "tr_status": "High inflation drives citizens to seek alternative investments, while startups need accessible funding.",
-        "tr_idea": "A mobile-first platform enabling Turkish individuals to invest small amounts into vetted local startups and SMEs. This democratizes access and provides crucial alternative funding for businesses.",
-        "mvp": "Equity crowdfunding platform featuring 3-5 pre-vetted Turkish startups with clear investment minimums.",
-        "target": "Retail investors in Turkey (especially Gen Z), early-stage Turkish startups and SMEs.",
-        "revenue": "Commission on successfully funded campaigns, potential premium investor features.",
-        "risks": "Regulatory complexities for investment platforms, risk of startup failures, investor education.",
-        "why_now": "High inflation and mobile-first population seeking accessible alternative investment opportunities."
-      },
-      {
-        "name": "Otonom Lojistik",
-        "emoji": "🚚",
-        "oneLiner": "Smart fleet management for commercial EV logistics.",
-        "sector": "Logistics Tech / Automotive",
-        "score": 89,
-        "inspired_by": "Moove",
-        "real_example": "Moove - $250M for robotaxi industry backbone",
-        "tr_status": "Strong manufacturing base, growing EV adoption, and demand for logistics efficiency in cities.",
-        "tr_idea": "Develop a comprehensive SaaS platform for managing electric vehicle fleets in logistics and urban delivery. Focus on route optimization, charging infrastructure planning, and predictive maintenance for EVs.",
-        "mvp": "Route optimization and real-time tracking software for existing last-mile electric delivery fleets.",
-        "target": "Logistics companies, large retailers with internal delivery fleets, smart city initiatives.",
-        "revenue": "Tiered SaaS subscription based on fleet size and feature set.",
-        "risks": "High competition from global logistics software, slower EV fleet adoption in some sectors, infrastructure dependency.",
-        "why_now": "Growing EV market and continuous demand for efficiency in Turkey's busy logistics sector."
-      }
-    ]
-  },
-  {
     "date": "07 August 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Freemium model with subscriptions for advanced AI features, premium templates, and access to exclusive content creation tutorials.",
         "risks": "AI accuracy across diverse body types and products, competition from general photo editing apps, and maintaining user engagement.",
         "why_now": "The demand for visually appealing content in social commerce is soaring, and AI makes professional-level guidance accessible to a mobile-first user base."
+      }
+    ]
+  },
+  {
+    "date": "17 September 2026",
+    "opportunities": [
+      {
+        "name": "KOBİ AI Asistanı",
+        "emoji": "🤖",
+        "oneLiner": "AI agents automating tasks for Turkish SMEs.",
+        "sector": "Enterprise SaaS, AI",
+        "score": 85,
+        "inspired_by": "Gusto, Insight Partners",
+        "real_example": "Gusto, Insight Partners and Leland explain what AI agents change",
+        "tr_status": "Turkish SMEs face high operational costs; automation is crucial for efficiency gains.",
+        "tr_idea": "Develop an AI agent platform for SMEs to automate HR, customer support, and administrative tasks. Localize with Turkish language support and compliance.",
+        "mvp": "Web platform for HR onboarding automation and basic customer service chatbot via WhatsApp integration.",
+        "target": "Small and medium-sized enterprises (SMEs) in Turkey across various sectors.",
+        "revenue": "Subscription-based (SaaS) per agent or per feature tier.",
+        "risks": "Low AI adoption among traditional SMEs; data privacy concerns.",
+        "why_now": "High inflation drives demand for cost-saving solutions, making AI automation very attractive."
+      },
+      {
+        "name": "Yaratıcı Gelir",
+        "emoji": "💸",
+        "oneLiner": "Empowering Turkish creators to monetize their content directly.",
+        "sector": "Creator Economy, Social Tech",
+        "score": 88,
+        "inspired_by": "Noise",
+        "real_example": "Noise wants to help everyday people become paid content creators",
+        "tr_status": "Mobile-first culture and a large youth demographic fuel a vibrant, yet underserved, creator economy.",
+        "tr_idea": "Build a platform for Turkish content creators to receive direct support, sell digital products, and manage brand deals. Integrate with local payment gateways and e-commerce trends.",
+        "mvp": "Subscription tiers for exclusive content and direct tip integration for popular video/streamers.",
+        "target": "Influencers, artists, educators, and content creators on social media platforms.",
+        "revenue": "Commission on transactions, premium creator features, brand partnership fees.",
+        "risks": "Platform lock-in from existing social media giants; low initial creator trust.",
+        "why_now": "Explosive e-commerce growth and mobile usage create ripe conditions for creator direct monetization."
+      },
+      {
+        "name": "Sağlık Akıllı Yönetim",
+        "emoji": "🏥",
+        "oneLiner": "AI-powered platform to reduce healthcare costs for Turks.",
+        "sector": "HealthTech, InsurTech",
+        "score": 86,
+        "inspired_by": "Thatch, Fortell",
+        "real_example": "Health benefits platform Thatch reaches $1B valuation as healthcare costs surge",
+        "tr_status": "Rising healthcare costs due to inflation are a significant concern for individuals and businesses.",
+        "tr_idea": "Develop an AI-driven platform to help Turkish companies and individuals analyze healthcare spending, suggest preventative care, and optimize insurance plans. Focus on cost-saving and efficiency.",
+        "mvp": "Expense tracker and AI-powered recommendations for common health costs and basic insurance plan comparisons.",
+        "target": "SMEs offering employee benefits, individuals seeking to manage personal health expenses.",
+        "revenue": "SaaS subscription for businesses, premium features for individuals, B2B2C partnerships.",
+        "risks": "Data privacy regulations; resistance from established insurance providers.",
+        "why_now": "High inflation makes cost-saving in healthcare a critical need for the Turkish population."
+      },
+      {
+        "name": "E-Ticaret Akıl",
+        "emoji": "📈",
+        "oneLiner": "AI optimizing pricing, listings, and marketing for Turkish e-commerce.",
+        "sector": "E-commerce SaaS, AI",
+        "score": 89,
+        "inspired_by": "Profound",
+        "real_example": "AEO startup Profound hits unicorn valuation, raises $180M Series D",
+        "tr_status": "Turkey's e-commerce market is growing 30% annually, demanding sophisticated optimization tools.",
+        "tr_idea": "Offer an AI platform for Turkish e-commerce businesses to optimize product pricing, marketing campaigns, inventory management, and personalized customer recommendations. Integrate with local platforms.",
+        "mvp": "Dynamic pricing engine and product recommendation system for a single e-commerce platform integration.",
+        "target": "Online retailers, D2C brands, and manufacturers selling directly in Turkey.",
+        "revenue": "Subscription model based on GMV processed or feature tiers.",
+        "risks": "Competition from global e-commerce optimization tools; data integration challenges.",
+        "why_now": "Rapid e-commerce growth makes tools for competitive advantage and efficiency highly sought after."
+      },
+      {
+        "name": "Türkçe Ses AI",
+        "emoji": "🗣️",
+        "oneLiner": "Advanced Turkish voice simulation and text-to-speech platform.",
+        "sector": "AI, Content Tech",
+        "score": 87,
+        "inspired_by": "Treble",
+        "real_example": "Iceland-based Treble raises $18 million for its voice simulation platform",
+        "tr_status": "High demand for localized digital experiences across customer service and content creation in Turkey.",
+        "tr_idea": "Develop a state-of-the-art Turkish voice AI platform offering highly natural text-to-speech and voice simulation, including various accents and emotional tones. Target customer service and media.",
+        "mvp": "Online API for text-to-speech in standard Turkish with basic emotional range for call centers.",
+        "target": "Call centers, media companies, content creators, and educational platforms needing Turkish voiceovers.",
+        "revenue": "Usage-based (per minute/character) API fees, enterprise licenses.",
+        "risks": "High R&D costs for language-specific AI; competition from global TTS providers.",
+        "why_now": "Growing demand for localized, high-quality AI experiences, especially in mobile-first Turkey."
       }
     ]
   }
