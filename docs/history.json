@@ -1,90 +1,5 @@
 [
   {
-    "date": "07 August 2026",
-    "opportunities": [
-      {
-        "name": "AI-Powered SME Automation Hub",
-        "emoji": "🤖",
-        "oneLiner": "Automate admin & support for Turkish SMEs with AI.",
-        "sector": "SaaS, AI, Business Automation",
-        "score": 92,
-        "inspired_by": "Naïve",
-        "real_example": "Naïve - raises $28.5M to automate grunt work of setting up and running a company",
-        "tr_status": "Turkish SMEs face high operational costs and administrative burdens, making efficiency solutions highly attractive.",
-        "tr_idea": "Develop an AI-driven platform for Turkish SMEs to automate common tasks like regulatory compliance, basic HR, and internal communications, integrating with local e-government systems. Offer localized language support and compliance modules.",
-        "mvp": "A web-based platform offering an AI chatbot for common administrative queries, automated legal document generation for standard business processes, and a task management system.",
-        "target": "Small and Medium-sized Enterprises (SMEs) in Turkey across various sectors.",
-        "revenue": "Subscription-based SaaS (tiered pricing based on features and user count).",
-        "risks": "Data security concerns and slow adoption among traditional businesses are key risks.",
-        "why_now": "High inflation pushes Turkish businesses to seek cost-saving automation solutions, making efficiency critical."
-      },
-      {
-        "name": "Affordable Electric Logistics Vehicles",
-        "emoji": "🚚",
-        "oneLiner": "Manufacture affordable EVs for last-mile delivery in Turkey.",
-        "sector": "Automotive, Green Tech, Logistics",
-        "score": 90,
-        "inspired_by": "Ford's Fathom electric truck",
-        "real_example": "Ford’s new electric truck, ‘Fathom,’ starts at $28,350",
-        "tr_status": "Turkey has a strong manufacturing base and a booming e-commerce sector, creating high demand for efficient logistics.",
-        "tr_idea": "Leverage Turkey's manufacturing capabilities to design and produce affordable electric vans and small trucks for last-mile delivery and urban logistics. Focus on low maintenance, long battery life suitable for dense city routes, and quick charging solutions.",
-        "mvp": "A prototype of a compact electric delivery van, featuring modular battery packs and basic telematics for fleet management.",
-        "target": "E-commerce companies, logistics providers, and small businesses needing urban delivery solutions.",
-        "revenue": "Vehicle sales, leasing options, and after-sales service/maintenance packages.",
-        "risks": "High initial capital investment and intense competition from established automotive players are major risks.",
-        "why_now": "Rising fuel costs, e-commerce growth, and government incentives for electric vehicles create a perfect storm for this market."
-      },
-      {
-        "name": "AI-Powered Gen Z Social Discovery",
-        "emoji": "✨",
-        "oneLiner": "AI matchmaking & local experience app for Turkish Gen Z.",
-        "sector": "Social Media, AI, Lifestyle",
-        "score": 88,
-        "inspired_by": "Ditto (Gen Z dating apps) & Wrinkles",
-        "real_example": "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking / Wrinkles, an app that uncovers the hidden stories of the places around you",
-        "tr_status": "Turkey has a large, mobile-first young population (Gen Z) seeking authentic social connections and local experiences.",
-        "tr_idea": "Create a mobile-first app for Turkish Gen Z that combines AI-powered interest-based matchmaking with a 'local discovery' feature, highlighting unique hidden spots, cultural events, and social gatherings in Turkish cities. Ditch traditional swiping for deeper AI analysis.",
-        "mvp": "A mobile app with user profiles, AI-suggested compatible matches based on shared interests and activity preferences, and a curated feed of local events/places in Istanbul and Ankara.",
-        "target": "Gen Z individuals (18-25 years old) in urban areas of Turkey.",
-        "revenue": "Premium subscription features (ad-free, advanced matching), partnerships with local businesses for exclusive event access or discounts.",
-        "risks": "User acquisition in a crowded social media landscape and maintaining data privacy are significant challenges.",
-        "why_now": "Gen Z's demand for authenticity, AI personalization, and local experiences is rapidly growing in Turkey's mobile-first society."
-      },
-      {
-        "name": "E-commerce AI Customer Support Agent",
-        "emoji": "💬",
-        "oneLiner": "AI chatbots for Turkish e-commerce, reducing support costs.",
-        "sector": "SaaS, AI, Customer Service",
-        "score": 91,
-        "inspired_by": "Omilia & ChatGPT",
-        "real_example": "Omilia raises $67M to scale its customer support platform / ChatGPT brings unlimited text chats to free users",
-        "tr_status": "With e-commerce growing 30% annually, Turkish businesses need scalable, cost-effective customer support solutions.",
-        "tr_idea": "Develop an AI-powered customer support platform specifically trained on Turkish e-commerce language, product types, and common customer queries. Offer seamless integration with popular Turkish e-commerce platforms and payment gateways to handle sales, returns, and delivery inquiries.",
-        "mvp": "A chatbot integrated with a few popular e-commerce platforms, capable of handling FAQs, order status, and basic return processes in Turkish, reducing human agent workload by 30%.",
-        "target": "E-commerce businesses (SMBs to large enterprises) operating in Turkey.",
-        "revenue": "Tiered subscription model based on usage (e.g., number of conversations, features used).",
-        "risks": "Ensuring accurate understanding of nuanced Turkish language and maintaining a human-like interaction are crucial for user satisfaction.",
-        "why_now": "Rapid e-commerce growth and high inflation in Turkey necessitate efficient, cost-saving customer service automation."
-      },
-      {
-        "name": "Family FinTech & Financial Literacy App",
-        "emoji": "👨‍👩‍👧‍👦",
-        "oneLiner": "Mobile banking & financial education for Turkish families.",
-        "sector": "FinTech, EdTech, Mobile Apps",
-        "score": 87,
-        "inspired_by": "Google Wallet for kids",
-        "real_example": "Google Wallet now lets parents set up secure balances for their kids",
-        "tr_status": "Turkey's mobile-first population and focus on education present a prime opportunity for parental-controlled financial tools for children.",
-        "tr_idea": "Build a secure mobile app for families, allowing parents to manage allowances, set spending limits, and track transactions for their children, while offering gamified financial literacy modules for kids and teens. Integrate with local banking infrastructure for easy money transfers.",
-        "mvp": "A mobile app enabling parents to create sub-accounts for children, transfer funds, monitor spending, and access basic budgeting tools. Includes a simple 'earning' module for chores.",
-        "target": "Parents with children aged 8-18 in Turkey.",
-        "revenue": "Premium subscription for advanced features (e.g., investment modules, detailed analytics), partnerships with educational content providers.",
-        "risks": "Navigating financial regulations and building trust with both parents and children are significant hurdles.",
-        "why_now": "The mobile-first culture and increasing parental awareness of financial education needs in an inflationary environment make this timely."
-      }
-    ]
-  },
-  {
     "date": "08 August 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Usage-based (per minute/character) API fees, enterprise licenses.",
         "risks": "High R&D costs for language-specific AI; competition from global TTS providers.",
         "why_now": "Growing demand for localized, high-quality AI experiences, especially in mobile-first Turkey."
+      }
+    ]
+  },
+  {
+    "date": "18 September 2026",
+    "opportunities": [
+      {
+        "name": "Evim.AI",
+        "emoji": "🛋️",
+        "oneLiner": "AI visualizes your home with local furniture for purchase.",
+        "sector": "E-commerce, Design, AI",
+        "score": 90,
+        "inspired_by": "Pinterest",
+        "real_example": "Pinterest - 'Restyle' feature",
+        "tr_status": "E-commerce is growing 30%/yr, mobile usage is high, and home improvement is a popular activity.",
+        "tr_idea": "A mobile app uses AI to allow users to redesign rooms virtually with furniture and decor from Turkish e-commerce partners, then directly purchase items. The focus is on integrating with Turkish brands and styles.",
+        "mvp": "Mobile app for room scanning, basic AI styling with 5-10 local furniture brands, and direct purchase links.",
+        "target": "Urban Turkish homeowners and renters (25-55 age range) seeking home decor ideas and convenience.",
+        "revenue": "Commission on sales from partner retailers, with potential for premium features.",
+        "risks": "AI accuracy for room recognition, strong competition from general e-commerce platforms, securing enough local inventory.",
+        "why_now": "High mobile penetration and e-commerce growth make a visual shopping AI tool highly relevant and timely for the Turkish market."
+      },
+      {
+        "name": "Kural.AI",
+        "emoji": "⚖️",
+        "oneLiner": "AI agent simplifies Turkish SME compliance and security.",
+        "sector": "SaaS, LegalTech, Cybersecurity, AI",
+        "score": 88,
+        "inspired_by": "Comp AI",
+        "real_example": "Comp AI - 'continuously agentic future for security and compliance'",
+        "tr_status": "High inflation makes cost-saving SaaS attractive, while regulatory burdens on SMEs are increasing.",
+        "tr_idea": "Develop an AI agent platform specifically for Turkish SMEs to automate compliance checks (KVKK, e-commerce laws) and identify security vulnerabilities, offering localized, actionable steps. It integrates with common Turkish business software.",
+        "mvp": "Web-based platform for KVKK compliance audit (data handling, privacy policies) and basic website security scan with AI-generated recommendations.",
+        "target": "Turkish SMEs (10-100 employees) in e-commerce, manufacturing, and services needing regulatory adherence.",
+        "revenue": "Subscription model (tiered based on features/users), consulting for complex issues.",
+        "risks": "AI's ability to interpret complex legal text accurately, building trust in AI for critical compliance, market education.",
+        "why_now": "High inflation drives demand for cost-efficient compliance solutions, and increasing regulations make human-led compliance costly."
+      },
+      {
+        "name": "Verimli.AI",
+        "emoji": "🤖",
+        "oneLiner": "AI agents automate routine tasks for Turkish businesses.",
+        "sector": "Productivity, SaaS, AI",
+        "score": 85,
+        "inspired_by": "Gusto, Insight Partners, Leland",
+        "real_example": "'Your startup’s next teammate might be an AI agent' at TechCrunch Disrupt",
+        "tr_status": "High inflation necessitates efficiency gains, supporting a mobile-first workforce, across strong e-commerce and manufacturing sectors.",
+        "tr_idea": "A SaaS platform offering configurable AI agents to automate common business tasks like data entry, meeting summarization, content drafting for marketing, and customer support for Turkish businesses, integrated with popular local tools. This aims to boost efficiency and reduce operational costs.",
+        "mvp": "AI agent for summarizing internal meetings/documents and drafting email responses in Turkish, integrating with Outlook/Gmail and popular chat tools.",
+        "target": "SMEs and larger enterprises in Turkey seeking to improve operational efficiency and reduce labor costs.",
+        "revenue": "Subscription per agent or per user, tiered based on usage and advanced features.",
+        "risks": "Data privacy concerns, complexity of integration with diverse legacy systems, user adoption and trust in AI for core tasks.",
+        "why_now": "Businesses are under pressure to optimize costs due to inflation, making AI-driven efficiency solutions highly desirable."
+      },
+      {
+        "name": "Yetenek.AI",
+        "emoji": "🎬",
+        "oneLiner": "Mobile platform for Turkish content creators to monetize.",
+        "sector": "Creator Economy, Social Media, E-commerce",
+        "score": 92,
+        "inspired_by": "Noise",
+        "real_example": "Noise - 'help everyday people become paid content creators'",
+        "tr_status": "Turkey is a mobile-first nation with a large youth population, active social media use, and booming e-commerce and influencer marketing.",
+        "tr_idea": "A mobile-first platform dedicated to Turkish content creators, offering tools for subscriptions, brand collaborations, and selling digital/physical products directly to their audience. It will be tailored for local payment systems and cultural nuances.",
+        "mvp": "Mobile app allowing creators to set up profiles, offer tiered subscriptions, and receive payments, with basic analytics.",
+        "target": "Micro-influencers, artists, musicians, educators, and niche content creators in Turkey.",
+        "revenue": "Commission on transactions (subscriptions, sales), premium creator tools, advertising revenue from brands.",
+        "risks": "Intense competition from global platforms, content moderation challenges, ensuring a steady stream of monetization opportunities.",
+        "why_now": "The exploding creator economy, high mobile penetration, and a large, engaged Turkish online audience hungry for local content make this timely."
+      },
+      {
+        "name": "Anlam.AI",
+        "emoji": "🇹🇷",
+        "oneLiner": "Localized, efficient LLMs for Turkish enterprise applications.",
+        "sector": "AI, SaaS, NLP",
+        "score": 87,
+        "inspired_by": "PrismML",
+        "real_example": "PrismML - 'tiny LLM will change how we all use AI'",
+        "tr_status": "Turkey is mobile-first with growing e-commerce, needs cost-effective AI, and has a strong manufacturing base generating data.",
+        "tr_idea": "Develop and provide fine-tuned, smaller LLMs specifically for the Turkish language and cultural context, optimized for cost-effective deployment in customer service, internal knowledge management, and specialized e-commerce use cases. This addresses the unique linguistic and market needs.",
+        "mvp": "API service offering a fine-tuned Turkish LLM for basic customer service chatbots or summarizing Turkish text, trained on publicly available Turkish datasets.",
+        "target": "Turkish enterprises in e-commerce, banking, telecommunications, and manufacturing seeking efficient and accurate Turkish NLP solutions.",
+        "revenue": "API usage fees, licensing for on-premise deployment, custom fine-tuning services.",
+        "risks": "High R&D costs, competition from larger global models (even if less performant in Turkish), data privacy concerns for fine-tuning.",
+        "why_now": "Growing demand for AI in Turkish businesses and a current lack of efficient, culturally sensitive Turkish LLMs create a clear market gap, with inflation also pushing for cost-effective solutions."
       }
     ]
   }
