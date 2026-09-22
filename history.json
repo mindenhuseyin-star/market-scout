@@ -1,90 +1,5 @@
 [
   {
-    "date": "11 August 2026",
-    "opportunities": [
-      {
-        "name": "Otomasyon Ajanı",
-        "emoji": "🤖",
-        "oneLiner": "Automating administrative grunt work for Turkish SMEs with AI.",
-        "sector": "Business Productivity SaaS",
-        "score": 92,
-        "inspired_by": "Naïve",
-        "real_example": "Naïve raises $28.5M to automate the grunt work of setting up and running a company.",
-        "tr_status": "Turkish SMEs face significant administrative burdens and high operational costs due to inflation.",
-        "tr_idea": "Offer an AI platform to automate routine tasks like invoicing, HR onboarding, and compliance specific to Turkish regulations. This reduces overhead and increases efficiency for businesses struggling with rising costs.",
-        "mvp": "Web platform for automated invoice generation, expense tracking, and basic HR document management compliant with Turkish law.",
-        "target": "Small and Medium-sized Enterprises (SMEs) in Turkey across various sectors.",
-        "revenue": "Subscription-based SaaS, tiered pricing based on features and user count.",
-        "risks": "Data security concerns, integration complexity with existing systems, fierce competition in SaaS market.",
-        "why_now": "High inflation makes cost-saving SaaS solutions extremely attractive for Turkish businesses seeking efficiency."
-      },
-      {
-        "name": "Kalkan Siber",
-        "emoji": "🛡️",
-        "oneLiner": "AI-powered cybersecurity for Turkey's manufacturing and logistics sectors.",
-        "sector": "Cybersecurity, AI",
-        "score": 90,
-        "inspired_by": "OpenAI, Ceva Logistics",
-        "real_example": "OpenAI launches a new cyber model; Ceva Logistics data breach.",
-        "tr_status": "Turkey's robust manufacturing base and growing e-commerce rely heavily on secure supply chains and operational technologies.",
-        "tr_idea": "Develop an AI-driven security platform specifically for operational technology (OT) environments in Turkish factories and logistics hubs. This would predict and prevent cyber threats targeting industrial control systems.",
-        "mvp": "An AI-powered anomaly detection system for industrial networks, providing real-time alerts and vulnerability assessments.",
-        "target": "Medium to large manufacturing companies and logistics providers in Turkey.",
-        "revenue": "Annual licensing fees for software, with additional services for implementation and custom threat intelligence.",
-        "risks": "High initial investment in R&D, need for specialized expertise, integration challenges with legacy systems.",
-        "why_now": "Increasing AI-led attacks and supply chain vulnerabilities highlight an urgent need for advanced, specialized defense."
-      },
-      {
-        "name": "Yardımcı Asistan",
-        "emoji": "💬",
-        "oneLiner": "Intelligent AI customer support for Turkey's booming e-commerce.",
-        "sector": "Customer Service AI, E-commerce Tech",
-        "score": 93,
-        "inspired_by": "Omilia",
-        "real_example": "Omilia raises $67M to scale its customer support platform.",
-        "tr_status": "E-commerce in Turkey is growing 30% annually, creating immense pressure on customer support services.",
-        "tr_idea": "Build an AI-powered customer support platform tailored for the Turkish language, cultural nuances, and common e-commerce queries. This would integrate seamlessly with popular Turkish e-commerce platforms and social media.",
-        "mvp": "A multi-channel chatbot (web, WhatsApp, Instagram) capable of handling FAQs, order tracking, and basic return requests in Turkish.",
-        "target": "E-commerce businesses, online retailers, and mobile-first brands in Turkey.",
-        "revenue": "Usage-based pricing (per query/interaction) or tiered subscription plans based on volume and features.",
-        "risks": "Ensuring high accuracy in Turkish NLP, customer preference for human interaction, integration with diverse e-commerce backends.",
-        "why_now": "Rapid e-commerce growth and a mobile-first population demand scalable, efficient, and localized customer service solutions."
-      },
-      {
-        "name": "Türkiye Uygulama Pazarı",
-        "emoji": "📱",
-        "oneLiner": "Turkey's mobile-first app store with integrated local payments.",
-        "sector": "Mobile App Distribution, Fintech",
-        "score": 88,
-        "inspired_by": "Aptoide, Google Play adding Venmo",
-        "real_example": "Aptoide becomes the first rival app store to return to Google Play in the US; Google Play adds Venmo.",
-        "tr_status": "Turkey is highly mobile-first, and e-commerce thrives with local payment methods preferred over international options.",
-        "tr_idea": "Create an alternative Android app marketplace focusing on Turkish developers and users, featuring simplified local payment integrations (e.g., local banks, popular digital wallets, mobile carrier billing). Provide better revenue share for local developers.",
-        "mvp": "An Android app store client with a curated selection of popular Turkish apps and games, integrated with a leading Turkish payment gateway.",
-        "target": "Turkish Android users, local app developers, and SMEs looking for app distribution.",
-        "revenue": "Transaction fees on in-app purchases and paid apps, potentially premium placement fees for developers.",
-        "risks": "Competition with Google Play, user adoption challenges, developer onboarding, security and trust issues.",
-        "why_now": "Antitrust pressures creating opportunities for alternative app stores, combined with Turkey's mobile-first nature and demand for localized payment options."
-      },
-      {
-        "name": "Anadolu Enerji Çözümleri",
-        "emoji": "🔋",
-        "oneLiner": "Manufacturing advanced batteries for defense and industrial applications in Turkey.",
-        "sector": "Advanced Manufacturing, Defense Tech, Energy",
-        "score": 89,
-        "inspired_by": "Sila, Hadrian",
-        "real_example": "Sila lands $1.4B Pentagon loan; Hadrian raises $1.37B at $8B valuation.",
-        "tr_status": "Turkey has a strong manufacturing base and growing defense industry, with increasing demand for reliable domestic energy solutions.",
-        "tr_idea": "Establish a manufacturing facility in Turkey for advanced, high-performance batteries, initially targeting defense sector (e.g., UAVs, military vehicles) and then expanding to industrial applications. Focus on durability and energy density.",
-        "mvp": "Develop and produce a prototype series of specialized lithium-ion or solid-state batteries for a specific defense application, e.g., a long-endurance drone.",
-        "target": "Turkish Ministry of Defense, defense contractors, industrial equipment manufacturers.",
-        "revenue": "Direct sales contracts with defense and industrial clients, R&D partnerships.",
-        "risks": "High capital expenditure, complex regulatory environment, intense global competition, intellectual property acquisition/development challenges.",
-        "why_now": "Global demand for advanced batteries is surging, particularly in defense, aligning with Turkey's manufacturing capabilities and strategic independence goals."
-      }
-    ]
-  },
-  {
     "date": "13 August 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Subscription fees (tiered for influencers/brands), enterprise solutions for agencies, potential for legal advisory partnerships.",
         "risks": "Keeping up with evolving regulations, user adoption among influencers, competition from generic marketing tools, data privacy concerns.",
         "why_now": "As e-commerce and influencer marketing grow, stricter regulations are inevitable, making proactive compliance tools essential for avoiding future penalties."
+      }
+    ]
+  },
+  {
+    "date": "22 September 2026",
+    "opportunities": [
+      {
+        "name": "Finans Botu",
+        "emoji": "📊",
+        "oneLiner": "AI automates finance for Turkish SMBs, saving costs.",
+        "sector": "Fintech / SaaS",
+        "score": 92,
+        "inspired_by": "Tabby",
+        "real_example": "Tabby - former accountant using AI to make accountants obsolete",
+        "tr_status": "Turkish SMBs face high operational costs and complex financial regulations, making cost-saving solutions highly attractive.",
+        "tr_idea": "Develop an AI-powered financial automation platform tailored for Turkish SMBs, offering automated bookkeeping, expense tracking, and tax preparation guidance. Integrate with local banking and e-invoice systems for seamless operation.",
+        "mvp": "Mobile and web app for automated expense categorization, invoice generation, and basic report generation integrated with a major Turkish bank's API.",
+        "target": "Small and medium-sized businesses (SMBs) in Turkey seeking to reduce accounting overheads.",
+        "revenue": "Subscription-based SaaS model with tiered pricing based on features and transaction volume.",
+        "risks": "Regulatory compliance changes and trust in AI for sensitive financial data are key risks.",
+        "why_now": "High inflation environment makes cost-saving indispensable, driving demand for efficient, AI-driven financial tools."
+      },
+      {
+        "name": "Sağlık Köprüsü",
+        "emoji": "🏥",
+        "oneLiner": "Digital health benefits brokerage for Turkish SMBs and employees.",
+        "sector": "Insurtech / HR Tech",
+        "score": 90,
+        "inspired_by": "Corridor",
+        "real_example": "Corridor - raises $25M seed to build a health benefits brokerage for SMBs",
+        "tr_status": "Turkish SMBs often struggle to provide competitive health benefits efficiently, impacting employee retention and well-being.",
+        "tr_idea": "Create a digital platform that simplifies the selection, administration, and management of health and wellness benefits for Turkish SMBs. Partner with local insurance providers and healthcare networks to offer tailored packages.",
+        "mvp": "Web platform allowing SMBs to compare and select basic health insurance plans from a few local providers, with employee enrollment and basic claim submission features.",
+        "target": "Small and medium-sized businesses in Turkey (5-250 employees) and their HR departments.",
+        "revenue": "Brokerage commission from insurance providers and an optional platform fee for advanced HR features.",
+        "risks": "Navigating complex insurance regulations and securing strong partnerships with major local providers are challenges.",
+        "why_now": "Employee welfare is gaining importance, and SMBs need efficient tools to offer competitive benefits in a growing market."
+      },
+      {
+        "name": "Eğitim Kısa",
+        "emoji": "📚",
+        "oneLiner": "Mobile-first short video learning platform for Turkish students.",
+        "sector": "EdTech",
+        "score": 93,
+        "inspired_by": "ScrollEd",
+        "real_example": "ScrollEd - wants to turn textbooks into TikTok",
+        "tr_status": "Turkey is a mobile-first nation with a large youth population hungry for engaging, accessible educational content.",
+        "tr_idea": "Develop a TikTok-style mobile application delivering curriculum-aligned and skill-based educational content through short, interactive videos. Focus on K-12 and vocational training, leveraging local educators.",
+        "mvp": "Mobile app with a curated library of short, engaging videos (30-90 seconds) covering core subjects for high school students, with quizzes and gamified progress tracking.",
+        "target": "K-12 students, university preparatory students, and vocational learners in Turkey.",
+        "revenue": "Freemium model with premium subscriptions for advanced content, personalized tutoring, and ad revenue from relevant educational partners.",
+        "risks": "Content quality control, educator recruitment, and staying relevant with rapidly changing educational trends are critical.",
+        "why_now": "The mobile-first culture and success of short-form video platforms provide a massive opportunity for accessible, engaging education."
+      },
+      {
+        "name": "İş Gücü AI",
+        "emoji": "🎯",
+        "oneLiner": "AI streamlines recruitment for Turkish businesses and agencies.",
+        "sector": "HR Tech / AI",
+        "score": 88,
+        "inspired_by": "Spott",
+        "real_example": "Spott - raises $21M Series A for its AI platform for recruitment agencies",
+        "tr_status": "Turkey's growing economy fuels high demand for talent, creating pressure on recruitment agencies and HR departments to find efficient solutions.",
+        "tr_idea": "Build an AI-powered recruitment platform designed for Turkish companies and agencies to automate candidate sourcing, intelligent resume screening, and skill-based matching. Tailor it for the Turkish labor market nuances.",
+        "mvp": "Web platform for companies to post jobs, with AI-driven candidate matching from public profiles (e.g., LinkedIn) and applicant tracking system (ATS) integration for initial screening.",
+        "target": "Recruitment agencies and corporate HR departments in Turkey across various industries.",
+        "revenue": "Subscription model for companies/agencies, possibly with a per-hire success fee component for premium features.",
+        "risks": "Accuracy of AI matching in a diverse labor market and data privacy concerns for candidate information.",
+        "why_now": "The tight labor market and drive for operational efficiency make AI solutions for recruitment highly attractive for cost and time savings."
+      },
+      {
+        "name": "AI Güvence",
+        "emoji": "🔬",
+        "oneLiner": "Benchmarking and quality assurance for AI models in Turkey.",
+        "sector": "AI / Consulting",
+        "score": 87,
+        "inspired_by": "Vals",
+        "real_example": "Vals - backed by Andreessen Horowitz, looking to become the gold standard for AI benchmarking",
+        "tr_status": "As Turkish industries adopt more AI, there's a growing need for robust evaluation, validation, and explainability to ensure reliability and trust.",
+        "tr_idea": "Offer a service and platform for AI model benchmarking, quality assurance, and explainability, particularly for Turkish manufacturing, e-commerce, and public sector clients. Focus on model performance, bias, and ethical compliance.",
+        "mvp": "Consulting service for custom AI model evaluation, providing detailed reports on performance metrics, potential biases, and recommendations for improvement for manufacturing clients.",
+        "target": "Large enterprises, government agencies, and AI development companies in Turkey.",
+        "revenue": "Service-based (consulting) initially, evolving into a subscription-based platform for continuous monitoring and standardized benchmarking.",
+        "risks": "High technical expertise required, slow adoption by traditional industries, and evolving AI regulatory landscape.",
+        "why_now": "The increasing deployment of AI in critical sectors necessitates independent validation, making trusted benchmarking services essential for adoption and risk mitigation."
       }
     ]
   }
