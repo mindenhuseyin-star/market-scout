@@ -1,0 +1,26 @@
+=== TIKTOK SCRIPT -- 27 October 2026 ===
+
+HOOK (ilk 3 saniye):
+Türkiye'de geleceğin işleri mi arıyorsun? 2026'nın en sıcak 3 trendiyle tanış!
+
+SCRIPT:
+Türkiye'de iş kurmak ya da yatırım yapmak mı istiyorsun?
+İşte sana 2026'nın en parlak 3 iş fırsatı!
+Birinci sırada: Yapay Zeka Maliyet Optimizasyonu.
+Enflasyon yüksek, AI kullanımı artıyor.
+Şirketler yapay zekayı ucuza kullanmak istiyor.
+Sen de onlara bunu sağlayabilirsin!
+İkinci sırada: İnşaat Robotları.
+Türkiye'nin inşaat sektörü booming!
+Ama iş gücü ve güvenlik sorunları var.
+Robotlar hem daha hızlı hem daha güvenli çalışacak.
+Maliyetleri düşürecek, verimliliği artıracak.
+Üçüncü sırada: Güvenli ve Bağımsız Yapay Zeka.
+Veri gizliliği çok önemli, yasalar sıkılaşıyor.
+Şirketler verilerini dışarıya vermek istemiyor.
+Yerel ve güvenli AI çözümleri sun, fark yarat!
+Bu 3 alan Türkiye'de çığır açacak.
+Hazır ol ve geleceği yakala!
+
+CAPTIONS: Yapay Zeka, İnşaat Robotları, Veri Güvenliği, Türkiye Girişim
+HASHTAGS: #Girisimci #IsFirsatlari #YapayZeka #Robotik #Insaat #DataPrivacy #StartupTurkiye
