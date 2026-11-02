@@ -1,90 +1,5 @@
 [
   {
-    "date": "28 September 2026",
-    "opportunities": [
-      {
-        "name": "FırsatBot",
-        "emoji": "💰",
-        "oneLiner": "AI assistant for smart shopping, comparing prices in Turkey.",
-        "sector": "E-commerce, AI, Fintech",
-        "score": 90,
-        "inspired_by": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-        "real_example": "Google - Gemini AI Mode in India",
-        "tr_status": "E-commerce is growing 30%/yr, high inflation makes price sensitivity critical.",
-        "tr_idea": "A mobile-first AI shopping assistant for Turkish consumers to compare prices, find deals, and recommend local products across all major Turkish e-commerce platforms, helping manage budgets effectively.",
-        "mvp": "Mobile app with price comparison for groceries/electronics from top 5 e-commerce sites.",
-        "target": "Price-sensitive Turkish consumers, households managing budgets.",
-        "revenue": "Affiliate commissions from e-commerce partners, premium features (e.g., personalized deal alerts).",
-        "risks": "Data access from e-commerce platforms, competition from existing price comparison sites.",
-        "why_now": "High inflation directly drives demand for cost-saving tools, leveraging growing mobile e-commerce."
-      },
-      {
-        "name": "ÜretimZeka",
-        "emoji": "⚙️",
-        "oneLiner": "AI for optimizing Turkish manufacturing, boosting efficiency, cutting costs.",
-        "sector": "Manufacturing, Industrial AI, SaaS",
-        "score": 88,
-        "inspired_by": "Nexterity wants to automate the hard, dangerous part of pipefitting",
-        "real_example": "Nexterity - automating pipefitting",
-        "tr_status": "Turkey has a strong manufacturing base (automotive, textiles, machinery) seeking efficiency gains.",
-        "tr_idea": "Develop an AI-powered SaaS platform offering modules for predictive maintenance, quality control, and production optimization tailored for Turkish factories, integrating with existing IoT sensors and machinery.",
-        "mvp": "Predictive maintenance module for a specific type of machine in a local factory.",
-        "target": "Small to medium-sized Turkish manufacturing companies.",
-        "revenue": "Subscription-based SaaS model (per module, per factory/user).",
-        "risks": "High upfront integration costs, skepticism from traditional manufacturers, data security concerns.",
-        "why_now": "High inflation makes cost-saving through efficiency critical for manufacturers to remain competitive."
-      },
-      {
-        "name": "GüvenAI",
-        "emoji": "🔒",
-        "oneLiner": "Secure, private AI agents for Turkish enterprise operations.",
-        "sector": "Enterprise AI, SaaS, Cybersecurity",
-        "score": 87,
-        "inspired_by": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-        "real_example": "OpenAI - unsecured agents incident",
-        "tr_status": "Turkish businesses increasingly adopting AI but have strong data privacy and residency requirements.",
-        "tr_idea": "A localized AI agent platform specifically designed for Turkish enterprises, prioritizing data security, compliance with local regulations, and offering secure, private LLM deployments for internal customer service, data analysis, and workflow automation.",
-        "mvp": "An internal knowledge base chatbot agent for customer support teams, ensuring data stays within Turkey.",
-        "target": "Large and mid-sized Turkish enterprises, financial institutions, government agencies.",
-        "revenue": "Subscription-based SaaS per agent/user, premium for custom model fine-tuning.",
-        "risks": "Building trust initially, competition from global players, high development costs for robust security.",
-        "why_now": "Recent incidents highlight AI security risks, creating demand for trusted, localized solutions in a data-sensitive market."
-      },
-      {
-        "name": "SağlıkCihazım",
-        "emoji": "🩺",
-        "oneLiner": "AI-powered, affordable personal health devices for Turkey.",
-        "sector": "HealthTech, Consumer Electronics, AI",
-        "score": 89,
-        "inspired_by": "PNOE’s new face mask wants to make lab-grade breath testing a self-serve affair",
-        "real_example": "PNOE - lab-grade breath testing mask",
-        "tr_status": "85M population with growing health consciousness; high healthcare costs. Strong manufacturing base.",
-        "tr_idea": "Design and manufacture (leveraging Turkey's base) affordable, AI-integrated consumer health monitoring devices (e.g., smart masks for basic respiratory/stress indicators, smart scales with AI body analysis) that connect to a mobile app for personalized insights and early warnings, reducing costly clinic visits.",
-        "mvp": "A smart mask prototype for basic respiratory rate and CO2 monitoring with a companion app.",
-        "target": "Health-conscious individuals, families, elderly population in Turkey.",
-        "revenue": "Device sales, premium subscription for advanced AI insights/telehealth integration.",
-        "risks": "Regulatory hurdles for health devices, accuracy concerns, market acceptance against traditional methods.",
-        "why_now": "Rising healthcare costs and mobile-first population create demand for accessible, data-driven personal health management."
-      },
-      {
-        "name": "AkıllıYerel",
-        "emoji": "🧠",
-        "oneLiner": "Localized tiny LLMs for Turkish smart products, B2B.",
-        "sector": "AI, IoT, Embedded Systems, Manufacturing",
-        "score": 86,
-        "inspired_by": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
-        "real_example": "PrismML - tiny LLMs for smart glasses",
-        "tr_status": "Turkey has a strong manufacturing base for consumer electronics and appliances, mobile-first.",
-        "tr_idea": "Provide Turkish manufacturers with optimized, tiny LLM models and software development kits for embedding AI directly into their smart home appliances, industrial IoT devices, or even localized smart glasses, enabling offline functionality, enhanced privacy, and competitive differentiation.",
-        "mvp": "SDK with a tiny LLM for voice control and basic task execution on a smart home hub.",
-        "target": "Turkish manufacturers of smart home devices, consumer electronics, industrial IoT.",
-        "revenue": "Licensing fees for LLM models/SDKs, consulting for integration/customization.",
-        "risks": "High R&D costs, competition from global chip/software providers, manufacturer adoption rates.",
-        "why_now": "Growing demand for smart, personalized, and privacy-aware devices, combined with Turkey's manufacturing capabilities."
-      }
-    ]
-  },
-  {
     "date": "29 September 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Subscription-based SaaS, tiered by features, data volume, and number of monitored assets.",
         "risks": "Rapidly evolving threat landscape, need for continuous R&D, building trust in a sensitive area.",
         "why_now": "E-commerce growing 30%/yr means more data, more risk, and a critical need for localized security solutions."
+      }
+    ]
+  },
+  {
+    "date": "02 November 2026",
+    "opportunities": [
+      {
+        "name": "EdgeAI Compute Turkey",
+        "emoji": "⚙️",
+        "oneLiner": "Modular, localized AI compute infrastructure for Turkish businesses.",
+        "sector": "AI Infrastructure",
+        "score": 85,
+        "inspired_by": "Nscale",
+        "real_example": "Nscale - Nvidia weighs playing the cosigner for AI data center",
+        "tr_status": "Turkey has strong manufacturing but relies heavily on global cloud for advanced AI compute, lacking localized options.",
+        "tr_idea": "Design and manufacture compact, modular AI compute units leveraging Turkey's industrial base. Offer these as a service or direct purchase for localized AI inference/training.",
+        "mvp": "A pilot program offering 5-10 modular compute units to local tech companies for specific AI workloads.",
+        "target": "Mid-sized tech companies, e-commerce firms, manufacturers needing local, low-latency AI processing.",
+        "revenue": "Subscription-based (Compute-as-a-Service), direct sales of modular units, maintenance contracts.",
+        "risks": "High initial capital investment and competition from global cloud providers is significant.",
+        "why_now": "Growing demand for AI, desire for data sovereignty, and high inflation driving cost-effective localized solutions make this timely."
+      },
+      {
+        "name": "ConstrAI",
+        "emoji": "🏗️",
+        "oneLiner": "AI for optimizing Turkish construction project planning and resource management.",
+        "sector": "Construction Tech, AI/SaaS",
+        "score": 85,
+        "inspired_by": "Dream",
+        "real_example": "Dream - Ex-Palantir execs launch with $17M from a16z to build AI world models for construction",
+        "tr_status": "Turkey's construction sector is massive but often faces inefficiencies, material waste, and cost overruns.",
+        "tr_idea": "Develop an AI platform that analyzes project data, optimizes material procurement, workforce scheduling, and risk assessment for Turkish construction firms. Aims to reduce delays and overspending in a high-inflation environment.",
+        "mvp": "A SaaS platform for project managers to upload blueprints and resource lists, receiving AI-generated optimal schedules and cost-saving material recommendations.",
+        "target": "Mid to large-scale construction companies in Turkey.",
+        "revenue": "Subscription-based SaaS, tiered pricing based on project size/features.",
+        "risks": "Resistance to new technology in a traditional industry and data integration challenges are major concerns.",
+        "why_now": "High inflation necessitates extreme cost-efficiency, and digital transformation is accelerating within traditional industries."
+      },
+      {
+        "name": "MahalleBot (Neighborhood Bot)",
+        "emoji": "📱",
+        "oneLiner": "AI-driven super app for local services and personalized experiences.",
+        "sector": "Mobile, E-commerce, Local Services, AI",
+        "score": 85,
+        "inspired_by": "Zest",
+        "real_example": "Zest - New AI agent finds restaurants and books reservations over text",
+        "tr_status": "Turkey has a mobile-first population with rapidly growing e-commerce and a rich, fragmented local service landscape.",
+        "tr_idea": "Create an AI assistant embedded in a super app, starting with personalized restaurant/event recommendations and bookings, then expanding to other local needs like shopping, delivery, and professional services. Leverage AI for hyper-personalized recommendations and efficient service delivery.",
+        "mvp": "An AI chatbot interface allowing users to discover and book restaurants/cafes, and find local events via text or voice commands.",
+        "target": "Urban mobile users, Gen Z and Millennials seeking convenience and personalized local experiences.",
+        "revenue": "Commission on bookings, premium subscriptions for advanced features, advertising for local businesses.",
+        "risks": "High competition from existing delivery/e-commerce apps and significant user acquisition challenges are present.",
+        "why_now": "Mobile-first behavior, e-commerce growth, and demand for hyper-personalized, consolidated experiences are strong trends."
+      },
+      {
+        "name": "HukukAI (LawAI)",
+        "emoji": "⚖️",
+        "oneLiner": "Affordable AI legal assistant for Turkish small and medium businesses.",
+        "sector": "Legal Tech, SaaS, AI",
+        "score": 85,
+        "inspired_by": "Crosby",
+        "real_example": "AI law firm Crosby - bids on disintegrating, famed firm Weil Gotshal",
+        "tr_status": "SMEs in Turkey face significant legal costs, and access to affordable legal counsel can be limited due to inflation.",
+        "tr_idea": "Develop an AI-powered platform to assist Turkish SMEs with basic legal tasks like contract review, compliance checks, and legal document generation. This will reduce costs and increase efficiency for businesses navigating local regulations.",
+        "mvp": "A web-based tool allowing users to upload common business contracts (e.g., employment, sales) for AI-driven review, flagging potential risks or missing clauses according to Turkish law.",
+        "target": "Small and Medium Enterprises (SMEs) across various sectors in Turkey.",
+        "revenue": "Subscription-based SaaS, tiered pricing based on document volume and features.",
+        "risks": "Regulatory hurdles, data security concerns, and skepticism from traditional legal professionals pose risks.",
+        "why_now": "High inflation drives demand for cost-saving SaaS, and AI can democratize access to essential legal services."
+      },
+      {
+        "name": "EkoTex AI",
+        "emoji": "🌱",
+        "oneLiner": "AI platform for discovering sustainable textiles and optimizing manufacturing.",
+        "sector": "Textile Tech, AI/SaaS, Sustainability",
+        "score": 85,
+        "inspired_by": "renoa",
+        "real_example": "renoa - the first new fiber in 25 years",
+        "tr_status": "Turkey has a strong textile manufacturing base but faces increasing global pressure for sustainability and material innovation.",
+        "tr_idea": "An AI platform that analyzes material properties, simulates new fiber compositions, and optimizes textile manufacturing processes for sustainability and cost-efficiency. This targets new material development and waste reduction in Turkish textile production.",
+        "mvp": "A software tool for textile R&D teams to input desired material properties (e.g., strength, biodegradability) and receive AI-generated candidate material compositions or process adjustments.",
+        "target": "Large textile manufacturers, fashion brands, and material science R&D departments in Turkey.",
+        "revenue": "Enterprise SaaS subscriptions, consulting services for custom material development, licensing of new material IPs.",
+        "risks": "High R&D costs, intellectual property protection challenges, and slow adoption in a traditional industry are present.",
+        "why_now": "Global demand for sustainable products, Turkey's strong manufacturing base, and the potential for AI to accelerate R&D make this ideal."
       }
     ]
   }
