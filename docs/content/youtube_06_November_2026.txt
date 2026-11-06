@@ -1,0 +1,20 @@
+=== YOUTUBE SHORTS SCRIPT -- 06 November 2026 ===
+
+BASLIK: 2026 Türkiye'sinde Hayatınızı Değiştirecek 3 İnovasyon! (Yapay Zeka ve Robotik)
+
+HOOK (ilk 5 saniye):
+Türkiye'de hayatını kökten değiştirecek 3 inovasyonu duymaya hazır mısın? 2026'nın en gözde girişimleri geliyor!
+
+SCRIPT:
+Herkese merhaba! Bugün 2026'dan çok özel 3 iş fırsatını konuşacağız. Türkiye'nin geleceğini şekillendirecek bu projeler, günlük hayatımızdan sanayiye kadar her alanda devrim yaratmaya aday.
+
+İlk olarak, **CepteBütçe AI**! Ülkemizde enflasyonun getirdiği finansal belirsizlikler hepimizin gündeminde. CepteBütçe AI, mobil cihazlarınızdan yapay zeka destekli kişisel finans yönetimi sunarak, bütçenizi akıllıca planlamanıza ve tasarruf etmenize yardımcı oluyor. Artık finansal stres yerine, cebinizde güvenilir bir AI danışmanı var. Neden şimdi mi? Çünkü mobil kullanım alışkanlıklarımız ve AI'a olan güvenimiz hiç bu kadar yüksek olmamıştı.
+
+Sırada **Gezgin AI** var! Tatil planlamak genellikle uzun ve yorucu bir süreçtir. Gezgin AI ise size özel, bütçe dostu ve unutulmaz seyahat deneyimleri tasarlıyor. Türkiye içi veya bölgesel gezileriniz için yapay zeka destekli kişisel bir asistanınız var. Otelden ulaşıma, gezilecek yerlerden yeme-içmeye kadar her detayı sizin için optimize ediyor. Kişiselleştirilmiş ve uygun maliyetli seyahat talebi, bu girişimin başarısını garantiliyor.
+
+Ve son olarak, **Anadolu Robotik**! Türk sanayisi ve lojistik sektörü için büyük bir adım. Artan operasyonel maliyetler ve e-ticaretin yükselişi, otomasyonu kaçınılmaz kılıyor. Anadolu Robotik, Robotics as a Service (RaaS) modeliyle, KOBİ'lerin bile yüksek yatırım maliyetlerine katlanmadan robotik otomasyona geçmesini sağlıyor. Bu, üretimde ve dağıtımda verimliliği, hızı ve rekabet gücünü inanılmaz boyutlarda artıracak. Geleceğin fabrikaları ve depoları artık çok daha ulaşılabilir!
+
+Bu üç girişim, Türkiye'nin teknoloji ve ekonomi haritasını yeniden çizecek. Sizce hangisi en büyük etkiyi yaratacak? Yorumlarda belirtin!
+
+ACIKLAMA:
+Türkiye'nin geleceğine yön veren bu 3 girişimle tanışın! Yapay zeka destekli kişisel finans, akıllı seyahat planlama ve RaaS ile otomasyonun yeni yüzü. Kaçırmayın!
