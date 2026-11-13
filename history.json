@@ -1,90 +1,5 @@
 [
   {
-    "date": "10 October 2026",
-    "opportunities": [
-      {
-        "name": "Akıl Agent",
-        "emoji": "🤖",
-        "oneLiner": "Automating routine business tasks with smart AI agents.",
-        "sector": "Enterprise SaaS",
-        "score": 90,
-        "inspired_by": "Nous Research",
-        "real_example": "Nous Research - $1.5B valuation, AI agents for business users",
-        "tr_status": "Turkish businesses, especially SMEs, seek efficiency gains amidst high inflation and growing digital operations.",
-        "tr_idea": "Develop industry-specific AI agents for sectors like e-commerce customer support, logistics optimization, or financial process automation in Turkey. Focus on Turkish language and local regulatory compliance.",
-        "mvp": "A web-based AI agent that automates initial customer inquiries and FAQs for e-commerce stores, integrating with existing chat platforms.",
-        "target": "Turkish SMEs in e-commerce, logistics, and customer service heavy industries.",
-        "revenue": "Subscription-based SaaS (monthly/annual) with tiered pricing based on agent usage or features.",
-        "risks": "Data privacy concerns, resistance to automation from employees, accuracy limitations of initial AI models.",
-        "why_now": "The urgency for cost-saving SaaS combined with increasing availability of advanced AI models makes this timely for Turkish businesses."
-      },
-      {
-        "name": "Huzur Belgeleri",
-        "emoji": "🕊️",
-        "oneLiner": "Automating administrative burdens during life events.",
-        "sector": "GovTech / Consumer SaaS",
-        "score": 88,
-        "inspired_by": "LumenUs",
-        "real_example": "LumenUs - helps automate tedious paperwork in times of grief",
-        "tr_status": "Navigating Turkish bureaucracy during sensitive life events like grief or childbirth is often complex and stressful.",
-        "tr_idea": "A mobile-first platform guiding users through required steps for life events (e.g., registering a birth/death, inheritance processes) by generating forms and indicating necessary documents for Turkish institutions. Integrates with e-Devlet where possible.",
-        "mvp": "A mobile app that provides a step-by-step checklist and template documents for post-death administrative processes (e.g., death certificate, inheritance, pension applications) in Turkey.",
-        "target": "Individuals and families experiencing significant life events in Turkey, initially focusing on post-death processes.",
-        "revenue": "Freemium model with premium features for direct submission assistance or specialized legal/financial consultations; B2B partnerships with funeral homes or insurance companies.",
-        "risks": "Integration challenges with government systems, sensitivity of data handling, user trust, legal complexities.",
-        "why_now": "Increasing mobile adoption and demand for digital convenience make automated bureaucratic assistance highly valuable."
-      },
-      {
-        "name": "Sağlık AI",
-        "emoji": "🩺",
-        "oneLiner": "AI-powered insights for optimizing hospital operations and patient care.",
-        "sector": "HealthTech SaaS",
-        "score": 87,
-        "inspired_by": "Healthleap",
-        "real_example": "Healthleap - raises $38M for its AI that flags hospital patients",
-        "tr_status": "Turkish hospitals face increasing patient loads and pressure to optimize resources and improve patient outcomes efficiently.",
-        "tr_idea": "An AI platform that analyzes hospital data (patient records, resource utilization) to predict patient readmission risks, optimize bed allocation, or identify operational bottlenecks for Turkish hospitals. Initial focus on non-diagnostic operational improvements.",
-        "mvp": "A dashboard and alert system for hospital administrators to predict bed occupancy and optimize staff scheduling based on historical data and real-time patient flow.",
-        "target": "Private and public hospitals in Turkey seeking operational efficiency and better resource management.",
-        "revenue": "Subscription-based SaaS for hospitals, tiered by hospital size or modules utilized.",
-        "risks": "Data privacy regulations (KVKK), integration with legacy hospital systems, need for clinical validation, initial investment by hospitals.",
-        "why_now": "Hospitals in Turkey are actively seeking digital solutions for efficiency, and AI offers significant potential for operational savings and improved care amidst rising costs."
-      },
-      {
-        "name": "Çevre Robot",
-        "emoji": "♻️",
-        "oneLiner": "AI-powered robots for efficient waste sorting and data insights.",
-        "sector": "Robotics / Cleantech",
-        "score": 89,
-        "inspired_by": "Danu Robotics",
-        "real_example": "Danu Robotics - fight to build a better recycling robot",
-        "tr_status": "Turkey's manufacturing sector and growing e-commerce generate substantial waste, requiring more efficient sorting and recycling solutions.",
-        "tr_idea": "Develop and deploy smart, AI-driven sorting robots for specific waste streams (e.g., plastics, e-commerce packaging) in Turkish recycling facilities or manufacturing plants. Provide data analytics on waste composition and efficiency.",
-        "mvp": "A prototype AI-vision robot arm capable of identifying and separating 3 common types of plastic from a conveyor belt in a small-scale facility.",
-        "target": "Municipal recycling centers, large manufacturing facilities, and industrial parks in Turkey.",
-        "revenue": "Sale or lease of robotic systems, maintenance contracts, and data analytics subscriptions.",
-        "risks": "High initial R&D and manufacturing costs, competition from manual labor in some areas, integration into existing facilities.",
-        "why_now": "Turkey's strong manufacturing base, combined with increasing environmental regulations and public demand for sustainability, creates a ripe market for advanced recycling tech."
-      },
-      {
-        "name": "Fırsat Yetenek",
-        "emoji": "🤝",
-        "oneLiner": "Connecting underserved talent with employers via mobile.",
-        "sector": "HR Tech / Social Impact",
-        "score": 86,
-        "inspired_by": "Startup founder who served time in prison",
-        "real_example": "A startup founder who served time in prison is looking to court an untapped market: ex-cons",
-        "tr_status": "Specific segments of the Turkish workforce, such as vocational graduates or individuals with disabilities, face barriers to finding suitable employment.",
-        "tr_idea": "A mobile-first job platform designed to connect specific underserved talent pools (e.g., vocational school graduates in high-demand trades, individuals with disabilities, or specific refugee communities with work permits) with employers committed to inclusive hiring in Turkey.",
-        "mvp": "A mobile app allowing vocational school graduates in construction or manufacturing to create skill profiles and apply for entry-level positions posted by local SMEs, with a focus on ease of use.",
-        "target": "Vocational school graduates, individuals with disabilities, and employers seeking diverse and skilled entry-level talent in Turkey.",
-        "revenue": "Employer subscription fees for job postings and access to talent pool, premium features for candidate screening or employer branding.",
-        "risks": "Employer skepticism, ensuring quality of matches, overcoming societal prejudices, managing user privacy.",
-        "why_now": "Turkey's mobile-first population and increasing corporate focus on ESG (Environmental, Social, and Governance) initiatives make an inclusive job platform highly relevant."
-      }
-    ]
-  },
-  {
     "date": "11 October 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "API usage fees, licensing for on-premise solutions, custom development projects, subscription for managed services.",
         "risks": "Data acquisition for training, competition from international tech giants, maintaining accuracy across dialects, privacy concerns.",
         "why_now": "Demand for superior, culturally nuanced AI customer service is high, and existing generic solutions often fail the Turkish linguistic complexity, offering a strong market entry point."
+      }
+    ]
+  },
+  {
+    "date": "13 November 2026",
+    "opportunities": [
+      {
+        "name": "CreatorConnect AI",
+        "emoji": "🤝",
+        "oneLiner": "AI platform for brands to discover and engage Turkish creators.",
+        "sector": "Marketing Tech / AI",
+        "score": 90,
+        "inspired_by": "Nectar",
+        "real_example": "Nectar - AI agent to automate creator discovery and outreach for brands",
+        "tr_status": "E-commerce growing 30%/yr, strong mobile-first social media adoption, and a vibrant local creator economy exist.",
+        "tr_idea": "Develop an AI platform tailored for Turkish brands to efficiently find, vet, and manage campaigns with local influencers and content creators, integrating local payment and analytics.",
+        "mvp": "A web platform for brands to search creators by niche, audience demographics, and engagement rates, with automated outreach templates and campaign tracking.",
+        "target": "Small to medium-sized e-commerce businesses and marketing agencies in Turkey.",
+        "revenue": "Subscription tiers for brands, commission on successful campaigns.",
+        "risks": "Competition from global platforms, need for accurate local data, and regulatory changes in influencer marketing.",
+        "why_now": "Exploding e-commerce and creator economy in Turkey demands efficient, cost-effective marketing solutions for local brands."
+      },
+      {
+        "name": "Anka Photo AI",
+        "emoji": "📸",
+        "oneLiner": "Transform everyday photos into professional e-commerce product shots using AI.",
+        "sector": "Creative Tech / E-commerce",
+        "score": 92,
+        "inspired_by": "Phota Labs",
+        "real_example": "Phota Labs - uses AI to turn everyday photos into professional-looking shots",
+        "tr_status": "High growth in e-commerce with many small businesses lacking resources for professional photography, and a mobile-first population.",
+        "tr_idea": "An easy-to-use mobile and web application for Turkish small businesses and online sellers to automatically enhance product photos with AI, generating clean backgrounds and professional lighting.",
+        "mvp": "A mobile app allowing users to upload product photos, choose from basic background styles, and get AI-enhanced images for e-commerce listings.",
+        "target": "Small e-commerce businesses, Etsy sellers, Instagram shops, and local artisans.",
+        "revenue": "Freemium model with subscription for advanced features, higher resolution, and bulk processing.",
+        "risks": "AI model quality limitations, competition from generic photo editors, and user adoption for new tech.",
+        "why_now": "Rapid e-commerce growth and high inflation push small businesses to seek affordable, efficient tools for professional online presence."
+      },
+      {
+        "name": "AçıkZeka Solutions",
+        "emoji": "🧠",
+        "oneLiner": "Deploying cost-effective open-source AI solutions for Turkish enterprises.",
+        "sector": "Enterprise Software / AI Consulting",
+        "score": 88,
+        "inspired_by": "Hugging Face",
+        "real_example": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+        "tr_status": "High inflation makes cost-saving SaaS attractive, and enterprises are seeking alternatives to expensive proprietary AI models.",
+        "tr_idea": "Provide consulting and implementation services for Turkish businesses to integrate open-source AI models into their workflows, reducing licensing costs and vendor lock-in.",
+        "mvp": "Offer workshops and pilot projects for specific enterprise clients, demonstrating open-source AI capabilities for text generation or image analysis on their existing data.",
+        "target": "Mid-to-large Turkish enterprises across finance, manufacturing, and retail seeking AI adoption with cost efficiency.",
+        "revenue": "Consulting fees, project-based implementation, and long-term support contracts.",
+        "risks": "Talent scarcity for open-source AI expertise, perception of open-source as less 'enterprise-ready', and data security concerns.",
+        "why_now": "Economic pressures necessitate cost-efficient AI solutions, and global uncertainty around proprietary AI vendors makes open-source alternatives more appealing."
+      },
+      {
+        "name": "Üretken AI",
+        "emoji": "⚙️",
+        "oneLiner": "Design and manufacture specialized edge AI hardware for Turkish factories.",
+        "sector": "AI Hardware / Manufacturing",
+        "score": 89,
+        "inspired_by": "Fractile",
+        "real_example": "Fractile gets a leg up in the race for AI chips ($720M round)",
+        "tr_status": "Turkey has a strong manufacturing base with increasing demand for industrial automation and data analytics on the factory floor.",
+        "tr_idea": "Develop and produce robust, cost-effective edge AI devices tailored for the unique needs of Turkish manufacturing facilities, focusing on predictive maintenance or quality control.",
+        "mvp": "A prototype edge AI device equipped with a vision sensor and a small form-factor AI accelerator, demonstrated for a specific quality control task in a local factory setting.",
+        "target": "Small to medium-sized manufacturing companies in automotive, textiles, and food processing sectors.",
+        "revenue": "Hardware sales, installation services, and custom software development for specific use cases.",
+        "risks": "High R&D costs, competition from global hardware giants, and achieving economies of scale in production.",
+        "why_now": "Global supply chain issues and high inflation create a strong incentive for local, cost-effective, and specialized AI hardware solutions for industrial automation."
+      },
+      {
+        "name": "Seyahat AI",
+        "emoji": "✈️",
+        "oneLiner": "Secure, AI-powered travel planning and booking for Turkish tourists.",
+        "sector": "Travel Tech / AI",
+        "score": 87,
+        "inspired_by": "OpenAI acquires Odessia",
+        "real_example": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+        "tr_status": "Turkey is a major tourism destination, and its mobile-first population values convenience and personalized digital services.",
+        "tr_idea": "Build a secure AI agent that helps Turkish and international tourists plan itineraries, discover local attractions, and book logistics while prioritizing data privacy and cybersecurity.",
+        "mvp": "A chatbot accessible via popular messaging apps that can answer common travel questions for Turkey, suggest personalized itineraries, and securely link to existing booking platforms for basic flight/hotel search.",
+        "target": "Individual and family travelers within Turkey, as well as international tourists planning trips to Turkey.",
+        "revenue": "Commission on bookings, premium subscription for advanced features, and B2B partnerships with local tour operators.",
+        "risks": "User trust in AI for sensitive travel data, competition from established online travel agencies, and potential cybersecurity vulnerabilities.",
+        "why_now": "Growing demand for personalized travel experiences, rise of AI agents, and increasing awareness of cybersecurity risks in automated services make a secure, dedicated travel AI timely."
       }
     ]
   }
