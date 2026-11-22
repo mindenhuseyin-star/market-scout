@@ -1,90 +1,5 @@
 [
   {
-    "date": "17 October 2026",
-    "opportunities": [
-      {
-        "name": "SecureÜretim",
-        "emoji": "🛡️",
-        "oneLiner": "AI-powered chips for authenticating Turkish manufactured goods.",
-        "sector": "Manufacturing, Supply Chain, Brand Protection",
-        "score": 92,
-        "inspired_by": "Veritas",
-        "real_example": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles.",
-        "tr_status": "Turkey's strong manufacturing sector faces challenges with counterfeiting impacting export reputation and domestic trust.",
-        "tr_idea": "Develop affordable, AI-integrated anti-counterfeit chips or digital tags for Turkish manufacturers to secure their products. This protects brands and assures consumers in both domestic and export markets.",
-        "mvp": "A platform integrating NFC/QR codes with a secure blockchain ledger for tracking manufactured textiles and ceramics, accessible via a mobile app for verification.",
-        "target": "Textile manufacturers, ceramic producers, high-value artisan goods exporters.",
-        "revenue": "Per-chip/tag fee, SaaS subscription for platform access and analytics.",
-        "risks": "High initial cost for manufacturers, potential for replication by sophisticated counterfeiters, need for widespread adoption.",
-        "why_now": "Growing e-commerce and export ambitions demand robust brand protection and consumer trust, especially with global supply chain scrutiny."
-      },
-      {
-        "name": "KrizKalkan",
-        "emoji": "🚨",
-        "oneLiner": "AI to predict and prevent social media crises for Turkish brands.",
-        "sector": "SaaS, PR, Marketing Tech",
-        "score": 90,
-        "inspired_by": "Gudea",
-        "real_example": "Gudea leverages AI to help organizations prevent social media crises before they erupt.",
-        "tr_status": "Turkish businesses, highly active on mobile social media, are vulnerable to rapid online sentiment shifts and reputational damage.",
-        "tr_idea": "An AI platform tailored for Turkish social media dynamics, analyzing local language trends and sentiment to predict potential PR crises. It would offer real-time alerts and actionable insights for prevention.",
-        "mvp": "A dashboard providing sentiment analysis and anomaly detection for specified Turkish keywords and brand mentions across popular Turkish social media platforms, with automated alert notifications.",
-        "target": "Turkish e-commerce companies, large retail chains, public figures, government entities.",
-        "revenue": "Tiered SaaS subscription based on monitored keywords, user seats, and feature access.",
-        "risks": "Accuracy of Turkish NLP, competition from global tools, resistance from companies to adopt new PR tech.",
-        "why_now": "Mobile-first nation with high social media usage means real-time crisis prevention is critical for brand reputation and stability in a volatile market."
-      },
-      {
-        "name": "EsnafKolay",
-        "emoji": "🛠️",
-        "oneLiner": "AI tools to streamline niche local services for Turkish artisans.",
-        "sector": "SaaS, Local Services, SMB Tech",
-        "score": 88,
-        "inspired_by": "Tressfecta",
-        "real_example": "Tressfecta wants to make hair braiding a less arduous task for hairstylists.",
-        "tr_status": "Turkey has a vast network of small, traditional businesses and artisans who are mobile-first but often lack modern digital tools for efficiency.",
-        "tr_idea": "Develop mobile-first AI-powered SaaS solutions for specific Turkish service industries, like tailors for fabric/design recommendations, or repair shops for diagnostics and scheduling. Focus on common, labor-intensive tasks.",
-        "mvp": "A mobile app for tailors that uses AI to suggest pattern adjustments based on customer measurements and fabric type, offering appointment scheduling and inventory tracking.",
-        "target": "Small and medium-sized service businesses (tailors, cobblers, dry cleaners, repair shops, hairdressers) in Turkish cities.",
-        "revenue": "Low-cost monthly SaaS subscription, freemium model with advanced features.",
-        "risks": "Low digital literacy among traditional businesses, difficulty in scaling across diverse niche sectors, price sensitivity.",
-        "why_now": "High inflation drives demand for cost-saving efficiency tools, and mobile-first approach lowers adoption barriers for traditional artisans."
-      },
-      {
-        "name": "SağlıkRotası",
-        "emoji": "🌿",
-        "oneLiner": "AI-driven personalized health plans for the Turkish populace.",
-        "sector": "Health Tech, AI, Wellness",
-        "score": 85,
-        "inspired_by": "Mark Wahlberg's affordable gym concept, TimeTeller's personalized medicine",
-        "real_example": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept; TimeTeller puts our internal clocks at the center of personalized medicine.",
-        "tr_status": "Turkey has a large population with increasing awareness of health, but access to personalized, affordable wellness programs is limited.",
-        "tr_idea": "A mobile-first AI platform offering personalized, affordable wellness recommendations (diet, exercise, sleep) based on user input, aiming to democratize access to longevity-focused health. It could leverage local data and foods.",
-        "mvp": "A mobile app allowing users to input basic health data and goals, receiving AI-generated weekly meal plans using common Turkish ingredients and simple home workout routines.",
-        "target": "General Turkish population, health-conscious individuals seeking affordable guidance, those with chronic lifestyle diseases.",
-        "revenue": "Freemium model with premium subscription for advanced features, personalized coaching, and integration with local pharmacies/gyms.",
-        "risks": "Data privacy concerns, difficulty in proving efficacy, competition from free health apps, need for medical credibility.",
-        "why_now": "Large mobile-first population, rising health awareness, and demand for affordable solutions in a high-inflation environment."
-      },
-      {
-        "name": "GiderZekası",
-        "emoji": "💰",
-        "oneLiner": "AI to optimize spending and save costs for Turkish SMEs.",
-        "sector": "Fintech, SaaS, Expense Management",
-        "score": 93,
-        "inspired_by": "Ramp",
-        "real_example": "Ramp reaches $60B valuation as it pushes deeper into AI for spend management.",
-        "tr_status": "Turkish SMEs face significant challenges with high inflation, making efficient cost management and spend optimization critical for survival and growth.",
-        "tr_idea": "An AI-driven expense management platform designed for Turkish SMEs, offering automated invoice processing, spend analysis, budget forecasting, and AI-powered recommendations for cost savings. Integration with local banking systems.",
-        "mvp": "A mobile and web platform for SMEs to upload invoices/receipts, categorize expenses, and generate basic spend reports, with an AI component flagging unusual spending patterns.",
-        "target": "Small and medium-sized enterprises (SMEs) across all sectors in Turkey, especially those with high operational costs.",
-        "revenue": "Tiered SaaS subscription based on number of users, features, and transaction volume. Potentially referral fees from recommended suppliers.",
-        "risks": "Data security concerns, integration challenges with diverse legacy systems, competition from established accounting software, regulatory compliance.",
-        "why_now": "High inflation environment makes cost-saving solutions extremely attractive and necessary for Turkish SMEs, driving demand for intelligent spend management."
-      }
-    ]
-  },
-  {
     "date": "18 October 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Project-based consulting fees, retainer agreements, training program fees.",
         "risks": "Lack of immediate regulatory pressure, difficulty in quantifying ROI for ethics, limited awareness.",
         "why_now": "Proactive approach to future AI regulations and the increasing global emphasis on responsible AI."
+      }
+    ]
+  },
+  {
+    "date": "22 November 2026",
+    "opportunities": [
+      {
+        "name": "KOBİ AI Asistanı",
+        "emoji": "🛍️",
+        "oneLiner": "AI agents automate e-commerce tasks for Turkish SMEs.",
+        "sector": "E-commerce / SaaS",
+        "score": 90,
+        "inspired_by": "OpenAI",
+        "real_example": "OpenAI - agents now finish nearly half of 2 to 4-hour research tasks.",
+        "tr_status": "E-commerce is growing 30%/yr, making efficiency tools crucial for cost-conscious Turkish SMEs.",
+        "tr_idea": "Develop localized AI agents offering product description generation, customer service automation, and market trend analysis for Turkish e-commerce sellers, integrated with local platforms. This addresses common pain points of time and resource-constrained small businesses.",
+        "mvp": "A mobile-first web app providing AI-generated product descriptions and FAQ responses in Turkish, integrated with leading Turkish e-commerce marketplaces.",
+        "target": "Small to medium-sized e-commerce businesses and individual sellers in Turkey.",
+        "revenue": "Tiered monthly SaaS subscription based on features and usage volume.",
+        "risks": "AI model accuracy issues, data privacy concerns, and competition from global players.",
+        "why_now": "High inflation drives demand for cost-saving SaaS, while rapid e-commerce growth demands efficient, scalable solutions for SMEs."
+      },
+      {
+        "name": "Üretim Kalite AI",
+        "emoji": "⚙️",
+        "oneLiner": "AI vision for defect detection in Turkish manufacturing.",
+        "sector": "Manufacturing / Industrial AI",
+        "score": 88,
+        "inspired_by": "Satya Nadella",
+        "real_example": "Satya Nadella says AI-found bugs will make outages more likely.",
+        "tr_status": "Turkey has a strong manufacturing base, but high inflation makes operational cost-saving and quality improvement essential.",
+        "tr_idea": "Implement AI-powered computer vision systems for real-time defect detection and predictive maintenance in Turkish factories, reducing waste and improving product consistency. This directly translates to significant cost savings and competitive advantage for manufacturers.",
+        "mvp": "A camera and AI-software package for a specific manufacturing line (e.g., textiles, plastics) to identify visual defects with a web dashboard for analytics and alerts.",
+        "target": "Mid-to-large scale manufacturing companies in key Turkish industrial sectors.",
+        "revenue": "Initial hardware/setup fee combined with recurring SaaS for AI model optimization, software updates, and advanced analytics.",
+        "risks": "High initial investment for factories, need for deep domain expertise, and integration challenges with existing legacy systems.",
+        "why_now": "High inflation necessitates efficiency and waste reduction, while Turkey's strong manufacturing base provides a ripe market for industrial AI adoption."
+      },
+      {
+        "name": "VeriTürk",
+        "emoji": "📊",
+        "oneLiner": "Turkey-focused, affordable data lakehouse for local enterprises.",
+        "sector": "Data / AI Infrastructure",
+        "score": 87,
+        "inspired_by": "Databricks",
+        "real_example": "Databricks in early talks to raise at a $225bn valuation, WSJ reports.",
+        "tr_status": "Turkish businesses increasingly collect vast data, but local compliance and cost considerations often limit enterprise-grade data platform adoption.",
+        "tr_idea": "Build a sovereign, affordable, and compliant data lakehouse and MLOps platform tailored for Turkish enterprises, emphasizing local language support and data residency. This provides a crucial infrastructure for AI innovation while adhering to local regulations.",
+        "mvp": "A cloud-based platform offering secure data ingestion, storage, and basic SQL query/ML model deployment capabilities for Turkish financial institutions or retailers.",
+        "target": "Turkish enterprises, financial institutions, and large e-commerce players.",
+        "revenue": "Usage-based and tiered SaaS subscription, offering various compute and storage options.",
+        "risks": "Intense competition from global cloud providers, significant R&D investment, and convincing enterprises to switch from established solutions.",
+        "why_now": "High inflation makes cost-effective local solutions attractive, and increasing data complexity with regulatory pressure creates a demand for specialized platforms."
+      },
+      {
+        "name": "Etik AI Danışmanlık",
+        "emoji": "⚖️",
+        "oneLiner": "Guiding Turkish firms in responsible AI development.",
+        "sector": "AI / Consulting",
+        "score": 80,
+        "inspired_by": "Etsy",
+        "real_example": "Etsy will revise its AI training terms after sellers close their shops.",
+        "tr_status": "As AI adoption accelerates in Turkey, awareness of ethical implications and potential future regulations is growing among businesses and consumers.",
+        "tr_idea": "Establish a consultancy offering ethical AI assessments, bias detection audits, and development of responsible AI frameworks for Turkish companies across various sectors. This prepares businesses for future regulations and builds consumer trust.",
+        "mvp": "Workshops and initial ethical AI readiness assessments for businesses developing or deploying AI, focusing on data privacy, fairness, and transparency principles.",
+        "target": "Enterprises, startups, and public sector organizations developing or deploying AI in Turkey.",
+        "revenue": "Project-based consulting fees, retainers for ongoing audits and policy development.",
+        "risks": "Slow market adoption, difficulty in quantifying ROI, and a lack of standardized regulations to base audits on.",
+        "why_now": "The Etsy controversy highlighted creator vulnerability to AI training, driving an urgent need for IP protection tools, especially in Turkey's mobile-first creator economy."
+      },
+      {
+        "name": "Sanat Eseri Kalkanı",
+        "emoji": "🛡️",
+        "oneLiner": "Mobile IP protection for Turkish digital creators.",
+        "sector": "Creator Economy / Legal Tech",
+        "score": 89,
+        "inspired_by": "Etsy",
+        "real_example": "Etsy will revise its AI training terms after sellers close their shops.",
+        "tr_status": "Turkey is mobile-first with a growing e-commerce and creator economy, but creators lack robust, accessible tools for protecting their digital intellectual property.",
+        "tr_idea": "Develop a mobile-first application for Turkish digital creators to timestamp, register, and monitor their intellectual property, facilitating licensing and legal action against unauthorized AI training or content use. This empowers creators in the digital age.",
+        "mvp": "A mobile app allowing creators to securely upload, timestamp, and register their digital artwork, with basic automated scanning for identical copies online.",
+        "target": "Individual digital artists, photographers, graphic designers, and small content studios in Turkey.",
+        "revenue": "Freemium model, with premium subscriptions for advanced monitoring, legal assistance integration, and secure licensing features.",
+        "risks": "Enforcement challenges for IP, reliance on legal frameworks, and competition from existing global tools or blockchain solutions.",
+        "why_now": "The Etsy controversy highlighted creator vulnerability to AI training, driving an urgent need for IP protection tools, especially in Turkey's mobile-first creator economy."
       }
     ]
   }
