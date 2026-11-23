@@ -1,90 +1,5 @@
 [
   {
-    "date": "18 October 2026",
-    "opportunities": [
-      {
-        "name": "Sosyal Kalkan AI",
-        "emoji": "🛡️",
-        "oneLiner": "AI for Turkish brands preventing social media crises.",
-        "sector": "SaaS, AI, Public Relations",
-        "score": 85,
-        "inspired_by": "Gudea",
-        "real_example": "Gudea leverages AI to help organizations prevent social media crises before they erupt.",
-        "tr_status": "Turkish brands and public figures face growing social media risks, but specialized local tools are limited.",
-        "tr_idea": "Develop an AI platform trained on Turkish language nuances, slang, and cultural context to detect potential social media crises. Offer proactive alerts and sentiment analysis for PR agencies and corporate communication departments.",
-        "mvp": "A web platform monitoring Twitter, Instagram comments, and local news sites for specific keywords/sentiment, offering real-time alerts.",
-        "target": "Mid-to-large Turkish companies, e-commerce brands, public figures, PR agencies.",
-        "revenue": "Subscription-based SaaS (tiered by usage/features).",
-        "risks": "Accuracy of Turkish NLP, competition from global players, data privacy concerns.",
-        "why_now": "Growing e-commerce and social media activity in Turkey makes reputation management critical and cost-saving SaaS attractive."
-      },
-      {
-        "name": "KODusta",
-        "emoji": "💻",
-        "oneLiner": "AI code assistant tailored for Turkish developers and tech ecosystem.",
-        "sector": "Developer Tools, AI, SaaS",
-        "score": 85,
-        "inspired_by": "Replit",
-        "real_example": "Replit makes OpenAI its default, Jev is Vercel’s fastest-adopted AI model ever.",
-        "tr_status": "Turkey has a rapidly growing developer community but lacks localized AI-driven dev tools.",
-        "tr_idea": "Create an AI-powered code assistant specifically fine-tuned with Turkish technical documentation, common Turkish code comments, and regional best practices. Integrate with popular IDEs used by Turkish devs.",
-        "mvp": "A plugin for VS Code offering intelligent code completion, bug detection, and documentation generation, localized for Turkish users.",
-        "target": "Turkish software developers, startups, IT departments, and engineering students.",
-        "revenue": "Freemium model with advanced features on subscription, potential enterprise licenses.",
-        "risks": "Competition from global giants, data privacy, maintaining cutting-edge AI performance.",
-        "why_now": "Turkey's tech talent pool is expanding, and high inflation makes efficiency-boosting, cost-effective developer tools highly attractive."
-      },
-      {
-        "name": "Gerçek Marka",
-        "emoji": "✨",
-        "oneLiner": "Blockchain-enabled anti-counterfeit chips for Turkish manufacturers and e-commerce.",
-        "sector": "Manufacturing, Supply Chain Tech, E-commerce",
-        "score": 85,
-        "inspired_by": "Veritas",
-        "real_example": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles.",
-        "tr_status": "Turkey's strong manufacturing base and booming e-commerce face significant challenges from counterfeiting.",
-        "tr_idea": "Develop an affordable anti-counterfeit solution combining unique physical markers (like micro-chips or QR codes) with a blockchain ledger for authenticity verification. Focus on high-value Turkish exports and e-commerce goods.",
-        "mvp": "A B2B service providing NFC/QR tags and a mobile app for consumers to verify authenticity of a pilot set of Turkish textile or jewelry brands.",
-        "target": "Turkish manufacturers (textiles, jewelry, auto parts), e-commerce platforms, brand owners.",
-        "revenue": "Per-chip/tag fee, subscription for platform access, API integration fees.",
-        "risks": "High initial cost for manufacturers, adoption by consumers, technological complexity, integration challenges.",
-        "why_now": "Rapid e-commerce growth fuels counterfeiting, while Turkey's manufacturing seeks to protect brand value and export quality."
-      },
-      {
-        "name": "UstaYardım",
-        "emoji": "🛠️",
-        "oneLiner": "AI assistant optimizing traditional Turkish crafts and local services.",
-        "sector": "Niche SaaS, AI, Local Services",
-        "score": 85,
-        "inspired_by": "Tressfecta",
-        "real_example": "Tressfecta wants to make hair braiding a less arduous task for hairstylists.",
-        "tr_status": "Many small to medium-sized traditional businesses in Turkey could benefit from efficiency gains.",
-        "tr_idea": "Develop an AI-powered platform to assist artisans (e.g., ceramics, carpentry, tailor services) or service providers (e.g., local mechanics, plumbers) with tasks like inventory management, scheduling, material sourcing, and basic design recommendations. Offer a mobile-first app.",
-        "mvp": "A mobile-first app for small workshops/artisans offering simple inventory tracking and appointment scheduling with AI-driven demand forecasting.",
-        "target": "Small and medium-sized traditional Turkish craftspeople, local service providers, independent contractors.",
-        "revenue": "Monthly subscription fee (tiered), transaction fees for sourcing/booking.",
-        "risks": "Digital literacy of target audience, resistance to change, developing niche-specific AI models.",
-        "why_now": "Mobile-first population is ready for digital tools, and high inflation makes efficiency tools for small businesses very appealing for cost-saving."
-      },
-      {
-        "name": "Sağlıklı Yol",
-        "emoji": "💪",
-        "oneLiner": "Affordable AI-driven personalized wellness and fitness guidance for Turks.",
-        "sector": "Health Tech, AI, Consumer Wellness",
-        "score": 85,
-        "inspired_by": "Mark Wahlberg's affordable gym concept",
-        "real_example": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept; TimeTeller puts our internal clocks at the center of personalized medicine.",
-        "tr_status": "Growing health awareness in Turkey, but personalized wellness often remains expensive or inaccessible.",
-        "tr_idea": "Create a mobile-first AI platform offering personalized fitness routines, nutrition plans, and mental well-being exercises adapted to Turkish diet, lifestyle, and budget. Leverage data from wearable devices for precise insights.",
-        "mvp": "A mobile app providing basic AI-generated workout plans and meal suggestions based on user input (age, weight, activity level, dietary preferences).",
-        "target": "General Turkish population, individuals seeking affordable and personalized health and fitness solutions.",
-        "revenue": "Freemium model with premium features (e.g., advanced AI coaching, nutritionist access) via subscription.",
-        "risks": "Data privacy concerns, user engagement, accurate personalization, competition from global apps.",
-        "why_now": "Large mobile-first population, increasing health consciousness, and high inflation make affordable, accessible wellness solutions highly desirable."
-      }
-    ]
-  },
-  {
     "date": "20 October 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Freemium model, with premium subscriptions for advanced monitoring, legal assistance integration, and secure licensing features.",
         "risks": "Enforcement challenges for IP, reliance on legal frameworks, and competition from existing global tools or blockchain solutions.",
         "why_now": "The Etsy controversy highlighted creator vulnerability to AI training, driving an urgent need for IP protection tools, especially in Turkey's mobile-first creator economy."
+      }
+    ]
+  },
+  {
+    "date": "23 November 2026",
+    "opportunities": [
+      {
+        "name": "PermaChip AI",
+        "emoji": "💡",
+        "oneLiner": "Affordable AI inference for local and edge deployments.",
+        "sector": "AI Hardware & Software",
+        "score": 90,
+        "inspired_by": "Marlowe",
+        "real_example": "Marlowe - $277M seed to run AI on chips that aren’t Nvidia’s",
+        "tr_status": "Turkey has a strong manufacturing base and high inflation makes cost efficiency critical.",
+        "tr_idea": "Develop specialized, energy-efficient AI inference chips and compact hardware modules for Turkish businesses seeking alternatives to expensive proprietary solutions. Focus on open-source software optimization for these custom chips.",
+        "mvp": "An ARM-based custom ASIC module with optimized software stack for common vision/NLP inference tasks.",
+        "target": "SMEs, manufacturing plants, smart city projects.",
+        "revenue": "Hardware sales, SaaS for software updates and optimization, consulting.",
+        "risks": "High R&D costs, competition from established players, global supply chain dependencies.",
+        "why_now": "Exploding AI demand coupled with soaring server costs creates a massive market for affordable, local inference solutions."
+      },
+      {
+        "name": "GerçekGörüş AR",
+        "emoji": "🛍️",
+        "oneLiner": "Augmented reality try-on and visualization for mobile e-commerce.",
+        "sector": "E-commerce, Augmented Reality",
+        "score": 88,
+        "inspired_by": "Tesla's FSD v15 Reality View",
+        "real_example": "Tesla's FSD v15 - live AI-generated view of the road",
+        "tr_status": "Turkey is mobile-first with e-commerce growing 30%/yr, ripe for innovation.",
+        "tr_idea": "Develop mobile-first AR tools for e-commerce, allowing customers to virtually try on clothes or visualize products in real-time. Integrate with existing Turkish e-commerce platforms.",
+        "mvp": "A mobile SDK/plugin for clothing retailers, enabling virtual try-on using a phone camera.",
+        "target": "E-commerce platforms, retail brands, online marketplaces.",
+        "revenue": "Subscription model for businesses, per-product integration fees, premium features.",
+        "risks": "High initial development cost, user adoption challenges, accuracy of AR models.",
+        "why_now": "Turkey's booming mobile-first e-commerce market demands immersive shopping experiences to reduce returns and boost conversions."
+      },
+      {
+        "name": "AkıllıDestek",
+        "emoji": "🤖",
+        "oneLiner": "Hyper-personalized AI agents for Turkish e-commerce customer support.",
+        "sector": "AI, E-commerce, SaaS",
+        "score": 92,
+        "inspired_by": "Amazon buys Decart’s AI tech",
+        "real_example": "Amazon buys Decart’s AI tech and its founders for $7.5bn",
+        "tr_status": "E-commerce growing 30%/yr, high inflation makes cost-saving SaaS attractive.",
+        "tr_idea": "Build a localized, highly intelligent AI customer service platform tailored for Turkish language and consumer behavior. Offer advanced features like proactive support and sales conversion optimization.",
+        "mvp": "A chatbot platform handling common e-commerce FAQs and order tracking in Turkish, integrating with major platforms.",
+        "target": "Mid-to-large size e-commerce businesses in Turkey.",
+        "revenue": "Tiered SaaS subscription based on usage and features.",
+        "risks": "Data privacy concerns, AI hallucination issues, maintaining human-like empathy.",
+        "why_now": "Turkish e-commerce is expanding rapidly, requiring scalable, cost-effective customer service solutions in a high-inflation environment."
+      },
+      {
+        "name": "ÜretimZeka",
+        "emoji": "⚙️",
+        "oneLiner": "Edge AI for real-time manufacturing process optimization and predictive maintenance.",
+        "sector": "Industry 4.0, Edge AI, Manufacturing",
+        "score": 87,
+        "inspired_by": "Rene Haas will lead Arm",
+        "real_example": "Rene Haas to lead Arm through 2033",
+        "tr_status": "Turkey has a strong manufacturing base, seeking efficiency and cost savings.",
+        "tr_idea": "Develop compact, ARM-based edge AI devices and software solutions for manufacturers to monitor production lines and optimize energy consumption in real-time. This reduces reliance on expensive cloud AI infrastructure.",
+        "mvp": "An edge device with computer vision capabilities to detect defects on a specific production line, providing real-time alerts.",
+        "target": "Manufacturing companies across various sectors (textile, automotive, food).",
+        "revenue": "Hardware sales, SaaS for software platform/analytics, maintenance contracts.",
+        "risks": "Integration complexity with legacy systems, initial investment for factories, data security.",
+        "why_now": "Turkish manufacturing needs to enhance competitiveness through efficiency and predictive analytics, benefiting from lower-cost edge AI processing."
+      },
+      {
+        "name": "EtikAI Denetim",
+        "emoji": "⚖️",
+        "oneLiner": "Auditing AI systems for bias, transparency, and regulatory compliance.",
+        "sector": "AI, Professional Services, Compliance",
+        "score": 80,
+        "inspired_by": "UN talks fail to agree rules for ‘killer robots’",
+        "real_example": "UN talks fail to agree rules for ‘killer robots’ and push the issue to 2028",
+        "tr_status": "As AI adoption grows, ethical concerns and potential regulations will follow.",
+        "tr_idea": "Establish a consultancy specializing in auditing AI systems for bias, transparency, and compliance with emerging ethical guidelines. Help Turkish companies develop responsible AI practices to prevent future legal issues.",
+        "mvp": "A service offering AI bias detection and fairness assessment for HR or lending algorithms.",
+        "target": "Businesses deploying AI (especially in finance, HR, healthcare), government agencies.",
+        "revenue": "Project-based consulting fees, retainer for ongoing audits, training workshops.",
+        "risks": "Lack of clear national/international standards initially, need for highly specialized expertise, market awareness.",
+        "why_now": "Proactive compliance and ethical AI development will become crucial for Turkish businesses as AI regulations inevitably emerge globally and locally."
       }
     ]
   }
