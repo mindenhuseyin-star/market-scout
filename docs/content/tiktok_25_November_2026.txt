@@ -1,0 +1,24 @@
+=== TIKTOK SCRIPT -- 25 November 2026 ===
+
+HOOK (ilk 3 saniye):
+Türkiye'de BÜYÜK fırsatlar kapıda! Duydunuz mu?
+
+SCRIPT:
+Selam millet! Bugün Türkiye'den size acayip haberlerim var!
+Global ekonomide kartlar yeniden dağıtılıyor, ve Türkiye parlıyor!
+ABD tarifeleri mi? E-ticarette yeni bir dönem başlıyor!
+**TradeBridge Türkiye** sayesinde, üreticilerimiz ürünlerini tüm dünyaya çok kolay ve ucuza satacak!
+Sınır ötesi lojistik, artık çok basit!
+Dünya Çin ve AB'ye alternatif arıyor değil mi?
+İşte size **Anadolu Connect!**
+Küresel alıcılar, Türkiye'nin müthiş üretim kapasitesiyle buluşuyor!
+Hem de çok daha uygun maliyetle! Nearshoring'in yeni adresi Türkiye!
+Yapay zeka çok pahalı diyenler? Durun!
+**Akıllı GPU Paylaşım** platformu geldi!
+Türkiye'nin dağıtık GPU gücüyle yapay zeka model servisleri artık herkes için erişilebilir!
+Yüksek AI maliyetleri tarih oluyor, enflasyon dinlemiyor!
+Türkiye sadece üretmiyor, teknolojiyle de fark yaratıyor!
+Bu fırsatları kaçırmayın! Takipte kalın!
+
+CAPTIONS: Türkiye Fırsatları, AI Maliyetleri, E-ticaret İhracat, Nearshoring, Girişimcilik
+HASHTAGS: #Türkiye #Girişimcilik #YapayZeka #Eihracat #NearshoringTürkiye #Teknoloji #Fırsat

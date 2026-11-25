@@ -1,90 +1,5 @@
 [
   {
-    "date": "21 October 2026",
-    "opportunities": [
-      {
-        "name": "Kobi Asistanı (SME Assistant)",
-        "emoji": "🤖",
-        "oneLiner": "AI assistant for Turkish SMEs to automate tasks.",
-        "sector": "SaaS, AI",
-        "score": 90,
-        "inspired_by": "Town",
-        "real_example": "Town - unicorn valuation 4 months after launch; Replika - personalized AI assistant.",
-        "tr_status": "Turkish SMEs often lack resources for large-scale automation, relying on manual processes. High inflation makes cost-saving software very attractive.",
-        "tr_idea": "Develop a secure, Turkish-language AI assistant that integrates with common local business tools to automate customer support, HR queries, and administrative tasks for small to medium-sized enterprises. Focus on ease of use and immediate ROI.",
-        "mvp": "Basic web and mobile app offering a customizable chatbot for website customer service and an internal knowledge base query system for employees.",
-        "target": "Small to medium-sized businesses (SMEs) in Turkey, across various sectors.",
-        "revenue": "Subscription-based (SaaS) with tiered pricing based on features and usage.",
-        "risks": "Data privacy concerns, AI accuracy, and trust issues among traditional SMEs.",
-        "why_now": "High inflation drives demand for cost-saving solutions, and the mobile-first nature of Turkey facilitates rapid adoption of accessible AI tools."
-      },
-      {
-        "name": "Üretim Zekası (Production Intelligence)",
-        "emoji": "🏭",
-        "oneLiner": "AI for predictive maintenance & quality control in factories.",
-        "sector": "Industrial AI, Manufacturing",
-        "score": 88,
-        "inspired_by": "Eka",
-        "real_example": "Eka - $1.45B valuation for physical AI model; Elorian - AI reasoning with images.",
-        "tr_status": "Turkey has a robust manufacturing sector eager for efficiency gains and reduced operational costs. Adoption of Industry 4.0 is growing.",
-        "tr_idea": "Offer AI-powered computer vision systems for real-time quality control on production lines and machine learning models for predictive maintenance, anticipating equipment failures before they occur. This reduces waste and downtime, leading to significant cost savings.",
-        "mvp": "A plug-and-play AI vision system for defect detection on a specific product type, integrated with existing factory cameras.",
-        "target": "Mid-sized to large manufacturing plants in automotive, textiles, and white goods sectors.",
-        "revenue": "Hardware installation + SaaS subscription for AI models and data analytics, or per-project consulting.",
-        "risks": "High initial investment for hardware, integration complexity with legacy systems, need for skilled AI engineers.",
-        "why_now": "Global competition and rising material costs put pressure on Turkish manufacturers to optimize operations, making AI-driven efficiency a critical differentiator."
-      },
-      {
-        "name": "Güvenli Ürün (Secure Product)",
-        "emoji": "🛡️",
-        "oneLiner": "Anti-counterfeit tech for Turkish goods, supply chain.",
-        "sector": "Supply Chain Tech, SaaS",
-        "score": 87,
-        "inspired_by": "Veritas",
-        "real_example": "Veritas - anti-counterfeit chip for jewelry, trophies, fragrances.",
-        "tr_status": "Turkish manufacturers face significant challenges with counterfeiting both domestically and internationally, impacting brand reputation and revenue. E-commerce growth exacerbates this.",
-        "tr_idea": "Develop an integrated solution combining unique, verifiable digital identifiers (e.g., NFC tags, QR codes with blockchain-backed authenticity) for products with a consumer-facing app to check authenticity and track product origin. Target high-value exports like textiles, food, and jewelry.",
-        "mvp": "NFC/QR code generation and a simple mobile app for consumers to scan and verify authenticity of a single product category (e.g., specific brand of olive oil or luxury textile).",
-        "target": "Export-oriented Turkish manufacturers, luxury goods brands, and food producers.",
-        "revenue": "Per-unit tag/identifier cost + SaaS subscription for the traceability platform and analytics.",
-        "risks": "Cost of implementation for manufacturers, consumer adoption of verification tools, integration with existing supply chain systems.",
-        "why_now": "Growing e-commerce makes digital verification crucial, while international trade demands higher transparency and authenticity, giving Turkish brands a competitive edge."
-      },
-      {
-        "name": "Akıllı Tarım (Smart Agriculture)",
-        "emoji": "🧑‍🌾",
-        "oneLiner": "AI insights for Turkish farmers to boost yields.",
-        "sector": "Agri-tech, AI",
-        "score": 89,
-        "inspired_by": "Startup built AI model to decipher plant language",
-        "real_example": "Startup built AI model to decipher plant language using electricity.",
-        "tr_status": "Agriculture is a cornerstone of the Turkish economy, but faces challenges like climate change, water scarcity, and inefficient resource use. Mobile adoption among farmers is high.",
-        "tr_idea": "Build a mobile-first AI platform that processes satellite imagery, local weather data, and soil sensor information to provide personalized recommendations for irrigation, pest management, and fertilization to Turkish farmers, optimizing resource use and increasing yields.",
-        "mvp": "A mobile app that provides daily irrigation recommendations based on satellite data and local weather for a specific crop type in a defined region.",
-        "target": "Small to medium-sized Turkish farmers, especially those growing high-value crops like hazelnuts, olives, or fresh produce.",
-        "revenue": "Subscription-based (SaaS) per hectare or per farm, with tiered features.",
-        "risks": "Data accuracy from varied sources, farmer tech literacy, initial cost of sensors, infrastructure for data collection.",
-        "why_now": "Increasing pressure on food security and resource efficiency makes AI-driven precision agriculture vital for sustainable growth and competitiveness in Turkey's agricultural sector."
-      },
-      {
-        "name": "Sanat Atölyesi AI (Art Workshop AI)",
-        "emoji": "🎨",
-        "oneLiner": "AI for Turkish craft & hobby design and learning.",
-        "sector": "Creator Economy, Mobile App, AI",
-        "score": 86,
-        "inspired_by": "Meta's Muse",
-        "real_example": "Meta's Muse - 10M downloads in 40 days; Tressfecta - niche service automation.",
-        "tr_status": "Turkey has a rich tradition of crafts and a growing community of hobbyists and independent creators who sell online. High mobile usage and social media engagement.",
-        "tr_idea": "Develop a mobile application that uses AI to inspire and assist Turkish hobbyists and artisans in specific traditional crafts (e.g., Ebru art, tile painting, jewelry design). Features could include AI-generated design patterns, step-by-step interactive tutorials, and a marketplace integration.",
-        "mvp": "A mobile app for Ebru art enthusiasts, allowing users to upload a photo and get AI-generated pattern suggestions, along with interactive tutorial videos.",
-        "target": "Turkish hobbyists, independent artisans, and small creative businesses.",
-        "revenue": "Freemium model (basic features free, advanced features/designs subscription), in-app purchases for premium tutorials/materials, commission from marketplace sales.",
-        "risks": "AI quality for creative tasks, market saturation in general creative apps, user adoption for niche crafts, intellectual property concerns.",
-        "why_now": "The rise of the creator economy and e-commerce for handmade goods, combined with mobile-first engagement, creates a fertile ground for AI-enhanced creative tools that cater to specific cultural interests."
-      }
-    ]
-  },
-  {
     "date": "22 October 2026",
     "opportunities": [
       {
@@ -2546,6 +2461,91 @@
         "revenue": "Subscription-based SaaS, add-on services for simulated attack drills or expert consultation.",
         "risks": "AI false positives/negatives, integration complexity, need for human oversight.",
         "why_now": "AI-accelerated attacks shorten response windows; Turkish businesses need affordable, smart tools to minimize downtime and costs."
+      }
+    ]
+  },
+  {
+    "date": "25 November 2026",
+    "opportunities": [
+      {
+        "name": "TradeBridge Türkiye",
+        "emoji": "📦",
+        "oneLiner": "Streamlining cross-border e-commerce logistics for Turkish manufacturers.",
+        "sector": "Logistics Tech / E-commerce",
+        "score": 85,
+        "inspired_by": "Amazon",
+        "real_example": "Amazon - Global FBA network, cross-border shipping solutions.",
+        "tr_status": "Turkish manufacturers struggle with complex, costly international shipping and customs.",
+        "tr_idea": "Develop a platform aggregating local and international carriers, offering simplified customs processes and competitive rates for Turkish exports. This empowers Turkish SMEs to reach global markets directly and efficiently.",
+        "mvp": "Web platform allowing Turkish SMEs to get instant quotes, book shipments, and track parcels for EU and US markets.",
+        "target": "Small to medium-sized Turkish manufacturers and e-commerce businesses exporting goods.",
+        "revenue": "Commission on shipped goods, subscription for premium features.",
+        "risks": "High competition from established logistics providers, complex international regulations, dependency on partner carriers.",
+        "why_now": "US tariffs and potential blockades create an urgent need for diversified, resilient export channels and cost-saving solutions for Turkish manufacturers."
+      },
+      {
+        "name": "Anadolu Connect",
+        "emoji": "🏭",
+        "oneLiner": "Connects global buyers with Turkish manufacturing capacity.",
+        "sector": "B2B Manufacturing / Supply Chain",
+        "score": 85,
+        "inspired_by": "China (as a manufacturing alternative)",
+        "real_example": "Alibaba - B2B marketplace for sourcing; Xometry - custom manufacturing network.",
+        "tr_status": "Turkey has a strong, diversified manufacturing base but often lacks direct global market access for SMEs.",
+        "tr_idea": "Create a curated B2B marketplace showcasing Turkish manufacturing capabilities (textiles, automotive parts, electronics) to international companies seeking alternative supply chain partners. This facilitates new export opportunities by leveraging existing Turkish industrial strengths.",
+        "mvp": "Online platform with verified Turkish manufacturer profiles, RFQ (Request for Quote) system, and project management tools.",
+        "target": "US and EU companies seeking to diversify their supply chains away from tariff-affected regions.",
+        "revenue": "Commission on successful contracts, premium listings for manufacturers, lead generation fees.",
+        "risks": "Quality control and standardization issues, strong competition from other nearshoring countries, geopolitical stability concerns.",
+        "why_now": "New US tariffs on China/EU make Turkey an attractive, cost-effective nearshoring alternative for global companies."
+      },
+      {
+        "name": "Akıllı GPU Paylaşım",
+        "emoji": "🧠",
+        "oneLiner": "Affordable, optimized AI model serving using distributed Turkish GPU resources.",
+        "sector": "AI Infrastructure / Cloud Computing",
+        "score": 85,
+        "inspired_by": "CoreWeave",
+        "real_example": "CoreWeave - GPU cloud provider; Lambda Labs - GPU cloud for AI.",
+        "tr_status": "Turkish startups and companies face prohibitive costs for AI development and deployment due to expensive GPU access.",
+        "tr_idea": "Build a decentralized cloud platform aggregating idle GPU capacity from Turkish universities, data centers, and private entities. Offer an affordable, pay-as-you-go service for AI model training and inference.",
+        "mvp": "Web platform enabling users to deploy pre-trained models for inference on available GPUs, with usage-based billing.",
+        "target": "Turkish AI startups, researchers, and SMEs requiring cost-effective access to GPU computing power.",
+        "revenue": "Usage-based fees (per hour/per inference), tiered subscription for larger workloads.",
+        "risks": "Ensuring consistent hardware availability and performance, security concerns for distributed compute, competition from major cloud providers.",
+        "why_now": "Soaring AI infrastructure costs (CoreWeave's bond yield) create a strong market demand for affordable, localized GPU alternatives in inflation-hit Turkey."
+      },
+      {
+        "name": "E-Ticaret Zeka",
+        "emoji": "📈",
+        "oneLiner": "AI-driven SaaS for e-commerce businesses to cut operational costs.",
+        "sector": "E-commerce / AI SaaS",
+        "score": 85,
+        "inspired_by": "AI debt fears (indirectly, by offering cost-saving AI)",
+        "real_example": "Shopify Plus - e-commerce platform with various app integrations for AI-powered optimization.",
+        "tr_status": "Turkish e-commerce is booming but high inflation and rising operational costs squeeze profit margins.",
+        "tr_idea": "Develop an AI-powered SaaS platform that analyzes sales data, inventory, customer behavior, and marketing spend to recommend precise cost-saving actions and automate inefficient processes for Turkish e-commerce businesses. This provides critical relief in a high-inflation environment.",
+        "mvp": "Inventory optimization module that predicts demand and suggests optimal stock levels to reduce carrying costs and avoid stockouts.",
+        "target": "Small to medium-sized Turkish e-commerce businesses struggling with rising operational expenses.",
+        "revenue": "Subscription-based SaaS model (tiered based on features/usage), with potential for performance-based bonuses on cost savings.",
+        "risks": "Data privacy concerns, difficulty integrating with diverse e-commerce platforms, AI accuracy and adoption by non-tech-savvy users.",
+        "why_now": "E-commerce is growing rapidly in Turkey, and high inflation makes any tool promising significant cost savings extremely attractive for businesses."
+      },
+      {
+        "name": "Yaratıcı Pazar",
+        "emoji": "🎨",
+        "oneLiner": "A mobile-first marketplace for Turkish creators to sell digital goods/services.",
+        "sector": "Creator Economy / Digital Marketplace",
+        "score": 85,
+        "inspired_by": "Meta (creator monetization features) / Muse (digital content distribution)",
+        "real_example": "Patreon - creator support platform; Gumroad - digital product sales platform.",
+        "tr_status": "Turkey has a vibrant creative community, but local platforms for direct creator-to-consumer sales are underdeveloped compared to global ones.",
+        "tr_idea": "Build a mobile-first platform where Turkish artists, educators, writers, and digital service providers can easily create storefronts to sell subscriptions, digital downloads, online courses, and personalized services directly to Turkish consumers. This localizes and empowers the creator economy.",
+        "mvp": "Mobile app allowing creators to upload digital products (e.g., e-books, music, design templates) and set up subscription tiers, with integrated payment processing.",
+        "target": "Turkish independent creators, artists, educators, and influencers; Turkish consumers seeking local digital content and services.",
+        "revenue": "Commission on sales, premium features for creators (e.g., advanced analytics, marketing tools), advertising.",
+        "risks": "Competition from established global platforms, content moderation challenges, payment processing complexities, market saturation.",
+        "why_now": "A 'Muse blockade' highlights vulnerabilities in global content distribution; a local, mobile-first platform can empower Turkish creators and cater to a growing digital economy."
       }
     ]
   }
